@@ -1,0 +1,112 @@
+<html>
+<title>jdorsey's page</title></head>
+<body text="#ffffff" bgcolor="#000000" link="#00ff00" vlink="#ffffdd">
+	
+	<center>Jack Dorsey's home page in 1997 from <a href="https://web.archive.org/web/19970618142416/http://www.umr.edu/~jdorsey/index.html">https://web.archive.org/web/19970618142416/http://www.umr.edu/~jdorsey/index.html</a></center><br><br>
+<center>
+<table border="5">
+<td><a href="https://web.archive.org/web/19970618142416/http://www.abast.es/~avalle/vi.html"><img src="https://web.archive.org/web/19970618142416im_/http://www.umr.edu/~jdorsey/images/vipower.gif" alt="viPowered" border="0"></a><br>
+</table>
+<img src="https://web.archive.org/web/19970618142416im_/http://www.umr.edu/~jdorsey/images/header.gif" alt="Jack Dorsey's Page">
+<a href="https://web.archive.org/web/19970618142416/http://www.freebsd.org/"><img src="https://web.archive.org/web/19970618142416im_/http://www.umr.edu/~jdorsey/images/demon.gif" alt="[pic of the BSD devil]" align="top" border="0"></a>
+<br><br><br>
+| <a href="trurl.html">trurl</a> | <a href="#crypto">cryptography</a> | <a href="#linux">linux</a> | <a href="#coding">coding</a> | <a href="#scifi">sci-fi</a> | <a href="#transit">mass transit</a> | <a href="#umr">umr</a> | <a href="#secure">security</a> | <a href="#misc">misc</a> | <a href="mira/index.htm">mira</a> |
+<br><br><font size="2"><b>just a few links....</b></font>
+<br><br><img src="https://web.archive.org/web/19970618142416im_/http://www.umr.edu/~jdorsey/images/10101b.gif" alt="------------------------------------------"><br><br>
+</center>
+<font size="6"><b>about jack dorsey:</b></font>
+I'm a computer science student at the <a href="https://web.archive.org/web/19970618142416/http://www.umr.edu/">University of Missouri-Rolla</a>.
+I live in St. Louis Missouri, about 5 minutes from the Gateway Arch. More information follows:
+<ul>
+<li>Enough about me, let's talk about <a href="https://web.archive.org/web/19970618142416/http://wwwcgi.umr.edu/cgi-bin/cgiwrap/jdorsey/whoareyou">you</a>.
+</ul>
+<center><br><br><img src="https://web.archive.org/web/19970618142416im_/http://www.umr.edu/~jdorsey/images/10101b.gif" alt="------------------------------------------"><br><br></center>
+<a name="crypto"><font size="6"><b>cryptography:</b></font></a>
+<font size="3"><center>
+#!/bin/perl -s-- -export-a-crypto-system-sig -RSA-3-lines-PERL
+$m=unpack(H.$w,$m."\0"x$w),$_=`echo "16do$w 2+4Oi0$d*-^1[d2%Sa
+2/d0<x+d*la1=z\u$n%0]sx$k"[$m*]\eszlxx++p|dc`,s ^.|\w g,print pack('h*',$_)while read(stdin,$m,($w="2*$d-1+length($n)&amp;~1)/2)" < xmp></center></font>
+<font size="3">
+One of my favorite topics to study (and code!)... I have a local <a href="crypto.html">crypto page</a> you
+may want to look at, or select from the links below (all of which I frequent):
+<ul>
+<li>Get <a href="https://web.archive.org/web/19970618142416/http://web.mit.edu/network/pgp&quot;">PGP</a> now! please?? It's available in all flavors (Linux, MSDOG, Mac) so you have no excuse for not owning a copy!! It's free!!!
+<li>PGP 3.0 is due out soon, read <a href="https://web.archive.org/web/19970618142416/http://www.alternic.net/rfcs/1900/rfc1991.txt.html">RFC 1991</a>.
+<li>The Cypherpunks: you can subscribe to the <a href="https://web.archive.org/web/19970618142416/mailto:majordomo@toad.com">list</a> (about 100 messages a day), or view the <a href="https://web.archive.org/web/19970618142416/ftp://ftp.csua.berkeley.edu/pub/cypherpunks/Home.html">archive</a>.
+<li>Visit <a href="https://web.archive.org/web/19970618142416/http://www.rsa.com/">RSA</a> Data Security for software, newsletters, FAQs and pictures dealing with the RSA algorithm.
+<li>If you are interested in coding crypto (cypherpunks write code), you <b>should</b> have a copy of Bruce Schneier's "Applied Cryptography" on your bookshelf. Visit Bruce's web site, <a href="https://web.archive.org/web/19970618142416/http://www.counterpane.com/">http://www.counterpane.com</a> to recieve a 15% discount on the second edition.
+<li> Anonymous Remailers: read the <a href="https://web.archive.org/web/19970618142416/http://www.well.com/user/abacard/remail.html">FAQ</a>, check the <a href="https://web.archive.org/web/19970618142416/http://www.cs.berkeley.edu/~raph/remailer-list.html">stats</a>, and try out the WWW interface at <a href="https://web.archive.org/web/19970618142416/http://www.replay.com/remailer/index.html">Replay</a> (uses SSL).
+<li>Help secure 5% of the Internet against wiretapping by Christmas '96 using Linux and S/WAN. Details on John Gilmore's <a href="https://web.archive.org/web/19970618142416/http://www.cygnus.com/~gnu/swan.html">page</a>. 
+<li>Decode my <a href="sig.html">.sig</a>! Very trivial....
+<li>Want to send me encrypted e-mail (I prefer it)? Get my public key <a href="pubkey.pgp">here</a> or off the MIT <a href="https://web.archive.org/web/19970618142416/http://www-swiss.ai.mit.edu/~bal/pks-toplev.html">keyserver</a>.
+<li>And finally, a link to the <a href="https://web.archive.org/web/19970618142416/http://www.eff.org/">EFF</a>.
+</ul>
+<center><br><br><img src="https://web.archive.org/web/19970618142416im_/http://www.umr.edu/~jdorsey/images/10101b.gif" alt="------------------------------------------"><br><br></center>
+<a name="linux"><font size="6"><b>linux:</b></font></a>
+<pre>
+||||||  ||||||||||||||||||||||||||  ||||
+||||      ||  |  ||  ||  ||  |  ||  ||||
+||||||  ||||  || ||  ||  ||  || ||  ||||
+||||||  ||||  |||||  ||  ||  |||||  ||||
+||||||  ||||  |||||      ||  |||||  ||||
+
+trurl login: <blink>_</blink>
+</pre>
+Trurl is my linux box at home (trurl and my other computers are described <a href="trurl.html">elsewhere</a>). Trurl runs Linux kernel version 2.1.7 on a i586/60. Here's a few links with linux content:
+<ul>
+<li><a href="https://web.archive.org/web/19970618142416/http://www.linux.org/">linux.org</a> is a good palce to start...links to ftp sites, docs, newsletters, code, list archives, and commercial sites may be found within.
+<li>I recommend reading the <a href="https://web.archive.org/web/19970618142416/http://www.redhat.com:8080/HyperNews/get/khg.html">Kernel Hacker's Guide</a> stored at <a href="https://web.archive.org/web/19970618142416/http://www.redhat.com/">Redhat's</a> site if you are interested in linux kernel internals.
+<li>The current kernel and other related software may be aquired from <a href="https://web.archive.org/web/19970618142416/ftp://ftp.funet.fi/">ftp.funet.fi</a>.
+<li>The <a href="https://web.archive.org/web/19970618142416/http://www.redhat.com/linux-info/jolt">JOLT</a> Project is creating a free implementation of the Java language and tools. <a href="https://web.archive.org/web/19970618142416/http://www.blackdown.org/">Blackdown</a> is working on a Linux port.
+<li>Visit the <a href="https://web.archive.org/web/19970618142416/http://sunsite.unc.edu/mdw/linux.html">Linux Documentation Project</a> on Sunsite for HOW-TOs and FAQs relating to linux.
+<li>The <a href="https://web.archive.org/web/19970618142416/http://www.xfree86.org/">xfree86</a> homepage. 'Nuff said.
+<li>I no longer own a keyboard or a mouse. Instead, you'll find me using the Twiddler. The Twiddler is a chorded keypad with a spatial mouse created by the good folks up at <a href="https://web.archive.org/web/19970618142416/http://www.handykey.com/">Handykey</a>. There's even a linux driver for the Twiddler!!!! Courtesy of MIT's Media Lab.
+</ul>
+<center><br><br><img src="https://web.archive.org/web/19970618142416im_/http://www.umr.edu/~jdorsey/images/10101b.gif" alt="------------------------------------------"><br><br></center>
+<a name="coding"><font size="6"><b>coding:</b></font></a>
+I have coded in C, C++, perl, Tcl/Tk, Java, NewtonScript, x86 asm, and ARM 610 asm. C would have to be my favorite due to it's power without the overhead of classes and ability to write very compact (and sometimes obscure) code. I also enjoy writing at the low-level at which asm is found. I am currently delving into more Xlib programming. Here are some links I have found useful:
+<ul>
+<li><a href="https://web.archive.org/web/19970618142416/http://www.daimi.aau.dk/~tusk/pbmserv/crobots/index.html">C++ Robots</a>: Program your robot to destroy the others!
+<li><a href="https://web.archive.org/web/19970618142416/http://www.softguide.com/">softguide</a> contains links to software development products on the web. Links to libs, tools, etc...
+<li>Some useful C++ classes may be found at <a href="https://web.archive.org/web/19970618142416/http://isx.com/~dsupel/www/sponge">dsupel's</a> site.
+<li>A description of the <a href="https://web.archive.org/web/19970618142416/http://landru.unx.com/DD/advisor/docs/jun95/jun95.klee.shtml">X Programming Model</a> by Kenton Lee.
+</ul>
+<center><br><br><img src="https://web.archive.org/web/19970618142416im_/http://www.umr.edu/~jdorsey/images/10101b.gif" alt="------------------------------------------"><br><br></center>
+<a name="scifi"><font size="6"><b>sci-fi:</b></font></a>
+I have a tendency to inhale books, my shelves are teeming with paperbacks, and my bookstore charges are high. Some of my favorite authors and thier websites are listed below:
+<ul>
+<li><a href="https://web.archive.org/web/19970618142416/http://world.std.com/~mmcirvin/vitrifax.html">Stanislaw Lem</a> - My computer's name was taken from Lem's "The Cyberiad." Trurl is a constructor robot who tries to out-invent his colleague Klaupicuis. A must sci-fi read.
+<li><a href="https://web.archive.org/web/19970618142416/http://www.infovillage.com/PatronSaints/Gibson.html">William Gibson</a> - Coiner of the word "cyberspace," he wrote "Neuromancer," "Idoru," and my favorite "White Light." He also wrote the short story and screenplay of "Johnny Mnemonic."
+<li><a href="https://web.archive.org/web/19970618142416/http://www.scifi.com/pulp/fw/stephenson/index.html">Neal Stephenson</a> - Wrote "The Diamond Age," dealing with nanotech, "Snow Crash," hackers, pizza delivery mafia, skateboard couriers, <b>the best</b> novel I've read in a long time... 
+<li><a href="https://web.archive.org/web/19970618142416/http://www.sam.math.ethz.ch/%7Epkeller/Egan-Page.html">Greg Egan</a> - Novels include "Permutation City" and "Quarantine." Both are excellent.
+<li>Nancy Kress - "Beggars In Spain" - <b>WOW!</b> This novel was great. I can't wait to read the rest of the trilogy!
+<li><a href="https://web.archive.org/web/19970618142416/http://www.scifi.com/mst3000">Mystery Science Theatre 3000</a> - When I watch TV, this is what I watch. Hilarious!!! I wish TCI would pick up the Sci-Fi channel.....
+</ul>
+<center><br><br><img src="https://web.archive.org/web/19970618142416im_/http://www.umr.edu/~jdorsey/images/10101b.gif" alt="------------------------------------------"><br><br></center>
+<a name="transit"><font size="6"><b>mass transportation:</b></font></a>
+I don't own a car. I will never own a car. I have no need for one. I rely instead on three alternate forms of transit: mass transit, my bike, and walking. I hope to live in a technologically advanced major city, one with a mature transportation infrastructure. The only cities that come to mind currently are Toronto and Tokyo. Hmmm... Anyway, most of my transit links are on <a href="transit.html">this</a> page. Here are some others:
+<ul>
+<li><a href="https://web.archive.org/web/19970618142416/http://www.bistate.com/">Bi-State</a> Development Agency - my local transit authority that is actively pursuing light-rail expansion. Our system, dubbed MetroLink, currently spans 18 miles from East St. Louis (Illinois), through downtown, and northwest to Lambert International. <a href="https://web.archive.org/web/19970618142416/http://www.up.com/">Union Pacific</a> and <a href="https://web.archive.org/web/19970618142416/http://www.bnsf.com/">Burlington Northern-Santa Fe</a> are proposing commuter rail lines through St. Louis and perhaps even to Springfield (which indicates a stop in Rolla)!
+<li><a href="https://web.archive.org/web/19970618142416/http://www.amtrak.com/">Amtrak</a> - I have taken Amtrak from St. Louis to Chicago, Baltimore to Philly to New York, Seattle to Portland, and from San Diego to Los Angeles. I can't get enough!
+<li><a href="https://web.archive.org/web/19970618142416/http://www.greyhound.com/">Greyhound Bus Lines</a> - My current link from St. Louis to Rolla and back. A bus will do until rail arrives.
+</ul>
+<center><br><br><img src="https://web.archive.org/web/19970618142416im_/http://www.umr.edu/~jdorsey/images/10101b.gif" alt="------------------------------------------"><br><br></center>
+<a name="umr"><font size="6"><b>umr:</b></font></a>
+Here are a few links to clubs and organizations I am associated with at UMR:
+<ul>
+<li><a href="https://web.archive.org/web/19970618142416/http://www.umr.edu/~anime">Show-Me Anime</a>: Every Friday night at 19:00 you'll find me watching Japanese Animation in McNutt!
+<li><a href="https://web.archive.org/web/19970618142416/http://www.cs.umr.edu/">Computer Science Department</a> Homepage
+<li>I'm a card carrying member of the <a href="https://web.archive.org/web/19970618142416/http://www.acm.org/">ACM</a>. UMR has a  <a href="https://web.archive.org/web/19970618142416/http://acm.cs.umr.edu/">local chapter</a>
+<li>I live on <a href="https://web.archive.org/web/19970618142416/http://www.umr.edu/~kellyd">Kelly D</a>.
+<center>more to come....</center><br>
+<center><img src="https://web.archive.org/web/19970618142416im_/http://www.umr.edu/~jdorsey/images/anybrowser_icon.gif" alt="Best viewed with Any Browser"><br>
+<br><a href="https://web.archive.org/web/19970618142416/mailto:jdorsey@umr.edu">jdorsey@umr.edu</a>
+<br><br>PGP encrypted mail is preferred!<br><br><img src="https://web.archive.org/web/19970618142416im_/http://www.umr.edu/~jdorsey/images/pgplit.gif" alt="PGP Lock Logo">
+<br><br>
+my computers run<br><br><a href="https://web.archive.org/web/19970618142416/http://www.debian.org/">
+<img src="https://web.archive.org/web/19970618142416im_/http://www.umr.edu/~jdorsey/deb.gif" alt="debian GNU linux" border="0"></a>
+<br><br>
+This document has been visited <font size="6">1268</font> times since Monday, 03-Jun-96 13:38:47 CDT.
+</center>
+</body>
+</html>

