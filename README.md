@@ -6,6 +6,36 @@ A curated collection of large OP_RETURN data extracted from the Bitcoin blockcha
 
 This repository systematically collects and organizes OP_RETURN data from Bitcoin blocks, preserving the embedded content while maintaining security best practices. Each transaction's data is stored with comprehensive metadata including block information, transaction fees, mining pool attribution, and file type detection.
 
+## Historical OP_RETURN Limits
+
+Bitcoin's OP_RETURN size limits have evolved significantly over time:
+
+- **March 2014 (Bitcoin Core v0.9.0)**: OP_RETURN introduced with a **40-byte** data payload limit
+- **July 2015 (Bitcoin Core v0.11.0)**: Increased to **80 bytes** of data payload
+- **February 2016 (Bitcoin Core v0.12.0)**: Allowed multiple data pushes with a **83-byte total script size** limit
+  - This 83-byte limit accounts for script overhead:
+    - 1 byte: `OP_RETURN` opcode (`0x6a`)
+    - 1-2 bytes: Push opcode(s)
+    - 1 byte: Length byte
+    - **80 bytes**: Maximum data payload
+- **October 2025 (Bitcoin Core v30.0)**: **Limit removed** - OP_RETURN outputs can now be up to the maximum transaction size (~4MB)
+
+### What This Repository Collects
+
+This repository scans for OP_RETURN outputs with **total script size > 83 bytes**, which means:
+
+- **Data payload exceeds 80 bytes** (the historical limit from 2015-2025)
+- **Total script size exceeds 83 bytes** (the limit from 2016-2025)
+
+The 83-byte threshold ensures we capture all OP_RETURNs that exceeded the historical limits, regardless of whether they used single or multiple data pushes. This includes both:
+- Scripts that exceeded the 80-byte data limit in a single push
+- Scripts that used multiple pushes to exceed the 83-byte total script size limit
+
+**Note**: The distinction between 80 bytes (data) and 83 bytes (script) is important:
+- **80 bytes** = Historical data payload limit (what users could embed)
+- **83 bytes** = Historical total script size limit (what Bitcoin Core enforced)
+- Our scanner checks **> 83 bytes** (total script size) to capture all historically "large" OP_RETURNs
+
 ## Repository Structure
 
 ```
@@ -126,7 +156,7 @@ This allows researchers to analyze the data programmatically without the securit
 
 ## Data Collection
 
-This repository is automatically maintained by scanning Bitcoin blocks for OP_RETURN outputs exceeding 83 bytes. The scanning process:
+This repository is automatically maintained by scanning Bitcoin blocks for OP_RETURN outputs with **total script size > 83 bytes** (see [Historical OP_RETURN Limits](#historical-op_return-limits) above). The scanning process:
 
 1. Identifies large OP_RETURN transactions
 2. Detects file types using magic number signatures
