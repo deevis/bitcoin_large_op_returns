@@ -2477,15 +2477,15 @@
     "txid": "0ae2f157f0297f44eeab5ffeea09af715236c77d59e0785cb724a85e04875a28",
     "vout": 0,
     "size": 34142,
-    "type": "text",
-    "mime": "text/plain",
-    "storageFormat": "text",
+    "type": "jpg",
+    "mime": "image/jpeg",
+    "storageFormat": "data_uri",
     "miner": "SpiderPool",
     "fee": 23999,
     "feeRate": 0.69,
-    "hasFile": false,
-    "hasDecoded": true,
-    "preview": "data:/jpeg;base64,/9j/4Q/+RXhpZgAATU0AKgAAAAgABgESAAMAAAABAAEAAAEaAAUAAAABAAAAVgEbAAUAAAABAAAAXgEoAAMAAAABAAIAAAITAAMAAAABAAEAAIdpAAQAAAABAAAAZgAAAAAAAABIAAAAAQAAAEgAAAABAAeQAAAHAAAABDAyMjGRAQAHAAAABA...",
+    "hasFile": true,
+    "hasDecoded": false,
+    "preview": null,
     "blockDir": "block_925584"
   }
 ]
