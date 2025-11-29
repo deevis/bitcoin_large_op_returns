@@ -2525,5 +2525,24 @@
     "hasDecoded": true,
     "preview": "jLP\u0000ord\u00016j\"136f408ef0687ff4e9fad50d15f6787b372f272eb97b6fe747a5bb3b5fe70\"{\"p\":\"op-20\",\"op\":\"mint\",\"tick\":\"oink\",\"amt\":\"99999\",\"add\":\"bc1qjjfn7ajum97tsgt2zx90wduggsv3n344mwm4rv\"}",
     "blockDir": "block_925657"
+  },
+  {
+    "id": "block_925659_02b66df5f62326fef84871bcf4a30d238c4449a839acd8ef161ce70c5c1eaac2_0",
+    "block": 925659,
+    "timestamp": 1764390419,
+    "date": "2025-11-28T21:26:59",
+    "txid": "02b66df5f62326fef84871bcf4a30d238c4449a839acd8ef161ce70c5c1eaac2",
+    "vout": 0,
+    "size": 70878,
+    "type": "png",
+    "mime": "image/png",
+    "storageFormat": "data_uri",
+    "miner": "SpiderPool",
+    "fee": 12782,
+    "feeRate": 0.18,
+    "hasFile": true,
+    "hasDecoded": false,
+    "preview": null,
+    "blockDir": "block_925659"
   }
 ]
