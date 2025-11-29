@@ -2487,5 +2487,24 @@
     "hasDecoded": false,
     "preview": null,
     "blockDir": "block_925584"
+  },
+  {
+    "id": "block_925650_ca3419970b7037711e556f0798211a812d44f9b3bbacaf5dcaf3481cce3d2b4c_0",
+    "block": 925650,
+    "timestamp": 1764383628,
+    "date": "2025-11-28T19:33:48",
+    "txid": "ca3419970b7037711e556f0798211a812d44f9b3bbacaf5dcaf3481cce3d2b4c",
+    "vout": 0,
+    "size": 177,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "F2Pool",
+    "fee": 349,
+    "feeRate": 1.02,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "jLP\u0000ord\u00016j\"136f408ef0687ff4e9fad50d15f6787b372f272eb97b6fe747a5bb3b5fe70\"{\"p\":\"op-20\",\"op\":\"mint\",\"tick\":\"oink\",\"amt\":\"10000\",\"add\":\"bc1qjjfn7ajum97tsgt2zx90wduggsv3n344mwm4rv\"}",
+    "blockDir": "block_925650"
   }
 ]
