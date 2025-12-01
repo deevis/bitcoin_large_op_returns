@@ -2601,5 +2601,43 @@
     "hasDecoded": true,
     "preview": "jLP\u0000ord\u00016j\"136f408ef0687ff4e9fad50d15f6787b372f272eb97b6fe747a5bb3b5fe70\"{\"p\":\"op-20\",\"op\":\"mint\",\"tick\":\"oink\",\"amt\":\"99999\",\"add\":\"bc1qjjfn7ajum97tsgt2zx90wduggsv3n344mwm4rv\"}",
     "blockDir": "block_925981"
+  },
+  {
+    "id": "block_926050_0bc7a07a26d08b8c041cee2bef0d0311f252fd848c9de43cf6e359734ea75cbc_1",
+    "block": 926050,
+    "timestamp": 1764620959,
+    "date": "2025-12-01T13:29:19",
+    "txid": "0bc7a07a26d08b8c041cee2bef0d0311f252fd848c9de43cf6e359734ea75cbc",
+    "vout": 1,
+    "size": 94,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "F2Pool",
+    "fee": 62635,
+    "feeRate": 4.0,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "The computer can be used as a tool to liberate and protect people, rather than to control them",
+    "blockDir": "block_926050"
+  },
+  {
+    "id": "block_926050_0bc7a07a26d08b8c041cee2bef0d0311f252fd848c9de43cf6e359734ea75cbc_2",
+    "block": 926050,
+    "timestamp": 1764620959,
+    "date": "2025-12-01T13:29:19",
+    "txid": "0bc7a07a26d08b8c041cee2bef0d0311f252fd848c9de43cf6e359734ea75cbc",
+    "vout": 2,
+    "size": 15242,
+    "type": "png",
+    "mime": "image/png",
+    "storageFormat": "data_uri",
+    "miner": "F2Pool",
+    "fee": 62635,
+    "feeRate": 4.0,
+    "hasFile": true,
+    "hasDecoded": false,
+    "preview": null,
+    "blockDir": "block_926050"
   }
 ]
