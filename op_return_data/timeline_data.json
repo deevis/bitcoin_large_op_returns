@@ -3589,5 +3589,24 @@
     "hasDecoded": true,
     "preview": "Match BTC with BABY. Max co-staking yield \u27a1\ufe0f app.b14g.xyz/marketplace/babylon \u2b05\ufe0f",
     "blockDir": "block_930106"
+  },
+  {
+    "id": "block_930355_d8ce254128fc0cff09e15eeefa39219eeb58fd6d07f92d7921fbbbeef4704aac_0",
+    "block": 930355,
+    "timestamp": 1767233881,
+    "date": "2026-01-01T02:18:01",
+    "txid": "d8ce254128fc0cff09e15eeefa39219eeb58fd6d07f92d7921fbbbeef4704aac",
+    "vout": 0,
+    "size": 101,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "F2Pool",
+    "fee": 278,
+    "feeRate": 1.0,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "https://ord.xverse.app/inscription/8d4af675121ed852389ac341d53a2de95b5c1e8fbca669fb76241e388db3cdf8i0",
+    "blockDir": "block_930355"
   }
 ]
