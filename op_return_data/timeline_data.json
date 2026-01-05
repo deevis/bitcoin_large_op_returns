@@ -3608,5 +3608,43 @@
     "hasDecoded": true,
     "preview": "https://ord.xverse.app/inscription/8d4af675121ed852389ac341d53a2de95b5c1e8fbca669fb76241e388db3cdf8i0",
     "blockDir": "block_930355"
+  },
+  {
+    "id": "block_931003_a111fa1e506e84e2211a0aee5cb3bf9dc5b54ad4ab628b1f97a6734a7e9d64b4_0",
+    "block": 931003,
+    "timestamp": 1767617789,
+    "date": "2026-01-05T12:56:29",
+    "txid": "a111fa1e506e84e2211a0aee5cb3bf9dc5b54ad4ab628b1f97a6734a7e9d64b4",
+    "vout": 0,
+    "size": 340,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "Marathon Digital",
+    "fee": 6845,
+    "feeRate": 14.69,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "Authors: Charlotte Kuperwasser & Wafik S. El-Deiry | Title: COVID vaccination and post-infection cancer signals: Evaluating patterns and potential biological mechanisms | Hash: b144ffb8c22ee1e40988339...",
+    "blockDir": "block_931003"
+  },
+  {
+    "id": "block_931003_2b2c0d0836741a08055366f9dad34b1fff0602a9ce6047017c45407c6d03b6b4_0",
+    "block": 931003,
+    "timestamp": 1767617789,
+    "date": "2026-01-05T12:56:29",
+    "txid": "2b2c0d0836741a08055366f9dad34b1fff0602a9ce6047017c45407c6d03b6b4",
+    "vout": 0,
+    "size": 298,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "Marathon Digital",
+    "fee": 2175,
+    "feeRate": 5.0,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "Author: Wafik S. El-Deiry | Title: Hypothesis: HPV E6 and COVID spike proteins cooperate in targeting tumor suppression by p53 | Hash: 1970aedccdf4685ce951fb44b50019e61f0a81c0c21cdff155b32dc4254525ee ...",
+    "blockDir": "block_931003"
   }
 ]
