@@ -3665,5 +3665,24 @@
     "hasDecoded": true,
     "preview": "Hi Dad we might just have a breakthrough coming later this afternoon or early evening",
     "blockDir": "block_932555"
+  },
+  {
+    "id": "block_932977_9b61901c034f636f854918578171df4ca83b8a2db981f4654a058e4f58cd90e7_0",
+    "block": 932977,
+    "timestamp": 1768849122,
+    "date": "2026-01-19T18:58:42",
+    "txid": "9b61901c034f636f854918578171df4ca83b8a2db981f4654a058e4f58cd90e7",
+    "vout": 0,
+    "size": 520,
+    "type": "png",
+    "mime": "image/png",
+    "storageFormat": "raw",
+    "miner": "SpiderPool",
+    "fee": 3278,
+    "feeRate": 1.33,
+    "hasFile": true,
+    "hasDecoded": false,
+    "preview": null,
+    "blockDir": "block_932977"
   }
 ]
