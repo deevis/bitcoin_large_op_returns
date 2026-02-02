@@ -3741,5 +3741,24 @@
     "hasDecoded": true,
     "preview": "\u0000{\"nonce\":\"667fe643a31c0fab50288619\",\"authtag\":\"55688ea21ba0ce3f268fb2dfd64ac5b1\",\"ephemPublicKey\":\"G4QSPRSZ4fmX6fgRapbq4b/UWcYT71u8iQIVSaN4IwM=\"}",
     "blockDir": "block_933803"
+  },
+  {
+    "id": "block_934297_9492ff09292aab89f3143d449f2fb9df9468019197a7c529b7c25e3828222a31_3",
+    "block": 934297,
+    "timestamp": 1769745438,
+    "date": "2026-01-30T03:57:18",
+    "txid": "9492ff09292aab89f3143d449f2fb9df9468019197a7c529b7c25e3828222a31",
+    "vout": 3,
+    "size": 287,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "SpiderPool",
+    "fee": 1191,
+    "feeRate": 2.19,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "Hot take: Block space is scarce and should be priced accordingly; ordinals are transactions like anything else; spam is a miner choice. block space clears on price. accept that fees are the point. Blo...",
+    "blockDir": "block_934297"
   }
 ]
