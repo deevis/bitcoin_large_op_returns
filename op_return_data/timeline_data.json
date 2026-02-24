@@ -3874,5 +3874,24 @@
     "hasDecoded": true,
     "preview": "Listen to noderunnersradio.com and play a song with our Jukebox. Lightning accepted!",
     "blockDir": "block_936994"
+  },
+  {
+    "id": "block_938191_fa974127538b9baa2054a01b91e551f83cce5628a06fc80bac70d96bdaa63f68_3",
+    "block": 938191,
+    "timestamp": 1771973068,
+    "date": "2026-02-24T22:44:28",
+    "txid": "fa974127538b9baa2054a01b91e551f83cce5628a06fc80bac70d96bdaa63f68",
+    "vout": 3,
+    "size": 105,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "F2Pool",
+    "fee": 381,
+    "feeRate": 1.1,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "Inscription spam is the trojan horse for chain analysis hell, bloating UTXOs with traceable crap forever.",
+    "blockDir": "block_938191"
   }
 ]
