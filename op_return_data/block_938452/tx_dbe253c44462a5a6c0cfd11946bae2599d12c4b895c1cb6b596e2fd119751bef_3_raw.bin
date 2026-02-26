@@ -1,0 +1,12 @@
+OpenClaw (originally known as Clawdbot and briefly Moltbot) is a viral, open-source autonomous AI agent platform that acts as a personal digital employee. 
+DigitalOcean
+DigitalOcean
+ +1
+Unlike standard chatbots that only provide answers, OpenClaw is designed to "actually do things" by executing tasks directly on your computer or through external services. 
+Key Features
+Local Execution: It runs on your own hardware (Mac, Windows, or Linux) to ensure data privacy and direct system access.
+Messaging Interface: You interact with it through chat apps you already use, such as WhatsApp, Telegram, Discord, Slack, or Signal.
+Autonomous Capabilities: It can manage files, run shell commands, browse the web to fill out forms or compare prices, and manage emails or calendars.
+Persistent Memory: It stores conversations and user preferences locally (often as Markdown files), allowing it to remember context and improve over time.
+Model Agnostic: Users can connect it to cloud models like Claude, GPT-4, or DeepSeek via API, or run local models using tools like Ollama.
+Heartbeat/Proactive Mode: It can perform tasks and send notifications autonomously without a direct prompt from the user. 
