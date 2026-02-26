@@ -1,0 +1,18 @@
+{
+  "block_number": 938425,
+  "block_time": "2026-02-26T11:41:34",
+  "mined_by": "SpiderPool",
+  "transaction_id": "711c13eff209e2d35c55464bec00a76a985ef6dd5911f509aeabc07d7c5de4d4",
+  "vout_index": 2,
+  "data_size": 110,
+  "file_type": "text",
+  "mime_type": "text/plain",
+  "storage_format": "text",
+  "raw_data_hex": "5370616d20696e736372697074696f6e732061726520646973746f7274696e672074686520666565206d61726b65742c2070726963696e67206f7574207265616c207472616e73616374696f6e73207768696c65206e6f6465732063686f6b65206f6e206a756e6b20646174612e",
+  "transaction_fee_sats": 2018,
+  "transaction_size_vbytes": 876,
+  "fee_rate_sats_per_vbyte": 2.3,
+  "cost_per_byte_of_data": 18.35,
+  "tx_inputs": 10,
+  "tx_outputs": 3
+}
