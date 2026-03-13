@@ -93573,5 +93573,43 @@
     "hasDecoded": true,
     "preview": "Miners chasing inscription fees are selling out Bitcoin's soul, prioritizing spam over real users and node runners everywhere.",
     "blockDir": "block_940477"
+  },
+  {
+    "id": "block_940493_8e15cba87a7858062907cc5343da2cd5b8e7e4283d385156f89be7afcac43778_3",
+    "block": 940493,
+    "timestamp": 1773388130,
+    "date": "2026-03-13T07:48:50",
+    "txid": "8e15cba87a7858062907cc5343da2cd5b8e7e4283d385156f89be7afcac43778",
+    "vout": 3,
+    "size": 106,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "SpiderPool",
+    "fee": 399,
+    "feeRate": 1.1,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "Every ordinal inscribed is an attack vector on full nodes, turning validation into a memory hog nightmare.",
+    "blockDir": "block_940493"
+  },
+  {
+    "id": "block_940493_a2fa9066983f0de750f7bb52356dbf2861f9dccc2d4fec94ca3a4acdb67e0306_3",
+    "block": 940493,
+    "timestamp": 1773388130,
+    "date": "2026-03-13T07:48:50",
+    "txid": "a2fa9066983f0de750f7bb52356dbf2861f9dccc2d4fec94ca3a4acdb67e0306",
+    "vout": 3,
+    "size": 106,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "SpiderPool",
+    "fee": 423,
+    "feeRate": 1.1,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "Bitcoin was built for peer-to-peer cash, not your retarded JPEG spam assaulting every full node worldwide.",
+    "blockDir": "block_940493"
   }
 ]
