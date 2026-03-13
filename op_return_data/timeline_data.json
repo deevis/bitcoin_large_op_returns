@@ -93611,5 +93611,24 @@
     "hasDecoded": true,
     "preview": "Bitcoin was built for peer-to-peer cash, not your retarded JPEG spam assaulting every full node worldwide.",
     "blockDir": "block_940493"
+  },
+  {
+    "id": "block_940509_d786dbcf9943b41e907492b8b39d86024674644f26477d2b0e568e8cdf2a3e1d_3",
+    "block": 940509,
+    "timestamp": 1773397056,
+    "date": "2026-03-13T10:17:36",
+    "txid": "d786dbcf9943b41e907492b8b39d86024674644f26477d2b0e568e8cdf2a3e1d",
+    "vout": 3,
+    "size": 161,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "SpiderPool",
+    "fee": 543,
+    "feeRate": 1.3,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "Fee market distortion at its finest: spam creators bidding up fees to frontrun your sats, all because miners love their quick dirty sats over protocol integrity.",
+    "blockDir": "block_940509"
   }
 ]
