@@ -93649,5 +93649,24 @@
     "hasDecoded": true,
     "preview": "Attack vector confirmed: spam inscriptions probing node limits, prepping for bigger chain-killing payloads.",
     "blockDir": "block_940521"
+  },
+  {
+    "id": "block_940928_0c20e94cd2c7ec82b68af6dfaa27a491c8667270e07a46744a9e4355cc3637e3_1",
+    "block": 940928,
+    "timestamp": 1773686387,
+    "date": "2026-03-16T18:39:47",
+    "txid": "0c20e94cd2c7ec82b68af6dfaa27a491c8667270e07a46744a9e4355cc3637e3",
+    "vout": 1,
+    "size": 118,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "SpiderPool",
+    "fee": 198,
+    "feeRate": 0.86,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "\"I am counting on you to help me. You have the power to change my life, and my biggest goal is to own my dream house.\"",
+    "blockDir": "block_940928"
   }
 ]
