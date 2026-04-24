@@ -94295,5 +94295,24 @@
     "hasDecoded": true,
     "preview": "testbtc\u0000== Changelog ==\n\n= 3.9.1  =\n* Added testmode support for simulated test payments via Blockonomics dashboard\n* Faster checkout page load with parallel API calls\n* Hi Bro\n",
     "blockDir": "block_946396"
+  },
+  {
+    "id": "block_946489_495fc0dae451cb42162d592c7485aa182d679b8d8815f818938e02d78b5b53db_1",
+    "block": 946489,
+    "timestamp": 1777058271,
+    "date": "2026-04-24T19:17:51",
+    "txid": "495fc0dae451cb42162d592c7485aa182d679b8d8815f818938e02d78b5b53db",
+    "vout": 1,
+    "size": 190,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "SpiderPool",
+    "fee": 1878,
+    "feeRate": 6.0,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "Meine Glaubenss\u00e4tze:\n\n\"Ich bin in Sicherheit\"\n\"Ich bin von Kopf bis Fu\u00df entspannt\"\n\"Ich kann mich vollst\u00e4ndig fallen lassen und mich komplett sch\u00fctzen\"\n\"ich bin ruhig und entspannt\"",
+    "blockDir": "block_946489"
   }
 ]
