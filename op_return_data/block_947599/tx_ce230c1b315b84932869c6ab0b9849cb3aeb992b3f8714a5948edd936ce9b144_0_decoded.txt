@@ -1,0 +1,101 @@
+GATEKEEP — CONCEPT DOCUMENT v1.0
+Date: 2026-05-02
+
+CORE INSIGHT
+------------
+The conditions under which a person grants access to themselves
+are a form of self-expression — as meaningful as a profile photo
+or a bio. A chosen challenge is a behavioral profile, not a
+declarative one. Solving it is a signal of intent, patience,
+and minimal effort investment.
+
+CONCEPT
+-------
+A mobile application (working title: Gatekeep) where each user
+configures a challenge that must be completed before another
+person can initiate contact with them — socially or romantically.
+
+The challenge is chosen freely by the user and can range from:
+- Trivial (tap a button 3 times)
+- Casual (reach score 512 in 2048)
+- Demanding (reach score 2048 in 2048)
+- Custom (logic puzzle, mini-game, reaction test, etc.)
+
+Only successful completion of the challenge unlocks the contact
+information or opens a communication channel with the target user.
+
+DESIGN PRINCIPLES
+-----------------
+1. Asymmetry replaced by friction.
+   Unlike existing platforms where sending a message costs zero
+   effort, Gatekeep introduces a minimal but real cost: time and
+   attention. This reduces spam and low-intent contact.
+
+2. The challenge reveals the challenger.
+   What someone chooses as their gate says something about who
+   they want to meet. A high threshold selects for patience and
+   persistence. A playful challenge selects for a playful person.
+
+3. The attempt reveals the initiator.
+   Someone who completes a 3-minute game to reach you has
+   demonstrated more intent than someone who typed "hey".
+
+4. Symmetry as ideal.
+   The most elegant implementation requires both parties to
+   complete each other's challenge before communication opens.
+   This transforms the gate from a test into a shared ritual.
+
+5. Opt-in by design.
+   No universal enforcement is claimed or intended. This is a
+   voluntary social contract among users who share its values.
+
+PRIMARY USE CASES
+-----------------
+A. Social networking — protection against low-effort, high-volume
+   contact. Particularly relevant for people with high inbound
+   social demand.
+
+B. Dating — replacing the swipe (zero-cost signal) with a
+   behavioral challenge (minimal-cost signal). Unlike paywalls
+   (which filter for wealth), this filters for engagement and
+   patience. Target positioning: adjacent to Hinge ("designed
+   to be deleted"), not Tinder.
+
+C. Gated communities — shared challenge as membership ritual.
+   Everyone in the group has passed the same gate, creating
+   implicit common ground before first words are exchanged.
+
+DIFFERENTIATOR VS EXISTING PLATFORMS
+--------------------------------------
+Existing friction mechanisms on dating/social apps are financial
+(subscriptions, boosts, super likes). They select for disposable
+income. Gatekeep's friction is behavioral. It selects for
+intentionality, patience, and playfulness — qualities more
+predictive of interaction quality than purchasing power.
+
+PROTOTYPE SCOPE (v0.1)
+-----------------------
+Stack: React Native + Expo, Supabase
+Single challenge type: 2048 (configurable threshold: 512/1024/2048)
+Flow: Register -> Configure threshold -> Generate QR code ->
+      Challenger scans QR -> Plays 2048 -> On success: contact revealed
+No in-app chat in v0.1. Contact info revealed as plain text.
+Deep link scheme: gatekeep://challenge/{userId}
+
+MONETIZATION HYPOTHESIS (unexplored)
+--------------------------------------
+- Freemium: basic challenges free, premium challenge types paid
+- B2B: white-label for communities, events, professional networks
+- Licensing to existing dating platforms
+
+LEGAL NOTICE
+------------
+This document establishes prior art for the Gatekeep concept
+as described herein. No patent claim is made. This is a public
+disclosure intended to prevent third-party patent claims on
+this concept.
+
+This document is inscribed on the Bitcoin blockchain via
+OP_RETURN to establish a cryptographically timestamped,
+immutable proof of prior art. Authorship is provable by
+signing a message with the private key of the inscribing wallet.
