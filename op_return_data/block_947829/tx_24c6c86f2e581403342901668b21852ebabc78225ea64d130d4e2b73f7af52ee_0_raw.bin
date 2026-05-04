@@ -1,0 +1,23 @@
+enigma   
+# SAAS is dead or is it ?
+
+## Self hosting Slack
+With AI coding there is a talk that SAAS companies are overvalued and all software can now be self hosted / maintained. Let us take a simple example of replacing slack by self hosting slack using something like a Zulip
+
+| Category        | Component                                  | Monthly Cost (USD) |
+| :-------------- | :----------------------------------------- | :----------------- |
+| **Server**      | 4GB RAM / 2 vCPU VPS (e.g., AWS t3.medium) | $20.00             |
+| **SMTP**        | **AWS SES** (~$0.10 per 1,000 emails)      | $0.50              |
+| **Backups**     | AWS S3 Storage + Server Snapshots          | $6.00              |
+| **Domain**      | Annual renewal (pro-rated)                 | $1.25              |
+| **Maintenance** | **Admin Labor (10 hours @ $10/hr)**        | **$100.00**        |
+| **Total Cost**  | **Estimated Monthly Total**                | **$127.75**        |
+
+## Infrastructure/Maintenance is the main cost
+Even before AI coding tools, open source versions of all major SAAS tools were readily available. So essentially software has been free for quite sometime. You are paying primarily for maintenance/infra 
+
+## Economics of cost subsidies
+
+As a 2024, slack  had roughly 200,000 paying customer. Most of time are Fortune 500 companies. When you are using slack for free what is essentially happening is that the big companies  are subsiding your infrastructure cost.  Over 600,000 SMEs use free slack and its not economical for them to be self hosted
+
+> SAAS is not dead, in fact large SAAS companies will becoming bigger monopolies using AI tools
