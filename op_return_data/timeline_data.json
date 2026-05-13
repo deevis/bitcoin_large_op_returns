@@ -96005,5 +96005,43 @@
     "hasDecoded": true,
     "preview": "pwm1:m:<!doctype html><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><title>Welcome to ProofOfWork.Me</title><main style=\"font-family:system-ui,sans-serif;max...",
     "blockDir": "block_949253"
+  },
+  {
+    "id": "block_949281_3912baa5e8852b35809f20ab46ba1959b268414b5e88bd980f9e0a6efccc237b_1",
+    "block": 949281,
+    "timestamp": 1778715784,
+    "date": "2026-05-13T23:43:04",
+    "txid": "3912baa5e8852b35809f20ab46ba1959b268414b5e88bd980f9e0a6efccc237b",
+    "vout": 1,
+    "size": 141,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "Foundry USA",
+    "fee": 199,
+    "feeRate": 0.67,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "pwid1:r2:8J-qvw:bc1pyt7vze8s44y3sjdlgam0l5a530apms70m6mafcrpnmgknj2pgveskeusvz:bc1pyt7vze8s44y3sjdlgam0l5a530apms70m6mafcrpnmgknj2pgveskeusvz",
+    "blockDir": "block_949281"
+  },
+  {
+    "id": "block_949281_6b23b349305fe4764f217fa1b35161d2a0f9530d4a4c390efb533e24fafaa40c_1",
+    "block": 949281,
+    "timestamp": 1778715784,
+    "date": "2026-05-13T23:43:04",
+    "txid": "6b23b349305fe4764f217fa1b35161d2a0f9530d4a4c390efb533e24fafaa40c",
+    "vout": 1,
+    "size": 141,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "Foundry USA",
+    "fee": 199,
+    "feeRate": 0.67,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "pwid1:r2:8J-fpw:bc1pyt7vze8s44y3sjdlgam0l5a530apms70m6mafcrpnmgknj2pgveskeusvz:bc1pyt7vze8s44y3sjdlgam0l5a530apms70m6mafcrpnmgknj2pgveskeusvz",
+    "blockDir": "block_949281"
   }
 ]
