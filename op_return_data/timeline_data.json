@@ -98532,5 +98532,24 @@
     "hasDecoded": true,
     "preview": "pwm1:m:Formula:\nconfirmed network value / 21,000,000 WORK\n\nCurrent live floor:\n74,499,503 sats / 21,000,000 = 3.5476 sats per WORK\n\u2248 $0.00277 per WORK at current BTC/USD\n\nPending mints are visible, bu...",
     "blockDir": "block_949680"
+  },
+  {
+    "id": "block_949686_0e7976757d6009d2f833a1ed94a3f7759567d4635980ee506fc1d024372cdc0f_1",
+    "block": 949686,
+    "timestamp": 1778954528,
+    "date": "2026-05-16T18:02:08",
+    "txid": "0e7976757d6009d2f833a1ed94a3f7759567d4635980ee506fc1d024372cdc0f",
+    "vout": 1,
+    "size": 614,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "SpiderPool",
+    "fee": 458,
+    "feeRate": 0.56,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "pwid1:list5:eyJpZCI6IjExIiwibm9uY2UiOiJtcDhuYjZqeC1mcmQwNWxzbjk1IiwicHJpY2VTYXRzIjo2MDAwMDAsInNlbGxlckFkZHJlc3MiOiJiYzFwamhobGU2aGx5NzB2bGxza3E0dWZybmYwOW04OWZtZ3Vua2hodXZqN2Z3YTk5cGVuNGhlc2FudXNuayIs...",
+    "blockDir": "block_949686"
   }
 ]
