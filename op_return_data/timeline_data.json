@@ -99653,5 +99653,24 @@
     "hasDecoded": false,
     "preview": null,
     "blockDir": "block_950382"
+  },
+  {
+    "id": "block_950398_7a5539a66a6454e10e0e68d1c5c4f0c9249d32092b8bbfd45cdf2406e561844b_1",
+    "block": 950398,
+    "timestamp": 1779386795,
+    "date": "2026-05-21T18:06:35",
+    "txid": "7a5539a66a6454e10e0e68d1c5c4f0c9249d32092b8bbfd45cdf2406e561844b",
+    "vout": 1,
+    "size": 913,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "SpiderPool",
+    "fee": 1827,
+    "feeRate": 1.64,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "pwt1:list5:eyJhbW91bnQiOjIwMDAwLCJhbmNob3JTY3JpcHRQdWJLZXkiOiI1MTIwN2YwYzE3ZjRjMTU4Y2UzNDE1YjM2YTE3ZjcxYTZmN2NhYjcwMWY2NzNkOTA3N2FjMGQ3YWY0ZmFkMDNjNWJhZSIsImFuY2hvclNpZ0hhc2hUeXBlIjoxMzEsImFuY2hvclR5c...",
+    "blockDir": "block_950398"
   }
 ]
