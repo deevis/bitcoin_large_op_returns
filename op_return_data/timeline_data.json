@@ -102104,5 +102104,43 @@
     "hasDecoded": true,
     "preview": "pwt1:create:DRAIN:21000000:1000:1000:bc1px0ekfnkm6m5055f9p279v0nwvet233xtqcpgfr7adeuzrrhr8cas2quvx2",
     "blockDir": "block_952213"
+  },
+  {
+    "id": "block_952216_73046937a1a00ab59f4ea198f1a6a92d2e5b75a4f054f51609868bfc578640a4_5",
+    "block": 952216,
+    "timestamp": 1780490070,
+    "date": "2026-06-03T12:34:30",
+    "txid": "73046937a1a00ab59f4ea198f1a6a92d2e5b75a4f054f51609868bfc578640a4",
+    "vout": 5,
+    "size": 437,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "Foundry USA",
+    "fee": 1116,
+    "feeRate": 1.1,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "pwm1:m:The idea is to make dao that publish publicly the privet key of a public address.\nThe funds that sent to this address getting \"drain\" credit in return.\nAfter 48 hours from now i will make the p...",
+    "blockDir": "block_952216"
+  },
+  {
+    "id": "block_952216_de2c63fc8cc148bca6c231f97af649cd6805b45d47d18eae7ab3a120c2fa43c7_2",
+    "block": 952216,
+    "timestamp": 1780490070,
+    "date": "2026-06-03T12:34:30",
+    "txid": "de2c63fc8cc148bca6c231f97af649cd6805b45d47d18eae7ab3a120c2fa43c7",
+    "vout": 2,
+    "size": 137,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "Foundry USA",
+    "fee": 60,
+    "feeRate": 0.15,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "pwt1:buy5:b7b51ce346df1228c0b0d29c3fc95ce6ed9b30aede5e34578176de0d0390ee8b:bc1p0e5qs2vcu6c50t6xwxuk7yfnqpwtm03rclv7wzgxzk37849xt8fssl6zvd",
+    "blockDir": "block_952216"
   }
 ]
