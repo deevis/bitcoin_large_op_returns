@@ -102066,5 +102066,43 @@
     "hasDecoded": true,
     "preview": "pwid1:list5:eyJpZCI6ImRyYWluZGFvIiwibm9uY2UiOiJtcHh5emF0YS1jcnY4cjY0cG9qIiwicHJpY2VTYXRzIjoxMDAwLCJzZWxsZXJBZGRyZXNzIjoiYmMxcDhkZGMzczZ6MDlrdGNoZ2R4eGh0OGwwdHQ3Z3M3am45MHcwMDR1dzJocnh1dWUzOWxwN3FseHJk...",
     "blockDir": "block_952208"
+  },
+  {
+    "id": "block_952213_5940167412055351adf159871da0e7141cb8595c6ad92d2baa1f5ce5d5d785e0_1",
+    "block": 952213,
+    "timestamp": 1780487970,
+    "date": "2026-06-03T11:59:30",
+    "txid": "5940167412055351adf159871da0e7141cb8595c6ad92d2baa1f5ce5d5d785e0",
+    "vout": 1,
+    "size": 90,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "F2Pool",
+    "fee": 337,
+    "feeRate": 1.04,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "pwid1:r2:aW5maW5pdHk:1H1arP2xpam6MZmHt6k1tB83stqVdH6ANK:1H1arP2xpam6MZmHt6k1tB83stqVdH6ANK",
+    "blockDir": "block_952213"
+  },
+  {
+    "id": "block_952213_2eff2fb348c01ff9fbaa76c48fccad8baab6fce374f690ef727d4c48797a9d23_1",
+    "block": 952213,
+    "timestamp": 1780487970,
+    "date": "2026-06-03T11:59:30",
+    "txid": "2eff2fb348c01ff9fbaa76c48fccad8baab6fce374f690ef727d4c48797a9d23",
+    "vout": 1,
+    "size": 99,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "F2Pool",
+    "fee": 358,
+    "feeRate": 1.4,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "pwt1:create:DRAIN:21000000:1000:1000:bc1px0ekfnkm6m5055f9p279v0nwvet233xtqcpgfr7adeuzrrhr8cas2quvx2",
+    "blockDir": "block_952213"
   }
 ]
