@@ -102465,5 +102465,24 @@
     "hasDecoded": true,
     "preview": "pwid1:seal5:5f601de743a36893e11f1fbd2305406274e7e294e25ed1dc7014f1f0a835770a:eyJpZCI6ImRyYWluZGFvIiwibm9uY2UiOiJtcTB1YXZpYy10b2g3aGc3eTg0IiwicHJpY2VTYXRzIjozMDAwLCJzZWxsZXJBZGRyZXNzIjoiYmMxcHgwZWtmbmt...",
     "blockDir": "block_952475"
+  },
+  {
+    "id": "block_952494_cabbb019fbce9e3ffbef601e63bb9b866b2983ad0ba770841b22a7f622a10f69_7",
+    "block": 952494,
+    "timestamp": 1780671187,
+    "date": "2026-06-05T14:53:07",
+    "txid": "cabbb019fbce9e3ffbef601e63bb9b866b2983ad0ba770841b22a7f622a10f69",
+    "vout": 7,
+    "size": 429,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "Foundry USA",
+    "fee": 564,
+    "feeRate": 0.67,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "pwm1:m:WIF privet keys \nL1oQK4QnWZDhWU4ioQAF2qAXWUn2kjenNdG55imJNtcK2kG7zyLQ\npublic add: \nbc1p8ddc3s6z09ktchgdxxht8l0tt7gs7jn90w004uw2hrxuue39lp7qlxrd3q\nThis is credit registry add of \"DRAIN\" credit.\n...",
+    "blockDir": "block_952494"
   }
 ]
