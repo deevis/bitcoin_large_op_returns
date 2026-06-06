@@ -102655,5 +102655,24 @@
     "hasDecoded": true,
     "preview": "pwt1:seal5:b270be577a1f70b30f8420c5a7d9bfcf6a80b5695eed03200568e5d40a844854:eyJhbW91bnQiOjUwMCwiYW5jaG9yU2NyaXB0UHViS2V5IjoiNTEyMDdhNzQ0YzQ0YTAxN2I3MzcwMGNlMjYwOWNiYWQzZjA5MDdhNzdlMjRiNTQ2Zjc1OWRkYTM2...",
     "blockDir": "block_952587"
+  },
+  {
+    "id": "block_952610_f5fc09d6ad03c8ec587b42e3a659d15e184eb50aab076f1a9690e5201d229e14_4",
+    "block": 952610,
+    "timestamp": 1780750051,
+    "date": "2026-06-06T12:47:31",
+    "txid": "f5fc09d6ad03c8ec587b42e3a659d15e184eb50aab076f1a9690e5201d229e14",
+    "vout": 4,
+    "size": 678,
+    "type": "png",
+    "mime": "image/png",
+    "storageFormat": "data_uri",
+    "miner": "SpiderPool",
+    "fee": 1902,
+    "feeRate": 2.02,
+    "hasFile": true,
+    "hasDecoded": false,
+    "preview": null,
+    "blockDir": "block_952610"
   }
 ]
