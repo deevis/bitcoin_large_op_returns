@@ -102940,5 +102940,24 @@
     "hasDecoded": true,
     "preview": "pwm1:m:yo bro can you see my messages here. there is a bug i guess the transfers only creating registry mutation transaction not reflecting in wallet updation and also while listing not showing sealed...",
     "blockDir": "block_952822"
+  },
+  {
+    "id": "block_952835_bf652199707f63063890c71d2bf070445f21f534da1692365aff17ff31c8fd6b_1",
+    "block": 952835,
+    "timestamp": 1780913703,
+    "date": "2026-06-08T10:15:03",
+    "txid": "bf652199707f63063890c71d2bf070445f21f534da1692365aff17ff31c8fd6b",
+    "vout": 1,
+    "size": 247,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "F2Pool",
+    "fee": 759,
+    "feeRate": 1.88,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "pwm1:m:may be indexing issue only. the mempool is showing the transaction but not the other wallet or transfer log or listing log. so cool we can launch bonds. my sats got stuck in low fee transaction...",
+    "blockDir": "block_952835"
   }
 ]
