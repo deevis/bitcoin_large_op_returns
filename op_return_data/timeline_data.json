@@ -102959,5 +102959,24 @@
     "hasDecoded": true,
     "preview": "pwm1:m:may be indexing issue only. the mempool is showing the transaction but not the other wallet or transfer log or listing log. so cool we can launch bonds. my sats got stuck in low fee transaction...",
     "blockDir": "block_952835"
+  },
+  {
+    "id": "block_952847_a2dc096b99c2118376ec18b148de605cce6c29b4c7974f6519b0fc56adc3b824_1",
+    "block": 952847,
+    "timestamp": 1780921867,
+    "date": "2026-06-08T12:31:07",
+    "txid": "a2dc096b99c2118376ec18b148de605cce6c29b4c7974f6519b0fc56adc3b824",
+    "vout": 1,
+    "size": 913,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "F2Pool",
+    "fee": 2436,
+    "feeRate": 2.18,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "pwt1:list5:eyJhbW91bnQiOjI5MDAwLCJhbmNob3JTY3JpcHRQdWJLZXkiOiI1MTIwMDNmMDI5NjY5ZjRiOWRkNWU4YTgyZmFkNTgxMjA2Zjc2NmY3MWI4NzdjZmQyYzY0MDRkMjMxNDdkZmI4NmQxYyIsImFuY2hvclNpZ0hhc2hUeXBlIjoxMzEsImFuY2hvclR5c...",
+    "blockDir": "block_952847"
   }
 ]
