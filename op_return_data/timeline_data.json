@@ -102902,5 +102902,24 @@
     "hasDecoded": true,
     "preview": "pwt1:send:d4e5ebf11d104d6a63fb74e42094364b25a5f7199a09e5c0e71408972466a8b8:4000:1PNdpQUScG1SnzyrsuGdErKWtjtrbWM5TV",
     "blockDir": "block_952790"
+  },
+  {
+    "id": "block_952820_66f01e4f56fee253b4d5c853dcb92042e210eaf9e8eef032600dc229fe6e275f_1",
+    "block": 952820,
+    "timestamp": 1780903858,
+    "date": "2026-06-08T07:30:58",
+    "txid": "66f01e4f56fee253b4d5c853dcb92042e210eaf9e8eef032600dc229fe6e275f",
+    "vout": 1,
+    "size": 364,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "ViaBTC",
+    "fee": 626,
+    "feeRate": 1.19,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "pwm1:m:Yo bro the work transfers not showing or updating the transaction and balance in the wallet. Also listing is not creating the tX so as to seal tx. there is a bug somewhere there feels like. som...",
+    "blockDir": "block_952820"
   }
 ]
