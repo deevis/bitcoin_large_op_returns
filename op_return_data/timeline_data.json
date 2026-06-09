@@ -103339,5 +103339,24 @@
     "hasDecoded": true,
     "preview": "pwm1:m:so i did a lot of testing. The ID marketplace works fine i guess with seal transaction appearing after listing.  I can seal them. For credits when you list the listing transaction and seal tab ...",
     "blockDir": "block_952997"
+  },
+  {
+    "id": "block_953000_424aa4f5f686de6d59b5b2a9c0e6d087454169020a487f3eaf5370553788ea66_2",
+    "block": 953000,
+    "timestamp": 1781029912,
+    "date": "2026-06-09T18:31:52",
+    "txid": "424aa4f5f686de6d59b5b2a9c0e6d087454169020a487f3eaf5370553788ea66",
+    "vout": 2,
+    "size": 145,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "Foundry USA",
+    "fee": 1190,
+    "feeRate": 2.47,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "pwid1:buy5:d43c0857b898483917256f39647ad87513b7ff257524818d59320290d18be867:1KhLgiejzFDxzM3AsmXXHCisH3VA7zcSUW:1KhLgiejzFDxzM3AsmXXHCisH3VA7zcSUW",
+    "blockDir": "block_953000"
   }
 ]
