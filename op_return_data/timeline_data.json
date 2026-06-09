@@ -103168,5 +103168,43 @@
     "hasDecoded": true,
     "preview": "pwt1:list5:eyJhbW91bnQiOjMwMDAwLCJhbmNob3JTY3JpcHRQdWJLZXkiOiI1MTIwMDA3YmQ0YzczYWZiZDY0OWVlZjNiZWZiNDNjZDM3N2Y0N2I3ZTMyNTM4M2UzYTg0ODE3YTVhNzg4YzYxZGI4NiIsImFuY2hvclNpZ0hhc2hUeXBlIjoxMzEsImFuY2hvclR5c...",
     "blockDir": "block_952915"
+  },
+  {
+    "id": "block_952935_aaba4cc1f0ae87a3745b32c5e054806c7f6ae25f2b3156d60e2beac4c793d398_1",
+    "block": 952935,
+    "timestamp": 1780985287,
+    "date": "2026-06-09T06:08:07",
+    "txid": "aaba4cc1f0ae87a3745b32c5e054806c7f6ae25f2b3156d60e2beac4c793d398",
+    "vout": 1,
+    "size": 133,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "Foundry USA",
+    "fee": 546,
+    "feeRate": 0.72,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "pwm1:s:UmU6IG1heSBiZSBpbmRleGluZyBpc3N1ZSBvbmx5LiB0aGUgbWVtcG9vbCBpcyBzaG93aW5nIHRoZSB0cmFuc2FjdGlvbiBidXQgbm90IHRoZSBvdGhlciB3YWxsZQ",
+    "blockDir": "block_952935"
+  },
+  {
+    "id": "block_952935_aaba4cc1f0ae87a3745b32c5e054806c7f6ae25f2b3156d60e2beac4c793d398_3",
+    "block": 952935,
+    "timestamp": 1780985287,
+    "date": "2026-06-09T06:08:07",
+    "txid": "aaba4cc1f0ae87a3745b32c5e054806c7f6ae25f2b3156d60e2beac4c793d398",
+    "vout": 3,
+    "size": 167,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "Foundry USA",
+    "fee": 546,
+    "feeRate": 0.72,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "pwm1:m:Yo Carbonz, checked live.\n\nWORK transfers/buys/listing history look indexed now. Seems like pending low-fee/mempool weirdness, not a broken ledger.\n\nGood catch.",
+    "blockDir": "block_952935"
   }
 ]
