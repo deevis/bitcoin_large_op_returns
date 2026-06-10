@@ -103396,5 +103396,24 @@
     "hasDecoded": true,
     "preview": "\"It takes advantage of the nature of information being easy to spread but hard to stifle.\"\nSatoshi Nakamoto",
     "blockDir": "block_953012"
+  },
+  {
+    "id": "block_953040_c500ce8ccf3d73ac34c65e11c59f4d4d9adec82137de119069a83e91751e329d_1",
+    "block": 953040,
+    "timestamp": 1781052970,
+    "date": "2026-06-10T00:56:10",
+    "txid": "c500ce8ccf3d73ac34c65e11c59f4d4d9adec82137de119069a83e91751e329d",
+    "vout": 1,
+    "size": 120,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "Marathon Digital",
+    "fee": 762,
+    "feeRate": 3.11,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "0xc607235a99c9fee237175005d782b7ac225d9aed18045fa98d15276768aa3ec9|depositor=bc1qprkjr0g7xppmuk9ujdw3nhap8drenlrtmdqs5a|",
+    "blockDir": "block_953040"
   }
 ]
