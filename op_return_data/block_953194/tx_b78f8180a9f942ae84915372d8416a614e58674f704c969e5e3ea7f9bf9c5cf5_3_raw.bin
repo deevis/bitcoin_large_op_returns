@@ -1,0 +1,4 @@
+pwm1:m:
+Good catch. You were right about the POW ticker path. It was pulling aggregate credit supply into POW’s mint check. Fixed and deployed.
+
+POW now shows: 1,535,200 confirmed, 0 pending, 6 holders, max 10,101,010.
