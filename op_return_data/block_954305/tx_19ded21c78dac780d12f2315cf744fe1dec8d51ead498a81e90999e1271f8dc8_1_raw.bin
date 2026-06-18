@@ -1,0 +1,19 @@
+{
+  "test_file": true,
+  "purpose": "upload test",
+  "generated_by": ---
+  "id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+  "timestamp": "2026-06-18T12:00:00Z",
+  "payload": {
+    "name": "Sample Record",
+    "value": 42,
+    "active": true,
+    "tags": ["alpha", "beta", "gamma"],
+    "nested": {
+      "level": 2,
+      "description": "A small chunk of filler data to bring this file close to 500 bytes for testing uploads.",
+      "numbers": [1, 2, 3, 5, 8, 13, 21]
+    }
+  },
+  "checksum": "00000000"
+}
