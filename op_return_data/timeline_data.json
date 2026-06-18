@@ -105277,5 +105277,24 @@
     "hasDecoded": true,
     "preview": "0x971dba9fddeb8c62e242102225439c5ec2382e9ca5851a6830f248e6a733d134|depositor=bc1qzpxlwt5qrd4k76esuw3pcvws0lyypn0hv5jacl|",
     "blockDir": "block_954156"
+  },
+  {
+    "id": "block_954162_25268bc7bd8e628fcb69869f7315218f60cda875a6ce72a005bd36456a0a26b2_1",
+    "block": 954162,
+    "timestamp": 1781744472,
+    "date": "2026-06-18T01:01:12",
+    "txid": "25268bc7bd8e628fcb69869f7315218f60cda875a6ce72a005bd36456a0a26b2",
+    "vout": 1,
+    "size": 88,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "ViaBTC",
+    "fee": 1266,
+    "feeRate": 6.0,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "Use 0x6a.app to write an OP_RETURN for way cheaper than OP_RETURN Bot. Set your own fee!",
+    "blockDir": "block_954162"
   }
 ]
