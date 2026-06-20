@@ -105638,5 +105638,24 @@
     "hasDecoded": true,
     "preview": "From: Satoshi Nakamoto\nSubject: Bitcoin open source implementation of P2P currency\nDate: February 11, 2009 at 22:27:00 UTC\n\nI've developed a new open source P2P e-cash system called Bitcoin. It's comp...",
     "blockDir": "block_954462"
+  },
+  {
+    "id": "block_954484_34ad3a1211c3023d66d72e04e9faf8d989cd60f476887a0abd28b53ba2a8b0a3_2",
+    "block": 954484,
+    "timestamp": 1781922808,
+    "date": "2026-06-20T02:33:28",
+    "txid": "34ad3a1211c3023d66d72e04e9faf8d989cd60f476887a0abd28b53ba2a8b0a3",
+    "vout": 2,
+    "size": 109,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "F2Pool",
+    "fee": 1119,
+    "feeRate": 2.49,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "pwt1:buy5:d872e593747938958ec1ecdb08cfe97bdde2760d2e034ddd32e8f5050363d28a:1BPVvi1GK4QkfqFMU4jHGjsQjyGwjJJJ7x",
+    "blockDir": "block_954484"
   }
 ]
