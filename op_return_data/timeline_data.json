@@ -109305,5 +109305,24 @@
     "hasDecoded": true,
     "preview": "0xdf25c654df110a3824bdb39b8b91ffd83d3e2af2831d8ec3bfef453fef032b89|depositor=bc1qegzuud443w2ajhagkzysrsq5dch6uqhcl3rtghng3x0yel0enf5qeeggya|",
     "blockDir": "block_956379"
+  },
+  {
+    "id": "block_956393_30c15392a901f46d63ff3d4fd5e05183371adffe2b05b4ef80f6bd79e35c2463_1",
+    "block": 956393,
+    "timestamp": 1783024744,
+    "date": "2026-07-02T20:39:04",
+    "txid": "30c15392a901f46d63ff3d4fd5e05183371adffe2b05b4ef80f6bd79e35c2463",
+    "vout": 1,
+    "size": 120,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "Unknown",
+    "fee": 2031,
+    "feeRate": 8.29,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "0x88130147d11f865298e87ed6008e33ecc103888e4a300de46ca026ba6f989b39|depositor=bc1qvqwtxuxu0crgm3j2h55z5ukd3l5rtzncczmwag|",
+    "blockDir": "block_956393"
   }
 ]
