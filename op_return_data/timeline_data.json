@@ -110141,5 +110141,43 @@
     "hasDecoded": true,
     "preview": "RDTS folks should just move over to XRP. They restrict arbitrary data and are more aligned with the desires of the 110ers.",
     "blockDir": "block_956821"
+  },
+  {
+    "id": "block_956826_ef4dd539561789b63afc6f3cbaa1215ab1c5237f7f7225fd95e24b715cd2e265_1",
+    "block": 956826,
+    "timestamp": 1783279676,
+    "date": "2026-07-05T19:27:56",
+    "txid": "ef4dd539561789b63afc6f3cbaa1215ab1c5237f7f7225fd95e24b715cd2e265",
+    "vout": 1,
+    "size": 140,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "ViaBTC",
+    "fee": 548,
+    "feeRate": 2.07,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "0x17a63ab100fc0511069dac7855c86bc2990c7638cc75076127cca9713e330558|depositor=bc1q688szwrh57c63rqctnu7wmz9uh0kuqwvx3x40ecr58rx825c09eq4t0zht|",
+    "blockDir": "block_956826"
+  },
+  {
+    "id": "block_956826_5e8429b70ef7bf37f279000a179d92235cfc28da097c908823fa3dfbceeae3b7_1",
+    "block": 956826,
+    "timestamp": 1783279676,
+    "date": "2026-07-05T19:27:56",
+    "txid": "5e8429b70ef7bf37f279000a179d92235cfc28da097c908823fa3dfbceeae3b7",
+    "vout": 1,
+    "size": 112,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "ViaBTC",
+    "fee": 492,
+    "feeRate": 2.08,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "0x14cfd85f335b3fef0f82aff3867928b5b11194c751675efe8a20c2a8a50e026c|depositor=3MuWaiHxNNZkdK5PTTTohjNAXu6Dk3vPEP|",
+    "blockDir": "block_956826"
   }
 ]
