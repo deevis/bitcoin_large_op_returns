@@ -110445,5 +110445,24 @@
     "hasDecoded": false,
     "preview": null,
     "blockDir": "block_956995"
+  },
+  {
+    "id": "block_956999_4f06d3a8d5e169cfa009bfb8b0916ecc03ffce01556b9179754e6aba3fd4507f_2",
+    "block": 956999,
+    "timestamp": 1783400822,
+    "date": "2026-07-07T05:07:02",
+    "txid": "4f06d3a8d5e169cfa009bfb8b0916ecc03ffce01556b9179754e6aba3fd4507f",
+    "vout": 2,
+    "size": 109,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "SpiderPool",
+    "fee": 722,
+    "feeRate": 1.21,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "pwt1:buy5:030da06140f81102bac01b1eb5a96e1581800f656aae41d6b57d068c3bb2af22:1BPVvi1GK4QkfqFMU4jHGjsQjyGwjJJJ7x",
+    "blockDir": "block_956999"
   }
 ]
