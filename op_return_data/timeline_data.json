@@ -110692,5 +110692,43 @@
     "hasDecoded": true,
     "preview": "nicko   Satoshi Nakamoto gave the world a vision of unity through innovation. His creation was not only about money but about trust, freedom, and the possibility of people connecting across borders wi...",
     "blockDir": "block_957126"
+  },
+  {
+    "id": "block_957181_14c80dbd92572726b7d067615d2eab0a8b2ba7d2a568f8505215b5bf39b19356_1",
+    "block": 957181,
+    "timestamp": 1783517508,
+    "date": "2026-07-08T13:31:48",
+    "txid": "14c80dbd92572726b7d067615d2eab0a8b2ba7d2a568f8505215b5bf39b19356",
+    "vout": 1,
+    "size": 140,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "Foundry USA",
+    "fee": 821,
+    "feeRate": 3.1,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "0xc0097a62ccac297977a31a430f146fc5057d6b42c445cca5e8bd94e64246cd90|depositor=bc1qnjx7l9v53hchrngmeapjy48md4smafmhten5kg9httg5836rkxgsxu2dmz|",
+    "blockDir": "block_957181"
+  },
+  {
+    "id": "block_957181_41294a4716eb6d03b1a12816f1a7b8539f8bc94b627ba8bdc19ef2027ec6a48b_1",
+    "block": 957181,
+    "timestamp": 1783517508,
+    "date": "2026-07-08T13:31:48",
+    "txid": "41294a4716eb6d03b1a12816f1a7b8539f8bc94b627ba8bdc19ef2027ec6a48b",
+    "vout": 1,
+    "size": 120,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "Foundry USA",
+    "fee": 507,
+    "feeRate": 2.07,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "0x48d67a8c74127a38d0abdd6ec297d88c295a551f937146ac1196581727f0c34f|depositor=bc1qzuwgvjpppp80z3n04wp6cvmjypsgedthvxl6pe|",
+    "blockDir": "block_957181"
   }
 ]
