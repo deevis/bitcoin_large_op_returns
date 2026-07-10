@@ -111053,5 +111053,43 @@
     "hasDecoded": true,
     "preview": "0xb00f2199d578802671ab067847a2e35242fe1e32dbd26addb5229ba5b52ec504|depositor=bc1qhqsrpykv5mx8h9m0dna0yh43u3pzgv6x2pw9gs|",
     "blockDir": "block_957444"
+  },
+  {
+    "id": "block_957467_421b64b4c22a529ed8a7656049a57838415713852a3de75ae5a052e1347af1da_2",
+    "block": 957467,
+    "timestamp": 1783710644,
+    "date": "2026-07-10T19:10:44",
+    "txid": "421b64b4c22a529ed8a7656049a57838415713852a3de75ae5a052e1347af1da",
+    "vout": 2,
+    "size": 134,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "F2Pool",
+    "fee": 574,
+    "feeRate": 2.0,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "Digiseller Order:296343288/92139414 Seller:WMID#515519436503 (Assassins Creed Black Flag Resynced Deluxe DLC +No Queue -Steam Account)",
+    "blockDir": "block_957467"
+  },
+  {
+    "id": "block_957467_f9878c335b1e502438b19b8bc76771b7349094cee8878e64202d581f834600fb_1",
+    "block": 957467,
+    "timestamp": 1783710644,
+    "date": "2026-07-10T19:10:44",
+    "txid": "f9878c335b1e502438b19b8bc76771b7349094cee8878e64202d581f834600fb",
+    "vout": 1,
+    "size": 120,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "F2Pool",
+    "fee": 762,
+    "feeRate": 3.11,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "0xe3758d4a230e43bf84a97e52ef7244cc382036f3e29814ed1c1bab28af291f0d|depositor=bc1qfpeps3wcmzk422hvm5jeq5lelnqlzznjwyfy69|",
+    "blockDir": "block_957467"
   }
 ]
