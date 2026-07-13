@@ -111414,5 +111414,24 @@
     "hasDecoded": true,
     "preview": "Digiseller Order:296532271/92150669 Seller:WMID#298864312957 (PURCHASE GAMES/PS PLUS TOP-UP PLAYSTATION PS4/PS5 UKRAINE GTA 6 BLACK FLAG FAST)",
     "blockDir": "block_957863"
+  },
+  {
+    "id": "block_957880_60ccf470282cf4fbe62064f5bc557a693e35af7171087f2e9b5a817b2740ad5d_1",
+    "block": 957880,
+    "timestamp": 1783960758,
+    "date": "2026-07-13T16:39:18",
+    "txid": "60ccf470282cf4fbe62064f5bc557a693e35af7171087f2e9b5a817b2740ad5d",
+    "vout": 1,
+    "size": 120,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "F2Pool",
+    "fee": 762,
+    "feeRate": 3.15,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "0x56f0123fd95c48f861d832ac90d75219295b712efa1e387b6eb3f42d0b8998f9|depositor=bc1qe0kswuawmwp628zzlpqcgns62p9xlunda0krrm|",
+    "blockDir": "block_957880"
   }
 ]
