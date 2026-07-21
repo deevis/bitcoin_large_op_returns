@@ -1,0 +1,21 @@
+pwm1:m:ProofOfWork.Me WORK Pricing Protocol V2
+
+Effective from the activation point named by this declaration, a WORK marketplace listing, seal, or purchase is valid only when its total seller price is greater than or equal to the canonical WORK network-value floor.
+
+For an action confirmed at block H:
+
+minimumPriceSats =
+ceil(
+  amountAtoms * liveNetworkValueSats(H-1)
+  / (21000000 * workAtomsPerWork)
+)
+
+liveNetworkValueSats(H-1) must come from the last green canonical ProofOfWork Computer ledger snapshot, bound to the exact hash of block H-1.
+
+Every V2 listing, seal, and purchase must identify the oracle block height, oracle block hash, network value, amountAtoms, and minimum price used for validation.
+
+A missing, stale, hash-mismatched, inconsistent, or below-floor action is invalid and causes no canonical WORK balance, ownership, marketplace, sale, Log, Growth, or network-value mutation.
+
+Only transactions accepted by these deterministic rules are canonical ProofOfWork Computer WORK actions. Third-party and OTC transfers are not canonical WORK state transitions unless they satisfy the active protocol and are accepted by the canonical verifier.
+
+Confirmed chain history is authoritative. Pending transactions provide visibility only.
