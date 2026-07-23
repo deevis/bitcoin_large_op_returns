@@ -115689,5 +115689,24 @@
     "hasDecoded": true,
     "preview": "THIS TRANSACTION IS A VACCINE TO PROTECT MY GENERATIONAL WEALTH FROM BIP-110 PIRATES.",
     "blockDir": "block_959290"
+  },
+  {
+    "id": "block_959292_87d3b3e4ce939168223b45e235d158f9e04fb6af46937c42665a255259697e34_1",
+    "block": 959292,
+    "timestamp": 1784830000,
+    "date": "2026-07-23T18:06:40",
+    "txid": "87d3b3e4ce939168223b45e235d158f9e04fb6af46937c42665a255259697e34",
+    "vout": 1,
+    "size": 140,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "Unknown",
+    "fee": 821,
+    "feeRate": 3.13,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "0x10752313294843b1d48e95ca837d8933217e98c71f24f11cab3353dd4e35495e|depositor=bc1py0ap4vqupmwt54fhzvws63nj6v5jwfwct7dw6e7f6yfxy4zma97qfvcnq9|",
+    "blockDir": "block_959292"
   }
 ]
