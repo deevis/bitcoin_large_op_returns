@@ -115765,5 +115765,24 @@
     "hasDecoded": true,
     "preview": "pwm1:m:ProofOfWork.Me WORK AMO Unit Protocol V1\n\nThis declaration extends the WORK Marketplace Pricing Protocol V2 declared by transaction 4c53252c6e9279726e1456f4d846274bfa33f778b633d32a68ed36906b380...",
     "blockDir": "block_959305"
+  },
+  {
+    "id": "block_959311_5eb0a876603a7551653806b932533dc27a884631a581caa2e36dcf129b8278e8_1",
+    "block": 959311,
+    "timestamp": 1784842428,
+    "date": "2026-07-23T21:33:48",
+    "txid": "5eb0a876603a7551653806b932533dc27a884631a581caa2e36dcf129b8278e8",
+    "vout": 1,
+    "size": 1190,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "SpiderPool",
+    "fee": 2216,
+    "feeRate": 1.51,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "pwt1:list5:eyJhbW91bnRBdG9tcyI6IjEwMDAiLCJhbmNob3JTY3JpcHRQdWJLZXkiOiI3NmE5MTRmOGI5ZGIxMDYyNzc3MTE0N2I2N2IzZGM2YzRiNWJjMDQ1M2YzODY3ODhhYyIsImFuY2hvclNpZ0hhc2hUeXBlIjoxMzEsImFuY2hvclR5cGUiOiJzYWxlLXRpY...",
+    "blockDir": "block_959311"
   }
 ]
