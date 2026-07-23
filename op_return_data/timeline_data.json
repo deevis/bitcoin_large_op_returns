@@ -115746,5 +115746,24 @@
     "hasDecoded": true,
     "preview": "0x652467e70ce885c42511a4cf2282a2eb2113c5874d51a011f5efae17664e9112|depositor=bc1q6g4wde3pdrrnpc5ya6prhtng9qhskjwy07796h5x8uwmj8v59mgszckt8v|",
     "blockDir": "block_959299"
+  },
+  {
+    "id": "block_959305_b578601bf1c1804b6afb4b030cfa5207c9894f4b5a2d2bc5ce5a9369534ed837_1",
+    "block": 959305,
+    "timestamp": 1784837537,
+    "date": "2026-07-23T20:12:17",
+    "txid": "b578601bf1c1804b6afb4b030cfa5207c9894f4b5a2d2bc5ce5a9369534ed837",
+    "vout": 1,
+    "size": 5898,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "Foundry USA",
+    "fee": 6323,
+    "feeRate": 1.0,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "pwm1:m:ProofOfWork.Me WORK AMO Unit Protocol V1\n\nThis declaration extends the WORK Marketplace Pricing Protocol V2 declared by transaction 4c53252c6e9279726e1456f4d846274bfa33f778b633d32a68ed36906b380...",
+    "blockDir": "block_959305"
   }
 ]

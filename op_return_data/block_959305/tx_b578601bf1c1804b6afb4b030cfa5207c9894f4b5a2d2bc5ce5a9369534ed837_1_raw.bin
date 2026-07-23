@@ -1,0 +1,179 @@
+pwm1:m:ProofOfWork.Me WORK AMO Unit Protocol V1
+
+This declaration extends the WORK Marketplace Pricing Protocol V2 declared by transaction 4c53252c6e9279726e1456f4d846274bfa33f778b633d32a68ed36906b38083f.
+
+The governed WORK market is now named AMO: Autonomous Money Organization.
+
+Let D be the confirmed block containing this declaration. This protocol activates at block D + 1.
+
+After activation, a canonical WORK listing, seal, or purchase must use authorization version pwt-sale-v4 and exactly one permitted USD face unit:
+
+allowedFaceUsdCents = {
+1000,
+2000,
+5000,
+10000,
+20000,
+50000,
+100000,
+200000,
+500000,
+1000000
+}
+
+These values represent:
+
+$10, $20, $50, $100, $200, $500, $1000, $2000, $5000, and $10000.
+
+USD QUOTE PROTOCOL
+
+The USD oracle authority is the exact previous-output scriptPubKey spent by input zero of this declaration transaction.
+
+A canonical USD quote uses:
+
+pwa1:usd1:<declarationTxid>:<sequence>:<previousQuoteTxid>:<usdPer100mProofsQ8>
+
+usdPer100mProofsQ8 is the USD value of 100,000,000 proofs multiplied by 100,000,000 and encoded as a canonical positive decimal integer.
+
+For example, a quote of $64,825 per 100,000,000 proofs is encoded as:
+
+6482500000000
+
+The first quote has sequence 1 and previousQuoteTxid equal to this declaration transaction id. Every later quote increments sequence by exactly one and references the preceding canonical quote transaction.
+
+A quote is canonical only when:
+
+1. it is confirmed;
+2. input zero spends an output with the oracle authority scriptPubKey;
+3. it contains exactly one valid pwa1:usd1 record;
+4. it pays at least 546 proofs to the canonical WORK registry address 1638Vn6KtmK8p5r4oGvAXq9nmZb1emU1DV;
+5. its sequence and previousQuoteTxid extend the canonical quote chain.
+
+When competing quote records reference the same predecessor, the first record in canonical block height, transaction index, output index, and transaction id order wins. All competing records are invalid.
+
+A listing confirmed at block L must use the latest canonical quote confirmed at or before L - 1.
+
+The quote remains valid through:
+
+unitValidThroughHeight = usdQuoteBlockHeight + 144
+
+The listing, seal, and purchase must all confirm no later than unitValidThroughHeight. Missing, expired, unauthorized, forked, or unverifiable quotes fail closed.
+
+UNIT FUNCTION
+
+All arithmetic uses unsigned integers only. Floating-point arithmetic is forbidden.
+
+Let:
+
+F = unitFaceUsdCents
+P = unitUsdPer100mProofsQ8
+N = listing-time liveNetworkValueQ8 from block L - 1
+S = 21000000
+A = 100000000 atoms per WORK
+Q = 100000000
+R = 100000000 proofs
+U = 100000000
+ceilDiv(x,y) = (x + y - 1) / y using integer division
+
+Then:
+
+targetNumerator = F * R * U
+targetDenominator = 100 * P
+
+unitPriceSats =
+ceilDiv(
+targetNumerator,
+targetDenominator
+)
+
+unitAmountAtoms =
+floor(
+targetNumerator * S * A * Q
+/
+(targetDenominator * N)
+)
+
+unitMinimumPriceSats =
+ceilDiv(
+unitAmountAtoms * N,
+S * A * Q
+)
+
+A valid pwt-sale-v4 listing requires:
+
+unitFaceUsdCents is in allowedFaceUsdCents;
+unitAmountAtoms is greater than zero;
+amountAtoms equals unitAmountAtoms;
+priceSats equals unitPriceSats;
+unitMinimumPriceSats equals the recomputed listing-time minimum;
+priceSats is greater than or equal to unitMinimumPriceSats.
+
+The proof payment rounds upward. The WORK amount rounds downward. No arbitrary amount, arbitrary price, markup, discount, or below-network-value listing is canonical.
+
+IMMUTABLE UNIT COMMITMENT
+
+Every pwt-sale-v4 listing must commit:
+
+unitModel = canonical-work-amo-usd-unit-v1
+unitFaceUsdCents
+unitUsdOracleModel = canonical-amo-chain-usd-quote-v1
+unitUsdQuoteTxid
+unitUsdQuoteVout
+unitUsdQuoteSequence
+unitUsdQuoteBlockHeight
+unitUsdQuoteBlockHash
+unitUsdQuoteBlockIndex
+unitUsdPer100mProofsQ8
+unitValidThroughHeight
+unitWorkOracleBlockHeight
+unitWorkOracleBlockHash
+unitNetworkValueQ8
+unitAmountAtoms
+unitPriceSats
+unitMinimumPriceSats
+
+These unit fields, the WORK amount, the proof price, and all sale-ticket economic terms are immutable from listing through seal and purchase.
+
+The USD conversion is fixed when the listing confirms. It is not recomputed after listing.
+
+LIVE NETWORK-VALUE VALIDATION
+
+Every listing, seal, and purchase must also retain the active WORK Pricing Protocol V2 fields:
+
+oracleModel
+oracleBlockHeight
+oracleBlockHash
+oracleNetworkValueQ8
+minimumPriceSats
+
+For an action confirmed at block H, these fields must identify the exact canonical WORK network-value snapshot at H - 1.
+
+The current minimum price is:
+
+minimumPriceSats =
+ceilDiv(
+amountAtoms * oracleNetworkValueQ8,
+21000000 * 100000000 * 100000000
+)
+
+The immutable unit price must remain greater than or equal to this current minimum.
+
+If the WORK network-value floor overtakes the fixed unit price, the listing can no longer be sealed or purchased. The seller must create a new listing from a current USD quote and current network value.
+
+ACTIVATION AND CUTOVER
+
+From block D + 1:
+
+1. pwt-sale-v4 is the only canonical authorization version for new WORK listings, seals, and purchases;
+2. active pwt-sale-v3 WORK listings become immutable pre-unit relics;
+3. pre-unit listings stop reserving WORK balances and cannot be sealed or purchased;
+4. pending or confirmed post-activation pwt-sale-v3 actions are invalid audit history only;
+5. existing V1 relic history remains immutable;
+6. non-WORK credits, POWB, and INCB retain their existing protocols;
+7. pending transactions provide visibility only and never create canonical AMO state.
+
+A missing, stale, expired, unauthorized, hash-mismatched, mathematically inconsistent, non-unit, below-floor, or unverifiable action causes no canonical WORK balance, ownership, AMO, sale, Log, Growth, or network-value mutation.
+
+Only transactions accepted by these deterministic rules are canonical ProofOfWork Computer AMO actions.
+
+Confirmed chain history is authoritative. Pending transactions provide visibility only.
