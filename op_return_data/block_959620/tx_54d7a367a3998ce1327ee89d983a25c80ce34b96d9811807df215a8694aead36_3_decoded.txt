@@ -1,0 +1,509 @@
+pwm1:m:ProofOfWork.Me WORK AMO Unit Protocol V2 Final Corrective Declaration
+
+This declaration amends the WORK AMO Unit Protocol V1 declared by transaction b578601bf1c1804b6afb4b030cfa5207c9894f4b5a2d2bc5ce5a9369534ed837 and the WORK Marketplace Pricing Protocol V2 declared by transaction 4c53252c6e9279726e1456f4d846274bfa33f778b633d32a68ed36906b38083f.
+
+The governed WORK market is AMO: Autonomous Money Organization.
+
+The canonical public interface is amo.proofofwork.me. Interface location does not determine protocol validity.
+
+This declaration supersedes every prior clause that:
+
+1. calculates listing-time WORK value only from block H - 1;
+2. requires a confirmed listing to be repriced when it is sealed or purchased;
+3. allows a later network-value increase or USD quote expiration to invalidate an already-confirmed valid listing; or
+4. permits new governed WORK face units other than those expressly allowed by this declaration.
+
+All non-conflicting historical rules remain immutable.
+
+DECLARATION AUTHORITY AND ACTIVATION
+
+This declaration is valid only when:
+
+1. it is confirmed;
+2. input zero spends an output with the declaration authority scriptPubKey established by the V1 declaration;
+3. it pays at least 546 proofs to the canonical WORK registry address 1638Vn6KtmK8p5r4oGvAXq9nmZb1emU1DV before the protocol output; and
+4. it contains exactly this declaration.
+
+Let D be the confirmed canonical block containing this declaration.
+
+This protocol activates at block D + 1.
+
+From activation, new governed WORK listings, seals, and purchases use authorization version pwt-sale-v5 and:
+
+unitModel = canonical-work-amo-usd-unit-v2
+stateOrderModel = canonical-proof-state-order-v1
+amountModel = canonical-confirmed-position-derived-work-amount-v1
+unitUsdOracleModel = canonical-amo-chain-usd-quote-v1
+unitWorkOracleModel = canonical-work-prefix-before-action-v1
+bondTransitionModel = canonical-compute-then-bond-v1
+
+CANONICAL ORDER OF OPERATIONS
+
+Every confirmed protocol action X has the canonical position:
+
+position(X) =
+(
+  blockHeight,
+  blockTransactionIndex,
+  protocolVout,
+  recordOrdinal
+)
+
+Where:
+
+blockHeight is the canonical confirmed block height.
+
+blockTransactionIndex is the zero-based position of the transaction in the canonical full-node block transaction array.
+
+protocolVout is the zero-based transaction output containing the protocol action.
+
+recordOrdinal is the zero-based protocol-record position within that output and is zero when the output contains one record.
+
+Positions are compared lexicographically from left to right.
+
+Transaction identifiers identify transactions but do not determine their order.
+
+Lexicographic, numeric, or timestamp sorting of txids is forbidden for confirmed state.
+
+Mempool arrival time, displayed confirmation time, createdAt, database insertion order, and event identifiers do not determine confirmed protocol order.
+
+The canonical block hash binds every position to the canonical chain.
+
+A missing, duplicated, inconsistent, unavailable, or unverifiable canonical position fails closed.
+
+The order of operations is:
+
+1. confirmed block height;
+2. transaction position inside that block;
+3. protocol output position inside that transaction;
+4. protocol record position inside that output;
+5. the deterministic integer formulas defined below;
+6. validation and freezing of the event result;
+7. application of the event’s bond contribution.
+
+Each valid action is completely calculated, validated, frozen, and applied before the next canonical position is evaluated.
+
+For action X:
+
+stateBefore(X) =
+the state produced by replaying every valid confirmed action Y for which position(Y) is less than position(X).
+
+stateAfter(X) =
+apply(X, stateBefore(X)) when X is valid.
+
+An invalid action causes no state mutation.
+
+The next action uses the unchanged prior state.
+
+SEQUENTIAL BLOCK REPLAY
+
+There is no simultaneous confirmed protocol state.
+
+Transactions that appear simultaneous to users are totally ordered by their confirmed canonical positions.
+
+For confirmed block H, let its ordered Computer events be:
+
+E1, E2, E3, ... Em
+
+Let:
+
+N(H,0) =
+the final canonical liveNetworkValueQ8 from the end of block H - 1.
+
+For each event Ek, in canonical order:
+
+Nbefore(Ek) =
+N(H,k-1)
+
+First calculate and validate Ek using Nbefore(Ek).
+
+If Ek is invalid:
+
+N(H,k) =
+N(H,k-1)
+
+If Ek is valid:
+
+1. freeze every economic and state result of Ek;
+2. calculate canonicalBondContributionQ8(Ek);
+3. calculate:
+
+N(H,k) =
+N(H,k-1) + canonicalBondContributionQ8(Ek)
+
+The final network value of block H is:
+
+Nend(H) =
+N(H,m)
+
+Nend(H) becomes the opening network value for block H + 1.
+
+This replay rule applies identically whether one event or thousands of events confirm in the same block.
+
+Each event is processed once.
+
+An implementation may fetch, decode, and verify independent transaction data concurrently, but canonical state calculation and application must produce exactly the same result as the sequential replay defined here.
+
+Partial block results are not canonical.
+
+A block-derived state becomes canonical only after the entire block, its canonical block hash, every relevant transaction position, and every state transition have been verified.
+
+If a block is detached from the canonical chain, its derived state is removed and the replacement canonical branch is replayed in the same deterministic order.
+
+COMPUTE-THEN-BOND STATE TRANSITION
+
+Every valid confirmed ProofOfWork Computer event is a bond event and may add to network value under the canonical network-value accounting rules.
+
+For event X:
+
+Nbefore(X) =
+liveNetworkValueQ8(stateBefore(X))
+
+The Computer first calculates and validates X using Nbefore(X).
+
+If X is pending, invalid, unavailable, or unverifiable:
+
+canonicalBondContributionQ8(X) = 0
+
+Nafter(X) = Nbefore(X)
+
+and X causes no canonical state or network-value mutation.
+
+If X is valid, the Computer first freezes every economic result of X and then calculates:
+
+Nafter(X) =
+Nbefore(X) + canonicalBondContributionQ8(X)
+
+An event’s own bond contribution is never included in its own calculation.
+
+The valid contribution of X becomes available immediately after X and is included when evaluating every later canonical position, including later transactions in the same block.
+
+Therefore:
+
+1. a bond transaction ordered before a listing changes the value used by that listing;
+2. a bond transaction ordered after a listing does not change or reprice that listing;
+3. a valid listing adds its own bond contribution only after its terms are calculated and frozen;
+4. the next listing sees the preceding valid listing’s contribution;
+5. an invalid event contributes zero and does not affect later calculations.
+
+Every proof payment, registry payment, miner fee, and other canonical network-value component is counted exactly once.
+
+A proof output or fee must not be counted again merely because one transaction contains multiple protocol records.
+
+A transaction-wide miner fee is applied exactly once after the final protocol record of that transaction. It becomes visible to later transactions and is never included in the calculation of an action within its own transaction.
+
+A listing’s bond contribution includes only the proof value recognized for its confirmed listing transaction under the canonical network-value rules.
+
+A future buyer payment is not counted as listing value before that purchase confirms. The purchase becomes its own later bond event.
+
+USD FACE UNITS
+
+The starting human-readable USD face units of this protocol are exactly:
+
+allowedFaceUsd =
+{
+  20,
+  50,
+  100
+}
+
+The corresponding canonical integer values are:
+
+allowedFaceUsdCents =
+{
+  2000,
+  5000,
+  10000
+}
+
+These values represent:
+
+$20
+$50
+$100
+
+No other USD face unit may be used by a new pwt-sale-v5 listing unless a future valid declaration explicitly changes the set.
+
+For every listing:
+
+unitFaceUsdCents =
+unitFaceUsd * 100
+
+The human-readable and cent-denominated values must correspond exactly.
+
+USD QUOTE PROTOCOL
+
+The USD oracle authority is the exact previous-output scriptPubKey spent by input zero of the V1 declaration transaction:
+
+b578601bf1c1804b6afb4b030cfa5207c9894f4b5a2d2bc5ce5a9369534ed837
+
+A canonical USD quote uses:
+
+pwa1:usd1:<v1DeclarationTxid>:<sequence>:<previousQuoteTxid>:<usdPer100mProofsQ8>
+
+Where:
+
+v1DeclarationTxid =
+b578601bf1c1804b6afb4b030cfa5207c9894f4b5a2d2bc5ce5a9369534ed837
+
+usdPer100mProofsQ8 is the USD value of 100,000,000 proofs multiplied by 100,000,000 and encoded as a canonical positive decimal integer.
+
+The first quote has sequence 1 and previousQuoteTxid equal to the V1 declaration transaction id.
+
+Every later quote increments sequence by exactly one and references the preceding canonical quote transaction.
+
+A quote is canonical only when:
+
+1. it is confirmed;
+2. input zero spends an output with the USD oracle authority scriptPubKey;
+3. it contains exactly one valid pwa1:usd1 record;
+4. it pays at least 546 proofs to the canonical WORK registry address 1638Vn6KtmK8p5r4oGvAXq9nmZb1emU1DV;
+5. its sequence increments the preceding canonical quote by exactly one;
+6. its previousQuoteTxid references that preceding canonical quote; and
+7. its canonical position is complete and verifiable.
+
+When competing quote records reference the same canonical predecessor, the quote with the lowest canonical position wins.
+
+Every competing later quote referencing that predecessor is invalid and causes no quote-chain mutation.
+
+USD QUOTE ORDER
+
+For a listing L:
+
+quoteBefore(L) =
+the latest valid canonical USD quote Q for which position(Q) is less than position(L).
+
+A quote earlier in the same block is included.
+
+A quote later in the same block is not included.
+
+The selected quote must satisfy:
+
+listingBlockHeight <= usdQuoteBlockHeight + 144
+
+Quote expiration is tested only when the listing confirms.
+
+Once a listing confirms valid, a later quote, a changed quote value, or expiration of its original quote cannot invalidate or reprice that listing.
+
+CONFIRMATION-DERIVED UNIT FUNCTION
+
+A pending pwt-sale-v5 listing commits one permitted USD face unit and authorizes this deterministic function.
+
+A pending listing does not choose an arbitrary WORK amount or arbitrary proof price.
+
+The canonical WORK amount and proof price do not exist until the listing confirms and receives its canonical position.
+
+Let L be a confirmed listing.
+
+Let:
+
+F = unitFaceUsdCents
+
+P = quoteBefore(L).usdPer100mProofsQ8
+
+N = Nbefore(L)
+
+S = 21000000
+
+A = 100000000 atoms per WORK
+
+Q = 100000000 network-value precision
+
+R = 100000000 proofs
+
+U = 100000000 USD quote precision
+
+floorDiv(x, y) =
+x / y using unsigned integer division
+
+ceilDiv(x, y) =
+(x + y - 1) / y using unsigned integer division
+
+All values must be positive canonical unsigned integers.
+
+Floating-point arithmetic is forbidden.
+
+Every multiplication is completed before the indicated integer division.
+
+Implementations must use integer arithmetic with sufficient precision and must fail closed on overflow.
+
+Calculate:
+
+targetNumerator =
+F * R * U
+
+targetDenominator =
+100 * P
+
+unitPriceSats =
+ceilDiv(
+  targetNumerator,
+  targetDenominator
+)
+
+unitAmountAtoms =
+floorDiv(
+  targetNumerator * S * A * Q,
+  targetDenominator * N
+)
+
+unitMinimumPriceSats =
+ceilDiv(
+  unitAmountAtoms * N,
+  S * A * Q
+)
+
+A listing is valid only when:
+
+1. F is in allowedFaceUsdCents;
+2. quoteBefore(L) exists and is valid;
+3. N is greater than zero;
+4. unitPriceSats is greater than zero;
+5. unitAmountAtoms is greater than zero;
+6. unitMinimumPriceSats is greater than zero;
+7. unitPriceSats is greater than or equal to unitMinimumPriceSats;
+8. the seller has at least unitAmountAtoms of spendable WORK at stateBefore(L);
+9. every existing seller, registry, signature, sale-ticket, and anchor rule is satisfied.
+
+The proof payment rounds upward.
+
+The WORK amount rounds downward.
+
+The USD face unit remains fixed.
+
+The amount of WORK represented by that face unit is determined by the exact network value immediately before the listing’s confirmed canonical position.
+
+When an earlier valid event in the same block increases network value, every later listing in that block uses the increased value.
+
+A listing does not contribute to its own unit calculation.
+
+Its valid bond contribution becomes available only after its unit terms are calculated, validated, and frozen.
+
+CONFIRMED LISTING COMMITMENT
+
+When a pwt-sale-v5 listing confirms valid, the ProofOfWork Computer derives and permanently binds:
+
+unitModel
+stateOrderModel
+amountModel
+bondTransitionModel
+unitFaceUsd
+unitFaceUsdCents
+unitUsdOracleModel
+unitUsdQuoteTxid
+unitUsdQuoteVout
+unitUsdQuoteSequence
+unitUsdQuoteBlockHeight
+unitUsdQuoteBlockHash
+unitUsdQuoteBlockIndex
+unitUsdPer100mProofsQ8
+unitWorkOracleModel
+listingBlockHeight
+listingBlockHash
+listingBlockIndex
+listingProtocolVout
+listingRecordOrdinal
+unitNetworkValueBeforeQ8
+unitAmountAtoms
+unitPriceSats
+unitMinimumPriceSats
+listingBondContributionQ8
+unitNetworkValueAfterQ8
+
+Where:
+
+unitNetworkValueBeforeQ8 =
+Nbefore(L)
+
+listingBondContributionQ8 =
+canonicalBondContributionQ8(L)
+
+unitNetworkValueAfterQ8 =
+unitNetworkValueBeforeQ8 + listingBondContributionQ8
+
+These confirmation-derived fields become the immutable economic terms and canonical state transition of the listing.
+
+The seller’s listing signature authorizes the exact deterministic result of the unit function at the listing’s eventual canonical position.
+
+It does not authorize an arbitrary amount, markup, discount, or alternative price.
+
+Pending amount and price displays are estimates only.
+
+Pending transactions create no canonical listing terms or network-value contribution.
+
+SEAL AND PURCHASE FINALITY
+
+A confirmed valid listing remains eligible to be sealed and purchased at its immutable confirmation-derived terms.
+
+A seal or purchase must:
+
+1. reference the exact confirmed listing;
+2. use authorization version pwt-sale-v5;
+3. reproduce or reference the listing’s immutable derived terms;
+4. transfer exactly unitAmountAtoms;
+5. require exactly unitPriceSats as the unit sale price;
+6. satisfy the existing ownership, signature, buyer, registry-payment, miner-fee, sale-ticket, anchor, and unspent-listing rules; and
+7. appear after the listing in canonical order.
+
+A seal or purchase must not recompute the listing’s WORK amount, USD price, USD quote, or network-value floor using the seal or purchase block.
+
+The following events cannot invalidate an already-confirmed valid listing:
+
+1. a later WORK network-value increase;
+2. a later WORK network-value decrease;
+3. a later bond;
+4. a later transfer;
+5. a later listing;
+6. a later sale;
+7. a later USD quote;
+8. expiration of the listing’s original USD quote;
+9. high traffic or the confirmation of any number of later events.
+
+Network value and USD quote validity are admission rules for the listing at its confirmed canonical position.
+
+They are not continuing conditions after the listing confirms.
+
+A confirmed listing may close only through:
+
+1. a valid seal and purchase;
+2. a valid delisting;
+3. expiration explicitly committed by the listing itself; or
+4. the canonical spend of its sale-ticket outpoint under the existing outpoint rules.
+
+A listing that was invalid when it confirmed is not resurrected by this declaration.
+
+V1 LISTING MIGRATION
+
+A pwt-sale-v4 listing confirmed before activation of this corrective declaration remains historical protocol state.
+
+If that listing was valid at its own confirmation under the V1 listing-admission rules, its committed WORK amount, proof price, USD face unit, and listing-time network value become frozen terms.
+
+Such a listing may be sealed or purchased after activation through a pwt-sale-v5 action referencing the original listing.
+
+It must not be rejected because:
+
+1. the current network value exceeds its frozen unit price;
+2. its original USD quote later expired; or
+3. its historical face unit is not available for new pwt-sale-v5 listings.
+
+A pwt-sale-v4 listing that was invalid when confirmed remains invalid.
+
+After activation:
+
+1. new WORK listings must use pwt-sale-v5;
+2. new seals and purchases must use pwt-sale-v5;
+3. new pwt-sale-v5 listings may use only $20, $50, or $100;
+4. post-activation pwt-sale-v4 listings are invalid audit history only;
+5. pre-unit pwt-sale-v3 listings remain immutable relics;
+6. existing Marketplace V1 relic history remains immutable;
+7. non-WORK credits, POWB, and INCB retain their existing protocols.
+
+FAIL-CLOSED RULE
+
+A missing, stale, unauthorized, forked, hash-mismatched, position-mismatched, mathematically inconsistent, non-unit, insufficient-balance, unsigned, duplicated, overflowed, partially processed, or otherwise unverifiable action causes no canonical WORK balance, ownership, AMO listing, sale, Log, Growth, bond contribution, or network-value mutation.
+
+Only actions accepted by these deterministic state-order, compute-then-bond, and unit rules are canonical ProofOfWork Computer AMO actions.
+
+Confirmed canonical chain history is authoritative.
+
+Pending transactions provide visibility only.
