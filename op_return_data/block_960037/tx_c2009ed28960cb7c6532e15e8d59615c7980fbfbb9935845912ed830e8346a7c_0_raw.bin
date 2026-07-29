@@ -1,0 +1,28 @@
+BWB1
+{"f":"0004 - 64 - 3 John - 001-of-001.json","h":"a08e56bec93634bd88cb7ca1f18298d564e49d44a94487708ddea15272d7b78f","i":1,"n":1,"p":"bwb-kjv-v1","s":4,"t":"payload-fragment"}
+{
+  "book": {
+    "filename": "64 - 3 John.txt",
+    "name": "3 John",
+    "number": 64,
+    "sha256": "d56df8021af1274acba3bc0b3966e3f00b60f298e341f9d57f7b394b5ca86d5c",
+    "size": 1664
+  },
+  "chunk": {
+    "count": 1,
+    "data": "H4sIAAAAAAACA2VUy3LbOBC88yvmA1SqdR67iXzaxI7lrdTalagqZ5AcCohAjAoAreJtfyO/ly9JD0DJce1FFDHDnu6eGey2t7Tb3n+5odvH+6+7z7f08Kn552H777ppPm7/ftzdfqGrZocs9j1HmkIWypbpxN637OWJe7ozbkorOlkZ6Z70jFwoWTlO2a6bV/Shpq4QP7lkybSaZbxHmgv7hIfJ+JGJRjNzynSMko6oaEJPbQG0bHy2K+InDmT0k5mSTP6cylrqNX2SiCqRv4vrQG4f2WQ/Kz2upFrNjHjpzMgFP6OgGxyyZXjmXTm5tIjh3yuD58n4gxJ9KfUNalsDbUFqaUj4LrNiIU9URKzA40yddb5XJopVgCrI22e/SqletNBgXLbD5P0MLSYnAZ34e8LSmrO+VdUmlHI0Yc8xXTd/0jfrOlspthIDOuly4JSqdOVkosszPB8kcgHs7BQ7u6kNdkMt2Ub0jZBzMhG+FROcap0AOpMZVLmhvfRe2xTzoiVZdBGEywRtmr8gtTNT4moK8MjC8oDW/PzvR6JkDoUENHMocR2BbA5aPUiZnnPX7pDhPKd1846+la9iFSHT3hZ7InfsoDxNnaJoxRPT6DSMIRtASTAnHtOUznYuPXmvoxsl8/MOnH1pp0w3TnLko+W6CGULdISkWq3px8g8usChw9SNAt44HVdnUsiekkpaN1d/oE0L+ZU6fk+djFy3BzsTeeSx5WpVz9wn1CxtZR0FdegYTVZrzN64gNkANBptsV3edU70VWKfNmVGUBQFQlaHi2uauqLATt8AmQu0dWNiP1xc/P+wgXDr+r4oh7bFYexoX+OdSfkSFNi2dK46CeFXz5M/iDajcKswRSEE85Pzq2L6y/O9SL+m7TJJxYdypjHUuZO+tsq+yFA09Aj/tFJibCMyQeUV3cDmHHG31XjBQo8xgoqnl9d4Fv7i3nBZbdrQzKZGT3rVJcGIYfnhHpy/LoGZ6RAgsvDB5ixBZQwoBovX5T7p0bcwX+5KLA92lKsJy0wo+9JhFw4F+6j3iqZdBpY3zdUb+lC+AXzSp66jxy9E6Z4yL1fdQnsJH9kccP9gcIGkzzU9sr62vKwJTh7Af4iOQ69r66fMS+AOg18G6xJu57Lh6+YXnXFiwoAGAAA=",
+    "encoding": "gzip+base64",
+    "index": 1,
+    "raw_offset": 0,
+    "raw_sha256": "d56df8021af1274acba3bc0b3966e3f00b60f298e341f9d57f7b394b5ca86d5c",
+    "raw_size": 1664
+  },
+  "links": {
+    "previous_payload_hash": "1ac19a5ad25b764b702919698e5961d1c32feb00cb1217ba73974eaa3a26b6a9",
+    "previous_payload_role": "previous-mined-payload"
+  },
+  "payload_hash": "a08e56bec93634bd88cb7ca1f18298d564e49d44a94487708ddea15272d7b78f",
+  "project": "bible-kjv",
+  "protocol": "bwb-kjv-v1",
+  "sequence": 4
+}

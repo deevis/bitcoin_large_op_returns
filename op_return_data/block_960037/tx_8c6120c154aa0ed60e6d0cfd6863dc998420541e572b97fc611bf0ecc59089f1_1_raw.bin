@@ -1,0 +1,28 @@
+BWB1
+{"f":"0005 - 63 - 2 John - 001-of-001.json","h":"aa4f2d283c05e97a4fa1c4ec87bdac006b5f14426732e21134c7409bf6725fe6","i":1,"n":1,"p":"bwb-kjv-v1","s":5,"t":"payload-fragment"}
+{
+  "book": {
+    "filename": "63 - 2 John.txt",
+    "name": "2 John",
+    "number": 63,
+    "sha256": "3cc87a3d4ffe39e923b27a2b7a880f5ff8f0635c7d88b863d7e54a26f116c2f8",
+    "size": 1622
+  },
+  "chunk": {
+    "count": 1,
+    "data": "H4sIAAAAAAACA31UW27bMBD81yn2AILQNH33K0id2kWQFI2BftPSymQskwZJWdBfr9Hr9SQdLmVbAYoCgmBrX7Ozs7teLuhpcfv48IUW31dP6/sFPd4V3x6XD1VR3C5vvq8XP+iqWMONu4Y99TY6iprxl+tInWpGUrYhDVutTdd4tiUN2u1pRZ07Mhkr/tH3UX8WX+sijM52Y0mbPpLqgsOrS34jXiqSVojcWTfMg4vXdOf85cOfX78DBbXjVNDUmpqBu46jTjX7UEqxoFPmDdNgYOgDtUjBR/ZVcU1fvar5bBxdX9KefT3m0APDWlLr0cxX10jhO4W3z3YxpI/3zjf0jQOy32pvQizl85Oz5NoXYYmMBF3iEz1V8QZceH52puaGtp5V7CYSVsDaw09yjGd6aVDdztjtORnQBBo4k+a5ZnNEKkW12+9RZ882XrBmJFXxlm5kFAPKbDgwgz9Y0G+aaSlDQtqoXb/V8Bm8i4yklocXiU+C4DxLAZ6nIYhmLG14a6wF8HLy4iwQZ5EX5QTWO4EVtQmEJ9kv3qlvUm2E1JJ9hiJUtJ5CUqWZpYRBRWFonBjSrPy/YcEjoN+uyaXAr4lV8V5Uh4QjNZlcH0h5rIAFFDBtTjsxON81on5AsC2HIDQK/rk8KKM/70bbcdCXFtS5jshEWTwRjKbQqvgAubkdoST06gN3Rw5zRgNPRdMvEGm3YT4QEIBRYqZxPrCzblC87bEwngewVBUf6ScSubQwEJuyAQoNgUV0CdvGNGnhUsWpmcbV0RvMFLI9bQNqZB+sUUVLzlVPwf8L5By7gTxm8pXa04pVxdUrWsmaec60plGJLmWjk+/Gp4XJvIDhU6ny3LY2+6mJiViCEAIcLBupCKzilA5BODA3n4qrK1GGntqBh7TzwivN86B8xJXyqbFUnY+mw4i5CcD+mpbqmMCJwKZ5AcPgDfbt0gU2UJSZQGab3KyDOkx0GLv7JBNdpasAkUWX2XjJBFCpHbXp7uFzKxdO4Keen90IHGO6iEkFgHcNVfLl9EynKB//gBGhOBTBUU5ARTfYuar4C56rIHNWBgAA",
+    "encoding": "gzip+base64",
+    "index": 1,
+    "raw_offset": 0,
+    "raw_sha256": "3cc87a3d4ffe39e923b27a2b7a880f5ff8f0635c7d88b863d7e54a26f116c2f8",
+    "raw_size": 1622
+  },
+  "links": {
+    "previous_payload_hash": "a08e56bec93634bd88cb7ca1f18298d564e49d44a94487708ddea15272d7b78f",
+    "previous_payload_role": "previous-mined-payload"
+  },
+  "payload_hash": "aa4f2d283c05e97a4fa1c4ec87bdac006b5f14426732e21134c7409bf6725fe6",
+  "project": "bible-kjv",
+  "protocol": "bwb-kjv-v1",
+  "sequence": 5
+}

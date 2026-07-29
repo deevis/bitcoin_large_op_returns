@@ -1,0 +1,28 @@
+BWB1
+{"f":"0032 - 44 - Acts - 005-of-005.json","h":"9c9fbc3dcdcdf38def07a2db8af590575de5f74a277874349d16a640017a3362","i":1,"n":1,"p":"bwb-kjv-v1","s":32,"t":"payload-fragment"}
+{
+  "book": {
+    "filename": "44 - Acts.txt",
+    "name": "Acts",
+    "number": 44,
+    "sha256": "2fa413efdb12dc3b50f44a347a63c4c830eb0ebb360ce3f348e9fd7315fd8ba9",
+    "size": 132998
+  },
+  "chunk": {
+    "count": 5,
+    "data": "H4sIAAAAAAACA2VVy3LcNhC871fMB2yprFXih3SKXYksVVLlqhxyniVnF6gFARYALs0f8o/4x9wDgKuVciM5g0HPdE8zUMdTEgoH6oWzIetpkJvN7Sf6PGWajXjKRuhZ5kRp5JMQH9n6lMnmLT3RzIm6gPeIr9JTDsTjKOxo8nj+8vNH4vhAPmTU4YwThnsK09Hkktt1ev2wkOdsgweQm83uHf0VIvJtavAAIcohRMHps6BIx87hNnyiJUxbLZVE6jP7AiMBxYlmi6bw+Z72stYCjEOpj3JhLM0/pcjiUJgH2ocJFcrBCsGgNaC6pT+0spGFEtu+NmjssKX/hLxYBUlROrFnQHOSs8SEVrNe8Dz1P3+wjqqT6K0/aiHZXs6xXzRNMe2jZBPL4IG040EoGZlRE6AbB8g2HId2BITtdpUwAY/JYlCKTTiuGaCSlYIwaVP+JCnflylU/l5AoeEkHbhFqZMPc0UhZ4mLygGVLbhXMYQTMDY1AMBdGc+qmKXwDCkE6zOgY07E1POyrWTWvgZtpE4RyisPiVzoj8DyoIHZhAF9kHwflRUUKuwCvT1YKWzQCcl9KLN4DP2WRox94r7NeLhu71nSlLZgGNw2YrSC41kf/wlJUtXPVXCMYTSSEThE3DKENinrnI5FX9D9b6X7FNDUXpyVcwOnwz4m9GE7g5Gi8Tq4es3rfCwJKv3+Zo58jFKDEGdoTSVxZ8VaMnoZOWLIqHmA5ipj33hyhYNGVPDQQIi9qhXIq44U4dfgFno0ASu9X+hPSBuSuGq86jxMkQ6s1KXtZvee/uUFjW0x8RovwhkljE5aa0r1VyhQh7WohLGyRZItXt61K+U1poyPDzUi8upMklZSk0FuWbD7ze5DcwkpVRtfFxSq0Zm/Y3LHGFKjFck2ErITMajoJ5THMVNhvspZJFWzKSPuHLQBfA7KaxaAVXIF7GoV67FapizfdQSX1shLv9fx0sM6mlJ6LypdLF6lFoGnNWTUYFUH0MtH+lx2UpfVXzlloaWaY119zJPdebVZ3ZWyx+LzSqHQI96sk8u4uHU720YebsKdn140quNXlakjIjVVlVVp1t/GlTx1LqyM4F8Dq+QUyi691fXN5u5duaGIuJ/FAcZc3ADELoU//KiUbO3ZwO9QOMDd6x0XE1b5vLgojlw8e3N3S9+AoDPNJ/5nI9VoLgkhvVnmZivl7N9ouZoLfTHRJrVPpVbvR97B9oJkuH1Qy1Pf3du+OBSw3Gx+AfYubwaGBwAA",
+    "encoding": "gzip+base64",
+    "index": 5,
+    "raw_offset": 131072,
+    "raw_sha256": "12565ff94f50ec51a1f04564cc3e687de6a9fd78647d3764571902c58f2e4aa3",
+    "raw_size": 1926
+  },
+  "links": {
+    "previous_payload_hash": "285e31e89ef3abdbadf836ac13017cd7c9407f605d144413acab834863804f61",
+    "previous_payload_role": "previous-mined-payload"
+  },
+  "payload_hash": "9c9fbc3dcdcdf38def07a2db8af590575de5f74a277874349d16a640017a3362",
+  "project": "bible-kjv",
+  "protocol": "bwb-kjv-v1",
+  "sequence": 32
+}

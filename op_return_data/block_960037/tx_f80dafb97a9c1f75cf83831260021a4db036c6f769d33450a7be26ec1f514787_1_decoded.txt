@@ -1,0 +1,28 @@
+BWB1
+{"f":"0051 - 38 - Zechariah - 002-of-002.json","h":"bbe0b543d914de53225547501516a90a6d07371b820647256e6073dfceb293b6","i":1,"n":1,"p":"bwb-kjv-v1","s":51,"t":"payload-fragment"}
+{
+  "book": {
+    "filename": "38 - Zechariah.txt",
+    "name": "Zechariah",
+    "number": 38,
+    "sha256": "7d39e49ff32d526f9094cf3ce4a2d631108ae3a9f308922386271be7b807176f",
+    "size": 33613
+  },
+  "chunk": {
+    "count": 2,
+    "data": "H4sIAAAAAAACA51SzW7bMAy+9yn4AEGx7tSf07AF6B8aYEkPOzIJHRGVqUCUa/i219jr7UlKSbaztbeeLEvk90cSNNiyZ1IIDSRHQBiTg05SgHuKnaKnFuynD1EdH0vNA8thUU6Pq58/cqcLmnQB9EoC3TFIfmxBHXoPWwIJEJHl/OziEr7JHrhyFe4h9y8PwzHBIVhlMoAFoFXtQptbU6bCBA5fZ6Sb3B/pxJDhjh4PHS2gz089m41ZYs9Wpi2nWukI7SMVd6Ix3mz0hai6bAg1lVhwS1Fw50nNwRVsHOs75k5YXUuSZjPVwsfH3CWYOIh+hv7rF7gbde9xGFXULEzLFL2dvZ9H6mx0ZNO5XT3ePS3Xa3h+2qxgc7ss2dychIakwDKn9vf3n7U1d/pPzp5fquVt6I1hS02I9QJ9wmgCL+AXYVmFOGTIjHjapMyVL7o9uhOqC56FVOvefVis69I2Oh2qe8Vd5IZ3k7YSY3GCprA6b+sQlChDlpRYricNc4jvVslWrJ1MfUdBlLw2Yy41jjHY/0Sen70BR50l300DAAA=",
+    "encoding": "gzip+base64",
+    "index": 2,
+    "raw_offset": 32768,
+    "raw_sha256": "d21257e5506ef0e30b23fa5ca6ae61642fecc2bf2e5867e9d55bb2b8e21f59e5",
+    "raw_size": 845
+  },
+  "links": {
+    "previous_payload_hash": "ffea982cb921bde011f77a49b782623a23e40f30394858fbe646861cd67a3dde",
+    "previous_payload_role": "previous-mined-payload"
+  },
+  "payload_hash": "bbe0b543d914de53225547501516a90a6d07371b820647256e6073dfceb293b6",
+  "project": "bible-kjv",
+  "protocol": "bwb-kjv-v1",
+  "sequence": 51
+}

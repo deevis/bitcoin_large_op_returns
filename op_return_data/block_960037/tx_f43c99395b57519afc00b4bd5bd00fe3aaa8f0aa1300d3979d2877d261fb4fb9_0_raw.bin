@@ -1,0 +1,18 @@
+BWB1
+{"f":"0140 - 06 - Joshua - 003-of-004.json","h":"5ad0dddf7559f11839be53f127cf1a63c81e9f2a3cf1bbfe26a348c83818d495","i":3,"n":3,"p":"bwb-kjv-v1","s":140,"t":"payload-fragment"}
+gAAA",
+    "encoding": "gzip+base64",
+    "index": 3,
+    "raw_offset": 65536,
+    "raw_sha256": "654118d7ed2128e46536c6d2ae8dd26da576a2e8e68ed6e56be7d33e9627701f",
+    "raw_size": 32768
+  },
+  "links": {
+    "previous_payload_hash": "287f65855f21e2425713854037721cbd2a119ef44f7a22da7db314ace7b131f4",
+    "previous_payload_role": "previous-mined-payload"
+  },
+  "payload_hash": "5ad0dddf7559f11839be53f127cf1a63c81e9f2a3cf1bbfe26a348c83818d495",
+  "project": "bible-kjv",
+  "protocol": "bwb-kjv-v1",
+  "sequence": 140
+}
