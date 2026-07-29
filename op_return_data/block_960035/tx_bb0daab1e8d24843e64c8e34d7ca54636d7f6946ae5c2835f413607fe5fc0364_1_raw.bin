@@ -1,0 +1,28 @@
+BWB1
+{"f":"0023 - 47 - 2 Corinthians - 002-of-002.json","h":"408b50588fcca1ee8b731f7d41b8743364e23624efb882be53201dcdc33db6c2","i":1,"n":1,"p":"bwb-kjv-v1","s":23,"t":"payload-fragment"}
+{
+  "book": {
+    "filename": "47 - 2 Corinthians.txt",
+    "name": "2 Corinthians",
+    "number": 47,
+    "sha256": "cd11dc8cfa3f41bb1414cde4638c5f80e0aefad08269662e0fd083fcf72f1b25",
+    "size": 32968
+  },
+  "chunk": {
+    "count": 2,
+    "data": "H4sIAAAAAAACA0WOMQ7DMAwD5+YVfECRPxQZ0qEFOuQDrqPCAmwpsOUG+X3tLB20UCSPBVPIXOwKJyssEKJ+CfrBrOtf9JpSFVbpny7cNR6Yg/bkm7CzBRxa4WIccUsk4wBcluYs5LW10NYokWB65ifNLBbYScHu2mU2I8Ena8IrcORt48aHZzs69Ok8rSrsGu/AwlbLue5RvSvj8AMp8Hv6yAAAAA==",
+    "encoding": "gzip+base64",
+    "index": 2,
+    "raw_offset": 32768,
+    "raw_sha256": "c381ef2119190df3690a07528a9fa5a57eb0166221414654ddd2f856d6deda3f",
+    "raw_size": 200
+  },
+  "links": {
+    "previous_payload_hash": "314bc730ab97ebb1949efee7a227367a82baf05c2693d6cd7ae16bf88324aaf9",
+    "previous_payload_role": "previous-mined-payload"
+  },
+  "payload_hash": "408b50588fcca1ee8b731f7d41b8743364e23624efb882be53201dcdc33db6c2",
+  "project": "bible-kjv",
+  "protocol": "bwb-kjv-v1",
+  "sequence": 23
+}

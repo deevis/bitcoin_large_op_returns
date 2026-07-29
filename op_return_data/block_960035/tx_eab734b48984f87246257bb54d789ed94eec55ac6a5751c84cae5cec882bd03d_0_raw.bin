@@ -1,0 +1,28 @@
+BWB1
+{"f":"0132 - 09 - 1 Samuel - 005-of-005.json","h":"e47626480b0476129e38db55c7f78bedcdbde9d3ea0bd835db6bcea6e2a368d0","i":1,"n":1,"p":"bwb-kjv-v1","s":132,"t":"payload-fragment"}
+{
+  "book": {
+    "filename": "09 - 1 Samuel.txt",
+    "name": "1 Samuel",
+    "number": 9,
+    "sha256": "7597598459454fb6c22b58dfe78173244fd202cd85c680ce9b297be6ea682433",
+    "size": 132043
+  },
+  "chunk": {
+    "count": 5,
+    "data": "H4sIAAAAAAACA21TQXLbMAy86xV4gOKJ20vbnJxLpzl1pi+ATMjEhCI0BBWNf1+QlOU2ycUzIoDF7mIN2ROI/SRQdgQvkhzGHhRXyB4zlPpEEWSEX5qQAoyBXA8YXWv4g0uoX54VVKLCSonAEVqXTV9hlKQirxXqzJlJ23gBetqACH57DqyZIymccaJacCuFDBxLx3TovsHJHjm3hiwwoypIbCwlJVl7WD3FzxFtQHPiuVY1IMd+F1loLgb+n5zsE1ETNWIIhmtUJuvL8JPDIHjovldKFeC8ZLNprJO+yi84deNMbi9hMoS0FSkWeUasUArlyYx+Tz5VZjjIkvuqehms5osRzRrwsihto5yAnYTNZJwkXmrPTDIHOnTHxzvl2SjfOX1AO6nPmCweP25nMptQM0VqBg3irrCxX82hMvRM2T+ox2irjnXVfhGOHgfOGLOWzhccSP3DhYO5VSxLm3w7yer57D844a3PSaynLJd66o5f4GR7S+MbBjboGldjrdQcWIvHhVvki89bcm95rAJs53727dFCWp73TI9Jps9VNsBbvpqk9jYsKdZs1clUrP96t/5Gwc41mCLdZ5hcG7Kj298SIZcQmiX/YtcrlPy8mViHVz10fwHLfYBiywMAAA==",
+    "encoding": "gzip+base64",
+    "index": 5,
+    "raw_offset": 131072,
+    "raw_sha256": "b029e99461971d306be5ce652ab59a7e7f0bbdbddcebdae873b0540f59263309",
+    "raw_size": 971
+  },
+  "links": {
+    "previous_payload_hash": "9a1ced07f21f591ad9a3c04ba9cbfeff29649596493d1a99ff4532e4d6f03c3d",
+    "previous_payload_role": "previous-mined-payload"
+  },
+  "payload_hash": "e47626480b0476129e38db55c7f78bedcdbde9d3ea0bd835db6bcea6e2a368d0",
+  "project": "bible-kjv",
+  "protocol": "bwb-kjv-v1",
+  "sequence": 132
+}

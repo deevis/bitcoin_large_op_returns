@@ -1,0 +1,28 @@
+BWB1
+{"f":"0085 - 23 - Isaiah - 007-of-007.json","h":"239e51825afa87fcfdc46b681a95b60141e2297768bb08a04db2be2ae03ea6b0","i":1,"n":1,"p":"bwb-kjv-v1","s":85,"t":"payload-fragment"}
+{
+  "book": {
+    "filename": "23 - Isaiah.txt",
+    "name": "Isaiah",
+    "number": 23,
+    "sha256": "e164fc4772ad1d06645644affb771f9a1542fe6eca2b420cb840df8e39548721",
+    "size": 198070
+  },
+  "chunk": {
+    "count": 7,
+    "data": "H4sIAAAAAAACA3VUQW7cMAy85xV8QBA0aQ9teipQtEgQoEXRD9A2bQlri1tR3sXe+o1+ry/pSNZ6nQQ9LLCiaHJmOJQTmnxn6ZqEkw8D2dEH+fv7j1E/irlr4tBRckLc6OQDkjRcgpPOJtdkjseRGqFWg82T4FIHQULEHfvkSvLTtx+fb65u39MXjfRAu6DHHPeRjhp3di6Kc3I6Dy7ZPflUi7c6oVFynPDp0SMycG5A+XKBVStoGGaxj+dyp2cFctAEwE80jBpPwPOBPiFYi5okYjI/BOIJlXKFaflszSh11WRBI9byXkj7kkpzSFrYVkzArPSTozmf1fw+j0u1p7mrdLrIRQdq9Lhkzw3XrEc+cCjBnOANIyHuOaJdXz93fEAzxR/h2GViPWemQXzRp9yDclg5v5Kmk3bkeBHlQp2+SkgeXW+u7t4UnTafNTEbJv876RxxxMQj+vQYL4cMUUrGKkk2AOmcsljbsc17DeQ0mthC2wdqHUev6RIYfUoS67l8Mc2jbM+wbp/gQra0yA4+TsdTdmlIjBqPEmfjMU/0uS1RxcqhdX7sMglAfLDIstLcEEIlpnYUxA5ihhx/pujyQlQzVMPf3W4NxqMhk3cXx2S59tELUBcu+fwkB58yuZfbc3dXtqeiDXLMYz9IWLenxOCEBLMdnW/dufGEnudNjTJlORpBL4xdXssBkEtqGS3s05UG5RTgr1oCgN4Wds/2NGu/Z7Pq0D7qRBoWaJNiUrhnWLa8D4XyOcO4aTgD2SQsdfOvvEhrBzwaWKr9/1kA3LuXnh0065vquzaq7hbvlNlzbBkePI9vkrBZsRQ52BDzvKHFAPKWkHJf5rU+Y1Ptkxey85s1XMJLXu+BF6/lr1lC66R7tZC4g7e4wU5cNmhV4ObqH14CcDy2BQAA",
+    "encoding": "gzip+base64",
+    "index": 7,
+    "raw_offset": 196608,
+    "raw_sha256": "bc8ed0c10ec73d50d06d99d5436b60ab0ab4dd9f7fd5f27a8a51f7564d939906",
+    "raw_size": 1462
+  },
+  "links": {
+    "previous_payload_hash": "53f3ce38fff633d567ccaadf99f655aa78e96c432477e8767b8a3a8933ef6d75",
+    "previous_payload_role": "previous-mined-payload"
+  },
+  "payload_hash": "239e51825afa87fcfdc46b681a95b60141e2297768bb08a04db2be2ae03ea6b0",
+  "project": "bible-kjv",
+  "protocol": "bwb-kjv-v1",
+  "sequence": 85
+}

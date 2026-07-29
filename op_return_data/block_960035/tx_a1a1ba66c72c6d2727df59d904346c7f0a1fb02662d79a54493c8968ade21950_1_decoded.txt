@@ -1,0 +1,28 @@
+BWB1
+{"f":"0137 - 07 - Judges - 004-of-004.json","h":"c3bcc1f0d29cc0ec31ab994ed2f7a2face6fdd1541fffb5185e7400e0ff5ba0b","i":1,"n":1,"p":"bwb-kjv-v1","s":137,"t":"payload-fragment"}
+{
+  "book": {
+    "filename": "07 - Judges.txt",
+    "name": "Judges",
+    "number": 7,
+    "sha256": "ea95656d1e82a91c42a5d86405658428d19124be514d811da7df1f5d3d1716d8",
+    "size": 100720
+  },
+  "chunk": {
+    "count": 4,
+    "data": "H4sIAAAAAAACA3VWy47cNhC871fwA+RFdmLnsT4EsQMkDgwEcHLxsUfsEZmhyAFJjaC/TzUf8/BuDgNIItldXV1dHJUMOad0GNRXVvVlyZmj25TmlGPYFJ85bmomx4Mir9v7GmbyKhvKCj+jHFmv9rLPPz487dSv2JkNb+oQFjzSHPwkH5T1hvY2k89JhYP6k/aczJvJOiYtm6MyOBBZqw0nJ3W2cbI+DT2XVkcfVq98kFyS0m0W+1YLFOQr0ueCtOTfx7BMJsvLrBafQ0Ex0nxSeP7bWBfMoFZjR6NsAryy7uQ84H0kT6Wi73tF2BocAqCeyBNlG7xK7LNKYWYJmU5MR9XzID6K8RLrA/t/abaNtZUj92wxjEf1xc4gqXKM06P0AqFGpj260ZHPwPK2YLmEQy2saJIGUK7Bs535/ZWDic5cCVjtmVOrtiwJoQnLaJHDmuAsRaIY/6I/ldaNpdh6PC2Hgx1Z1+g+ZMB7d6HqxOEEriKfQFDfdAjxgn1Qex5pSdxg48znv778VlDNpFEW+gcOTGcqRws8AuxTisQO6X5Q/xiuq+w0x9RruG8RWT2oP8LaVL4yVF+wVErkqcArQCLPJOgSs226rYwQmtYGA/WEJd829peHpx+vwq8ZgQ1H5iVllAr6RP8cRf8jf5MU65xGOrG+DdqET7V02QSWX2K40PGTFLlnKwoDh1vZPtl7AeCATJomGQ1Q9tyh3Am2xkQzcDitIQohJMM2qI9LTEgONKb1TlLIBCLDocxBLwCYfr60qNPygTFFWmorY5Bw7sCUcu9dUQF6XucTkiOxJFG4OjnMxHVgQ229DxHZk9VcycvmDbuhr5bQfVE+GDuZFeRU6EGQLyd1iGHuZ6s78AjS6ky2UAmEGwnzmffBk3l82H1XuwwKudY4hhnepKviX/WAK5O/hxLd2eIGK6FxTetn63mjqNP7h91T0RXkWLDI2FT+bC3n0kjJ0TgbxY9EHShEF7khbnkoZgo8ZcfGXUJ3OWvNI2WwDCO+3AIe1KXa4/C/uevhKXQX7G56lcSu3hAoto7jnsWDq0ZsVAcSYSBibB/gAtnEjrmY4ZKKTYb55OgyJtD8ahEP7F4tU+SGkGdIHl7K14WiehmEREfGEHQzWsWzEkexRRkfbC8mdFd+69JKsU4PiNRWX8ftmqU4G46JKzecm9y2YXFlhKbFuryBlOsl8+q9IeFT6DdEON5MND6OY4i6uFVopPll3nMcWqOayxQFaGE7zE2tpYE3V+Yq15m8gfQlepDQa0HQG/8a2qYT2di1brPlJh69sutixrW1e/tqdc1kNKLEdkeIVm9vsuFGfcBRqCxm2K5K+XAAQ24bvilClF2GukV9EeemGiB8pz4J2pBE1Vtq7rRSkn8bR+EW1VTAzzexpC9VfcWUZH+08p/DVrnI3xXeOD0+/Ad5AuOJcAkAAA==",
+    "encoding": "gzip+base64",
+    "index": 4,
+    "raw_offset": 98304,
+    "raw_sha256": "1c119b13a3055c3689eb9f7ad3134bdcbe3f27957e11125c7b7fb5f5ade124a9",
+    "raw_size": 2416
+  },
+  "links": {
+    "previous_payload_hash": "8cab60f7fcc15a28e6e1624a58b67cbd0144c8ec8913b5dfbef8a0a8a0786120",
+    "previous_payload_role": "previous-mined-payload"
+  },
+  "payload_hash": "c3bcc1f0d29cc0ec31ab994ed2f7a2face6fdd1541fffb5185e7400e0ff5ba0b",
+  "project": "bible-kjv",
+  "protocol": "bwb-kjv-v1",
+  "sequence": 137
+}

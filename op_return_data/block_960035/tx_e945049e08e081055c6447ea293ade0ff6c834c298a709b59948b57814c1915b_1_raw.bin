@@ -1,0 +1,28 @@
+BWB1
+{"f":"0012 - 57 - Philemon - 001-of-001.json","h":"57dba4b7f0a299054bce07243bf6a719ac3922b307541ce6e685a5cc8e86686c","i":1,"n":1,"p":"bwb-kjv-v1","s":12,"t":"payload-fragment"}
+{
+  "book": {
+    "filename": "57 - Philemon.txt",
+    "name": "Philemon",
+    "number": 57,
+    "sha256": "6abb71c8118eb96513a2902a1b268891aff2cbd915282ecc42874b7eda4bd8df",
+    "size": 2487
+  },
+  "chunk": {
+    "count": 1,
+    "data": "H4sIAAAAAAACA31W227jNhB9rr5iPkAw1rnsxXko3K2zcZHdGFsXiz5S8sjiRiIFkoqgt/5Gf69f0jOkZDtboE9xqLmcOWdmyP3Dhja77e/7xw093dNu/ccj7Z+y3cP2cfP56csiyz4+rHf7zVdaZvIxJ0Wd094admQr+o197+ljjaOAb+ZAe93aUI9ke0eFw092OfUmWNrVuuHWmvjpwMo1IxXc2Bc+JNeKm8YOjSpgAK/sitY4hWeMlSxp3XW1Vslh7cpadx0QiEVy97Y5aMmpki8AUFn3sCRtSJDVtve8yq7pk1Mli81o+2TfMU5yqpxt6ZM9xLD3SmpI4RDr0brDq7IX2Q1t8UmZZ2pHccupVc/aHKllE7QUXIkrk2oGNXrBAcPOqZGdz7NbegAZYh/tRpJCEyFKhzqnodZAH4CbauUDEA/K/YhmLjh+Uk1DXmkT/F32lva1CokH27a90aU6oxpTEiAWMWDAxFXFZehVQ8UY3VT5bKALH44TSH5hN9LRWgEhZwmhjqWBTPmTyEnYFtk7ureOBkYBqO3oGIi+2zFiLq2BaAnTJJEwkAseBakihsIO3PiJyak2Uo7JceXY1+iMhFb8Utstsvf0DX+5sg6nwt+xhlStPtYBwantAbpAv1zgRTew+W4jDpbUAHqqDkhf2Giommcf6E8OhNAR7D9//e2B6pkR36WGKdgzR90iJhaevGRUoN6AVU871TeJ4eM8AyAa6nn7P3O2yJZvkOYyfsSBnoI9PRn2upWGGGq08TZRXvDRhsBmar7CmoNfZcslGNLTaGho30l/DYCWJocxuZ2zlQ6qaKSKPkSE57OT4TRuLSZreYWo59QefKFCSLZKTRxmUSBeyRomtW7zxLUG7laDHjuYSXQEvJ4DDraHXDGs44CQ0H2I/ctzgNRBPrCCIU9qRw/EBX3IfUgLCfUmnRMdc3Mdre+4QdYb+gX1SnjbhxgVEQ4Thi0dLLiI/X+XUotFwYZBDfk6WsFAOg2E4mxAakliULX3OoyJ0EE3DYI0I4S9jXPSsatV5wX+masDd8oFYBetFVhVUDufM4PWlJIh4AWt0Vrm9S5bvqUvNukHPBLBvSi0cgSBpStL53yo5jE672jQUmqsljEJnRxrhIuD1ArIyOvU8fCe+a0ajGhq8OlEFtfP2fIdbauEvrTwFUnOFWMEULGRZX5ZEcC3o+emAl/vxb+WtYJkg7MGgzTlR91onzANiMw+quqikGAMgxLbTJUxMdj5AEnjQMZeGZxO4xKm/pp7EnseVGyjaoDVYW/qsMLMYsLDqSuwC8bTaAhFsUbggTpz70EVE/dnCiwVyVBrSLjIrt5gv6j8fIU2HNmJ4GRzznfKBZ+reRmmCY8L8+Izgi7pQb3IIsImq5DIlDwPjC0Y96YcbIXI8EpL2f/idm42lB/SokLBUXq5AeGLwpHo6jQ6uEY6oQkWLc+rrbHxLlnF7sTl6Xof5uAurulRrt7pipSotVxpmKSjFtYiNJgg0zWuN5krr5o+cOJk06mudkpWyTg9C07L9Ier6S67uqHPypWyMNdyjt+1/PMrtxLhsS9fBZqfJ6LRreTGbSbPCOghkP/zPBDQsYNiRb7TaKwFrfE0WGREP32b+iw+Ob7K9XvxUsrlTpv3+Xk4F9m/5g+Eo7cJAAA=",
+    "encoding": "gzip+base64",
+    "index": 1,
+    "raw_offset": 0,
+    "raw_sha256": "6abb71c8118eb96513a2902a1b268891aff2cbd915282ecc42874b7eda4bd8df",
+    "raw_size": 2487
+  },
+  "links": {
+    "previous_payload_hash": "89578cdfd79d7cf942b2dcedb25b4bfd918456fbdbb011c5ca23df3e5f6a3040",
+    "previous_payload_role": "previous-mined-payload"
+  },
+  "payload_hash": "57dba4b7f0a299054bce07243bf6a719ac3922b307541ce6e685a5cc8e86686c",
+  "project": "bible-kjv",
+  "protocol": "bwb-kjv-v1",
+  "sequence": 12
+}
