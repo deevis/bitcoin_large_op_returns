@@ -118976,5 +118976,24 @@
     "hasDecoded": true,
     "preview": "0x3b3d2367e24c0cfbd00cd3a0435a3166c028924b8282706486e67e5d7da0f496|depositor=bc1q7mn3t3zlnmc8qnthe5axulrgyx4vvwn9qw3ky7|",
     "blockDir": "block_960467"
+  },
+  {
+    "id": "block_960468_c6dcb4fb525be70265d01edc0b64ca1b16c3083508500bb0f77103c2a900b6b0_0",
+    "block": 960468,
+    "timestamp": 1785533157,
+    "date": "2026-07-31T21:25:57",
+    "txid": "c6dcb4fb525be70265d01edc0b64ca1b16c3083508500bb0f77103c2a900b6b0",
+    "vout": 0,
+    "size": 259,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "Foundry USA",
+    "fee": 774,
+    "feeRate": 2.01,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "bitcoin_payments   BTC Transaction Initiated \u2013 $800,000\n\n[Your Bitcoin transfer has been initiated.]\n\n\u2022 Amount: $800,000\n\n\u2022 To Wallet: bc1qhjn5su8y6hm0h4jjja6wa927grtfv6xt262ehh\n\n\n\n\n\u2022 Fee: $32\n\u2022 Fee W...",
+    "blockDir": "block_960468"
   }
 ]
