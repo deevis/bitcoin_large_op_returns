@@ -1,0 +1,45 @@
+pwm1:m:ProofOfWork.Me WORK Precision Protocol V2 and AMO Unit Protocol V8 Declaration
+network=livenet
+app=amo.proofofwork.me
+tokenId=d4e5ebf11d104d6a63fb74e42094364b25a5f7199a09e5c0e71408972466a8b8
+authorizationVersion=pwt-sale-v8
+transferVersion=send3
+globalPrecisionModel=canonical-work-subatoms-v2
+precisionMigrationModel=canonical-work-q8-to-q16-migration-v1
+amountStorageModel=work-subatoms-v2
+tokenStateModel=canonical-work-token-state-subatoms-v3
+workDecimals=16
+subatomsPerWork=10000000000000000
+maxSupplySubatoms=210000000000000000000000
+mintAmountSubatoms=10000000000000000000
+legacyAtomToSubatomScale=100000000
+unitIdentity=one historical atom is exactly 0.00000001 WORK and converts to exactly 100000000 subatoms; one subatom is exactly 0.0000000000000001 WORK
+allowedFaceProofs=25000
+unitModel=canonical-work-amo-proof-unit-v3
+stateOrderModel=canonical-proof-state-order-v1
+amountModel=canonical-work-amo-proof-unit-amount-v3
+bondTransitionModel=canonical-compute-then-bond-v1
+blockSequencerModel=canonical-work-amo-full-position-block-sequencer-v4
+workOracleModel=canonical-work-prefix-before-action-v1
+declarationAuthorityScriptPubKey=76a91499b91dd27a616a71c0a1e9db6a86ceb8cff284c588ac
+declarationRegistryAddress=1638Vn6KtmK8p5r4oGvAXq9nmZb1emU1DV
+declarationMinimumRegistryPaymentProofs=546
+declarationEvidenceRule=this declaration is valid only when its transaction is confirmed and canonical, input zero spends the declared authority scriptPubKey, the pinned registry output pays at least the declared minimum to the declared registry, and the pinned protocol output and record contain this exact declaration text
+declarationSelectionRule=the earliest exact valid declaration transaction by confirmed block height then transaction index is authoritative; its exact carrier and qualifying registry payment outputs must each be unambiguous, and a later duplicate cannot move activation
+activation=the first confirmed block after this declaration transaction
+precisionRule=from activation, canonical current WORK maximum supply, mint increment, supply, balances, transfers, reservations, and listing amounts use exactly sixteen decimal places and canonical integer subatoms at 10000000000000000 subatoms per WORK; floating-point arithmetic, truncation to eight decimals, and magnitude-based scale inference are invalid
+precisionMigrationRule=at the activation opening boundary, each confirmed canonical current eight-decimal WORK atom becomes exactly 100000000 sixteen-decimal subatoms by integer multiplication; maximum supply, mint increment, supply, and every holder balance conserve exactly under that mapping; raw confirmed history is not rewritten
+transferRule=from activation, a new current-state WORK transfer is valid only as pwt1:send3:<token-id>:<amount-subatoms>:<recipient>; historical send and send2 bytes remain replayable evidence but cannot create a post-activation mutation
+newListingRule=from activation, a new WORK listing is valid only under pwt-sale-v8, must authorize the single face 25000 proofs, and freezes unitAmountSubatoms at its confirmed canonical position; every other face or authorization version is invalid for a new WORK listing mutation
+positionOrder=confirmed block height, then transaction index in that block, then protocol output index, then record ordinal
+arithmeticOrder=integer multiplication and division only; multiplication before division; floor and ceiling are applied only where explicitly declared
+unitFormulaDefinitions=F=25000 proof face; N=networkValueBeforeQ8; S=21000000 WORK; A=10000000000000000 subatoms per WORK; Q=100000000
+unitFormula=unitPriceSats=F;unitAmountSubatoms=floor(F*S*A*Q/N);unitMinimumPriceSats=ceil(unitAmountSubatoms*N/(S*A*Q))
+unitBounds=F must equal the positive integer 25000; N must be positive; unitAmountSubatoms must be between 1 and S*A inclusive; unitMinimumPriceSats must be positive and no greater than F
+confirmationRule=the 25000-proof face is authorized before broadcast; the exact subatom amount, price, minimum, N-before, listing position, and bond transition are derived and frozen only at confirmed canonical position
+computeThenBondRule=derive listing terms from N-before after every earlier canonical protocol event; after successful validation add this listing record's distinct registry-payment contribution to its record-level N-after; apply each transaction's miner-fee contribution exactly once after all protocol records in that transaction and before the next transaction
+networkValuePrecisionRule=network value remains exact Q8 integer proof accounting at Q=100000000; Q8 network-value precision is independent from Q16 WORK quantity precision
+settlementRule=a confirmed V8 listing may be sealed or purchased only with its frozen terms; settlement never selects a current value and never reprices
+readinessFailureRule=declaration-evidence mismatch, incomplete precision migration or replay, exact-tip disagreement, scale mismatch, conservation failure, or disabled protocol writes pauses official preparation and broadcast admission; no legacy precision or listing protocol is re-enabled after activation
+validationFailureRule=a face other than 25000, nonpositive N-before, zero or over-supply derived amount, derived field in the signed authorization, insufficient WORK subatoms, noncanonical integer, wrong-era wire record, or arithmetic mismatch makes the new mutation invalid
+implementationRule=the open-source ProofOfWork.Me computer enforces these exact rules from canonical ProofOfWork state; no external price feed or recurring on-chain price publication is required

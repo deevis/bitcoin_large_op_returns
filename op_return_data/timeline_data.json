@@ -119375,5 +119375,43 @@
     "hasDecoded": true,
     "preview": "pwt1:list5:eyJhbW91bnRNb2RlbCI6ImNhbm9uaWNhbC1jb25maXJtZWQtcG9zaXRpb24tZGVyaXZlZC13b3JrLWFtb3VudC12MSIsImFuY2hvclNjcmlwdFB1YktleSI6IjUxMjA5MTY2MjMyMjRiM2I2YmFjYzQwY2VhYmVlMjJhNDhmMTBkMWYzN2U0ZjBiNWZjY...",
     "blockDir": "block_960596"
+  },
+  {
+    "id": "block_960600_f90e1faf572ef8253ca5959731b9d9e99c74bced4397380059878936712bee7a_3",
+    "block": 960600,
+    "timestamp": 1785607426,
+    "date": "2026-08-01T18:03:46",
+    "txid": "f90e1faf572ef8253ca5959731b9d9e99c74bced4397380059878936712bee7a",
+    "vout": 3,
+    "size": 5593,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "SpiderPool",
+    "fee": 6223,
+    "feeRate": 1.0,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "pwm1:m:ProofOfWork.Me WORK Precision Protocol V2 and AMO Unit Protocol V8 Declaration\nnetwork=livenet\napp=amo.proofofwork.me\ntokenId=d4e5ebf11d104d6a63fb74e42094364b25a5f7199a09e5c0e71408972466a8b8\nau...",
+    "blockDir": "block_960600"
+  },
+  {
+    "id": "block_960600_f90e1faf572ef8253ca5959731b9d9e99c74bced4397380059878936712bee7a_1",
+    "block": 960600,
+    "timestamp": 1785607426,
+    "date": "2026-08-01T18:03:46",
+    "txid": "f90e1faf572ef8253ca5959731b9d9e99c74bced4397380059878936712bee7a",
+    "vout": 1,
+    "size": 111,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "SpiderPool",
+    "fee": 6223,
+    "feeRate": 1.0,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "pwm1:s:UHJvb2ZPZldvcmsuTWUgV09SSyBQcmVjaXNpb24gUHJvdG9jb2wgVjIgYW5kIEFNTyBVbml0IFByb3RvY29sIFY4IERlY2xhcmF0aW9u",
+    "blockDir": "block_960600"
   }
 ]
