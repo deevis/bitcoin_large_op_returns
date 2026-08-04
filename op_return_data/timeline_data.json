@@ -119774,5 +119774,24 @@
     "hasDecoded": false,
     "preview": null,
     "blockDir": "block_961038"
+  },
+  {
+    "id": "block_961042_f4dbd4c7082ded02149f1407fb3d34c65d035a66b5188f9bab1461dbc260430b_1",
+    "block": 961042,
+    "timestamp": 1785860879,
+    "date": "2026-08-04T16:27:59",
+    "txid": "f4dbd4c7082ded02149f1407fb3d34c65d035a66b5188f9bab1461dbc260430b",
+    "vout": 1,
+    "size": 120,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "Marathon Digital",
+    "fee": 507,
+    "feeRate": 2.1,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "0x1af4af9005710c223de4ab04b94626b948b516a81be9901bdc4313aebe57a74f|depositor=bc1q480fyxsmeuemqgryp7qjxdj022znqykwqjwav9|",
+    "blockDir": "block_961042"
   }
 ]
