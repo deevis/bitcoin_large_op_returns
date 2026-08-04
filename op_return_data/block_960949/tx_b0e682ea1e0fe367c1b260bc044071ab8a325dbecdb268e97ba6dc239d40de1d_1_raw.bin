@@ -1,0 +1,64 @@
+ACMEimage/svg+xmlALMOST‡X|¢ÙÚì÷½M„Gan`aŠ9á9+£jáŸƒÏ<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  ALMOST
+
+  Instance: 1000 x 700 mm, intended viewing distance 1500 mm.
+  Units are millimetres of the physical output. 1:1.
+
+  Every mark in this piece is specified in ARCMINUTES, not millimetres.
+  The work has a fixed size on the retina; only the paper changes.
+
+      gap             0.5'
+      line weight     0.8'
+      dot diameter    8.0'
+
+  At 1500 mm one arcminute subtends 0.436332 mm, giving
+
+      gap             0.218166156 mm
+      stroke          0.349065850 mm
+      dot radius      1.745329252 mm
+
+  Human gap-detection threshold sits near one arcminute. The gap here is
+  half that: not invisible, but below the point at which the eye can
+  commit. You cannot resolve whether they touch. You can only decide.
+
+  Because the gap is angular, it cannot be scaled. Printing this file at
+  three metres wide does not produce this work â€” it produces a dot
+  floating above a line. Each format is a different file. Use the
+  generator to derive the correct instance for a given size and distance.
+
+  The line runs from -20 to 1020: it bleeds past both trims at any crop.
+  It is a surface, not an object. It does not end. Only the dot is
+  withheld.
+
+  Render with antialiasing. shape-rendering="crispEdges" will snap the
+  gap out of existence and destroy the piece.
+
+  On a screen the gap is narrower than a pixel, and antialiasing paints
+  the seam a grey that is the area-weighted average of ink and paper.
+  The screen cannot show almost-touching, so it shows the mean of
+  touching and not. It answers the question the print refuses to ask.
+  The work is the print; the screen is its average.
+
+  No wall text. Title only.
+
+  COLOPHON
+-->
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 1000 700"
+     width="1000mm" height="700mm"
+     shape-rendering="geometricPrecision">
+
+  <title>Almost</title>
+  <desc>A horizontal black line running off both edges of a white field. A small black dot hovers directly above its centre, separated by half an arcminute â€” a gap too small for the eye to confirm.</desc>
+
+  <rect x="-1" y="-1" width="1002" height="702" fill="#ffffff"/>
+
+  <line x1="-20" y1="420" x2="1020" y2="420"
+        stroke="#000000"
+        stroke-width="0.349065850"/>
+
+  <circle cx="500" cy="417.861971666307" r="1.745329252"
+          fill="#000000"/>
+
+</svg>
