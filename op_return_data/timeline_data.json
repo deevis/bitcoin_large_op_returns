@@ -120249,5 +120249,24 @@
     "hasDecoded": true,
     "preview": "Your state of mind has no bearing on the structure you entered. The transaction is not a memory held by a witness who can forget, die, recant or be discredited; it is an event copied across a public r...",
     "blockDir": "block_961276"
+  },
+  {
+    "id": "block_961280_0dd000c5c4116c0ef006adbcd964bd6e5da142ca3bf935b5e0bbff1b7ebd0d81_1",
+    "block": 961280,
+    "timestamp": 1786012522,
+    "date": "2026-08-06T10:35:22",
+    "txid": "0dd000c5c4116c0ef006adbcd964bd6e5da142ca3bf935b5e0bbff1b7ebd0d81",
+    "vout": 1,
+    "size": 120,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "Foundry USA",
+    "fee": 1778,
+    "feeRate": 7.35,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "0x96764778a61abcacb8011754b2ba7bc11b645ab3133a816613700c7a9c3da885|depositor=bc1q6w5gkmhsfnrsndlkcgu0rptreksevxt8g2x9g6|",
+    "blockDir": "block_961280"
   }
 ]
