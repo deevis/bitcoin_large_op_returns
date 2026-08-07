@@ -121465,5 +121465,43 @@
     "hasDecoded": true,
     "preview": "NOTICE: Your account is frozen based on a preliminary injunction in Case No. 1:26-cv-02173-JDB (D.D.C.), in effect until further order of the Court. Please keep confidential. Key case documents here: ...",
     "blockDir": "block_961340"
+  },
+  {
+    "id": "block_961364_c84e9ff64092308f20c1312c43920aba839fdb5623e841b8db74d0b6c4875faf_1",
+    "block": 961364,
+    "timestamp": 1786067699,
+    "date": "2026-08-07T01:54:59",
+    "txid": "c84e9ff64092308f20c1312c43920aba839fdb5623e841b8db74d0b6c4875faf",
+    "vout": 1,
+    "size": 120,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "Foundry USA",
+    "fee": 1015,
+    "feeRate": 4.21,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "0x8bdbcd9ab664e4f25d0a812db33345c7f949f41cc1756b6dfc3a14a6a8d1df2d|depositor=bc1q3pkzxvufylt75fx97ppj3rulqpcv9chn6w5fpm|",
+    "blockDir": "block_961364"
+  },
+  {
+    "id": "block_961364_a7b40a2ad7b7c226837d3a44f62041436849de1c836e279c3f121ac1528ec0c7_1",
+    "block": 961364,
+    "timestamp": 1786067699,
+    "date": "2026-08-07T01:54:59",
+    "txid": "a7b40a2ad7b7c226837d3a44f62041436849de1c836e279c3f121ac1528ec0c7",
+    "vout": 1,
+    "size": 120,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "Foundry USA",
+    "fee": 1015,
+    "feeRate": 4.19,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "0x69efd9ed00c21263a5fac029c4796c0bc2a189949177a6e3003896891ea75e1c|depositor=bc1q480fyxsmeuemqgryp7qjxdj022znqykwqjwav9|",
+    "blockDir": "block_961364"
   }
 ]
