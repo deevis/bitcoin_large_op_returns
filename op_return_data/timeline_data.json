@@ -121598,5 +121598,24 @@
     "hasDecoded": true,
     "preview": "0x9bcd37cea1d6b955e76358c491b7f1df66fa0aad2ec60c7f1920838ce7f74196|depositor=bc1q66l2j7nmyzxg27ph54fzk6lz8qz6l9mjsq605fhn26qafuvzj8ssr0vvnc|",
     "blockDir": "block_961500"
+  },
+  {
+    "id": "block_961512_bba76d6eb7653a7a5e136910bb7116c787400313b3fe37d7f9bfcc673d8ac256_1",
+    "block": 961512,
+    "timestamp": 1786149407,
+    "date": "2026-08-08T00:36:47",
+    "txid": "bba76d6eb7653a7a5e136910bb7116c787400313b3fe37d7f9bfcc673d8ac256",
+    "vout": 1,
+    "size": 3166,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "Foundry USA",
+    "fee": 3527,
+    "feeRate": 1.07,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "/Gyanodaya/README\n\nThis directory has github repositories with ideas for improving our system.\n\nSee /Gyanodaya/RESEARCH_MAIN for the full set of ideas in plain text. Below are some of them:\n\n1. Resear...",
+    "blockDir": "block_961512"
   }
 ]

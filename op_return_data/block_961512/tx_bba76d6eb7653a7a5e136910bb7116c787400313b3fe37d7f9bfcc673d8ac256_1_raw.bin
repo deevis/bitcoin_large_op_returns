@@ -1,0 +1,23 @@
+/Gyanodaya/README
+
+This directory has github repositories with ideas for improving our system.
+
+See /Gyanodaya/RESEARCH_MAIN for the full set of ideas in plain text. Below are some of them:
+
+1. Research Idea: Take sha256 hashes of data, and train a model to predict what the next sha256 hash would be in that blockchain. Then, we try to mine that predicted hash. The idea is that hash functions are unbiased, so we assume that they preserve the entropy and meanings within data.
+
+2. Research Idea: How can we achieve infinite lossless compression? Imagine having a signature that if we feed into some function, we get back the original data. Could we do something with data streams? Can we remember HOW the data flowed, plus what it looked like at the end, and reverse engineer it? Like storing data in computation. Larger data will take longer time to go through that formula.
+
+3. Research Idea: Prime number equivalents in languages. These are words that cannot be further broken down. These help us form statements. Can this perspective help us create better ways of compressing language?
+
+4. Research Idea: Can we get people to agree on vocabulary? What if there was a way to keep out new words until the network has aligned on the new words? Could this simplify AI?
+
+5. Research Idea: Given an AI model, find a way for a targeted weight change, to add or remove ideas from the model. Like saying - I don't want the model to know what <xyz> is anymore. Delete an idea from the model. Or change its opinion on something. Without doing a lot of work. Like - I want the model to think that <xyz> is positive/negative, and update the model weights instantly. Is this possible? Maybe, we do a few inferences first to identify the parts of the model responsible for that concept, then we tweak those specific parts of the model fast.
+
+6. Research Idea: We edit dates of events in a timeline. This allows us to mine intelligence by asking questions like - what if B happened before A? By modeling and rotating timelines, we may discover optimal ways of thinking.
+
+7. Research Idea: Continuous sequential reads. No matter what. Imagine an OS that just does sequential reads over and over, and feeds data into the compute cores continuously. It is up to the user/network/agent to decide what data to put where for producing meaningful results. The goal is to maximize hardware performance, and the user simply rearranges the data in the sequence. Imagine this at the internet scale. Each user is projecting the timelines they prefer into the physical world.
+
+8. Mining: Instead of brute forcing numbers for a nonce, have the AI say the same thing over and over in different ways until the mining target is met, OR we've found the smallest nonce. The goal of compression is to produce the smallest number/nonce possible to establish semantic relationship. The coin that is the most real is the real coin.
+
+9. Information Market: People hash data & put it up for sale. They mine hash prefixes to signal what the data might contain. And people bid on hashes to have the data revealed. Seller can wait as long as they wants. Like taking a company public. IPO for information.
