@@ -122662,5 +122662,24 @@
     "hasDecoded": true,
     "preview": "Hey man, are you okay? I have a contact at the mining pool who can arrange a partial refund.",
     "blockDir": "block_962395"
+  },
+  {
+    "id": "block_962447_1ae6925feb90d2bde2ed923ee833a9e43a2276aa7489d7e8eb888ca7d3a20bfc_1",
+    "block": 962447,
+    "timestamp": 1786721089,
+    "date": "2026-08-14T15:24:49",
+    "txid": "1ae6925feb90d2bde2ed923ee833a9e43a2276aa7489d7e8eb888ca7d3a20bfc",
+    "vout": 1,
+    "size": 120,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "Foundry USA",
+    "fee": 1015,
+    "feeRate": 4.19,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "0xa5b300211002f6a82635437a42a336ea503c977262aba76a05a6c1080f99d99f|depositor=bc1qgm9wkedl3kyqjqglz5hrxwzyl87yvgkyjscj47|",
+    "blockDir": "block_962447"
   }
 ]
