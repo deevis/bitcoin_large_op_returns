@@ -130167,5 +130167,24 @@
     "hasDecoded": true,
     "preview": "pwt1:buy5:3366d7e7df03440902d86cfb1c16328b98e37ec669b56fa32cf7e1199db14bcc:19MXUmBgBN3nJr2V1yvEdysZBB8cYSaHk4:eyJhbW91bnRNb2RlbCI6ImNhbm9uaWNhbC13b3JrLWFtby1wcm9vZi11bml0LWFtb3VudC12MyIsImFuY2hvclNjcm...",
     "blockDir": "block_963628"
+  },
+  {
+    "id": "block_963629_b691de3657880d9a1eabd2783b1a9fa8c5313ced338495bf10e85727012d7a77_1",
+    "block": 963629,
+    "timestamp": 1787427938,
+    "date": "2026-08-22T19:45:38",
+    "txid": "b691de3657880d9a1eabd2783b1a9fa8c5313ced338495bf10e85727012d7a77",
+    "vout": 1,
+    "size": 252,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "Foundry USA",
+    "fee": 250,
+    "feeRate": 0.6,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "I made a Bitcoin puzzle using information contained in the genesis block created by Satoshi to generate the wallet.\n\nThe entropy is extremely low. I didn't even need to back anything up. Everything I ...",
+    "blockDir": "block_963629"
   }
 ]
