@@ -130186,5 +130186,43 @@
     "hasDecoded": true,
     "preview": "I made a Bitcoin puzzle using information contained in the genesis block created by Satoshi to generate the wallet.\n\nThe entropy is extremely low. I didn't even need to back anything up. Everything I ...",
     "blockDir": "block_963629"
+  },
+  {
+    "id": "block_963636_0b1042ae99a84427d143e3f2ef4aaa0e0df743728ce88df2928ebb16e2360c6f_1",
+    "block": 963636,
+    "timestamp": 1787434283,
+    "date": "2026-08-22T21:31:23",
+    "txid": "0b1042ae99a84427d143e3f2ef4aaa0e0df743728ce88df2928ebb16e2360c6f",
+    "vout": 1,
+    "size": 279,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "Unknown",
+    "fee": 2025,
+    "feeRate": 5.0,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "Hey @mattkratter,\n\nNow that BIP-110 fiasco is over, you can also use my new website https://blenkslate.io to share your thoughts and publish them on Bitcoin - so they never disappear!\n\nPlease give it ...",
+    "blockDir": "block_963636"
+  },
+  {
+    "id": "block_963636_98193fbbfd8aee3eff6614dab3ec1c4bdf6fcc4d21b515e2d65dc4e46ada367d_1",
+    "block": 963636,
+    "timestamp": 1787434283,
+    "date": "2026-08-22T21:31:23",
+    "txid": "98193fbbfd8aee3eff6614dab3ec1c4bdf6fcc4d21b515e2d65dc4e46ada367d",
+    "vout": 1,
+    "size": 491,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "Unknown",
+    "fee": 3702,
+    "feeRate": 6.0,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "> be me\n> bitcoin anon\n> open BIP110\n> \u201cfinally, a simple proposal\u201d\n\n> read 4 paragraphs\n> understand nothing\n\n> someone says \u201cit uses BLAKE2b\u201d\n\n> tfw I spent 6 hours learning SHA-256 for absolutely f...",
+    "blockDir": "block_963636"
   }
 ]
