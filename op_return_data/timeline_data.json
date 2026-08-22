@@ -130224,5 +130224,24 @@
     "hasDecoded": true,
     "preview": "> be me\n> bitcoin anon\n> open BIP110\n> \u201cfinally, a simple proposal\u201d\n\n> read 4 paragraphs\n> understand nothing\n\n> someone says \u201cit uses BLAKE2b\u201d\n\n> tfw I spent 6 hours learning SHA-256 for absolutely f...",
     "blockDir": "block_963636"
+  },
+  {
+    "id": "block_963639_b0b98b369706402a2a6448833251180aaa9c89eb41477c19023cc65ef557173b_1",
+    "block": 963639,
+    "timestamp": 1787438794,
+    "date": "2026-08-22T22:46:34",
+    "txid": "b0b98b369706402a2a6448833251180aaa9c89eb41477c19023cc65ef557173b",
+    "vout": 1,
+    "size": 140,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "Foundry USA",
+    "fee": 1643,
+    "feeRate": 6.27,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "0x60c45c66df280f0a26ca2b6e2f0d168aa8a5d0d8be75eb11066623520a7384e1|depositor=bc1pa0u0pjcrgu36renryw6kpalfddjj5u2nr37y87djh7n8y3y0r4asq9rkr5|",
+    "blockDir": "block_963639"
   }
 ]
