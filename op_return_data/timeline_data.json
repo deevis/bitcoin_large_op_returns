@@ -133036,5 +133036,24 @@
     "hasDecoded": true,
     "preview": "0x12633ceabd3b97adc928dba2f2724c3ea6e531906edca7181b381f9478bb364f|depositor=bc1qhyeawf7mavyqkvgcjs3wpmtym2a4nm9xqqyq3r|",
     "blockDir": "block_964369"
+  },
+  {
+    "id": "block_964373_ab2ad608f75b80aaf08c3e54aa64241463484e08c6fc9cbc6522a9850bf41755_1",
+    "block": 964373,
+    "timestamp": 1787883433,
+    "date": "2026-08-28T02:17:13",
+    "txid": "ab2ad608f75b80aaf08c3e54aa64241463484e08c6fc9cbc6522a9850bf41755",
+    "vout": 1,
+    "size": 881,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "Foundry USA",
+    "fee": 3255,
+    "feeRate": 3.0,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "GTDTEBTCSPECv1.0\nEncoding: UTF-8\nFields: schematxid, numeroUuid, fechaHoraEmision, serie, numeroDocumento, granTotal, moneda\nschematxid: the txid for this specific schema on the bitcoin blockchain\nnum...",
+    "blockDir": "block_964373"
   }
 ]
