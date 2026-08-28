@@ -133207,5 +133207,43 @@
     "hasDecoded": true,
     "preview": "jMq\u0003GTDTEBTCSPECv1.0\nEncoding: UTF-8\nFields: schematxid, numeroUuid, fechaHoraEmision, serie, numeroDocumento, granTotal, moneda\nschematxid: the txid for this specific schema on the bitcoin blockchain...",
     "blockDir": "block_964381"
+  },
+  {
+    "id": "block_964382_1308e6214cd1d9c48a47e144f86f755702d898106ab95990ed6da991f06d2bb4_1",
+    "block": 964382,
+    "timestamp": 1787889231,
+    "date": "2026-08-28T03:53:51",
+    "txid": "1308e6214cd1d9c48a47e144f86f755702d898106ab95990ed6da991f06d2bb4",
+    "vout": 1,
+    "size": 1301,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "SpiderPool",
+    "fee": 1588,
+    "feeRate": 1.01,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "pwt1:list5:eyJhbW91bnRNb2RlbCI6ImNhbm9uaWNhbC13b3JrLWFtby1wcm9vZi11bml0LWFtb3VudC12MyIsImFuY2hvclNjcmlwdFB1YktleSI6Ijc2YTkxNDQ3NTIxNDJiODNmYWYxM2Q1MjZhNTkyMTJmM2YyMjgwMTI4OTBkYmU4OGFjIiwiYW5jaG9yU2lnS...",
+    "blockDir": "block_964382"
+  },
+  {
+    "id": "block_964382_dafa5d64bdcb291f38683185b339a066662d0dfc0b4d536409229c3ca40d466d_1",
+    "block": 964382,
+    "timestamp": 1787889231,
+    "date": "2026-08-28T03:53:51",
+    "txid": "dafa5d64bdcb291f38683185b339a066662d0dfc0b4d536409229c3ca40d466d",
+    "vout": 1,
+    "size": 372,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "SpiderPool",
+    "fee": 498,
+    "feeRate": 1.0,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "person: Alain Robert Berger Novella\ndob: 1979-05-19\ncountry: Guatemala, Guatemala\nmother: Maria Eugenia Novella Wyld de Berger+1946-12-04\nfather: Fran\u00e7ois Robert Berger Dorion+1945-04-28\nsiblings: Fra...",
+    "blockDir": "block_964382"
   }
 ]
