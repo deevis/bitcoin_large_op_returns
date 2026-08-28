@@ -1,0 +1,15 @@
+jMqGTDTEBTCSPECv1.0
+Encoding: UTF-8
+Fields: schematxid, numeroUuid, fechaHoraEmision, serie, numeroDocumento, granTotal, moneda
+schematxid: the txid for this specific schema on the bitcoin blockchain
+numeroUuid: Canonicalized, 32 lowercase hex, no hyphens
+fechaHoraEmision: ISO 8601 timestamp with offset, drop the fractional seconds, do not round: yyyy-mm-ddThh:mm:ss-06:00
+serie: uppercase letters A-Z, 1-8 characters
+numeroDocumento: integer, no leading zeros
+granTotal: fixed 2 decimals, dot separator, no thousands sep
+moneda: ISO 4217 three letter currency code.
+Order: schematxid+numeroUuid+fechaHoraEmision+serie+numeroDocumento+granTotal+moneda
+Separator: Plus sign. ASCII 43, Unicode U+002B: "+"
+Canonical: join fields with separator, no trailing separator, no spaces
+Hash: SHA-256 of canonical string, lowercase hex
+Schema: GTDTEBTCSPECv1.0+<schematxid>+<numeroUuid>+<hash>

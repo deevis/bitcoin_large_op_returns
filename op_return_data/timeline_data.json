@@ -133169,5 +133169,43 @@
     "hasDecoded": true,
     "preview": "pwt1:seal5:289b72ff8d02b122928056c85c52dad73860c3c5807850569cf78b70d18098fa:eyJhbW91bnRNb2RlbCI6ImNhbm9uaWNhbC13b3JrLWFtby1wcm9vZi11bml0LWFtb3VudC12MyIsImFuY2hvclNjcmlwdFB1YktleSI6Ijc2YTkxNGY1NmEzYzZh...",
     "blockDir": "block_964374"
+  },
+  {
+    "id": "block_964381_9f95eb700b7126a94d7e66d244f53593bc47cc39051a2b73852fb2e11fe4a96a_1",
+    "block": 964381,
+    "timestamp": 1787888659,
+    "date": "2026-08-28T03:44:19",
+    "txid": "9f95eb700b7126a94d7e66d244f53593bc47cc39051a2b73852fb2e11fe4a96a",
+    "vout": 1,
+    "size": 885,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "F2Pool",
+    "fee": 3066,
+    "feeRate": 3.0,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "jMq\u0003GTDTEBTCSPECv1.0\nEncoding: UTF-8\nFields: schematxid, numeroUuid, fechaHoraEmision, serie, numeroDocumento, granTotal, moneda\nschematxid: the txid for this specific schema on the bitcoin blockchain...",
+    "blockDir": "block_964381"
+  },
+  {
+    "id": "block_964381_b5fa4ed4bebb471fcd69e003039ca26dc5c72998bc2dd039098e4e4afe62613d_0",
+    "block": 964381,
+    "timestamp": 1787888659,
+    "date": "2026-08-28T03:44:19",
+    "txid": "b5fa4ed4bebb471fcd69e003039ca26dc5c72998bc2dd039098e4e4afe62613d",
+    "vout": 0,
+    "size": 885,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "F2Pool",
+    "fee": 2024,
+    "feeRate": 2.0,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "jMq\u0003GTDTEBTCSPECv1.0\nEncoding: UTF-8\nFields: schematxid, numeroUuid, fechaHoraEmision, serie, numeroDocumento, granTotal, moneda\nschematxid: the txid for this specific schema on the bitcoin blockchain...",
+    "blockDir": "block_964381"
   }
 ]
