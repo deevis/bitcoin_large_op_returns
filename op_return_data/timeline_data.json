@@ -140237,5 +140237,24 @@
     "hasDecoded": true,
     "preview": "pwt1:seal5:15d6eb8630e6145b451738d334a8af085d66b888cd7ff93814126d6f115af2e5:eyJhbW91bnRNb2RlbCI6ImNhbm9uaWNhbC13b3JrLWFtby1wcm9vZi11bml0LWFtb3VudC12MyIsImFuY2hvclNjcmlwdFB1YktleSI6Ijc2YTkxNGRkMDkyODQ2...",
     "blockDir": "block_964886"
+  },
+  {
+    "id": "block_964889_fe6bfed8dfccca9c239db0ef9cd71b0a4327f6f59b736eb55da2f3131602b1f0_1",
+    "block": 964889,
+    "timestamp": 1788185759,
+    "date": "2026-08-31T14:15:59",
+    "txid": "fe6bfed8dfccca9c239db0ef9cd71b0a4327f6f59b736eb55da2f3131602b1f0",
+    "vout": 1,
+    "size": 100,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "F2Pool",
+    "fee": 554,
+    "feeRate": 2.1,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "shaswap replay guard: this transaction is intended for exactly one chain of a policy fork.\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "blockDir": "block_964889"
   }
 ]
