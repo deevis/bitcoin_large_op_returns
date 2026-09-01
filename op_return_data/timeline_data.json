@@ -144854,5 +144854,43 @@
     "hasDecoded": true,
     "preview": "pwt1:seal5:bbe5d04c4a688fa7be1bfb1236881eb7e75a831ad3f2b7d47e2a1e32cf917698:eyJhbW91bnRNb2RlbCI6ImNhbm9uaWNhbC13b3JrLWFtby1wcm9vZi11bml0LWFtb3VudC12MyIsImFuY2hvclNjcmlwdFB1YktleSI6IjUxMjAzYjViODhjMzQy...",
     "blockDir": "block_965055"
+  },
+  {
+    "id": "block_965060_b239d576d6f8944de10698288bf0920a9f478a5e23110b70f70d0ddc65cbc139_1",
+    "block": 965060,
+    "timestamp": 1788281722,
+    "date": "2026-09-01T16:55:22",
+    "txid": "b239d576d6f8944de10698288bf0920a9f478a5e23110b70f70d0ddc65cbc139",
+    "vout": 1,
+    "size": 100,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "SpiderPool",
+    "fee": 2216,
+    "feeRate": 8.39,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "shaswap replay guard: this transaction is intended for exactly one chain of a policy fork.\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "blockDir": "block_965060"
+  },
+  {
+    "id": "block_965060_24a18c14394b06315c077f0fcd8f2a83c3b10ea50ec80e0d670d7eebffd314bf_1",
+    "block": 965060,
+    "timestamp": 1788281722,
+    "date": "2026-09-01T16:55:22",
+    "txid": "24a18c14394b06315c077f0fcd8f2a83c3b10ea50ec80e0d670d7eebffd314bf",
+    "vout": 1,
+    "size": 112,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "SpiderPool",
+    "fee": 1476,
+    "feeRate": 6.31,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "0x5a8bb6abafd6b96b168a6424cd8f022dd575b669df363fa371b5dd08d36d56ac|depositor=1GrwDkr33gT6LuumniYjKEGjTLhsL5kmqC|",
+    "blockDir": "block_965060"
   }
 ]
