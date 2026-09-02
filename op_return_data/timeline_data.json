@@ -147096,5 +147096,43 @@
     "hasDecoded": true,
     "preview": "pwt1:seal5:8391a2886b78e38e5ba1e8c0186dc85987c6b9b503066ba36c5fe122f6d0a96c:eyJhbW91bnRNb2RlbCI6ImNhbm9uaWNhbC13b3JrLWFtby1wcm9vZi11bml0LWFtb3VudC12MyIsImFuY2hvclNjcmlwdFB1YktleSI6IjUxMjAzYjViODhjMzQy...",
     "blockDir": "block_965155"
+  },
+  {
+    "id": "block_965159_152ef14d2e95e09b57b9734b2d8e6268afb3e18429846b90bbae301f9cff8cad_0",
+    "block": 965159,
+    "timestamp": 1788346267,
+    "date": "2026-09-02T10:51:07",
+    "txid": "152ef14d2e95e09b57b9734b2d8e6268afb3e18429846b90bbae301f9cff8cad",
+    "vout": 0,
+    "size": 411,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "Marathon Digital",
+    "fee": 567,
+    "feeRate": 1.0,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "Owners Digital Signature - Confirmed; Replace-By-Fee - The Procedure Has Started; Refund Procedure Initiator: Mihai Sanduleanu; Executor: Bitsecure LTD; Recipient: Mihai Sanduleanu; Main Blockchain Wa...",
+    "blockDir": "block_965159"
+  },
+  {
+    "id": "block_965159_43d06f303302b8744dd6691a59813f6d29101fe604c9cae514ee93a529ac840d_1",
+    "block": 965159,
+    "timestamp": 1788346267,
+    "date": "2026-09-02T10:51:07",
+    "txid": "43d06f303302b8744dd6691a59813f6d29101fe604c9cae514ee93a529ac840d",
+    "vout": 1,
+    "size": 222,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "Marathon Digital",
+    "fee": 1000,
+    "feeRate": 2.91,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "I have been thinking about Arthur. Blasting through prairies barefoot after his dad found weed in his bedroom. I have been thinking about girls in latex spilling Campari, dancing to Loose Joints, doin...",
+    "blockDir": "block_965159"
   }
 ]
