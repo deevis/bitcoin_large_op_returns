@@ -148160,5 +148160,43 @@
     "hasDecoded": true,
     "preview": "pwt1:seal5:ddf960a7ff845cb6802ec9887773a45f2d2c39baa459b229c3c241291a618ede:eyJhbW91bnRNb2RlbCI6ImNhbm9uaWNhbC13b3JrLWFtby1wcm9vZi11bml0LWFtb3VudC12MyIsImFuY2hvclNjcmlwdFB1YktleSI6IjUxMjA2ZDk1N2I4NGY1...",
     "blockDir": "block_965205"
+  },
+  {
+    "id": "block_965212_b6474876a575512730d007ec824d1770af088d324253e9455263e754f5e515f3_1",
+    "block": 965212,
+    "timestamp": 1788376352,
+    "date": "2026-09-02T19:12:32",
+    "txid": "b6474876a575512730d007ec824d1770af088d324253e9455263e754f5e515f3",
+    "vout": 1,
+    "size": 140,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "Foundry USA",
+    "fee": 1370,
+    "feeRate": 5.23,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "0xf769a9465f745c8cff3441640d2bf9f52dbab66222e9686e158fb2ce9b949a55|depositor=bc1pydhdmu3urcyczjx0utxaagn47vms0jhjgs0kzd98h583gqwrq2zqkekm7p|",
+    "blockDir": "block_965212"
+  },
+  {
+    "id": "block_965212_94ccd33ff81c53c146b216aef1c27b62d8904b5ec9f85718d32dfe37c6f4fc80_4",
+    "block": 965212,
+    "timestamp": 1788376352,
+    "date": "2026-09-02T19:12:32",
+    "txid": "94ccd33ff81c53c146b216aef1c27b62d8904b5ec9f85718d32dfe37c6f4fc80",
+    "vout": 4,
+    "size": 405,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "Foundry USA",
+    "fee": 1308,
+    "feeRate": 2.0,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "A traveler reached a fork. One road was wide, bright, and crowded with songs of ease. The other was narrow, dark, and silent. He asked a beggar which to take. \"The wide road,\" said the beggar, \"will c...",
+    "blockDir": "block_965212"
   }
 ]
