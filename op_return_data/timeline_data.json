@@ -148369,5 +148369,24 @@
     "hasDecoded": true,
     "preview": "This transaction provides temporary replay protection against the BIP110 fork (Bitcoin-BLAKE2b) by including an OP_RETURN script that intentionally exceeds BIP110's current 83-byte limit.",
     "blockDir": "block_965251"
+  },
+  {
+    "id": "block_965271_1b1d0c0f9e8ae217e28659145c8708bd5296dc358dfc2180f0907232a293b211_1",
+    "block": 965271,
+    "timestamp": 1788418842,
+    "date": "2026-09-03T07:00:42",
+    "txid": "1b1d0c0f9e8ae217e28659145c8708bd5296dc358dfc2180f0907232a293b211",
+    "vout": 1,
+    "size": 140,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "Foundry USA",
+    "fee": 821,
+    "feeRate": 3.13,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "0xaa64f16dfd63793ab23377db9e5a51e1ce77b1d667b2a8cfb97c007f6f81c923|depositor=bc1pfxpqc8t5gk0a9dwfqhjxq0j8gafgv8zv4gngxdmjj36rt7emvk6snplpqq|",
+    "blockDir": "block_965271"
   }
 ]
