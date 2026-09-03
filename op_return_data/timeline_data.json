@@ -148274,5 +148274,24 @@
     "hasDecoded": true,
     "preview": "0x959302a49bbe46f9a1a8f899f3252bd4f0a854a32ac3b538e82fa36152953a0d|depositor=bc1q480fyxsmeuemqgryp7qjxdj022znqykwqjwav9|",
     "blockDir": "block_965227"
+  },
+  {
+    "id": "block_965245_f9ae3059190b219b3d31a938de0c4d3d5231f80b913ed156de501e910aea472f_2",
+    "block": 965245,
+    "timestamp": 1788400897,
+    "date": "2026-09-03T02:01:37",
+    "txid": "f9ae3059190b219b3d31a938de0c4d3d5231f80b913ed156de501e910aea472f",
+    "vout": 2,
+    "size": 313,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "F2Pool",
+    "fee": 198,
+    "feeRate": 0.38,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "He unilaterally activated a softfork with zero consensus, failed, then hardforked and swapped the PoW \u2014 and still acts like Bitcoin is the illegitimate chain. Nobody signed on. Nobody signaled. Nobody...",
+    "blockDir": "block_965245"
   }
 ]
