@@ -149281,5 +149281,24 @@
     "hasDecoded": true,
     "preview": "Bitcoin / Bitcoin Blake coin split created with BTC-BLAKE Coin Splitter v1. BIP-110 incompatible #1.",
     "blockDir": "block_965354"
+  },
+  {
+    "id": "block_965356_b15fb851d30536753770018c0127af8c7b26adfaf7e3f7a35f45566e774cb34b_0",
+    "block": 965356,
+    "timestamp": 1788460167,
+    "date": "2026-09-03T18:29:27",
+    "txid": "b15fb851d30536753770018c0127af8c7b26adfaf7e3f7a35f45566e774cb34b",
+    "vout": 0,
+    "size": 562,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "Foundry USA",
+    "fee": 718,
+    "feeRate": 1.0,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "Replace-By-Fee - The Procedure Has Been Completed; Refund Procedure Initiator: Mihai Sanduleanu; Executor: Bitsecure LTD; Recipient: Mihai Sanduleanu; Main Blockchain Wallet: bc1q9wsffxq6wcrs8pmsyz5sk...",
+    "blockDir": "block_965356"
   }
 ]
