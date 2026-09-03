@@ -149262,5 +149262,24 @@
     "hasDecoded": true,
     "preview": "0x566e00e6a6b23936f8a150802bbad25677a19d871c7e156797ec10becd0f227d|depositor=bc1qwu4jeyh0fy8afsnprqkt2sgqrzuh87n6p0lkzu|",
     "blockDir": "block_965352"
+  },
+  {
+    "id": "block_965354_2135d9295466cebf64c4259d366e6aae894822ea33fba140eb31ed7aed9c7ba7_1",
+    "block": 965354,
+    "timestamp": 1788459747,
+    "date": "2026-09-03T18:22:27",
+    "txid": "2135d9295466cebf64c4259d366e6aae894822ea33fba140eb31ed7aed9c7ba7",
+    "vout": 1,
+    "size": 100,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "F2Pool",
+    "fee": 444,
+    "feeRate": 2.0,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "Bitcoin / Bitcoin Blake coin split created with BTC-BLAKE Coin Splitter v1. BIP-110 incompatible #1.",
+    "blockDir": "block_965354"
   }
 ]
