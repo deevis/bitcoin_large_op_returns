@@ -1,0 +1,1 @@
+This transaction provides temporary replay protection against the BIP110 fork (Bitcoin-BLAKE2b) by including an OP_RETURN script that intentionally exceeds BIP110's current 83-byte limit.
