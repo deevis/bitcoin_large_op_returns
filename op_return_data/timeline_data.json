@@ -149300,5 +149300,24 @@
     "hasDecoded": true,
     "preview": "Replace-By-Fee - The Procedure Has Been Completed; Refund Procedure Initiator: Mihai Sanduleanu; Executor: Bitsecure LTD; Recipient: Mihai Sanduleanu; Main Blockchain Wallet: bc1q9wsffxq6wcrs8pmsyz5sk...",
     "blockDir": "block_965356"
+  },
+  {
+    "id": "block_965366_80354ae1401a69300b84c1ed2da90e8ad3fde33d10aea816d950067ea491cb30_1",
+    "block": 965366,
+    "timestamp": 1788466615,
+    "date": "2026-09-03T20:16:55",
+    "txid": "80354ae1401a69300b84c1ed2da90e8ad3fde33d10aea816d950067ea491cb30",
+    "vout": 1,
+    "size": 140,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "Foundry USA",
+    "fee": 1370,
+    "feeRate": 5.23,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "0x0c2a6d458d9fe3970c63e7d139dd442896419faa37adca307c4e0c8a011bade6|depositor=bc1pm7fn2pr937a9f2grclpw62jhhh3qckz3cjs73wqkz90wt8srh4mszasmfw|",
+    "blockDir": "block_965366"
   }
 ]
