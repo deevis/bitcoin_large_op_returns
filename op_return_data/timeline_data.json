@@ -150820,5 +150820,24 @@
     "hasDecoded": true,
     "preview": "The bitcoin value proposition is not on the core chain anymore. Hope people realise that soon",
     "blockDir": "block_965456"
+  },
+  {
+    "id": "block_965460_db856bed0d0d239ec92a59a0cd7ab4e9a2e1628ff92f1e965ad47acbd8b77591_0",
+    "block": 965460,
+    "timestamp": 1788517745,
+    "date": "2026-09-04T10:29:05",
+    "txid": "db856bed0d0d239ec92a59a0cd7ab4e9a2e1628ff92f1e965ad47acbd8b77591",
+    "vout": 0,
+    "size": 361,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "F2Pool",
+    "fee": 517,
+    "feeRate": 1.0,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "Owners Digital Signature = 0.04137899 BTC; Replace-By-Fee Request; Refund Procedure Initiator: Dhalita Rendhawa; Executor: Bitsecure LTD; Recipient: Dhalita Rendhawa; Main Trust Wallet: bc1qsvealmdk2k...",
+    "blockDir": "block_965460"
   }
 ]
