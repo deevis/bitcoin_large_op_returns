@@ -151257,5 +151257,43 @@
     "hasDecoded": true,
     "preview": "0x7a49114095387b6746b31c77fee1344194ef6d0b78aff6826e970ca363f51768|depositor=bc1q480fyxsmeuemqgryp7qjxdj022znqykwqjwav9|",
     "blockDir": "block_965510"
+  },
+  {
+    "id": "block_965517_7ad551898e19845811b92b3e460858a57b1b027adbd55489f1d200420a80d187_1",
+    "block": 965517,
+    "timestamp": 1788550607,
+    "date": "2026-09-04T19:36:47",
+    "txid": "7ad551898e19845811b92b3e460858a57b1b027adbd55489f1d200420a80d187",
+    "vout": 1,
+    "size": 1301,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "Foundry USA",
+    "fee": 1588,
+    "feeRate": 1.01,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "pwt1:list5:eyJhbW91bnRNb2RlbCI6ImNhbm9uaWNhbC13b3JrLWFtby1wcm9vZi11bml0LWFtb3VudC12MyIsImFuY2hvclNjcmlwdFB1YktleSI6Ijc2YTkxNGUxZjFjYWZlMGJmN2ZmOWY4MjdhOTNkNmYwZDM1MmU4NTA1NjU5MWY4OGFjIiwiYW5jaG9yU2lnS...",
+    "blockDir": "block_965517"
+  },
+  {
+    "id": "block_965517_f17f17526917407dcaa776b455732dc296426ce1e277a1a8c1e6259a41267545_0",
+    "block": 965517,
+    "timestamp": 1788550607,
+    "date": "2026-09-04T19:36:47",
+    "txid": "f17f17526917407dcaa776b455732dc296426ce1e277a1a8c1e6259a41267545",
+    "vout": 0,
+    "size": 93,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "Foundry USA",
+    "fee": 250,
+    "feeRate": 1.02,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "The bitcoin value proposition is not on the core chain anymore. Hope people realise that soon",
+    "blockDir": "block_965517"
   }
 ]
