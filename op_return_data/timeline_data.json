@@ -153119,5 +153119,43 @@
     "hasDecoded": true,
     "preview": "0x32378c1b955415dd111f21fa1d37d729929a9ad17b79b8ab9079438fa9ff769d|depositor=bc1qz92gytgarlnsdnw87snsmwffhawme8pzv67ql2|",
     "blockDir": "block_965643"
+  },
+  {
+    "id": "block_965647_44318f3360b7ae874cabd70c773ff4581976316963e0430a721756a4cf6fb71f_1",
+    "block": 965647,
+    "timestamp": 1788631241,
+    "date": "2026-09-05T18:00:41",
+    "txid": "44318f3360b7ae874cabd70c773ff4581976316963e0430a721756a4cf6fb71f",
+    "vout": 1,
+    "size": 1640,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "Foundry USA",
+    "fee": 1893,
+    "feeRate": 1.01,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "pwt1:seal5:f633f2270b5ad2031afb9f6ee11bdd26802e37d784deaf9a21123885c1029f5d:eyJhbW91bnRNb2RlbCI6ImNhbm9uaWNhbC13b3JrLWFtby1wcm9vZi11bml0LWFtb3VudC12MyIsImFuY2hvclNjcmlwdFB1YktleSI6Ijc2YTkxNDViMDMwNTQ5...",
+    "blockDir": "block_965647"
+  },
+  {
+    "id": "block_965647_fd8ca0ec94588c18fe2d59413fd108249d0657eb0096376a5b485c2648ead111_3",
+    "block": 965647,
+    "timestamp": 1788631241,
+    "date": "2026-09-05T18:00:41",
+    "txid": "fd8ca0ec94588c18fe2d59413fd108249d0657eb0096376a5b485c2648ead111",
+    "vout": 3,
+    "size": 230,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "Foundry USA",
+    "fee": 2115,
+    "feeRate": 2.65,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "LUKE IS A SHITCOINER LUKE IS A SHITCOINER LUKE IS A SHITCOINER LUKE IS A SHITCOINER LUKE IS A SHITCOINER LUKE IS A SHITCOINER LUKE IS A SHITCOINER LUKE IS A SHITCOINER LUKE IS A SHITCOINER LUKE IS A S...",
+    "blockDir": "block_965647"
   }
 ]
