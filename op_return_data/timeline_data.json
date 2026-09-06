@@ -155969,5 +155969,24 @@
     "hasDecoded": true,
     "preview": "So, so you think you can tell heaven from hell, blue skies from pain. Can you tell a green field from a cold steel rail? A smile from a veil? Do you think you can tell?",
     "blockDir": "block_965826"
+  },
+  {
+    "id": "block_965829_795872df9abeec31870d243fe52e5bb7c509b8b59f40b7bbd0143bd5b39ce065_0",
+    "block": 965829,
+    "timestamp": 1788727094,
+    "date": "2026-09-06T20:38:14",
+    "txid": "795872df9abeec31870d243fe52e5bb7c509b8b59f40b7bbd0143bd5b39ce065",
+    "vout": 0,
+    "size": 319,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "Foundry USA",
+    "fee": 1687,
+    "feeRate": 3.8,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "A blockchain is a distributed ledger with growing lists of records (blocks) that are securely linked together via cryptographic hashes. Each block contains a cryptographic hash of the previous block, ...",
+    "blockDir": "block_965829"
   }
 ]
