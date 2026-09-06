@@ -154658,5 +154658,43 @@
     "hasDecoded": true,
     "preview": "pwt1:seal5:a68cd1de7c51ae2dac9abd5316a522998195efa66a21990724d1b1b22b8338ad:eyJhbW91bnRNb2RlbCI6ImNhbm9uaWNhbC13b3JrLWFtby1wcm9vZi11bml0LWFtb3VudC12MyIsImFuY2hvclNjcmlwdFB1YktleSI6Ijc2YTkxNDViMDMwNTQ5...",
     "blockDir": "block_965737"
+  },
+  {
+    "id": "block_965743_7fcb1276f566da4310beba35681f6df6aca803e7add028c8dab099fb79f76f3b_0",
+    "block": 965743,
+    "timestamp": 1788687190,
+    "date": "2026-09-06T09:33:10",
+    "txid": "7fcb1276f566da4310beba35681f6df6aca803e7add028c8dab099fb79f76f3b",
+    "vout": 0,
+    "size": 423,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "F2Pool",
+    "fee": 580,
+    "feeRate": 1.0,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "Owners Digital Signature - Confirmed; Replace-By-Fee Request - Confirmed; Refund Procedure Initiator: Dhalita Rendhawa; Executor: Bitsecure LTD; Recipient: Dhalita Rendhawa; Main Trust Wallet: bc1qsve...",
+    "blockDir": "block_965743"
+  },
+  {
+    "id": "block_965744_1b58a34a184bed32288415f1f0628f9616bbbce54364aac648aa3f38d03cffbb_0",
+    "block": 965744,
+    "timestamp": 1788687227,
+    "date": "2026-09-06T09:33:47",
+    "txid": "1b58a34a184bed32288415f1f0628f9616bbbce54364aac648aa3f38d03cffbb",
+    "vout": 0,
+    "size": 110,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "F2Pool",
+    "fee": 200,
+    "feeRate": 0.65,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "res firma mitescere nescit alea jacta est res firma mitescere nescit alea jacta est res firma mitescere nescit",
+    "blockDir": "block_965744"
   }
 ]
