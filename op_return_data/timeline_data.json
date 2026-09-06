@@ -154525,5 +154525,43 @@
     "hasDecoded": true,
     "preview": "res firma mitescere nescit alea jacta est res firma mitescere nescit alea jacta est res firma mitescere nescit",
     "blockDir": "block_965732"
+  },
+  {
+    "id": "block_965734_20a2852811f9b897b3b7e86ae4269c2f5ba249b6611ea722bed1c6cf4d2a6c01_1",
+    "block": 965734,
+    "timestamp": 1788683182,
+    "date": "2026-09-06T08:26:22",
+    "txid": "20a2852811f9b897b3b7e86ae4269c2f5ba249b6611ea722bed1c6cf4d2a6c01",
+    "vout": 1,
+    "size": 1643,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "SpiderPool",
+    "fee": 1328,
+    "feeRate": 0.71,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "pwt1:seal5:240eea7dc754b34976aaa7e8467dd8e1631ec3b4dfff664988739dc8fc2d0bf9:eyJhbW91bnRNb2RlbCI6ImNhbm9uaWNhbC13b3JrLWFtby1wcm9vZi11bml0LWFtb3VudC12MyIsImFuY2hvclNjcmlwdFB1YktleSI6Ijc2YTkxNDViMDMwNTQ5...",
+    "blockDir": "block_965734"
+  },
+  {
+    "id": "block_965734_5dc51abc4c0289658f338110bcc4ad12d9213c1bae89e2c90b85a1e51bce1eb4_1",
+    "block": 965734,
+    "timestamp": 1788683182,
+    "date": "2026-09-06T08:26:22",
+    "txid": "5dc51abc4c0289658f338110bcc4ad12d9213c1bae89e2c90b85a1e51bce1eb4",
+    "vout": 1,
+    "size": 1643,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "SpiderPool",
+    "fee": 1328,
+    "feeRate": 0.7,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "pwt1:seal5:4504428912cf8cf9daf6f4d297be84de2def7c9f0eed3c22ccb6e25e91480879:eyJhbW91bnRNb2RlbCI6ImNhbm9uaWNhbC13b3JrLWFtby1wcm9vZi11bml0LWFtb3VudC12MyIsImFuY2hvclNjcmlwdFB1YktleSI6Ijc2YTkxNDViMDMwNTQ5...",
+    "blockDir": "block_965734"
   }
 ]
