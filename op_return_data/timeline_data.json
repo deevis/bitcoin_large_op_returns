@@ -155988,5 +155988,24 @@
     "hasDecoded": true,
     "preview": "A blockchain is a distributed ledger with growing lists of records (blocks) that are securely linked together via cryptographic hashes. Each block contains a cryptographic hash of the previous block, ...",
     "blockDir": "block_965829"
+  },
+  {
+    "id": "block_965831_27cd82ec5a5f4779b6e58d38b6f9364078a5762e0d0b19b3e665943578e77547_0",
+    "block": 965831,
+    "timestamp": 1788728323,
+    "date": "2026-09-06T20:58:43",
+    "txid": "27cd82ec5a5f4779b6e58d38b6f9364078a5762e0d0b19b3e665943578e77547",
+    "vout": 0,
+    "size": 124,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "Foundry USA",
+    "fee": 456,
+    "feeRate": 1.11,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "Run for your life from any man who tells you that money is evil. That sentence is the leper's bell of an approaching looter.",
+    "blockDir": "block_965831"
   }
 ]
