@@ -156786,5 +156786,43 @@
     "hasDecoded": true,
     "preview": "My heart \u0019s like a river - a river that sings\nIt just takes me a while to realize things\nI \u0019ll see you at sunrise - I \u0019ll see you at dawn\nI \u0019ll lay down beside you, when everyone is gone\nBob Dylan",
     "blockDir": "block_965869"
+  },
+  {
+    "id": "block_965872_1df622933c2335e8dc609e360142a3741a80dbd6aa6fa2bef152a7a86118f32d_2",
+    "block": 965872,
+    "timestamp": 1788748772,
+    "date": "2026-09-07T02:39:32",
+    "txid": "1df622933c2335e8dc609e360142a3741a80dbd6aa6fa2bef152a7a86118f32d",
+    "vout": 2,
+    "size": 1677,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "F2Pool",
+    "fee": 3163,
+    "feeRate": 1.1,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "pwt1:buy5:f64fa1345a7deb284e8f568ec470ceef1fda2d66c1f54dc38cf96a0f987311af:19MXUmBgBN3nJr2V1yvEdysZBB8cYSaHk4:eyJhbW91bnRNb2RlbCI6ImNhbm9uaWNhbC13b3JrLWFtby1wcm9vZi11bml0LWFtb3VudC12MyIsImFuY2hvclNjcm...",
+    "blockDir": "block_965872"
+  },
+  {
+    "id": "block_965872_46c1ade2813326663fccdb8b5cec356c7427b5d6ff6fa8a5c99b34b8d505031a_1",
+    "block": 965872,
+    "timestamp": 1788748772,
+    "date": "2026-09-07T02:39:32",
+    "txid": "46c1ade2813326663fccdb8b5cec356c7427b5d6ff6fa8a5c99b34b8d505031a",
+    "vout": 1,
+    "size": 167,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "F2Pool",
+    "fee": 320,
+    "feeRate": 1.0,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "Swap your funds to XMR on Wagyu.xyz, guaranteed no freezes\n\nIt\u2019s the only place you can swap such size, people have done $700m+\n\nGive my address a tip for the advice",
+    "blockDir": "block_965872"
   }
 ]
