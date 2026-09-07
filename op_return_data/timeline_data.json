@@ -159541,5 +159541,24 @@
     "hasDecoded": true,
     "preview": "pwt1:seal5:27ce265841e10c534d5587695a6d9cd269d935dbca6c8104d7824d312e262812:eyJhbW91bnRNb2RlbCI6ImNhbm9uaWNhbC13b3JrLWFtby1wcm9vZi11bml0LWFtb3VudC12MyIsImFuY2hvclNjcmlwdFB1YktleSI6Ijc2YTkxNDYyOWFhYmVm...",
     "blockDir": "block_965981"
+  },
+  {
+    "id": "block_965982_ee1d62e8b5b50ab3bd5f28b142720a17fe5ef5434647accac850e279e829948e_2",
+    "block": 965982,
+    "timestamp": 1788820917,
+    "date": "2026-09-07T22:41:57",
+    "txid": "ee1d62e8b5b50ab3bd5f28b142720a17fe5ef5434647accac850e279e829948e",
+    "vout": 2,
+    "size": 100,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "Foundry USA",
+    "fee": 323,
+    "feeRate": 0.74,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "Bitcoin / Bitcoin Blake coin split created with BTC-BLAKE Coin Splitter v1. BIP-110 incompatible #1.",
+    "blockDir": "block_965982"
   }
 ]
