@@ -157299,5 +157299,43 @@
     "hasDecoded": true,
     "preview": "\n-----BEGIN PGP SIGNED MESSAGE-----\nHash: SHA512\n\nBridge nodes are patched, safe to return the funds.\n-----BEGIN PGP SIGNATURE-----\n\niQIzBAEBCgAdFiEEEXZULamOceEzci73SsjMiGhEotYFAmqefjkACgkQSsjMiGhE\not...",
     "blockDir": "block_965910"
+  },
+  {
+    "id": "block_965912_9766ca28b1ddf5099c0a87db80ae9fd54e2f719a8e36a15dc50ac1c2986b8fd1_1",
+    "block": 965912,
+    "timestamp": 1788774086,
+    "date": "2026-09-07T09:41:26",
+    "txid": "9766ca28b1ddf5099c0a87db80ae9fd54e2f719a8e36a15dc50ac1c2986b8fd1",
+    "vout": 1,
+    "size": 156,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "F2Pool",
+    "fee": 300,
+    "feeRate": 0.97,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "Thank you for finding the bug, we are working on a fix immediately, please send 3900 Bitcoin back to this address, you may keep the 98 BTC as Bounty reward.",
+    "blockDir": "block_965912"
+  },
+  {
+    "id": "block_965912_3c101c8e053a6cbc7c4455e4fec017c8f2962ed86dee70e72fb8bafbb1d7bde9_1",
+    "block": 965912,
+    "timestamp": 1788774086,
+    "date": "2026-09-07T09:41:26",
+    "txid": "3c101c8e053a6cbc7c4455e4fec017c8f2962ed86dee70e72fb8bafbb1d7bde9",
+    "vout": 1,
+    "size": 936,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "F2Pool",
+    "fee": 1082,
+    "feeRate": 1.0,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "\n-----BEGIN PGP SIGNED MESSAGE-----\nHash: SHA512\n\nBridge nodes are patched, safe to return the funds.\n-----BEGIN PGP SIGNATURE-----\n\niQIzBAEBCgAdFiEEEXZULamOceEzci73SsjMiGhEotYFAmqefjkACgkQSsjMiGhE\not...",
+    "blockDir": "block_965912"
   }
 ]
