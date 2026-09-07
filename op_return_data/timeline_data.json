@@ -157280,5 +157280,24 @@
     "hasDecoded": true,
     "preview": "pwt1:list5:eyJhbW91bnRNb2RlbCI6ImNhbm9uaWNhbC13b3JrLWFtby1wcm9vZi11bml0LWFtb3VudC12MyIsImFuY2hvclNjcmlwdFB1YktleSI6IjAwMTQ0OGIxNDJkMjI1MjFhODVmNTgzNDc4NDk5Y2VlNWM5YzNjMzY4OTRkIiwiYW5jaG9yU2lnSGFzaFR5c...",
     "blockDir": "block_965908"
+  },
+  {
+    "id": "block_965910_d08d480e497572d97e58a93d932e26e4a282ed2116317f4939c4376f1f22730f_0",
+    "block": 965910,
+    "timestamp": 1788772786,
+    "date": "2026-09-07T09:19:46",
+    "txid": "d08d480e497572d97e58a93d932e26e4a282ed2116317f4939c4376f1f22730f",
+    "vout": 0,
+    "size": 936,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "F2Pool",
+    "fee": 1073,
+    "feeRate": 1.0,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "\n-----BEGIN PGP SIGNED MESSAGE-----\nHash: SHA512\n\nBridge nodes are patched, safe to return the funds.\n-----BEGIN PGP SIGNATURE-----\n\niQIzBAEBCgAdFiEEEXZULamOceEzci73SsjMiGhEotYFAmqefjkACgkQSsjMiGhE\not...",
+    "blockDir": "block_965910"
   }
 ]
