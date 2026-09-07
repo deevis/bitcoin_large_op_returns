@@ -159047,5 +159047,43 @@
     "hasDecoded": true,
     "preview": "pwt1:seal5:e5540ca72e4ab79b907008400c2a0ed99f7a40b888fd522f27f26f7e479fa519:eyJhbW91bnRNb2RlbCI6ImNhbm9uaWNhbC13b3JrLWFtby1wcm9vZi11bml0LWFtb3VudC12MyIsImFuY2hvclNjcmlwdFB1YktleSI6Ijc2YTkxNGRkMDkyODQ2...",
     "blockDir": "block_965962"
+  },
+  {
+    "id": "block_965965_fa08adbdb28ac815b63ff79cb4e8ff1b0d64ee8f494664dca7158da13cb73c9e_1",
+    "block": 965965,
+    "timestamp": 1788808612,
+    "date": "2026-09-07T19:16:52",
+    "txid": "fa08adbdb28ac815b63ff79cb4e8ff1b0d64ee8f494664dca7158da13cb73c9e",
+    "vout": 1,
+    "size": 120,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "Unknown",
+    "fee": 1015,
+    "feeRate": 4.19,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "0x64a0f06b8a627fe05b238feed12d5b2b4aa888aed03d51ceecbbe4b34188f6a3|depositor=bc1qdgqry5lxz2a4j0tmpgcq3m7ks7ljwudklamp0j|",
+    "blockDir": "block_965965"
+  },
+  {
+    "id": "block_965965_55dfbdaebdeb8312247a33d3cf6b119a37ad70f95462aaeb192704f86fffb662_0",
+    "block": 965965,
+    "timestamp": 1788808612,
+    "date": "2026-09-07T19:16:52",
+    "txid": "55dfbdaebdeb8312247a33d3cf6b119a37ad70f95462aaeb192704f86fffb662",
+    "vout": 0,
+    "size": 85,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "Unknown",
+    "fee": 438,
+    "feeRate": 2.12,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "This is an attempt to split Bitcoin Sha from Bitcoin Blake by using a long OP_RETURN.",
+    "blockDir": "block_965965"
   }
 ]
