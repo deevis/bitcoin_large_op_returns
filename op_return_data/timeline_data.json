@@ -159085,5 +159085,24 @@
     "hasDecoded": true,
     "preview": "This is an attempt to split Bitcoin Sha from Bitcoin Blake by using a long OP_RETURN.",
     "blockDir": "block_965965"
+  },
+  {
+    "id": "block_965967_b3830692852d85cfc0e664cd57f1cd0230686be6f9aef41c49c613e91fe9da6a_1",
+    "block": 965967,
+    "timestamp": 1788810445,
+    "date": "2026-09-07T19:47:25",
+    "txid": "b3830692852d85cfc0e664cd57f1cd0230686be6f9aef41c49c613e91fe9da6a",
+    "vout": 1,
+    "size": 1275,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "ViaBTC",
+    "fee": 2862,
+    "feeRate": 2.0,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "-----BEGIN PGP SIGNED MESSAGE-----\nHash: SHA512\n\nQklFMQM1beJ+pr7Be65qt5lkDwGg+HLX/pFQS4MtgdmzMpNMLblYG3XzwPszFu8/0Qrm2ubTX+PEnYOsAU7SmTwg95Oi0K99yzapty2F9mXJb6JWvhpNiG51lHTCEdhpSbgUsf6mHaC/2dJhRzSV4uH...",
+    "blockDir": "block_965967"
   }
 ]
