@@ -156748,5 +156748,43 @@
     "hasDecoded": true,
     "preview": "0x407b0eba8d4f8b99cb2da5dbb0669c785c0d28fecb3d35c58a543e234ccc42bc|depositor=bc1qynqqdecggh2g06muw8nmwxkmm37n7cx5rml4wy|",
     "blockDir": "block_965865"
+  },
+  {
+    "id": "block_965869_3a3eac4a26395b8c2563aaf1eb8b1b77798c81c7d6337f51321827a244a480aa_0",
+    "block": 965869,
+    "timestamp": 1788747618,
+    "date": "2026-09-07T02:20:18",
+    "txid": "3a3eac4a26395b8c2563aaf1eb8b1b77798c81c7d6337f51321827a244a480aa",
+    "vout": 0,
+    "size": 95,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "SpiderPool",
+    "fee": 1212,
+    "feeRate": 1.0,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "sending most back to bc1qdlld6antmv4xug242ed83q7k4rqw50cwfns38szx4qu2f4jwaxxsuhwxxr, is that ok",
+    "blockDir": "block_965869"
+  },
+  {
+    "id": "block_965869_8c6e13ddb07d3c937d57d608f5d5311d82cac45a75246a58c4b71d374565bfdb_0",
+    "block": 965869,
+    "timestamp": 1788747618,
+    "date": "2026-09-07T02:20:18",
+    "txid": "8c6e13ddb07d3c937d57d608f5d5311d82cac45a75246a58c4b71d374565bfdb",
+    "vout": 0,
+    "size": 196,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "SpiderPool",
+    "fee": 398,
+    "feeRate": 1.0,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "My heart \u0019s like a river - a river that sings\nIt just takes me a while to realize things\nI \u0019ll see you at sunrise - I \u0019ll see you at dawn\nI \u0019ll lay down beside you, when everyone is gone\nBob Dylan",
+    "blockDir": "block_965869"
   }
 ]
