@@ -1,0 +1,39 @@
+Encrypted to the key behind bc1ql4mfu6aundtkksxklfajs2h3t9nzcd6gyqjlte (Electrum BIE1 ECIES):
+
+QklFMQLaSmCm5qeNvxcJnaVGKqIVzH5Y3oL2OrBYayfMegxjxLWEAzoQ65PcqzgkWdj+3KyQBOel5JDKGiAwvt5jwZjsrch0CgDNMrqzsVWBfMD5gdMy79ngeankI4rog7V9pko=
+
+Detached signature by security@blockstream.com. Public key: https://blockstream.com/pgp.txt
+
+Fingerprint: 1176 542D A98E 71E1 3372 2EF7 4AC8 CC88 6844 A2D6
+
+Verify: gpg --import pgp.txt && gpg --verify msg.asc msg.b64
+
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAABCgAdFiEEEXZULamOceEzci73SsjMiGhEotYFAmqeD+sACgkQSsjMiGhE
+
+otYifg//XZFx8WQGQhzzAWoCOGJGio3O7sg1MPbZyhaY7AJNGuzSdrsWnrjoDaJ+
+
+5Qy0AFHrJPy9KNQwQakItw1p01SYPNDUJWc0oVjaw0knWf5tv/vgY/r+Cp7axEcw
+
+BO80wcUVtPeyGIGX3WE1k9vjFOl6of+0nIWt8Wj45xo9EvuNZp10JrJluHVsJeD9
+
+C5eqeyHojPGRE0vtVocUdqsSJsQBb0zx+163BnZn2wZUMRFzCQ+bHclfCNyoVjtP
+
+fAViyROsHTw/dgdRlG2ZMkWOyBgO4Nmj8IgavPFDRg+7TwuqTgcM4i9vC/yo462b
+
+55K8dJtwpZJBD5tcg5c/VkHbzC+H/dfXYAWMhIAqwBv7kLR3xx8/54RXfJLekhTn
+
+1PgiG3t84aB/WJSQtrDk3QpvvPJJNRY2OXiiNxLKMks02tjpJER6iljBXuWOgRun
+
+/vt2Nt93y3lzB5gTJM7ygxMI2F6rfo1qWcENePjAoTm6TJzNZ3eoYWoYY/yBPaxy
+
+LpysbuFzP9pfRD/0oh4BsWXn176+PnNOGZ+C0lZb4wehKdL4gUaoFQz+eR0zgvr8
+
++2jjLjz4qwMl1eVV1V0hjvjOlTtEm1kPIdPK3HgHw1e7S1BlMGiNMEUpb51Z8m55
+
+FKNiL0046oy0SplZD7VfIFRzRQ6IYHosYCOyY5dVaArQYDqPen0=
+
+=HAck
+
+-----END PGP SIGNATURE-----
