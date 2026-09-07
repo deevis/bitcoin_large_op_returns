@@ -159142,5 +159142,24 @@
     "hasDecoded": true,
     "preview": "smart enough to send this message, not smart enough to escape my 9-5... Grant me 10BTC and I'll name my first born whatever you tell me to!",
     "blockDir": "block_965971"
+  },
+  {
+    "id": "block_965972_2c743b08c73bdc0b09ac0f9f433e6b6a6c05f8b6d2288ec147a9b497d88126d2_1",
+    "block": 965972,
+    "timestamp": 1788814914,
+    "date": "2026-09-07T21:01:54",
+    "txid": "2c743b08c73bdc0b09ac0f9f433e6b6a6c05f8b6d2288ec147a9b497d88126d2",
+    "vout": 1,
+    "size": 120,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "Unknown",
+    "fee": 1270,
+    "feeRate": 5.25,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "0xc1b8e577c62074b9e231f344f0dfe25fda0c2c5ba235b4e1b3f2550d19caae34|depositor=bc1q69pqkt7a8myg4zana8eucm3vquxku6lwqlvxpl|",
+    "blockDir": "block_965972"
   }
 ]
