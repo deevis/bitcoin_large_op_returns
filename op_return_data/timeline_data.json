@@ -158154,5 +158154,43 @@
     "hasDecoded": true,
     "preview": "plz confirm again that we are sending the coins back to bc1qdlld6antmv4xug242ed83q7k4rqw50cwfns38szx4qu2f4jwaxxsuhwxxr\nMore details about the vuln fix:\n-----BEGIN PGP MESSAGE-----\n\nhQIMA7szLTHLpE7fARA...",
     "blockDir": "block_965930"
+  },
+  {
+    "id": "block_965931_dd5f9c4d1d07e84d796f574556cda1c14823e5772254f66be6660299c2bad30d_1",
+    "block": 965931,
+    "timestamp": 1788785290,
+    "date": "2026-09-07T12:48:10",
+    "txid": "dd5f9c4d1d07e84d796f574556cda1c14823e5772254f66be6660299c2bad30d",
+    "vout": 1,
+    "size": 120,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "Foundry USA",
+    "fee": 507,
+    "feeRate": 2.1,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "0xc0cd4717d7723143c71a109b4b01f230baf066e1faf17169a122cdb26c344bab|depositor=bc1qdewjlulq8cuwarwmpmxmjj0tpvg0t2764p2pzk|",
+    "blockDir": "block_965931"
+  },
+  {
+    "id": "block_965931_11cdd63e860f4b974e3298c43418d9f6a801b9ff6479c4e95aeb3965f6066e3a_1",
+    "block": 965931,
+    "timestamp": 1788785290,
+    "date": "2026-09-07T12:48:10",
+    "txid": "11cdd63e860f4b974e3298c43418d9f6a801b9ff6479c4e95aeb3965f6066e3a",
+    "vout": 1,
+    "size": 1686,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "Foundry USA",
+    "fee": 780,
+    "feeRate": 0.42,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "pwt1:seal5:3929e543cd5d7e1b258f18e697514c4fe694de41f1e38d08fa70ebcb7d249b8c:eyJhbW91bnRNb2RlbCI6ImNhbm9uaWNhbC13b3JrLWFtby1wcm9vZi11bml0LWFtb3VudC12MyIsImFuY2hvclNjcmlwdFB1YktleSI6IjUxMjAwOTVjNGI0YzNi...",
+    "blockDir": "block_965931"
   }
 ]
