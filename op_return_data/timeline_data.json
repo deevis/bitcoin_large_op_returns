@@ -159826,5 +159826,43 @@
     "hasDecoded": true,
     "preview": "0xb070f296b1db17603ea5378876b92ef645c696cc9f4d5904c08d27c2caa76324|depositor=bc1qgfnmgtmddphwkukud7t5mc0v5yutvnyz2smqlv|",
     "blockDir": "block_966012"
+  },
+  {
+    "id": "block_966015_353c4d490e65cf12d900796bf9a8cc4c86c030091dbfd96dedd054f4431d378c_0",
+    "block": 966015,
+    "timestamp": 1788838547,
+    "date": "2026-09-08T03:35:47",
+    "txid": "353c4d490e65cf12d900796bf9a8cc4c86c030091dbfd96dedd054f4431d378c",
+    "vout": 0,
+    "size": 87,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "ViaBTC",
+    "fee": 450,
+    "feeRate": 1.55,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "t 0 0 \"Stealing keys makes no sense: instead raise your voice on theblocknote.eth.link\"",
+    "blockDir": "block_966015"
+  },
+  {
+    "id": "block_966015_83b5af9b93d6fbad7ef78f62b7c91dcc45774c64e8af9b54628a265879248242_1",
+    "block": 966015,
+    "timestamp": 1788838547,
+    "date": "2026-09-08T03:35:47",
+    "txid": "83b5af9b93d6fbad7ef78f62b7c91dcc45774c64e8af9b54628a265879248242",
+    "vout": 1,
+    "size": 211,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "ViaBTC",
+    "fee": 1092,
+    "feeRate": 3.28,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "She walks in beauty, like the nightOf cloudless climes and starry skies;And all that's best of dark and brightMeet in her aspect and her eyes: Thus mellow'd to that tender lightnWhich heaven to gaudy ...",
+    "blockDir": "block_966015"
   }
 ]
