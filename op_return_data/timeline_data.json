@@ -159674,5 +159674,43 @@
     "hasDecoded": true,
     "preview": "A silver fox wandered quietly through the forest while distant thunder rolled across hills",
     "blockDir": "block_965994"
+  },
+  {
+    "id": "block_965995_db2f29f51a119e3016a99fa519918d888f67a7d4f7e39cbefd08ba128e07c974_1",
+    "block": 965995,
+    "timestamp": 1788829927,
+    "date": "2026-09-08T01:12:07",
+    "txid": "db2f29f51a119e3016a99fa519918d888f67a7d4f7e39cbefd08ba128e07c974",
+    "vout": 1,
+    "size": 140,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "Foundry USA",
+    "fee": 1370,
+    "feeRate": 5.23,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "0xdb260b204fa9a40227f77091e1f25cf58f2ebe18f0f95beac059a597ffa02b19|depositor=bc1p2ws3jd3krrplhs2r8z7pfv8dyydy2mh0y0ejqj4eesqv4cx4c6xq6x5yjg|",
+    "blockDir": "block_965995"
+  },
+  {
+    "id": "block_965995_2e0a79b9dce14773a39c8a5cb14568f44edf9d88ed469c4d67de31e91a41175c_1",
+    "block": 965995,
+    "timestamp": 1788829927,
+    "date": "2026-09-08T01:12:07",
+    "txid": "2e0a79b9dce14773a39c8a5cb14568f44edf9d88ed469c4d67de31e91a41175c",
+    "vout": 1,
+    "size": 140,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "Foundry USA",
+    "fee": 1370,
+    "feeRate": 5.23,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "0x0a6687b91db4807b7ee355ade0ea8fd06b3f97354e04d0dfc28512bb2640a047|depositor=bc1p2ws3jd3krrplhs2r8z7pfv8dyydy2mh0y0ejqj4eesqv4cx4c6xq6x5yjg|",
+    "blockDir": "block_965995"
   }
 ]
