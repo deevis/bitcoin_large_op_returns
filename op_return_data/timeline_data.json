@@ -159902,5 +159902,43 @@
     "hasDecoded": true,
     "preview": "0xeaa89bebe4a442a9b20de721a55c7c308cd5820b49bc9373fd12afccd69c696a|depositor=bc1qz92gytgarlnsdnw87snsmwffhawme8pzv67ql2|",
     "blockDir": "block_966016"
+  },
+  {
+    "id": "block_966018_0cbcbd4fc487daa1ada920fc880ef078fbe9fd2a9040fbed8a209a82027690f5_1",
+    "block": 966018,
+    "timestamp": 1788843936,
+    "date": "2026-09-08T05:05:36",
+    "txid": "0cbcbd4fc487daa1ada920fc880ef078fbe9fd2a9040fbed8a209a82027690f5",
+    "vout": 1,
+    "size": 120,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "SpiderPool",
+    "fee": 507,
+    "feeRate": 2.1,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "0x58eca029ea5433283f157c68e77fb7b367f932ff93fa20e4aa4bc2cc33bc84c6|depositor=bc1qz92gytgarlnsdnw87snsmwffhawme8pzv67ql2|",
+    "blockDir": "block_966018"
+  },
+  {
+    "id": "block_966018_0f9308a5a697eff97c1ecff3069191f378cc6f873ce5c47012f1153af86a1809_0",
+    "block": 966018,
+    "timestamp": 1788843936,
+    "date": "2026-09-08T05:05:36",
+    "txid": "0f9308a5a697eff97c1ecff3069191f378cc6f873ce5c47012f1153af86a1809",
+    "vout": 0,
+    "size": 87,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "SpiderPool",
+    "fee": 450,
+    "feeRate": 1.55,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "t 0 0 \"Stealing keys makes no sense: instead raise your voice on theblocknote.eth.link\"",
+    "blockDir": "block_966018"
   }
 ]
