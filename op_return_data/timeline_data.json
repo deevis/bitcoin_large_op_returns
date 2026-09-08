@@ -160282,5 +160282,43 @@
     "hasDecoded": true,
     "preview": "\n-----BEGIN PGP SIGNED MESSAGE-----\nHash: SHA512\n\nQklFMQKs22c3sHfYNMEskel/lykSd1cDxGFdi+1Nyw6MowrJlJRkSTI81P+6RIa3uCan7NmbzN7Vd2+qbMTOcOYxtLg3buyNLD/nImEK43MTpAUgChjJGjngsD8vtiCbLeHs4DZiLOYOryiOSMzz1e...",
     "blockDir": "block_966079"
+  },
+  {
+    "id": "block_966081_b60233bdb2841c1ebf84bdadc1a5410f18b4cb1c82801294540ce80a4c7b8969_1",
+    "block": 966081,
+    "timestamp": 1788873701,
+    "date": "2026-09-08T13:21:41",
+    "txid": "b60233bdb2841c1ebf84bdadc1a5410f18b4cb1c82801294540ce80a4c7b8969",
+    "vout": 1,
+    "size": 120,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "Foundry USA",
+    "fee": 762,
+    "feeRate": 3.15,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "0xc0fc8c7b0b0a91a162bcf57a879f7c58ee3654e6d83192a6266cc0061aeb83dd|depositor=bc1qkppnyavv3gnedukp8vtj0r3cfn3cpu3upqsyzj|",
+    "blockDir": "block_966081"
+  },
+  {
+    "id": "block_966081_74a93535dfbf97063a4d6a13f5d138ef2cd6880594d29ff0c4ebf00eb7f6cb4e_0",
+    "block": 966081,
+    "timestamp": 1788873701,
+    "date": "2026-09-08T13:21:41",
+    "txid": "74a93535dfbf97063a4d6a13f5d138ef2cd6880594d29ff0c4ebf00eb7f6cb4e",
+    "vout": 0,
+    "size": 238,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "Foundry USA",
+    "fee": 400,
+    "feeRate": 1.02,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "dear white hacker,\n\ni cried in my car towards work today.\nsave me from crying tomorrow with 10btc.\n\nyours truly,\nthe onchain 10btc beggar\n\nPS: do it for the culture (there's no other hacker that tippe...",
+    "blockDir": "block_966081"
   }
 ]
