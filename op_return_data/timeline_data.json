@@ -160833,5 +160833,24 @@
     "hasDecoded": true,
     "preview": "If it's your keys, it's your bitcoin. If it's not your keys, it's not your bitcoin! That's a lesson that we all learned during Gox, so...let's try not to have to be taught that lesson again.",
     "blockDir": "block_966129"
+  },
+  {
+    "id": "block_966131_974b2ac4aca373b59c728a33d52f1e3c169ea0b5c8654eb8c4f8bbff0e709630_1",
+    "block": 966131,
+    "timestamp": 1788916735,
+    "date": "2026-09-09T01:18:55",
+    "txid": "974b2ac4aca373b59c728a33d52f1e3c169ea0b5c8654eb8c4f8bbff0e709630",
+    "vout": 1,
+    "size": 1646,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "F2Pool",
+    "fee": 948,
+    "feeRate": 0.53,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "pwt1:seal5:7900eaafef5f3cf8bd7f68b2ebc7a0497b23de046ff5e4020c4710adf36a2361:eyJhbW91bnRNb2RlbCI6ImNhbm9uaWNhbC13b3JrLWFtby1wcm9vZi11bml0LWFtb3VudC12MyIsImFuY2hvclNjcmlwdFB1YktleSI6IjAwMTQ0OGIxNDJkMjI1...",
+    "blockDir": "block_966131"
   }
 ]
