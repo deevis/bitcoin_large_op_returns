@@ -162372,5 +162372,24 @@
     "hasDecoded": true,
     "preview": "-----BEGIN PGP MESSAGE-----\n \n \nWhitehat | Pump.fun CA: 7712UwV6etYahMWcHZpi6LXumqCbj5f4Y9H7G3Wspump\n\n:(\n \n \n \n-----END PGP MESSAGE-----",
     "blockDir": "block_966260"
+  },
+  {
+    "id": "block_966263_770d1250415e64bc0539d70c33297af283bbe1e110d4a9a2255f783863a2eb76_0",
+    "block": 966263,
+    "timestamp": 1788983060,
+    "date": "2026-09-09T19:44:20",
+    "txid": "770d1250415e64bc0539d70c33297af283bbe1e110d4a9a2255f783863a2eb76",
+    "vout": 0,
+    "size": 85,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "Foundry USA",
+    "fee": 700,
+    "feeRate": 2.88,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "FYI, first time using OP_RETURN. IK this might go unseen this but am proud of myself.",
+    "blockDir": "block_966263"
   }
 ]
