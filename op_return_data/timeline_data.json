@@ -162505,5 +162505,24 @@
     "hasDecoded": true,
     "preview": "We shouldn't be counting or spending transactions until they have at least 1 confirmation... unconfirmed transactions are very much second class citizens.",
     "blockDir": "block_966276"
+  },
+  {
+    "id": "block_966282_db922f5b203b21c7ae1499927dd920dd3e4d9375fdf6ad5e63ef71d8be37c175_1",
+    "block": 966282,
+    "timestamp": 1788996011,
+    "date": "2026-09-09T23:20:11",
+    "txid": "db922f5b203b21c7ae1499927dd920dd3e4d9375fdf6ad5e63ef71d8be37c175",
+    "vout": 1,
+    "size": 120,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "ViaBTC",
+    "fee": 762,
+    "feeRate": 3.15,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "0xeaba793fc146e2a52f54069808f3a726cc76bdb20451c3549ba60f1c9575c9d0|depositor=bc1qr35hws365juz5rtlsjtvmulu97957kqvr3zpw3|",
+    "blockDir": "block_966282"
   }
 ]
