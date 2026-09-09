@@ -162391,5 +162391,43 @@
     "hasDecoded": true,
     "preview": "FYI, first time using OP_RETURN. IK this might go unseen this but am proud of myself.",
     "blockDir": "block_966263"
+  },
+  {
+    "id": "block_966269_4403dc07643caf8a428fe3d770696994af55fdac9576a66355acf7eaa540ee62_0",
+    "block": 966269,
+    "timestamp": 1788987587,
+    "date": "2026-09-09T20:59:47",
+    "txid": "4403dc07643caf8a428fe3d770696994af55fdac9576a66355acf7eaa540ee62",
+    "vout": 0,
+    "size": 161,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "SpiderPool",
+    "fee": 731,
+    "feeRate": 2.33,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "satoshi_nakamoto_satoshi_nakamotosatoshi_nakamotosatoshi_nakamotosatoshi_nakamotosatoshi_nakamotosatoshi_nakamotosatoshi_nakamotosatoshi_nakamotosatoshi_nakamoto",
+    "blockDir": "block_966269"
+  },
+  {
+    "id": "block_966269_7b48c40d176f1c824733e7efe8e7210323d997d6657e2a2d9329d180145a2150_1",
+    "block": 966269,
+    "timestamp": 1788987587,
+    "date": "2026-09-09T20:59:47",
+    "txid": "7b48c40d176f1c824733e7efe8e7210323d997d6657e2a2d9329d180145a2150",
+    "vout": 1,
+    "size": 143,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "SpiderPool",
+    "fee": 852,
+    "feeRate": 1.96,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "Your groceries aren't becoming more expensive, your money is becoming less valuable. Your supermarket is not the problem; your central bank is.",
+    "blockDir": "block_966269"
   }
 ]
