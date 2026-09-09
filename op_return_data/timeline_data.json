@@ -162258,5 +162258,43 @@
     "hasDecoded": true,
     "preview": "Hey \u201cWhiteHat\u201d \u2014 thank you for returning 85% of the coins. That was a meaningful step toward resolving this.\n\nI appreciate the seriousness of the vulnerability you exposed. Researchers who uncover pro...",
     "blockDir": "block_966254"
+  },
+  {
+    "id": "block_966258_0978d4ff23d23b184bbea77dba34e48531efcc5438415ae3fb1059c6288e8276_1",
+    "block": 966258,
+    "timestamp": 1788980154,
+    "date": "2026-09-09T18:55:54",
+    "txid": "0978d4ff23d23b184bbea77dba34e48531efcc5438415ae3fb1059c6288e8276",
+    "vout": 1,
+    "size": 120,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "Foundry USA",
+    "fee": 762,
+    "feeRate": 3.15,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "0x823bf195a3d0a5f42ae789066618ae12f45f516ee5588beee5de396f48efe9b9|depositor=bc1qr35hws365juz5rtlsjtvmulu97957kqvr3zpw3|",
+    "blockDir": "block_966258"
+  },
+  {
+    "id": "block_966258_2e163370b2eb7edb327852a88c92759ccc5aa8a177d0afa92b3feff64a221a30_1",
+    "block": 966258,
+    "timestamp": 1788980154,
+    "date": "2026-09-09T18:55:54",
+    "txid": "2e163370b2eb7edb327852a88c92759ccc5aa8a177d0afa92b3feff64a221a30",
+    "vout": 1,
+    "size": 120,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "Foundry USA",
+    "fee": 762,
+    "feeRate": 3.15,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "0xa667f50fcacf3bb959fd3b617fcb4f2e1bcacfa51394cf975efb08e44d02ab39|depositor=bc1qsh6aqwvpjxv44pzh2yphmjgnmhanpze3p2tac3|",
+    "blockDir": "block_966258"
   }
 ]
