@@ -162467,5 +162467,43 @@
     "hasDecoded": true,
     "preview": "0xc3f8be1517aa17813c0b42ad64155b54e569d0dfc2fad0e5f6a085140957750f|depositor=bc1q480fyxsmeuemqgryp7qjxdj022znqykwqjwav9|",
     "blockDir": "block_966274"
+  },
+  {
+    "id": "block_966276_2ec99d98a6f8011ddacfe98c5f47f0be8947cc81faf0f6dbbcda97bbba025a4d_0",
+    "block": 966276,
+    "timestamp": 1788992687,
+    "date": "2026-09-09T22:24:47",
+    "txid": "2ec99d98a6f8011ddacfe98c5f47f0be8947cc81faf0f6dbbcda97bbba025a4d",
+    "vout": 0,
+    "size": 4355,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "Foundry USA",
+    "fee": 4511,
+    "feeRate": 1.0,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "Not spam\u2014please read. It\u2019s me again, the \u201cpleb negotiator\u201d from the previous message about compromising on 50\u2013100 BTC out of Blockstream\u2019s own pocket. I have no affiliation with Blockstream, but I\u2019m a...",
+    "blockDir": "block_966276"
+  },
+  {
+    "id": "block_966276_c24458813ba7398d9918c9afaeb959642d1eb01277b658afde57090c599f1cab_1",
+    "block": 966276,
+    "timestamp": 1788992687,
+    "date": "2026-09-09T22:24:47",
+    "txid": "c24458813ba7398d9918c9afaeb959642d1eb01277b658afde57090c599f1cab",
+    "vout": 1,
+    "size": 154,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "Foundry USA",
+    "fee": 340,
+    "feeRate": 1.02,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "We shouldn't be counting or spending transactions until they have at least 1 confirmation... unconfirmed transactions are very much second class citizens.",
+    "blockDir": "block_966276"
   }
 ]
