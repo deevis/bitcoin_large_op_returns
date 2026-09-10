@@ -162790,5 +162790,43 @@
     "hasDecoded": true,
     "preview": "0xbdc6744f17747c64551ec6af14ac795e49932bb6402fec8a577d284be32f186d|depositor=bc1qvrucnkzpxf6gjzv2yvwc2j2zu0tsngk375vsxj|",
     "blockDir": "block_966310"
+  },
+  {
+    "id": "block_966313_fe543dfda47a8bbd15f9a60d3e174e41be6f80a8880db15f6c91cb04e29dffb1_0",
+    "block": 966313,
+    "timestamp": 1789021325,
+    "date": "2026-09-10T06:22:05",
+    "txid": "fe543dfda47a8bbd15f9a60d3e174e41be6f80a8880db15f6c91cb04e29dffb1",
+    "vout": 0,
+    "size": 146,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "ViaBTC",
+    "fee": 740,
+    "feeRate": 1.71,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "When in the course of human events, it becomes necessary for one people to dissolve the political bands which have connected them with one another",
+    "blockDir": "block_966313"
+  },
+  {
+    "id": "block_966313_624125a891e2e428c085d1ff3661b57bb200446b03d627106693005ea55c1c4d_1",
+    "block": 966313,
+    "timestamp": 1789021325,
+    "date": "2026-09-10T06:22:05",
+    "txid": "624125a891e2e428c085d1ff3661b57bb200446b03d627106693005ea55c1c4d",
+    "vout": 1,
+    "size": 120,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "ViaBTC",
+    "fee": 507,
+    "feeRate": 2.1,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "0x35ce698d365dc4521a83bde65d8c6d48e55c92548b6e3fc0ae18acd49691a960|depositor=bc1qq4gyvlz3ajw4u378g8gysd5kukzlyygh7tkmcc|",
+    "blockDir": "block_966313"
   }
 ]
