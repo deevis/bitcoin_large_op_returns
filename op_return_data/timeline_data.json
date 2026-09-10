@@ -162619,5 +162619,24 @@
     "hasDecoded": true,
     "preview": "res firma mitescere nescit alea jacta est res firma mitescere nescit alea jacta est res firma mitescere nescit",
     "blockDir": "block_966293"
+  },
+  {
+    "id": "block_966296_32bd329bf82cd5c7aa47f3de64e4defe770082d48265fff4b69e30944b8ca764_2",
+    "block": 966296,
+    "timestamp": 1789006738,
+    "date": "2026-09-10T02:18:58",
+    "txid": "32bd329bf82cd5c7aa47f3de64e4defe770082d48265fff4b69e30944b8ca764",
+    "vout": 2,
+    "size": 4889,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "Unknown",
+    "fee": 5045,
+    "feeRate": 1.0,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "-----BEGIN PGP SIGNED MESSAGE-----\nHash: SHA512\n\nQklFMQNYZayNaeJgXiAtazTnKU8X2fMlvFUBF3AzSBKIsgBn4sRgaT/3rZeUK4xo7BpI0Bee6Z9xEPBqzRqW+IrbcFACpUc87m5i89hdK+h1k11IVA1Kjj/iIsXsFL24XtumXYjhoMNdvSnhcn4YQnN...",
+    "blockDir": "block_966296"
   }
 ]
