@@ -164044,5 +164044,24 @@
     "hasDecoded": true,
     "preview": "0xa3008afb75751da49d7b76d3716463e3755b48a2f289cc71e56d327ef34a1e22|depositor=bc1qztpvnc2kjm664xhkcc7mlkkgavxdmq4jzwy75m|",
     "blockDir": "block_966574"
+  },
+  {
+    "id": "block_966576_f8f04fc04e2c4f34dc2264f85ff7944c6aa822446bc4cc082e95a52aed5c2a4c_1",
+    "block": 966576,
+    "timestamp": 1789169177,
+    "date": "2026-09-11T23:26:17",
+    "txid": "f8f04fc04e2c4f34dc2264f85ff7944c6aa822446bc4cc082e95a52aed5c2a4c",
+    "vout": 1,
+    "size": 112,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "SpiderPool",
+    "fee": 143,
+    "feeRate": 0.52,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "BIP39: 12 words; Passphrase: Y; Entropy: The data needed to solve it is publicly available in the genesis block.",
+    "blockDir": "block_966576"
   }
 ]
