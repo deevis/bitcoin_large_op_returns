@@ -1,0 +1,19 @@
+This is what happens when you disrespect Bitcoin L1.
+
+Adam Back was cited by Satoshi himself. He built his career preaching Bitcoin's security.
+
+Then the company he leads asked users to leave L1 and trust another consensus system.
+You don't put 4,000 BTC at risk and walk away with the same reputation.
+
+This is why we need covenants directly on Bitcoin L1.
+
+Bitcoin is a 2-stack push-down automaton.
+Bitcoin is not Turing-complete.
+Bitcoin is not programmable.
+
+Bitcoin needs transaction introspection.
+A script can inspect the spending transaction itself and bind the next outputs to derived addresses satisfying the policy.
+
+We no longer ask "who signed?". We ask "where is this allowed to go?".
+
+That’s a Bitcoin Covenant.
