@@ -163322,5 +163322,24 @@
     "hasDecoded": true,
     "preview": "Bitcoin is a claim on the future productivity of the planet, in perpetuity, discounted to the present.",
     "blockDir": "block_966418"
+  },
+  {
+    "id": "block_966423_819cbf2d0645fa3c36339d562353eed58a09970e9c72fc9d5bc21bd087cea410_1",
+    "block": 966423,
+    "timestamp": 1789087312,
+    "date": "2026-09-11T00:41:52",
+    "txid": "819cbf2d0645fa3c36339d562353eed58a09970e9c72fc9d5bc21bd087cea410",
+    "vout": 1,
+    "size": 120,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "Foundry USA",
+    "fee": 1015,
+    "feeRate": 4.19,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "0xaa79a258760a055a78383ff0efadc416d5b73ecd58bbbc59e174de0fa67cab2a|depositor=bc1qwelntg7tpxwgmh7gea0kycclx87mksnvhaadgf|",
+    "blockDir": "block_966423"
   }
 ]
