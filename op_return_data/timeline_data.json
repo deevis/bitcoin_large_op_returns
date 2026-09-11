@@ -163987,5 +163987,43 @@
     "hasDecoded": true,
     "preview": "0xd470b69ed51afc207c7b3f4d0f6a01d7ec8828cd27c36a5f0e2a9bf38711a2dc|depositor=bc1qzphrl0qkwcfhjt6dndvvlpu4y7nea9kux8sqf3|",
     "blockDir": "block_966561"
+  },
+  {
+    "id": "block_966571_4bbedf78e82cfc68881c106d0cdb62bf1f4fa46f5e35cc92cf913fcc61d8bbd0_1",
+    "block": 966571,
+    "timestamp": 1789165837,
+    "date": "2026-09-11T22:30:37",
+    "txid": "4bbedf78e82cfc68881c106d0cdb62bf1f4fa46f5e35cc92cf913fcc61d8bbd0",
+    "vout": 1,
+    "size": 92,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "Foundry USA",
+    "fee": 1075,
+    "feeRate": 5.0,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "The most wonderful thing about love is when the \u201cI\" and \"you\u201d suddenly becomes \u201cwe\u201d.",
+    "blockDir": "block_966571"
+  },
+  {
+    "id": "block_966571_c989336d708279ba99e89c647010826da0a46367597933dcfc00d75f9cbb34e5_0",
+    "block": 966571,
+    "timestamp": 1789165837,
+    "date": "2026-09-11T22:30:37",
+    "txid": "c989336d708279ba99e89c647010826da0a46367597933dcfc00d75f9cbb34e5",
+    "vout": 0,
+    "size": 189,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "Foundry USA",
+    "fee": 342,
+    "feeRate": 1.0,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "Reading raw OP_RETURN? Every message in this thread decodes from your terminal, including this one: pip install btc-toolkit && btc-toolkit opreturn <txid>. Python stdlib only, no node, MIT.",
+    "blockDir": "block_966571"
   }
 ]
