@@ -163911,5 +163911,24 @@
     "hasDecoded": true,
     "preview": "-----BEGIN PGP MESSAGE-----\n\nMemecoin Whitehat | Pump.fun\n\nCA: ECqWJRbBN7y4nUkGFyigGvXB4zb9ap4hycw6jYtNpump\n\nChart: pump.fun/coin/ECqWJRbBN7y4nUkGFyigGvXB4zb9ap4hycw6jYtNpump\n\n\nhQIMA7szLTHLpE7fAQ//Thd...",
     "blockDir": "block_966536"
+  },
+  {
+    "id": "block_966547_f2070bdfc01bfe65f261bf28e624ebe0af27c57e2a5bf1638672a0c0713b5198_1",
+    "block": 966547,
+    "timestamp": 1789155842,
+    "date": "2026-09-11T19:44:02",
+    "txid": "f2070bdfc01bfe65f261bf28e624ebe0af27c57e2a5bf1638672a0c0713b5198",
+    "vout": 1,
+    "size": 120,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "Foundry USA",
+    "fee": 1270,
+    "feeRate": 5.25,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "0x5d57512016eb5885680d9dda307b7b96934bbc7b44c332bfa68851fbedee48d3|depositor=bc1qz92gytgarlnsdnw87snsmwffhawme8pzv67ql2|",
+    "blockDir": "block_966547"
   }
 ]
