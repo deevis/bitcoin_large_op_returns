@@ -163474,5 +163474,43 @@
     "hasDecoded": true,
     "preview": "0xae7507e5fd5ec158d0857d3a4ccc0a1c4be006b126daee4ce12d6e72c50f555c|depositor=bc1qwelntg7tpxwgmh7gea0kycclx87mksnvhaadgf|",
     "blockDir": "block_966484"
+  },
+  {
+    "id": "block_966502_df24bdb8b84edce8a6b302a67427506a011304e15de64b2fc196214cb43b4960_0",
+    "block": 966502,
+    "timestamp": 1789127686,
+    "date": "2026-09-11T11:54:46",
+    "txid": "df24bdb8b84edce8a6b302a67427506a011304e15de64b2fc196214cb43b4960",
+    "vout": 0,
+    "size": 84,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "Foundry USA",
+    "fee": 237,
+    "feeRate": 1.0,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "WhiteHat, please release the keys to decrypt the chat so we can judge for ourselves.",
+    "blockDir": "block_966502"
+  },
+  {
+    "id": "block_966502_4dc2002c630071ba863366dcc65fd3e83ff3a9aa91a3a5dd6639bb159a80c0e3_0",
+    "block": 966502,
+    "timestamp": 1789127686,
+    "date": "2026-09-11T11:54:46",
+    "txid": "4dc2002c630071ba863366dcc65fd3e83ff3a9aa91a3a5dd6639bb159a80c0e3",
+    "vout": 0,
+    "size": 2756,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "Foundry USA",
+    "fee": 2912,
+    "feeRate": 1.0,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "Blockstream message to the hacker, posted on X (relayed by an independent observer):\n\nTo those responsible for the theft of bitcoin from the Liquid Network: Blockstream will not pay a ransom for the r...",
+    "blockDir": "block_966502"
   }
 ]
