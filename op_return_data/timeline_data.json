@@ -164272,5 +164272,24 @@
     "hasDecoded": true,
     "preview": "Hey, I have about 2.5 L-BTC. Is there any way I can trade you this real L-BTC for native BTC from this stash? Willing to trade you 1:1. PGP preferred, please send your pubkey if interested.",
     "blockDir": "block_966691"
+  },
+  {
+    "id": "block_966693_cb6f0bff09d6339a7d8471a0fc31c88c15fd46fe03e7e0f98a299f51d9ae46da_1",
+    "block": 966693,
+    "timestamp": 1789230152,
+    "date": "2026-09-12T16:22:32",
+    "txid": "cb6f0bff09d6339a7d8471a0fc31c88c15fd46fe03e7e0f98a299f51d9ae46da",
+    "vout": 1,
+    "size": 120,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "SpiderPool",
+    "fee": 1270,
+    "feeRate": 5.25,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "0x5cf89867735ea9c65b16f920e191f0f62cfb1855cf72b168dc08c81876df2736|depositor=bc1qwelntg7tpxwgmh7gea0kycclx87mksnvhaadgf|",
+    "blockDir": "block_966693"
   }
 ]
