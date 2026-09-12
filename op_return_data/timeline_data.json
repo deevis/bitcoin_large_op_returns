@@ -164310,5 +164310,24 @@
     "hasDecoded": true,
     "preview": "0x4b97e68361c4fae3f45bd45d30caf3aa235532f1a1dee74e4af7c79de7e9e1df|depositor=bc1qtvxpu6mgxvq2lgfjcq97rqrz0v7htvngcy8ldf|",
     "blockDir": "block_966698"
+  },
+  {
+    "id": "block_966703_0474695c79230ff51123b90a56a3a24bcfcdac6706c7fa38c0169c2bb1d524c3_1",
+    "block": 966703,
+    "timestamp": 1789237005,
+    "date": "2026-09-12T18:16:45",
+    "txid": "0474695c79230ff51123b90a56a3a24bcfcdac6706c7fa38c0169c2bb1d524c3",
+    "vout": 1,
+    "size": 120,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "ViaBTC",
+    "fee": 507,
+    "feeRate": 2.1,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "0x91e62249e6043fdfad39e56c4c76c1116c207a063587a442318a2ca502a0b883|depositor=bc1q480fyxsmeuemqgryp7qjxdj022znqykwqjwav9|",
+    "blockDir": "block_966703"
   }
 ]
