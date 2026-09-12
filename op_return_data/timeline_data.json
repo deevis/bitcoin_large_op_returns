@@ -164348,5 +164348,43 @@
     "hasDecoded": true,
     "preview": "hey jeet, it looks like you\u2019ve come into some unexpected money. I find out where you stay. Could you please send 6 BTC to this address by 2026/09/30. bc1qhx8fee4wpg3uzsmxtnfp9cvczmns0x7me5lwt9",
     "blockDir": "block_966709"
+  },
+  {
+    "id": "block_966717_ca7e22a4c86d411023a52bb857afd69f1d6f808e2ccc5deab25580ab4278ab89_1",
+    "block": 966717,
+    "timestamp": 1789244333,
+    "date": "2026-09-12T20:18:53",
+    "txid": "ca7e22a4c86d411023a52bb857afd69f1d6f808e2ccc5deab25580ab4278ab89",
+    "vout": 1,
+    "size": 120,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "Foundry USA",
+    "fee": 762,
+    "feeRate": 3.15,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "0x29c60e21bf5f81804ad1c4861742303526af99775afa32f913f4953c4a0f61a6|depositor=bc1q480fyxsmeuemqgryp7qjxdj022znqykwqjwav9|",
+    "blockDir": "block_966717"
+  },
+  {
+    "id": "block_966717_42c8479b13e933b96847c90f2a62c92742d41fa4d08e6e6dcaba3fab894d058e_1",
+    "block": 966717,
+    "timestamp": 1789244333,
+    "date": "2026-09-12T20:18:53",
+    "txid": "42c8479b13e933b96847c90f2a62c92742d41fa4d08e6e6dcaba3fab894d058e",
+    "vout": 1,
+    "size": 120,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "Foundry USA",
+    "fee": 762,
+    "feeRate": 3.15,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "0x433938c1aa73c5a2eb3469bb1d39384fb5b2be6022ee9617e5ccaa720baf6a76|depositor=bc1qp9gxut7vj573wgk02y7rgyt2raxnh0g7rydszj|",
+    "blockDir": "block_966717"
   }
 ]
