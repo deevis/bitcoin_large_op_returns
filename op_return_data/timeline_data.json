@@ -165450,5 +165450,43 @@
     "hasDecoded": true,
     "preview": "pwt1:list5:eyJhbW91bnRNb2RlbCI6ImNhbm9uaWNhbC13b3JrLWFtby1wcm9vZi11bml0LWFtb3VudC12MyIsImFuY2hvclNjcmlwdFB1YktleSI6IjUxMjA2ZDk1N2I4NGY1NTUxZWM3ZDRhM2I1NTE5OWMzM2JhZTljMDI0Zjc3OTNkNGJiNzg4NGI2M2FkZGY2O...",
     "blockDir": "block_966806"
+  },
+  {
+    "id": "block_966828_7fcf6bed3a8b836b121ee124fcd20a39e9e89966df51a7a8398252601e1b622e_1",
+    "block": 966828,
+    "timestamp": 1789309210,
+    "date": "2026-09-13T14:20:10",
+    "txid": "7fcf6bed3a8b836b121ee124fcd20a39e9e89966df51a7a8398252601e1b622e",
+    "vout": 1,
+    "size": 120,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "Foundry USA",
+    "fee": 762,
+    "feeRate": 3.15,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "0x4b057b176ee105beba5d7c2c8e1fee25365a541f70c3150cf509f06186935eea|depositor=bc1qv0j0d0r7nlpatzmu6yty0lkp5lhwkjjz5nehxt|",
+    "blockDir": "block_966828"
+  },
+  {
+    "id": "block_966828_b9138d03b63d47a261f9e3f7668f28448c8396465c22819fbf3590aec70f6ce7_0",
+    "block": 966828,
+    "timestamp": 1789309210,
+    "date": "2026-09-13T14:20:10",
+    "txid": "b9138d03b63d47a261f9e3f7668f28448c8396465c22819fbf3590aec70f6ce7",
+    "vout": 0,
+    "size": 154,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "Foundry USA",
+    "fee": 1133,
+    "feeRate": 3.03,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "To my love: if this chain survives a thousand years, let it be known I loved you at block height unknown. You are my genesis, my halving, my whole supply.",
+    "blockDir": "block_966828"
   }
 ]
