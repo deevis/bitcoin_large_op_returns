@@ -168775,5 +168775,43 @@
     "hasDecoded": true,
     "preview": "Passphrase: Who received the first transaction? That's all I've got to say. What built the wallet are the tools that support BIPs 32, 39, and 48.",
     "blockDir": "block_966989"
+  },
+  {
+    "id": "block_966990_7bc2246d8974be87e7c321036d64ba59515b929dcff4c97008c63322f1ec2d9e_1",
+    "block": 966990,
+    "timestamp": 1789402767,
+    "date": "2026-09-14T16:19:27",
+    "txid": "7bc2246d8974be87e7c321036d64ba59515b929dcff4c97008c63322f1ec2d9e",
+    "vout": 1,
+    "size": 140,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "Foundry USA",
+    "fee": 548,
+    "feeRate": 2.09,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "0x50fba454888ede8e3e159bcbd3de3f960126f8130cb55837b9792ed51a948f82|depositor=bc1qpwrdmcrp48jjvagy4tjgmum80msgln9wph5zqp5hcd5ltjl8z4sq5wc6hn|",
+    "blockDir": "block_966990"
+  },
+  {
+    "id": "block_966990_17105afcd270d52b74f3585f98c1a046dd36abbf7074e0ebf50b2e4b62985968_1",
+    "block": 966990,
+    "timestamp": 1789402767,
+    "date": "2026-09-14T16:19:27",
+    "txid": "17105afcd270d52b74f3585f98c1a046dd36abbf7074e0ebf50b2e4b62985968",
+    "vout": 1,
+    "size": 1686,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "Foundry USA",
+    "fee": 780,
+    "feeRate": 0.42,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "pwt1:seal5:9231da713879bda23b193334d0e9cb95b3505d2dca3251d622b636f2380d025e:eyJhbW91bnRNb2RlbCI6ImNhbm9uaWNhbC13b3JrLWFtby1wcm9vZi11bml0LWFtb3VudC12MyIsImFuY2hvclNjcmlwdFB1YktleSI6IjUxMjA2ZDk1N2I4NGY1...",
+    "blockDir": "block_966990"
   }
 ]
