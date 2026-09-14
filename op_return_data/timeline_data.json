@@ -169364,5 +169364,43 @@
     "hasDecoded": true,
     "preview": "0xbcbd290a763fa6ff7c848a06f03d71aee86ddcb6c782dae74d7d1ded977a0748|depositor=bc1qmc3xd705fxl8lll9px56r5svusefec5jkhz9egnjajn5cfmlv4cs4c5txk|",
     "blockDir": "block_967023"
+  },
+  {
+    "id": "block_967026_4c6ff21138783d5b57130dc8fcefb16860145e38b2a1e4c3bc334e48bbe3d5d1_0",
+    "block": 967026,
+    "timestamp": 1789422886,
+    "date": "2026-09-14T21:54:46",
+    "txid": "4c6ff21138783d5b57130dc8fcefb16860145e38b2a1e4c3bc334e48bbe3d5d1",
+    "vout": 0,
+    "size": 88,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "F2Pool",
+    "fee": 1124,
+    "feeRate": 3.86,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "t 0 0 \"Russia arrests Lida Moniava, 38, children's hospice founder over army falsehoods\"",
+    "blockDir": "block_967026"
+  },
+  {
+    "id": "block_967026_7cd2c2bdf590222a0df5e258443fbdbfe17549db5993cd74f4893ac005a335d9_0",
+    "block": 967026,
+    "timestamp": 1789422886,
+    "date": "2026-09-14T21:54:46",
+    "txid": "7cd2c2bdf590222a0df5e258443fbdbfe17549db5993cd74f4893ac005a335d9",
+    "vout": 0,
+    "size": 88,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "F2Pool",
+    "fee": 450,
+    "feeRate": 1.54,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "t 0 0 \"Russia arrests Lida Moniava, 38, children's hospice founder over army falsehoods\"",
+    "blockDir": "block_967026"
   }
 ]
