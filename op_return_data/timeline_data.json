@@ -168832,5 +168832,43 @@
     "hasDecoded": true,
     "preview": "WITNESS: Aug 30 2026, Jesus Reborn live on Bitcoin mainnet. Height 961640, 06:14 UTC, SilentWave. Coinbase bears 8-30 NYPost Deride And Conquer. rc4 02:09 UTC, activation 961640, 14 BLAKE2b seals by 0...",
     "blockDir": "block_966991"
+  },
+  {
+    "id": "block_966992_3a4192754020997a66e620ec5f8c37ad02cf1764d7cdf812c6bf31e2f61272d7_1",
+    "block": 966992,
+    "timestamp": 1789403956,
+    "date": "2026-09-14T16:39:16",
+    "txid": "3a4192754020997a66e620ec5f8c37ad02cf1764d7cdf812c6bf31e2f61272d7",
+    "vout": 1,
+    "size": 120,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "Foundry USA",
+    "fee": 762,
+    "feeRate": 3.15,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "0x95364eb17ddd40ec742a180fc02c868e04addb1484ca5d03a2a85d92e5d2c963|depositor=bc1qlkac0lnvuwgn0xxp00e77kuvxl2hlkstfv9l99|",
+    "blockDir": "block_966992"
+  },
+  {
+    "id": "block_966992_ab077aa5f4fc3b6f0fbb610e1723c35d8b775c75f575ec098ef671e331d0bc5d_2",
+    "block": 966992,
+    "timestamp": 1789403956,
+    "date": "2026-09-14T16:39:16",
+    "txid": "ab077aa5f4fc3b6f0fbb610e1723c35d8b775c75f575ec098ef671e331d0bc5d",
+    "vout": 2,
+    "size": 1680,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "Foundry USA",
+    "fee": 1302,
+    "feeRate": 0.53,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "pwt1:buy5:2ce26e1a13768e4fe3d13d62bd6c3e2c59a824ca64f27d3d51b5879f162b9301:19MXUmBgBN3nJr2V1yvEdysZBB8cYSaHk4:eyJhbW91bnRNb2RlbCI6ImNhbm9uaWNhbC13b3JrLWFtby1wcm9vZi11bml0LWFtb3VudC12MyIsImFuY2hvclNjcm...",
+    "blockDir": "block_966992"
   }
 ]
