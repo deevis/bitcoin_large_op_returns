@@ -171549,5 +171549,43 @@
     "hasDecoded": true,
     "preview": "pwt1:list5:eyJhbW91bnRNb2RlbCI6ImNhbm9uaWNhbC13b3JrLWFtby1wcm9vZi11bml0LWFtb3VudC12MyIsImFuY2hvclNjcmlwdFB1YktleSI6IjUxMjAwOTVjNGI0YzNiMTg5MmQxMjJhZjI3NTU3YWJlM2M1NDAyMjJlMjAyZTNmODE3N2NhM2ZiMGU1OWNmZ...",
     "blockDir": "block_967123"
+  },
+  {
+    "id": "block_967134_f6b5b003a696281377fe3f8705e77c8643d2f2b7775f69407cfaf8b0df9ae183_2",
+    "block": 967134,
+    "timestamp": 1789482281,
+    "date": "2026-09-15T14:24:41",
+    "txid": "f6b5b003a696281377fe3f8705e77c8643d2f2b7775f69407cfaf8b0df9ae183",
+    "vout": 2,
+    "size": 120,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "Foundry USA",
+    "fee": 404,
+    "feeRate": 1.03,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "pwb1:follow:eyJ2IjoxLCJ0YXJnZXRBZGRyZXNzIjoiMTh4dmJqNm1wUHBZWWpXaWJjcXNYZFY3U0N3QlFOcnFNVyIsInRhcmdldElkIjoiY2FyYm9ueiJ9",
+    "blockDir": "block_967134"
+  },
+  {
+    "id": "block_967134_9aa23ee7fbfe7bbcfbd3deab805cff50e1480fff4fc330001525ec16cda8b91a_0",
+    "block": 967134,
+    "timestamp": 1789482281,
+    "date": "2026-09-15T14:24:41",
+    "txid": "9aa23ee7fbfe7bbcfbd3deab805cff50e1480fff4fc330001525ec16cda8b91a",
+    "vout": 0,
+    "size": 138,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "Foundry USA",
+    "fee": 470,
+    "feeRate": 1.62,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "Satoshi planted a tree we now shade under. Block by block, tx by tx, I was here. No kings, no banks, just math and memory. See you at 21M.",
+    "blockDir": "block_967134"
   }
 ]
