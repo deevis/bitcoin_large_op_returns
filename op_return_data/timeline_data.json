@@ -170998,5 +170998,43 @@
     "hasDecoded": true,
     "preview": "Ash nazg durbatuluk, ash nazg gimbatul, ash nazg thrakatuluk, agh burzum-ishi krimpatul.",
     "blockDir": "block_967073"
+  },
+  {
+    "id": "block_967084_b4abb82097301682d4b7f36d3eaaec5512584c20de639dbf7978b802d88434e3_1",
+    "block": 967084,
+    "timestamp": 1789454388,
+    "date": "2026-09-15T06:39:48",
+    "txid": "b4abb82097301682d4b7f36d3eaaec5512584c20de639dbf7978b802d88434e3",
+    "vout": 1,
+    "size": 120,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "Marathon Digital",
+    "fee": 1270,
+    "feeRate": 5.25,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "0x7f0ce7d88d03c30f866921ea2b269ec382aeb4ad6b72560f9c60c7046c91abd9|depositor=bc1qfxgmjj3pp5tu0zx44fdg3xzywxzhneurgkl2r9|",
+    "blockDir": "block_967084"
+  },
+  {
+    "id": "block_967084_3fff4af866b672d0bf1aea9262d078ac4fe6fd5b5e43b1546dfadc149818cc6f_1",
+    "block": 967084,
+    "timestamp": 1789454388,
+    "date": "2026-09-15T06:39:48",
+    "txid": "3fff4af866b672d0bf1aea9262d078ac4fe6fd5b5e43b1546dfadc149818cc6f",
+    "vout": 1,
+    "size": 112,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "Marathon Digital",
+    "fee": 738,
+    "feeRate": 3.15,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "0xf4a827d6fc2add0abfc313974a45d2061ebcd2def1b9a14a6463deef11c54313|depositor=3QB5xSbL9wNfXiPrnAQozbTtKN3S4umeUz|",
+    "blockDir": "block_967084"
   }
 ]
