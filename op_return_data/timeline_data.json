@@ -170960,5 +170960,43 @@
     "hasDecoded": true,
     "preview": "0xeed64f53fb635dee977c07ec81c9dcc8080f1ac56c2fedaaf9ef2a3e5edaa752|depositor=bc1qnfhtkx09gf0u5pxazcshrmt3j6uvgf263syruh|",
     "blockDir": "block_967063"
+  },
+  {
+    "id": "block_967073_fbf7b27813cfddef01fbe87a66b7c5bf903690f2cfe0eed435aed7f00e59fcf9_1",
+    "block": 967073,
+    "timestamp": 1789444706,
+    "date": "2026-09-15T03:58:26",
+    "txid": "fbf7b27813cfddef01fbe87a66b7c5bf903690f2cfe0eed435aed7f00e59fcf9",
+    "vout": 1,
+    "size": 112,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "Foundry USA",
+    "fee": 492,
+    "feeRate": 2.1,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "0x279d43649594487ac0a23bf58adcb7226ae8c64347472d43b67c27057d391938|depositor=3QQ8fcwmkzZoLLAPNtWvEtQjY1vCHe2zNS|",
+    "blockDir": "block_967073"
+  },
+  {
+    "id": "block_967073_47b1c9122eaf72318ed20dd80fa8381596c662b44cd246fa3ea4014520859c73_0",
+    "block": 967073,
+    "timestamp": 1789444706,
+    "date": "2026-09-15T03:58:26",
+    "txid": "47b1c9122eaf72318ed20dd80fa8381596c662b44cd246fa3ea4014520859c73",
+    "vout": 0,
+    "size": 88,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "Foundry USA",
+    "fee": 467,
+    "feeRate": 1.0,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "Ash nazg durbatuluk, ash nazg gimbatul, ash nazg thrakatuluk, agh burzum-ishi krimpatul.",
+    "blockDir": "block_967073"
   }
 ]
