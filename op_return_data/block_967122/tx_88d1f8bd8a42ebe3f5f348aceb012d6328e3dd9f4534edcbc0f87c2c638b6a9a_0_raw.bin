@@ -1,0 +1,57 @@
+Message from Samson Mow on X (relayed by an independent observer):
+
+Disclaimer: I haven't been CSO at @Blockstream for a few years now and these are my own takes. I'm currently CEO at @JAN3com and a member of the @Liquid_BTC Technology Board.
+
+The reactions to this post from Blockstream are quite unbelievable. A lot of people are actually arguing it isn't really theft because a bug made it possible, or that paying the ransom would have been the reasonable thing to do because the hackers returned some of the stolen funds. I'd be surprised if they said the same thing after a theft of their own.
+
+Also, no one at Blockstream has ever said "Code is Law." That's Ethereum marketing copy. A Bitcoiner would only say/write it as a jab at Ethereum. Code is code. Law is law. It's incredible that this needs to be explained.
+
+On people saying they'll never use a Blockstream product again: that's just silly. Most of the developers who worked on Liquid and introduced the initial bug, or missed it, have long since moved on to other companies whose products and services you might be using. It's the nature of software development. Devs can create bugs and then they move to other companies.
+
+On bounty vs ransom: you can't demand a bounty. A bounty is offered. It isn't priced by the person that stole something. It's not really a white hat hacker if they are demanding payment for stolen property - that's just extortion.
+
+The hacker said 10% is reasonable. That just isn't theirs to decide. If they'd done a peg-in to add 4,000 BTC to the network before draining it, would that justify an 800 BTC bounty? What if they priced the "bounty" off the $5B in assets issued on the network? You can see it doesn't make any sense and they can just pick any number.
+
+Strategically, should Blockstream have paid a 400 BTC ransom to recover 600 BTC? The answer depends on a few factors. I believe the hacker intended to be white hat-ish and return most of it for a big reward.
+
+There are three possible scenarios:
+
+Scenario A: 3,400 BTC recovered, 600 BTC missing
+Scenario B: 3,400 BTC recovered, 600 BTC recovered later
+Scenario C: 3,600 BTC recovered, 400 BTC paid as ransom
+
+A and B are really the same, they just resolve differently later and that isn't up to Blockstream. So the only real choice is whether to pay.
+
+And there are some inferences and assumptions we can make:
+
+- They seemed to originally want to be "white hat" ish
+- They returned 3,400 BTC so it reinforces the original goal to be "white hat" and makes it unlikely they can act with impunity (like NK hackers)
+- Their frustration at not getting the 10% suggests they really expected that as the reward
+- They may not have been that careful while carrying out the hack, because it was expected to be a "white hat" job that ended amicably (which could have been the case had Blockstream thought 10% was right)
+- They're acting like people who think they left some clues behind
+- If the hacker thought they could get away, they'd have already started laundering the remaining 598 BTC
+- It's safer for them to not move the 598 BTC than it is profitable to move it - that seems to indicate they were not prepared to have to launder such a large amount of coins
+
+Now let's break down the game theory:
+
+Look at what C actually gets. Paying 400 BTC gets just 200 BTC back. If there's no urgency to get the 600 BTC back, and the assumptions above hold true, why shouldn't Blockstream just wait?
+
+Nobody walks 598 tagged BTC that the entire world is watching into a KYC exchange, so the plan is presumably a mixer. The question is how much confidence that deserves, and the honest answer is less than people assume. Mixers have been compromised, seized, logged, and unwound after the fact, sometimes years after everyone involved thought they were clear. You really don't find out which kind you used until later.
+
+So what they're really asking for isn't 400 BTC. It's 400 BTC plus a permission slip. Call it a bounty and the coins stop being proceeds of an exploit and become disclosed income from a security engagement. Depositable, explainable, and taxable. The label is what turns an unmovable position into a spendable one, and it's worth more than the coins.
+
+Returning 3,400 BTC fits the same read. 4,000 coins is even less movable than 600. Shrinking the position to something conceivably realizable while keeping a claim is what you'd do if you understood the constraints.
+
+Also, time runs the wrong way for them. AI is a double-edged sword. It may have helped the hacker find the bug, but that was one moment. The chain and metadata are permanent and structured, the tooling keeps improving, and every new technique applies retroactively to data that can't be revised. They had one pass to get it right, against capability that didn't exist yet. It's rarely the thing you were careful about. It's the thing you never thought of.
+
+And this isn't a one-off. There's $5B of assets issued on Liquid. Pay 10% once and you've published the payout schedule for every exploit after this one. Blockstream isn't playing a single round here, they'd be setting the price for the next person who finds something. Refusing publicly is what makes the refusal stick, because paying later would cost them the reputation they just spent saying no.
+
+So really, Blockstream's move was the right one. They lose nothing by waiting. That's the asymmetry.
+
+We've already seen how this plays out. In 2021 someone drained $610M from Poly Network, the bridge from Da Hongfei (达鸿飞). Within about a day SlowMist published the attacker's IP, email and device fingerprint. The next day he was returning funds and writing messages into his own transactions saying he'd done it for fun and that giving it back was always the plan, while also insisting his identity was untraceable. Poly offered him a $500k bounty and a job as chief security advisor. He never demanded either and turned both down. Everything was back within about two weeks.
+
+Blockstream said they will not pay a ransom. That does not rule out a bounty if the hacker returns the funds. The funds have to be returned because they belong to the users of Liquid. Blockstream cannot negotiate with funds stolen from Liquid users. A bounty would be a separate discussion and would have to be reasonable but it could be done.
+
+The bounty option won't stay open forever though. Right now the hacker can still return the coins and talk.
+
+But time is ticking. ⏱️
