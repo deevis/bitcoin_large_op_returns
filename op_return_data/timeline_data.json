@@ -171587,5 +171587,43 @@
     "hasDecoded": true,
     "preview": "Satoshi planted a tree we now shade under. Block by block, tx by tx, I was here. No kings, no banks, just math and memory. See you at 21M.",
     "blockDir": "block_967134"
+  },
+  {
+    "id": "block_967137_9a8776be9ea6e003318a15ac48148ebbec76d5e459b7bec72b9b0f9c152098ff_0",
+    "block": 967137,
+    "timestamp": 1789484366,
+    "date": "2026-09-15T14:59:26",
+    "txid": "9a8776be9ea6e003318a15ac48148ebbec76d5e459b7bec72b9b0f9c152098ff",
+    "vout": 0,
+    "size": 158,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "SpiderPool",
+    "fee": 1000,
+    "feeRate": 3.22,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "This OP_RETURN cost more in fees than your memecoin is worth. No utility, no roadmap, no Discord. Just pure, glorious, eternal on-chain graffiti. NGMI? WAGMI.",
+    "blockDir": "block_967137"
+  },
+  {
+    "id": "block_967137_ce4af1ed6c70912de00536bdcf29b831bb640cec88981ef963c42450218a2fee_1",
+    "block": 967137,
+    "timestamp": 1789484366,
+    "date": "2026-09-15T14:59:26",
+    "txid": "ce4af1ed6c70912de00536bdcf29b831bb640cec88981ef963c42450218a2fee",
+    "vout": 1,
+    "size": 120,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "SpiderPool",
+    "fee": 1270,
+    "feeRate": 5.25,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "0x68adc93bc08baa3f39d5437e41f1a400c68b5b2715b91234426f62e6ebd9b764|depositor=bc1qrgs0trvkp0txph9p65sdpmm7yhxjp49t9q8luv|",
+    "blockDir": "block_967137"
   }
 ]
