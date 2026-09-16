@@ -172575,5 +172575,24 @@
     "hasDecoded": true,
     "preview": "We have proposed a system for electronic transactions without relying on trust. 2008 was the spark, 2026 is the fire. Run your node, verify everything. Don't trust.",
     "blockDir": "block_967334"
+  },
+  {
+    "id": "block_967336_604e5093b05025b2c07ca19d3f86345d203593f5d1246ff33b25c13c5abd560f_1",
+    "block": 967336,
+    "timestamp": 1789601199,
+    "date": "2026-09-16T23:26:39",
+    "txid": "604e5093b05025b2c07ca19d3f86345d203593f5d1246ff33b25c13c5abd560f",
+    "vout": 1,
+    "size": 120,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "Unknown",
+    "fee": 1270,
+    "feeRate": 5.25,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "0x79a7c8423566647685f7c83d717a9bb039c9200081d8e76076d545d89de8ae8e|depositor=bc1qlys22wkv9uvnfwcwkuszc29yhcgwhwtrjqzc8j|",
+    "blockDir": "block_967336"
   }
 ]
