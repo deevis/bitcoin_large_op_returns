@@ -172233,5 +172233,43 @@
     "hasDecoded": true,
     "preview": "Hello future! I was born in 2026 and my parents sealed this note in Bitcoin. If you can read this, the chain survived. Dream big, stay humble, stack sats, little one.",
     "blockDir": "block_967295"
+  },
+  {
+    "id": "block_967302_8c22aafdb29fa2cb1a36e698289e98b80991e334e6705cc7b56f42fed3633b35_1",
+    "block": 967302,
+    "timestamp": 1789577553,
+    "date": "2026-09-16T16:52:33",
+    "txid": "8c22aafdb29fa2cb1a36e698289e98b80991e334e6705cc7b56f42fed3633b35",
+    "vout": 1,
+    "size": 120,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "Foundry USA",
+    "fee": 1270,
+    "feeRate": 5.25,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "0x03731255a198945adc8fa6ecc09db5830206c93e10ca6e66b2a9ecd70959c43f|depositor=bc1qal6hquxexvn20zdjwy3ygs8cmky57nlpx7y4sx|",
+    "blockDir": "block_967302"
+  },
+  {
+    "id": "block_967302_3a1061962f953bafcc3d39648a28df3037b2e9a07a1228e9db98b7ee70678696_0",
+    "block": 967302,
+    "timestamp": 1789577553,
+    "date": "2026-09-16T16:52:33",
+    "txid": "3a1061962f953bafcc3d39648a28df3037b2e9a07a1228e9db98b7ee70678696",
+    "vout": 0,
+    "size": 164,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "Foundry USA",
+    "fee": 1020,
+    "feeRate": 3.22,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "We have proposed a system for electronic transactions without relying on trust. 2008 was the spark, 2026 is the fire. Run your node, verify everything. Don't trust.",
+    "blockDir": "block_967302"
   }
 ]
