@@ -1,0 +1,127 @@
+CRC-20
+
+1. Preamble and scope
+
+Bitcoin, a two-stack machine, intentionally not Turing-complete. Pay-to-Script-Hash hid the redeem script so that complexity left the output. OP_CLTV and OP_CSV made time a coordinate one can fail. Lau observed that a program is a tree and that the chain should see thirty-two bytes; BIP-114 did not activate, but the idea did not die.
+
+From 2016 onward the covenant question stopped being “who signed?” and became “where can this go?” Segregated Witness and then Taproot offered one key and hidden branches. Simplicity offered denotational semantics without loops and a Commitment Merkle Root, running on Liquid rather than as a Bitcoin mainnet leaf. Utreexo recast the UTXO set as a forest of roots with O(log n) proofs; Floresta burns the leaf from RAM. Discreet Log Contracts and Lightning kept oracles and hashlocks off the base when they could. Inscriptions placed JSON on Layer 1 and indexers invented balances: BRC-20 became a habit. Sovereign overlays settled on Layer 1 and executed at the edge, without an enshrined bridge.
+
+We planted a seed. The construction was first written down by laz1m0v in the PRECOP yellow paper (March 2026) and published as a whitepaper (April 2026). CRC-20 is a dialect: Output 1 speaks; Output 2 is the law — a P2TR dust whose script identity is a CMR. The engine reflects geometry. If the topology misses the covenant, it writes nothing. This corrected edition keeps that geometry and withdraws language that over-claimed Layer-1 enforcement.
+
+A recurrent question is why Simplicity and covenants are not executed directly on Bitcoin Layer 1. Bitcoin L1 does not execute Simplicity: raw Simplicity bytes pushed to mainnet today are unevaluable by miners. Bitcoin L1 is also blind to covenants: Script can verify signatures and time delays, but it cannot enforce topological routing rules. That limitation mandates a CSV architecture. Layer 1 does not judge the execution rule δ; it is strictly the client’s contract. For the miner the CMR is an inert 32-byte string that satisfies standardness. If Bitcoin later activates Simplicity by soft fork, the same commitment remains a valid native leaf.
+
+2. Executive corrections
+
+Claim	Corrected statement	Evidence
+CMR anchors law	A CMR is data inside a revealed Tapscript leaf; the client binds it to a named Simplicity program.	Compiler, CMR algorithm, leaf bytes, TapLeafHash, vectors.
+NUMS disables key-path	A NUMS internal key makes a key-path spend infeasible under discrete-log hardness.	Published derivation and a test vector.
+Invalid transition is slashed	The overlay assigns no successor CRC-20 state. Native bitcoin is unaffected.	Semantics for every failed seal spend.
+Wallet signs the PSBT	The wallet must inspect inputs, outputs, fees and Taproot metadata.	BIP174 / BIP371 tests.
+
+Table 1. Claims restated for a Bitcoin-protocol review.
+
+PRECOP must not describe its off-chain interpreter as an enforcer of Bitcoin consensus. Clients may ignore a confirmed transaction for the overlay; they cannot reverse native satoshi effects.
+
+2.1 Segregation of duties
+
+Primitive	Bitcoin mainnet	PRECOP engine
+Execution	Orders and settles transactions. Validates Taproot signatures (BIP-341/342) and relative timelocks (OP_CSV).	Executes the Simplicity AST deterministically off-chain from the L1 sequence.
+Simplicity	Does not execute Simplicity. Sees an opaque 32-byte hash in a Tapscript leaf.	Compiles the AST, derives the CMR, and checks it against the anchored hash.
+State storage	Stores the Taproot UTXO (dust). Drops the spent UTXO from RAM.	Mutates the Utreexo accumulator root.
+Topology	Blind to CRC-20 payloads. Treats Output 1 and Output 2 as data and dust.	Enforces geometry. Missed covenant AST → slash or ignore per §6 of CRC20_SPEC_v1.
+Identity	Authenticates the Schnorr/ECDSA signature of the UTXO owner.	Owner = x-only key in the verified seal leaf. JSON “from” fields are rejected.
+Asset value	Validates native satoshi transfer and fees.	Pure atoms as u64. Floats fail the parser.
+
+Table 2. What Bitcoin consensus does, and what the client law does.
+
+3. Taproot and CMR binding
+
+Each seal must use a BIP341 Taproot output whose script tree contains a designated Tapscript leaf. The engine must verify previous output, control block, revealed script and script-path witness before evaluating any overlay transition.
+
+<CMR_32> OP_DROP <delay> OP_CSV OP_DROP <xonly_owner_key> OP_CHECKSIG
+
+CMR_32 is an application commitment. Bitcoin verifies the leaf and the relative timelock; it does not verify that CMR_32 is a Simplicity program. The engine recomputes the CMR from the normative AST and compares it byte-for-byte.
+
+L = TaggedHash("TapLeaf", v || CompactSize(|S|) || S)
+
+Q = lift_x(P) + int(TaggedHash("TapTweak", x(P) || m)) G
+
+A SHA-256 of source text or a JSON file is not a Simplicity CMR. The BIP341 NUMS point H = lift_x(0x5092…03ac0) may start the internal key. If P = H + rG, r must be published. The engine ignores a seal spend that does not reveal the required script-path leaf.
+
+4. Identity, time, lineage
+
+CRC-20 identity is derived from the validated seal, not from an unconstrained first input.
+
+Owner(seal) = xonly_owner_key in the verified leaf
+
+AssetId = SHA256(v || deploy_id || seal_outpoint || state_leaf)
+
+The leaf specifies a BIP112-compatible delay. The client validates nSequence itself. The AST may mirror the constraint; it cannot replace Bitcoin script validation. For chain C and version v,
+
+S_{h+1} = δ_v(S_h, Block_{h+1}).
+
+Transactions in block order; events ordered inside a transaction; every mutation bound to an outpoint; undo records keyed by block hash. Reorgs disconnect undo in reverse and reconnect deterministically.
+
+5. CRC-20 normative requirements
+
+The yellow paper is architectural. CRC20_SPEC_v1 is normative. Magic CRC20\x01, proto_ver 0x01, MAX_PAYLOAD 80. JSON, if used, is UTF-8 with forbidden floats, forbidden duplicate keys, and sorted keys before hashing. Amounts are u64 atoms with checked arithmetic. Deploy, mint, transfer and Merkle-state encodings, error codes and conservation equations live in that companion spec.
+
+Binary envelope for v = 1: magic CRC20\x01 (six bytes), proto_ver 0x01, one-byte op, then an op-specific body. Ops 0x01 deploy, 0x02 mint, 0x03 transfer. JSON high-bit aliases exist only to parse review drafts. Ticker space is [A-Z0-9] of length 1..16. Decimals D ∈ [0, 18]. Display 0.5 at D = 8 is consensus 50,000,000 atoms. Checked u64/u128 arithmetic: overflow invalidates the event.
+
+deploy produces deploy_id = SHA256(magic || proto_ver || 0x01 || txid || vout_seal || tick || max || dec || lim).
+
+First-seen tick wins. mint must cite a known deploy_id, a non-zero amt that does not exceed max when max ≠ 0, and a payment proof already in chain C (or in the same transaction — preferred). transfer consumes one state leaf bound to a spent seal and conserves atoms. Creation events that fail encoding return ∅ and leave state unmodified. Spending an existing seal is never silently dropped.
+
+State leaves are (AssetId, balance_u64, owner_xonly) sorted by AssetId. S_L2 is the sorted Merkle root of SHA256(0x13 || AssetId || balance || owner). The empty root is SHA256(0x13 || “CRC20_EMPTY_v1”). Two conforming nodes at the same tip must obtain the identical root.
+
+6. CPFP, burns, swaps, oracles
+
+A child cannot exist without its parent; Bitcoin does not confirm them together. Payment-parent plus mint-child is not atomic. A missing child is a treasury donation only if the payer consented in the wallet UI and the policy is replay-safe across RBF and reorgs. Prefer payment evidence and mint in one transaction.
+
+If a known seal is spent with malformed geometry, v1 burns the overlay balance (no successor leaf). Native coins follow Bitcoin. “Slashed” never names an L1 penalty.
+
+Astrolab: an interpreter can check that some output pays P_maker at least V_ask. SIGHASH_SINGLE | ANYONECANPAY prices griefing at the L1 ask. DLC oracles may stay off-chain only with a published key registry, outcome encoding and dispute policy. Same-CMR routing of leftover collateral does not prove liquidation economics. OP_CSV restricts when a UTXO may be spent, not a virtual vested amount; tranche floor-division belongs inside δ_v.
+
+6.1 Swap invariant and the priced failure mode
+
+SwapInvariant(τ) holds if there exists an output i such that output_script_pubkey_hash(i) equals the maker payment script and output_amount(i) ≥ V_ask. Because the maker pre-signs with SIGHASH_SINGLE | ANYONECANPAY, miners who include the spend pay the maker on L1. If the taker corrupts the overlay payload, δ_v1 burns the sealed L2 inventory. Griefing is therefore priced at exactly the L1 ask. The protocol must still publish a state graph: valid extraction requires both the payment output and a valid successor seal.
+
+6.2 Oracles and vesting
+
+A DLC signature may remain off-chain, but clients then need a normative oracle-key registry, outcome encoding, attestation procedure, dispute policy, timestamp semantics and collateral accounting. Routing leftover collateral to a new output with CMR = C_vault bounds where coins may land; it does not prove the oracle told the truth.
+
+Vesting formula min(total, elapsed · rate) is illustrative until every unit, overflow rule and partial-spend successor is written into δ_v. Tranche conservation A_i = ⌊A/N⌋, A_N = ⌊A/N⌋ + (A mod N) is admissible only as part of that function.
+
+6.3 Threat model
+
+The adversary may broadcast arbitrary Bitcoin transactions, reorder the mempool within miner policy, lie as an oracle, and run a hostile wallet or indexer. The adversary cannot break Schnorr, invert SHA-256, or rewrite confirmed history beyond ordinary shallow reorganizations, which undo logs must absorb. Parser divergence forks S_L2. Version drift to δ_v2 is a different court, not a peer. Eclipse of the chain source is an operational failure of the client, not of Bitcoin consensus.
+
+7. PSBT, wallets, release gate
+
+A PSBT is unsigned transaction plus metadata. Wallets are policy engines. The builder emits BIP174 and BIP371 fields. The UI shows every output, fee, relative lock, protocol version and overlay consequence. No blind signing. No assumed coin-selection or broadcast without an integration test.
+
+Before any production claim, an independent implementer reproduces S_L2 from genesis to a fixed height from the published spec and corpus alone: seal bytes, pinned Simplicity compiler, CRC-20 vectors, reorg/RBF replay, PSBT tests, and a threat model covering payer, maker, indexer, oracle, wallet, miner and eclipse attacker.
+
+8. Related work and lineage
+
+PRECOP sits at the intersection of four programmes that have rarely been composed into a single client law. The MAST programme (Lau; later Taproot) treats a program as a tree whose chain-visible face is a 32-byte commitment. Simplicity supplies a non-Turing-complete calculus with denotational semantics and a stable CMR. Utreexo recasts full validation as an accumulator problem. DLC and Lightning showed that an oracle or a hashlock can decide a contract without an enshrined virtual machine. Schnorr made the leaf cheap enough to carry the commitment. The original PRECOP yellow paper defined TUSM as a covenant-enforced automaton on a five-leaf MAST and introduced work-weighted oracle resolution. The April whitepaper recast the same engine as a canonical transaction-derivation procedure that closes the PSBT trust gap before a signature is produced. This edition inherits those definitions and places them under explicit Layer-1 / client-law segregation.
+
+9. Conformance gate
+
+Area	Required evidence
+Taproot seal	Leaf bytes, control block, CMR computation, NUMS derivation, valid and invalid spends.
+Interpreter	Pinned Simplicity implementation, jet semantics, deterministic build, known-answer tests.
+CRC-20	Complete deploy/mint/transfer vectors, malformed inputs, overflow cases (T01–T14 in CRC20_SPEC_v1).
+Chain replay	Block-order vectors, confirmation policy, RBF, reorg disconnect/reconnect, idempotence.
+Wallet	PSBT parse/finalize, Taproot metadata, user-visible output review.
+Security	Threat model: malicious payer, maker, indexer, oracle, wallet, miner, eclipse attacker.
+
+Table 3. Evidence required before any production claim.
+
+Named corpus T01–T14 covers: valid deploy; JSON float rejection; duplicate ticker; same-transaction mint; child mint whose parent never confirms; mint exceeding max; transfer conservation; transfer exceeding balance after an L1 seal spend; wrong-CMR burn; key-path attempt on a NUMS seal; reorg that undoes a mint; two-process replay to height H with equal S_L2; PSBT missing tap leaf; nSequence below delay. Promotion off RC requires an independent implementer to pass that corpus from genesis to a fixed height using only CRC20_SPEC_v1 and the fixtures.
+
+Error classes are pinned: E000 not magic; E001 bad proto_ver; E002 payload too long; E003 non-canonical JSON; E010 bad topology; E011 TapLeaf/tweak mismatch; E012 CMR mismatch versus the pinned AST; E020–E022 rejected deploy/mint/transfer; E030 seal spend burns; E040 foreign parser unpinned. Creation ops return ∅ plus a code. Seal spends that burn return E030 and mutate overlay state.
+
+10. Conclusion
+
+PRECOP is a deterministic, opt-in CSV overlay that anchors application commitments in Taproot spends. Security is conditional on exact software, parser, compiler, chain source and wallet rules. This edition does not claim native Bitcoin covenants, automatic Layer-1 slashing, atomic CPFP, or production readiness without conformance evidence. Thirty-two bytes on the chain are data until an independent client binds them to a named program.
