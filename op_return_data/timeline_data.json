@@ -172841,5 +172841,24 @@
     "hasDecoded": true,
     "preview": "Passphrase: You'll have to discover the fmt through brute force. The key question greatly narrows the search space.",
     "blockDir": "block_967383"
+  },
+  {
+    "id": "block_967388_2a3eb9ede46cb2f03190c7fd56cc4585ba9cdb7dd5c0a357ce22898262a42723_1",
+    "block": 967388,
+    "timestamp": 1789635385,
+    "date": "2026-09-17T08:56:25",
+    "txid": "2a3eb9ede46cb2f03190c7fd56cc4585ba9cdb7dd5c0a357ce22898262a42723",
+    "vout": 1,
+    "size": 120,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "Foundry USA",
+    "fee": 1270,
+    "feeRate": 5.25,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "0xafea2965f47763b2e250db0f4414473e0885008e1e9b9fa97d5add43e2a5df15|depositor=bc1qvzlnzsmqg3z74s7f78f42vgxknypsdjgk38lry|",
+    "blockDir": "block_967388"
   }
 ]
