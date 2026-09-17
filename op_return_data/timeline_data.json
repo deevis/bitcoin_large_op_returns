@@ -172613,5 +172613,24 @@
     "hasDecoded": true,
     "preview": "This OP_RETURN cost more in fees than your memecoin is worth. No utility, no roadmap, no Discord. Just pure, glorious, eternal on-chain graffiti. NGMI? WAGMI.",
     "blockDir": "block_967339"
+  },
+  {
+    "id": "block_967353_521e7ede2e477e0c737ff172e63ae96e1d9f4b7bf42db47274f5539af327e0c1_2",
+    "block": 967353,
+    "timestamp": 1789609366,
+    "date": "2026-09-17T01:42:46",
+    "txid": "521e7ede2e477e0c737ff172e63ae96e1d9f4b7bf42db47274f5539af327e0c1",
+    "vout": 2,
+    "size": 1677,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "Unknown",
+    "fee": 1141,
+    "feeRate": 0.53,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "pwt1:buy5:6e23232acc1711ff12bd55c8b0a20ac641201e31cfafa24af0cf5dba2db1b90e:19MXUmBgBN3nJr2V1yvEdysZBB8cYSaHk4:eyJhbW91bnRNb2RlbCI6ImNhbm9uaWNhbC13b3JrLWFtby1wcm9vZi11bml0LWFtb3VudC12MyIsImFuY2hvclNjcm...",
+    "blockDir": "block_967353"
   }
 ]
