@@ -173392,5 +173392,43 @@
     "hasDecoded": true,
     "preview": "0x3e083fe8b8d1225b325818e85a177114bf5782e366d2d213097ea78c6a1f97de|depositor=bc1qum0chqkapx2fzg8tu5zkcwzj2zumcwz9pdzuk6|",
     "blockDir": "block_967473"
+  },
+  {
+    "id": "block_967475_a6a6206ff3a88100097323e0c2232f7afec74645e232d567b747e61d9120048f_1",
+    "block": 967475,
+    "timestamp": 1789686973,
+    "date": "2026-09-17T23:16:13",
+    "txid": "a6a6206ff3a88100097323e0c2232f7afec74645e232d567b747e61d9120048f",
+    "vout": 1,
+    "size": 120,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "Marathon Digital",
+    "fee": 1524,
+    "feeRate": 6.3,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "0xb0634b716e6c163ad58e5dee1bf183f0f791a1b6a25aed2ddb49033192850280|depositor=bc1qnfhtkx09gf0u5pxazcshrmt3j6uvgf263syruh|",
+    "blockDir": "block_967475"
+  },
+  {
+    "id": "block_967475_c06b944bf1e92cef991144c484c3c8f7a95ffc6e82bb409c624d7bda544bd509_1",
+    "block": 967475,
+    "timestamp": 1789686973,
+    "date": "2026-09-17T23:16:13",
+    "txid": "c06b944bf1e92cef991144c484c3c8f7a95ffc6e82bb409c624d7bda544bd509",
+    "vout": 1,
+    "size": 104,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "Marathon Digital",
+    "fee": 1250,
+    "feeRate": 3.46,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "We still do not know one thousandth of one percent of what nature has revealed to us. -- Albert Einstein",
+    "blockDir": "block_967475"
   }
 ]
