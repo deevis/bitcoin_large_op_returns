@@ -172594,5 +172594,24 @@
     "hasDecoded": true,
     "preview": "0x79a7c8423566647685f7c83d717a9bb039c9200081d8e76076d545d89de8ae8e|depositor=bc1qlys22wkv9uvnfwcwkuszc29yhcgwhwtrjqzc8j|",
     "blockDir": "block_967336"
+  },
+  {
+    "id": "block_967339_a52ba913359bf69fd910ca127b7bd10fceb0066f8cf0eeb76dffa8f8f0e4d233_1",
+    "block": 967339,
+    "timestamp": 1789604347,
+    "date": "2026-09-17T00:19:07",
+    "txid": "a52ba913359bf69fd910ca127b7bd10fceb0066f8cf0eeb76dffa8f8f0e4d233",
+    "vout": 1,
+    "size": 158,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "Foundry USA",
+    "fee": 612,
+    "feeRate": 1.92,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "This OP_RETURN cost more in fees than your memecoin is worth. No utility, no roadmap, no Discord. Just pure, glorious, eternal on-chain graffiti. NGMI? WAGMI.",
+    "blockDir": "block_967339"
   }
 ]
