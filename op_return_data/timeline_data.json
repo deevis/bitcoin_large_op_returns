@@ -174456,5 +174456,24 @@
     "hasDecoded": true,
     "preview": "SHA256d only: OP_RETURN >83 bytes is invalid on the BLAKE2b chain (BIP-110)         ",
     "blockDir": "block_967568"
+  },
+  {
+    "id": "block_967570_16bc78fa2845416e3bd196b608d4232680e553b3f5ee58851ab88ffdf28ec593_1",
+    "block": 967570,
+    "timestamp": 1789745099,
+    "date": "2026-09-18T15:24:59",
+    "txid": "16bc78fa2845416e3bd196b608d4232680e553b3f5ee58851ab88ffdf28ec593",
+    "vout": 1,
+    "size": 120,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "F2Pool",
+    "fee": 1015,
+    "feeRate": 4.19,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "0x902b1754068cc6bf174c46a1c351cb352cb8201a40f3f59d412d040a1c9edd50|depositor=bc1qnfhtkx09gf0u5pxazcshrmt3j6uvgf263syruh|",
+    "blockDir": "block_967570"
   }
 ]
