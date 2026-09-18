@@ -174437,5 +174437,24 @@
     "hasDecoded": true,
     "preview": "pwt1:list5:eyJhbW91bnRNb2RlbCI6ImNhbm9uaWNhbC13b3JrLWFtby1wcm9vZi11bml0LWFtb3VudC12MyIsImFuY2hvclNjcmlwdFB1YktleSI6Ijc2YTkxNDEzMjExYzViOGRjM2EwZGU5YjAyYTUzMjBlNWY3NzY2ZGNkZmI5NWU4OGFjIiwiYW5jaG9yU2lnS...",
     "blockDir": "block_967562"
+  },
+  {
+    "id": "block_967568_6ba40b49d74f4380594291f495544aa5094f53dea70096784feb48df38d38758_1",
+    "block": 967568,
+    "timestamp": 1789744097,
+    "date": "2026-09-18T15:08:17",
+    "txid": "6ba40b49d74f4380594291f495544aa5094f53dea70096784feb48df38d38758",
+    "vout": 1,
+    "size": 84,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "Unknown",
+    "fee": 610,
+    "feeRate": 2.01,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "SHA256d only: OP_RETURN >83 bytes is invalid on the BLAKE2b chain (BIP-110)         ",
+    "blockDir": "block_967568"
   }
 ]
