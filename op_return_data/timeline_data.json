@@ -174475,5 +174475,43 @@
     "hasDecoded": true,
     "preview": "0x902b1754068cc6bf174c46a1c351cb352cb8201a40f3f59d412d040a1c9edd50|depositor=bc1qnfhtkx09gf0u5pxazcshrmt3j6uvgf263syruh|",
     "blockDir": "block_967570"
+  },
+  {
+    "id": "block_967577_8fbfab7a4578969792a295334b37229c312ee8cc61dc41c38bba3c14a8e2f1a0_0",
+    "block": 967577,
+    "timestamp": 1789748432,
+    "date": "2026-09-18T16:20:32",
+    "txid": "8fbfab7a4578969792a295334b37229c312ee8cc61dc41c38bba3c14a8e2f1a0",
+    "vout": 0,
+    "size": 157,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "F2Pool",
+    "fee": 992,
+    "feeRate": 3.2,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "The city sleeps but the mempool never does. Somewhere a miner finds my whisper sealed in a block. I was awake, I was alive, I left a light on for the future.",
+    "blockDir": "block_967577"
+  },
+  {
+    "id": "block_967577_f79b8c7b69a57c3b4a9f64082264ab419b9edd9127268f4df84d39489714cf12_1",
+    "block": 967577,
+    "timestamp": 1789748432,
+    "date": "2026-09-18T16:20:32",
+    "txid": "f79b8c7b69a57c3b4a9f64082264ab419b9edd9127268f4df84d39489714cf12",
+    "vout": 1,
+    "size": 112,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "F2Pool",
+    "fee": 984,
+    "feeRate": 4.21,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "0xa3aa7e7d463fda45af691497d71d8528e739950779e8f34df98cec384f82c0a0|depositor=39LoXXmth8TqU5JBTdvJWVFBeQqZZokhWy|",
+    "blockDir": "block_967577"
   }
 ]
