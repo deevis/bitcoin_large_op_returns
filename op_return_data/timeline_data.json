@@ -175425,5 +175425,43 @@
     "hasDecoded": true,
     "preview": "0xa3b28f4d2ccb035bf31f1a6c8f6466a99e18381d4ce000ca58818df1b2a23d9d|depositor=bc1pevfhcy6z2e4leyvaecjz44kjjg56tm5zgwzcd6ptrlyjkx9mmyrqw02npk|",
     "blockDir": "block_967703"
+  },
+  {
+    "id": "block_967707_366d2c039f7407dfda44d382abd027efa11092a08c24e6dc69863bb11980c28d_0",
+    "block": 967707,
+    "timestamp": 1789821819,
+    "date": "2026-09-19T12:43:39",
+    "txid": "366d2c039f7407dfda44d382abd027efa11092a08c24e6dc69863bb11980c28d",
+    "vout": 0,
+    "size": 94,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "F2Pool",
+    "fee": 324,
+    "feeRate": 1.5,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "Le vent souffle fort ce soir et la mer reste calme malgre les nuages qui approchent lentement.",
+    "blockDir": "block_967707"
+  },
+  {
+    "id": "block_967707_dccfbba2047433288bd5dfb965b237a5f287bc234382d01b281d5fc54b33d8b0_0",
+    "block": 967707,
+    "timestamp": 1789821819,
+    "date": "2026-09-19T12:43:39",
+    "txid": "dccfbba2047433288bd5dfb965b237a5f287bc234382d01b281d5fc54b33d8b0",
+    "vout": 0,
+    "size": 90,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "F2Pool",
+    "fee": 318,
+    "feeRate": 1.5,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "La libertad, Sancho, es uno de los mas preciosos dones que a los hombres dieron los cielos",
+    "blockDir": "block_967707"
   }
 ]
