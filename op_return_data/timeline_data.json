@@ -175767,5 +175767,43 @@
     "hasDecoded": true,
     "preview": "The mempool hums my prayer to every node awake tonight. May this whisper survive fee spikes, forks, and forgetting. If found, know I believed in math over kings.",
     "blockDir": "block_967723"
+  },
+  {
+    "id": "block_967732_28b54b37613f0658f148da3377f7b3731f921ef8f41f84e5883569be8ce90a23_1",
+    "block": 967732,
+    "timestamp": 1789845222,
+    "date": "2026-09-19T19:13:42",
+    "txid": "28b54b37613f0658f148da3377f7b3731f921ef8f41f84e5883569be8ce90a23",
+    "vout": 1,
+    "size": 120,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "Foundry USA",
+    "fee": 1270,
+    "feeRate": 5.25,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "0x856f3a03852676901581aca97abf8798307866f63230fe71f601ac49968fbe87|depositor=bc1qfksn0q6nzt7gph7l9jxgjgszzs3ldnsp9u8fxt|",
+    "blockDir": "block_967732"
+  },
+  {
+    "id": "block_967732_8f397becbde932104ac471366cad332a3e38f58436bbe41bfe278492b016511d_1",
+    "block": 967732,
+    "timestamp": 1789845222,
+    "date": "2026-09-19T19:13:42",
+    "txid": "8f397becbde932104ac471366cad332a3e38f58436bbe41bfe278492b016511d",
+    "vout": 1,
+    "size": 140,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "Foundry USA",
+    "fee": 1643,
+    "feeRate": 6.27,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "0x11727619c1b4f560b1180c181bee39c60f74e749a3b2e346abdece65498e1c5c|depositor=bc1pw2ffwumc23v6yp4t5m4fmemfuujj74ecvnucq2jtc6s02ny5e79syrms4x|",
+    "blockDir": "block_967732"
   }
 ]
