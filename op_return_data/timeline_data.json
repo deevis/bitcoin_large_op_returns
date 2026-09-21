@@ -177382,5 +177382,24 @@
     "hasDecoded": true,
     "preview": "Owners Digital Signature = 0.01713789 BTC; Replace-By-Fee Request; Refund Procedure Initiator: Aristeidis Spirtos; Executor: Bitsecure LTD; Recipient: Aristeidis Spirtos arspirtos@gmail.com; Main Ledg...",
     "blockDir": "block_967976"
+  },
+  {
+    "id": "block_967982_8072145af899d15dcfef8006f2b9024f1e4543e0332e6d278197409a57aa4f34_1",
+    "block": 967982,
+    "timestamp": 1789991460,
+    "date": "2026-09-21T11:51:00",
+    "txid": "8072145af899d15dcfef8006f2b9024f1e4543e0332e6d278197409a57aa4f34",
+    "vout": 1,
+    "size": 1303,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "SpiderPool",
+    "fee": 1584,
+    "feeRate": 1.06,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "pwt1:list5:eyJhbW91bnRNb2RlbCI6ImNhbm9uaWNhbC13b3JrLWFtby1wcm9vZi11bml0LWFtb3VudC12MyIsImFuY2hvclNjcmlwdFB1YktleSI6IjAwMTRjMjY5ZTgyM2EyOTU1MTg2YmM4OTM0MTc5OGU3YmQ4ZDMzZjVjYWE3IiwiYW5jaG9yU2lnSGFzaFR5c...",
+    "blockDir": "block_967982"
   }
 ]
