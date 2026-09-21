@@ -177439,5 +177439,43 @@
     "hasDecoded": true,
     "preview": "pwt1:list5:eyJhbW91bnRNb2RlbCI6ImNhbm9uaWNhbC13b3JrLWFtby1wcm9vZi11bml0LWFtb3VudC12MyIsImFuY2hvclNjcmlwdFB1YktleSI6Ijc2YTkxNDEzMjExYzViOGRjM2EwZGU5YjAyYTUzMjBlNWY3NzY2ZGNkZmI5NWU4OGFjIiwiYW5jaG9yU2lnS...",
     "blockDir": "block_967991"
+  },
+  {
+    "id": "block_967994_32b78e6983ae13576445e06b24d11340cbf63b49563d87acd3378f3d4e387897_1",
+    "block": 967994,
+    "timestamp": 1789996380,
+    "date": "2026-09-21T13:13:00",
+    "txid": "32b78e6983ae13576445e06b24d11340cbf63b49563d87acd3378f3d4e387897",
+    "vout": 1,
+    "size": 120,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "Foundry USA",
+    "fee": 1015,
+    "feeRate": 4.19,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "0x0e380b87cc7986ed7433a220dc5c856536a300c356a5833660f825aac7d72ce4|depositor=bc1q6d2hsdyd4g34uxjp3wm6cuxhhu2g3hwesturqk|",
+    "blockDir": "block_967994"
+  },
+  {
+    "id": "block_967994_c02ac0c897b2de0341873a7de727f01c7597a8fa8267ce479f8390f515f0d20d_1",
+    "block": 967994,
+    "timestamp": 1789996380,
+    "date": "2026-09-21T13:13:00",
+    "txid": "c02ac0c897b2de0341873a7de727f01c7597a8fa8267ce479f8390f515f0d20d",
+    "vout": 1,
+    "size": 138,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "Foundry USA",
+    "fee": 40,
+    "feeRate": 0.14,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "pwid1:r2:Nzc:bc1pt0uwu89w0epwj6u9wzl9qk8v5859sz2mz6qer9f338r0aq254fmshhleqp:bc1pt0uwu89w0epwj6u9wzl9qk8v5859sz2mz6qer9f338r0aq254fmshhleqp",
+    "blockDir": "block_967994"
   }
 ]
