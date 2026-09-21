@@ -177838,5 +177838,43 @@
     "hasDecoded": true,
     "preview": "0xff92aeb12aafe9a0fb2641cab8f7c32e663b24403a85c4d5a7ced74e11952654|depositor=bc1qwelntg7tpxwgmh7gea0kycclx87mksnvhaadgf|",
     "blockDir": "block_968047"
+  },
+  {
+    "id": "block_968052_16f138ef27984839c9c84dd3520507685790c990a08359a94d8a2c7ba2110c11_0",
+    "block": 968052,
+    "timestamp": 1790031473,
+    "date": "2026-09-21T22:57:53",
+    "txid": "16f138ef27984839c9c84dd3520507685790c990a08359a94d8a2c7ba2110c11",
+    "vout": 0,
+    "size": 91,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "Foundry USA",
+    "fee": 562,
+    "feeRate": 2.3,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "EEbKEGflSQCFYeIDjKyJvZfihDHMcVPhBqThwySqPUwPyEuJOsTluyTbBaPGXePYwiiVgALXxHOXnJhdBcOXaiaEkpm",
+    "blockDir": "block_968052"
+  },
+  {
+    "id": "block_968052_969296bc339d96a0dd848c8dbec424c53233027c8c5a6bdc6f438c53b1a129b1_1",
+    "block": 968052,
+    "timestamp": 1790031473,
+    "date": "2026-09-21T22:57:53",
+    "txid": "969296bc339d96a0dd848c8dbec424c53233027c8c5a6bdc6f438c53b1a129b1",
+    "vout": 1,
+    "size": 116,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "Foundry USA",
+    "fee": 1749,
+    "feeRate": 4.69,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "Work like you don't need the money. Love like you've never been hurt. Dance like nobody's watching. -- Satchel Paige",
+    "blockDir": "block_968052"
   }
 ]
