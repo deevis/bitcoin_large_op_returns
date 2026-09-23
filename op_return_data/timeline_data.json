@@ -179130,5 +179130,43 @@
     "hasDecoded": true,
     "preview": "pwt1:list5:eyJhbW91bnRNb2RlbCI6ImNhbm9uaWNhbC13b3JrLWFtby1wcm9vZi11bml0LWFtb3VudC12MyIsImFuY2hvclNjcmlwdFB1YktleSI6Ijc2YTkxNDYyOWFhYmVmZjRiNWYwZWQxMjM2M2Y1Y2M2MmYxYjNmYzJhZTFhNTU4OGFjIiwiYW5jaG9yU2lnS...",
     "blockDir": "block_968306"
+  },
+  {
+    "id": "block_968308_335673a7a775d4c5dd54f82a9c6f92cea8e760b3d0106aab6a8390ce57fca4a7_0",
+    "block": 968308,
+    "timestamp": 1790189438,
+    "date": "2026-09-23T18:50:38",
+    "txid": "335673a7a775d4c5dd54f82a9c6f92cea8e760b3d0106aab6a8390ce57fca4a7",
+    "vout": 0,
+    "size": 144,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "Marathon Digital",
+    "fee": 751,
+    "feeRate": 2.52,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "Bitcoin: peer-to-peer cash without permission or intermediaries. Censorship-resistant, pseudonymous, self-custodied, secured by proof not trust.",
+    "blockDir": "block_968308"
+  },
+  {
+    "id": "block_968308_81d941b583c277f66b61789fa8d8610156e2b9f55b727710b0369da83c78348e_1",
+    "block": 968308,
+    "timestamp": 1790189438,
+    "date": "2026-09-23T18:50:38",
+    "txid": "81d941b583c277f66b61789fa8d8610156e2b9f55b727710b0369da83c78348e",
+    "vout": 1,
+    "size": 120,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "Marathon Digital",
+    "fee": 762,
+    "feeRate": 3.15,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "0x3935bc2db040d6e0d46b2097a45241ce655aef2eb176984aeb4b67a0c203381e|depositor=bc1qaxyxauhru9wupdgz0qgssnx2zgj7vz9tfa6xgs|",
+    "blockDir": "block_968308"
   }
 ]
