@@ -179187,5 +179187,43 @@
     "hasDecoded": true,
     "preview": "Bitcoin: peer-to-peer cash without permission or intermediaries. Censorship-resistant, pseudonymous, self-custodied, secured by proof not trust.",
     "blockDir": "block_968315"
+  },
+  {
+    "id": "block_968318_b6a2c8733f584f710623183bbe8b4f5ebfc30902abcd2527de64424bb700f399_1",
+    "block": 968318,
+    "timestamp": 1790196294,
+    "date": "2026-09-23T20:44:54",
+    "txid": "b6a2c8733f584f710623183bbe8b4f5ebfc30902abcd2527de64424bb700f399",
+    "vout": 1,
+    "size": 120,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "F2Pool",
+    "fee": 1270,
+    "feeRate": 5.25,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "0xba04b5fd9310994fca3050a9a4690cd99457cd5a60badddae1bcb630a059b83a|depositor=bc1qcfpfd8qx5lwt26wrn3d20ntqmj8jpurxtudttr|",
+    "blockDir": "block_968318"
+  },
+  {
+    "id": "block_968318_e136e6eb0d7549c8ef26a8f3983eb93c062488d7003f696522a3d5e7e3383ac2_1",
+    "block": 968318,
+    "timestamp": 1790196294,
+    "date": "2026-09-23T20:44:54",
+    "txid": "e136e6eb0d7549c8ef26a8f3983eb93c062488d7003f696522a3d5e7e3383ac2",
+    "vout": 1,
+    "size": 120,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "F2Pool",
+    "fee": 1270,
+    "feeRate": 5.25,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "0x845b64eb789a0e51021d5c2130cd10f03d792cdaaa1f4319316ce051cc3bfc24|depositor=bc1qdfgr5zqr6wt27uhkgh8mjrfj3jtkqd6xz8k9q4|",
+    "blockDir": "block_968318"
   }
 ]
