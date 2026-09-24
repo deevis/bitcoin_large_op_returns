@@ -179909,5 +179909,43 @@
     "hasDecoded": true,
     "preview": "Depends. I'm going through batches of unlikely hypotheses with Claude and writing brute-force scripts with it. Though some of the alpha is mine. I'm 0xflorent. Doubted the paid-hint process at first, ...",
     "blockDir": "block_968435"
+  },
+  {
+    "id": "block_968437_6147359ae1c6db0756a5d480dd9a7c883842dbbd9f3fc2be91817ac78315d9f7_2",
+    "block": 968437,
+    "timestamp": 1790275156,
+    "date": "2026-09-24T18:39:16",
+    "txid": "6147359ae1c6db0756a5d480dd9a7c883842dbbd9f3fc2be91817ac78315d9f7",
+    "vout": 2,
+    "size": 1674,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "SpiderPool",
+    "fee": 2862,
+    "feeRate": 1.08,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "pwt1:buy5:6cace228e8a1ceaf8deff4a199d73bb627f7704f6f3d92b5d93ca01db023a95a:19MXUmBgBN3nJr2V1yvEdysZBB8cYSaHk4:eyJhbW91bnRNb2RlbCI6ImNhbm9uaWNhbC13b3JrLWFtby1wcm9vZi11bml0LWFtb3VudC12MyIsImFuY2hvclNjcm...",
+    "blockDir": "block_968437"
+  },
+  {
+    "id": "block_968437_5ba6835fc5acf19610d5e99ab32c5451fa340524a4659bd108f1f50f97b1e398_1",
+    "block": 968437,
+    "timestamp": 1790275156,
+    "date": "2026-09-24T18:39:16",
+    "txid": "5ba6835fc5acf19610d5e99ab32c5451fa340524a4659bd108f1f50f97b1e398",
+    "vout": 1,
+    "size": 1643,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "SpiderPool",
+    "fee": 1896,
+    "feeRate": 1.01,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "pwt1:seal5:7ad551898e19845811b92b3e460858a57b1b027adbd55489f1d200420a80d187:eyJhbW91bnRNb2RlbCI6ImNhbm9uaWNhbC13b3JrLWFtby1wcm9vZi11bml0LWFtb3VudC12MyIsImFuY2hvclNjcmlwdFB1YktleSI6Ijc2YTkxNGUxZjFjYWZl...",
+    "blockDir": "block_968437"
   }
 ]
