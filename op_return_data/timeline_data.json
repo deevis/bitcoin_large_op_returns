@@ -180745,5 +180745,43 @@
     "hasDecoded": true,
     "preview": "Diamond hands carve diamond blocks. Paper hands fade, but this OP_RETURN is forever. No dump can erase me. HODL past the bear, shine in the bull.",
     "blockDir": "block_968579"
+  },
+  {
+    "id": "block_968586_c862f742230776d183b85b11fdf268042a7c81a7a0dad52ee6208ce4260e5b88_1",
+    "block": 968586,
+    "timestamp": 1790369862,
+    "date": "2026-09-25T20:57:42",
+    "txid": "c862f742230776d183b85b11fdf268042a7c81a7a0dad52ee6208ce4260e5b88",
+    "vout": 1,
+    "size": 120,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "Foundry USA",
+    "fee": 1270,
+    "feeRate": 5.25,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "0xd084de4a2db0d106ac6f6e380b134ffc6e9af6b18d44095ed3198ab669263e37|depositor=bc1qwelntg7tpxwgmh7gea0kycclx87mksnvhaadgf|",
+    "blockDir": "block_968586"
+  },
+  {
+    "id": "block_968586_b478c2dec50a192d0875dc0c40c305751e13b02520b0ce93ca0f2bb66af6c9a0_1",
+    "block": 968586,
+    "timestamp": 1790369862,
+    "date": "2026-09-25T20:57:42",
+    "txid": "b478c2dec50a192d0875dc0c40c305751e13b02520b0ce93ca0f2bb66af6c9a0",
+    "vout": 1,
+    "size": 120,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "Foundry USA",
+    "fee": 1015,
+    "feeRate": 4.19,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "0x39aca59997766dc3b3c1edb51c274596a01dbfd17ef78eef4f604d8c8f10ef17|depositor=bc1q55hahzcs7lnm3nvc4pwals48uwzjgc4vwpfppj|",
+    "blockDir": "block_968586"
   }
 ]
