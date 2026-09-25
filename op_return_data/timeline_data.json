@@ -180232,5 +180232,43 @@
     "hasDecoded": true,
     "preview": "pwt1:seal5:7aeae0e934d2caa719b11eb08b550e2050a798f421aa5513fa30c878522f263f:eyJhbW91bnRNb2RlbCI6ImNhbm9uaWNhbC13b3JrLWFtby1wcm9vZi11bml0LWFtb3VudC12MyIsImFuY2hvclNjcmlwdFB1YktleSI6IjAwMTRjNzAyODk3OTk0...",
     "blockDir": "block_968502"
+  },
+  {
+    "id": "block_968519_7bcd93d02f9e9e9e27f136fb25e76f5a2eeb3724dd3053c7d7373a8dbd2c40ca_1",
+    "block": 968519,
+    "timestamp": 1790320456,
+    "date": "2026-09-25T07:14:16",
+    "txid": "7bcd93d02f9e9e9e27f136fb25e76f5a2eeb3724dd3053c7d7373a8dbd2c40ca",
+    "vout": 1,
+    "size": 716,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "Foundry USA",
+    "fee": 1763,
+    "feeRate": 1.99,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "Fair enough, I understand. I might ask another one today for 30k, feel free to decline if it gives too much away. I've seen someone complaining about encrypted conversations and they are right, I bene...",
+    "blockDir": "block_968519"
+  },
+  {
+    "id": "block_968519_89bd628f8afd4bb7412053bb02995af5732d4af87cc50f438dde092b8ea64361_1",
+    "block": 968519,
+    "timestamp": 1790320456,
+    "date": "2026-09-25T07:14:16",
+    "txid": "89bd628f8afd4bb7412053bb02995af5732d4af87cc50f438dde092b8ea64361",
+    "vout": 1,
+    "size": 120,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "Foundry USA",
+    "fee": 507,
+    "feeRate": 2.1,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "0x3b446bdf0d47ab1dbc5aeb0fb2b1a5a18ebc8374b64a2b496ec613061bc31481|depositor=bc1q6d2hsdyd4g34uxjp3wm6cuxhhu2g3hwesturqk|",
+    "blockDir": "block_968519"
   }
 ]
