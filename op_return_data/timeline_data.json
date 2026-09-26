@@ -180935,5 +180935,24 @@
     "hasDecoded": true,
     "preview": "Decrypted message: Offer 20k+1k (paid in this tx) for both key origins [fingerprint/48h/0h/acct'/2h], or at least both master fingerprints. Reply encrypted to this tx's input pubkey. Also: I'm really ...",
     "blockDir": "block_968603"
+  },
+  {
+    "id": "block_968609_290f5dbffffa4e7367d8e4f055abb65f8294fba13280e2cd877d4321ae69f25d_1",
+    "block": 968609,
+    "timestamp": 1790382918,
+    "date": "2026-09-26T00:35:18",
+    "txid": "290f5dbffffa4e7367d8e4f055abb65f8294fba13280e2cd877d4321ae69f25d",
+    "vout": 1,
+    "size": 120,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "Foundry USA",
+    "fee": 1524,
+    "feeRate": 6.3,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "0x7bf64935c802b299dd695b1205a580fad96737b6c200c8442784f6a1d9dc7de0|depositor=bc1q6d2hsdyd4g34uxjp3wm6cuxhhu2g3hwesturqk|",
+    "blockDir": "block_968609"
   }
 ]
