@@ -181372,5 +181372,24 @@
     "hasDecoded": true,
     "preview": "Decrypted message: Offer 30k+1k (paid in this tx): the master fingerprint of one cosigner's 12-word seed with an empty passphrase (not <fingerprint>/<fingerprint>, which include it). Your choice of co...",
     "blockDir": "block_968713"
+  },
+  {
+    "id": "block_968723_3b4ade37e2477b4ab7d23b4e307340ce3deddf961b1ff54d12db92bd056e3406_1",
+    "block": 968723,
+    "timestamp": 1790444546,
+    "date": "2026-09-26T17:42:26",
+    "txid": "3b4ade37e2477b4ab7d23b4e307340ce3deddf961b1ff54d12db92bd056e3406",
+    "vout": 1,
+    "size": 120,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "F2Pool",
+    "fee": 1015,
+    "feeRate": 4.19,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "0xf6908ad72ea6f4f1b0e61dca3bac2c3314153fe034dad9f3ee6ed33c51c9429a|depositor=bc1q6d2hsdyd4g34uxjp3wm6cuxhhu2g3hwesturqk|",
+    "blockDir": "block_968723"
   }
 ]
