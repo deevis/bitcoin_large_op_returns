@@ -1,0 +1,3 @@
+Decrypted message: Offer 30k+1k (paid in this tx): the master fingerprint of one cosigner's 12-word seed with an empty passphrase (not <fingerprint>/<fingerprint>, which include it). Your choice of cosigner; both if you're willing. Reply encrypted to this tx's input pubkey. Thanks!
+
+Reason for decline: The genesis block is only 2.5E-32 of the 2^128 possibilities. Revealing the seed's master fingerprint without the passphrase is basically giving away the entropy. All the secret pieces have to be cracked at the same time.

@@ -181334,5 +181334,43 @@
     "hasDecoded": true,
     "preview": "I gladly burned sats to write forever. Fees are the price of freedom, blocks are my paper. Let historians say: he paid to be uncensorable.",
     "blockDir": "block_968685"
+  },
+  {
+    "id": "block_968713_be4c20e5db74034abcce853c23e78b2839932210b360527ef927974060d68ca9_1",
+    "block": 968713,
+    "timestamp": 1790441537,
+    "date": "2026-09-26T16:52:17",
+    "txid": "be4c20e5db74034abcce853c23e78b2839932210b360527ef927974060d68ca9",
+    "vout": 1,
+    "size": 120,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "F2Pool",
+    "fee": 1270,
+    "feeRate": 5.25,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "0x15536a5fcb586f60d51b653f9c72e63e440504a5642b469e342b458391f6fc3e|depositor=bc1qsatlphjcgvzlt9xhsgn0dnjus5jgwg83dr05c6|",
+    "blockDir": "block_968713"
+  },
+  {
+    "id": "block_968713_88fc7fd69dc89b2d716814d2a1ccdc8bdf419f158c7028b37c1cb83230cda4da_1",
+    "block": 968713,
+    "timestamp": 1790441537,
+    "date": "2026-09-26T16:52:17",
+    "txid": "88fc7fd69dc89b2d716814d2a1ccdc8bdf419f158c7028b37c1cb83230cda4da",
+    "vout": 1,
+    "size": 525,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "F2Pool",
+    "fee": 277,
+    "feeRate": 0.4,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "Decrypted message: Offer 30k+1k (paid in this tx): the master fingerprint of one cosigner's 12-word seed with an empty passphrase (not <fingerprint>/<fingerprint>, which include it). Your choice of co...",
+    "blockDir": "block_968713"
   }
 ]
