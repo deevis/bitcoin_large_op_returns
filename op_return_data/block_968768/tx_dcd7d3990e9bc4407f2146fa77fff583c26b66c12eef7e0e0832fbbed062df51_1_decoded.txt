@@ -1,0 +1,3 @@
+1) Apps/Tools used to generate the 12 words: bitcoin-cli, cut, jq, tr, sha256sum, iancoleman/bip39, OogaBoogaX/entropylab;
+2) Genesis block is extremely small. This will have to be uncovered via brute-force;
+3) Pasted from bitcoin-cli and also from an explorer.

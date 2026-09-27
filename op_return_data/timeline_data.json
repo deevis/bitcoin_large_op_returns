@@ -181809,5 +181809,24 @@
     "hasDecoded": true,
     "preview": "0x30e6706a1152c9f359efda47ff465e38498fee23c1d70d13a43f9d36e9648e9a|depositor=bc1q9pczrttpffqzh2g8vjhcvgt3rgg3zzm2qjwpem|",
     "blockDir": "block_968766"
+  },
+  {
+    "id": "block_968768_dcd7d3990e9bc4407f2146fa77fff583c26b66c12eef7e0e0832fbbed062df51_1",
+    "block": 968768,
+    "timestamp": 1790473177,
+    "date": "2026-09-27T01:39:37",
+    "txid": "dcd7d3990e9bc4407f2146fa77fff583c26b66c12eef7e0e0832fbbed062df51",
+    "vout": 1,
+    "size": 261,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "Foundry USA",
+    "fee": 200,
+    "feeRate": 0.5,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "1) Apps/Tools used to generate the 12 words: bitcoin-cli, cut, jq, tr, sha256sum, iancoleman/bip39, OogaBoogaX/entropylab;\n2) Genesis block is extremely small. This will have to be uncovered via brute...",
+    "blockDir": "block_968768"
   }
 ]
