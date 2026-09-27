@@ -181695,5 +181695,24 @@
     "hasDecoded": true,
     "preview": "0x22f8ddcb995348d50aac308188a9ffd1d94b5ae9de5c17a6a0975e24d1da7f82|depositor=bc1qvwdgxujxnjtyrktesya8usa8w4n8ljcn9w4lgu|",
     "blockDir": "block_968756"
+  },
+  {
+    "id": "block_968759_68171cd7aa964213998ac8960940fc20df9a25d5ed6c06ca6de4e16442cf6886_0",
+    "block": 968759,
+    "timestamp": 1790468370,
+    "date": "2026-09-27T00:19:30",
+    "txid": "68171cd7aa964213998ac8960940fc20df9a25d5ed6c06ca6de4e16442cf6886",
+    "vout": 0,
+    "size": 211,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "Foundry USA",
+    "fee": 948,
+    "feeRate": 2.0,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "20k+1k, structure only: 1) App that made the 12 words: iancoleman.io Entropy box, Sparrow, other? 2) Entropy Type + Event Count it showed (else char count hashed)? 3) Pasted from bitcoin-cli/explorer/...",
+    "blockDir": "block_968759"
   }
 ]
