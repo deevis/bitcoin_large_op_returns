@@ -182588,5 +182588,24 @@
     "hasDecoded": true,
     "preview": "50k+1k: please send first8hex(sha256(passphrase UTF-8 noNL))+first8hex(sha256(12 words lowercase single-spaces)) Electrum-encrypted to this tx's input pubkey",
     "blockDir": "block_968885"
+  },
+  {
+    "id": "block_968889_38661785ea4a29e3abc7c068d30155e9c7236d59a197770d3cd6d0757a33a9e5_1",
+    "block": 968889,
+    "timestamp": 1790541901,
+    "date": "2026-09-27T20:45:01",
+    "txid": "38661785ea4a29e3abc7c068d30155e9c7236d59a197770d3cd6d0757a33a9e5",
+    "vout": 1,
+    "size": 140,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "F2Pool",
+    "fee": 548,
+    "feeRate": 2.09,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "0xee3c7d0a93fbb6bd3885ecff523bba0d7897eb829a586e9a09b9dba4cad56609|depositor=bc1pc23l94lptn5axqd67xxcw8jhgqzq7qfvkksleggrwdz5y327gtxs5905ur|",
+    "blockDir": "block_968889"
   }
 ]
