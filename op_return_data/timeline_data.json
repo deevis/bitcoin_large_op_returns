@@ -181961,5 +181961,43 @@
     "hasDecoded": true,
     "preview": "There are a few things in society I want to help fight in a meaningful way that not many know or think about, I also have a novel easy 30 second elevator pitch to help secure opsec that might be fun t...",
     "blockDir": "block_968806"
+  },
+  {
+    "id": "block_968819_19167776a55e5581577d4fc557759a70e814a2130eb6e2e4a48237b1f0840fd0_0",
+    "block": 968819,
+    "timestamp": 1790500208,
+    "date": "2026-09-27T09:10:08",
+    "txid": "19167776a55e5581577d4fc557759a70e814a2130eb6e2e4a48237b1f0840fd0",
+    "vout": 0,
+    "size": 1205,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "SpiderPool",
+    "fee": 1480,
+    "feeRate": 1.0,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "Here is my simple idea for fun, encrypted\n\nQklFMQKBhAV+l3dCI8Yf3KaWVr3Yhix9YjQ5zPh5L2Wk+a45KEXof3dVo68OHC0MFwHJ0btXOXrchpnWswqsFpEPEBbGBmpLusbezih0TMQ1d0LW7EtUrb1MN585x/SHEwjppCNBQeHj4lHW5C7MTbPgY03V5...",
+    "blockDir": "block_968819"
+  },
+  {
+    "id": "block_968819_cc640733392c8d87720b6cd306a61d0c77f50585559e1b85bd4d1109e030780b_1",
+    "block": 968819,
+    "timestamp": 1790500208,
+    "date": "2026-09-27T09:10:08",
+    "txid": "cc640733392c8d87720b6cd306a61d0c77f50585559e1b85bd4d1109e030780b",
+    "vout": 1,
+    "size": 120,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "SpiderPool",
+    "fee": 507,
+    "feeRate": 2.1,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "0x2b88bfc616957d04cb0d934b41184c1b696770ff3b082c8c2d9be21922e1e7e5|depositor=bc1q6d2hsdyd4g34uxjp3wm6cuxhhu2g3hwesturqk|",
+    "blockDir": "block_968819"
   }
 ]
