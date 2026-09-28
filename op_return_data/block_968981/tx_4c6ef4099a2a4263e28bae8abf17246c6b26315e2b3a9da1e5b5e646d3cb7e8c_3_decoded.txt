@@ -1,0 +1,1 @@
+Shape only, one letter each. 1) jq/cut/tr changed: a) the text before sha256sum b) only sha256sum's output (e.g. cut -c1-32). 2) Words: a) Coleman "12 words" on that text b) first 32 hex as raw entropy

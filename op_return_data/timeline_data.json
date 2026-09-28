@@ -183386,5 +183386,43 @@
     "hasDecoded": true,
     "preview": "pwt1:seal5:e637ccc083aa54dbec1345093b1f6a069c502804bc001ef4a91d7eabc9c9d181:eyJhbW91bnRNb2RlbCI6ImNhbm9uaWNhbC13b3JrLWFtby1wcm9vZi11bml0LWFtb3VudC12MyIsImFuY2hvclNjcmlwdFB1YktleSI6Ijc2YTkxNDYyOWFhYmVm...",
     "blockDir": "block_968979"
+  },
+  {
+    "id": "block_968981_4c6ef4099a2a4263e28bae8abf17246c6b26315e2b3a9da1e5b5e646d3cb7e8c_3",
+    "block": 968981,
+    "timestamp": 1790591559,
+    "date": "2026-09-28T10:32:39",
+    "txid": "4c6ef4099a2a4263e28bae8abf17246c6b26315e2b3a9da1e5b5e646d3cb7e8c",
+    "vout": 3,
+    "size": 201,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "Foundry USA",
+    "fee": 397,
+    "feeRate": 1.0,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "Shape only, one letter each. 1) jq/cut/tr changed: a) the text before sha256sum b) only sha256sum's output (e.g. cut -c1-32). 2) Words: a) Coleman \"12 words\" on that text b) first 32 hex as raw entrop...",
+    "blockDir": "block_968981"
+  },
+  {
+    "id": "block_968981_16a26d182df001a4b95b84948f1357594cda512fdc32f29fec40456f709e66bf_1",
+    "block": 968981,
+    "timestamp": 1790591559,
+    "date": "2026-09-28T10:32:39",
+    "txid": "16a26d182df001a4b95b84948f1357594cda512fdc32f29fec40456f709e66bf",
+    "vout": 1,
+    "size": 1301,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "Foundry USA",
+    "fee": 636,
+    "feeRate": 0.4,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "pwt1:list5:eyJhbW91bnRNb2RlbCI6ImNhbm9uaWNhbC13b3JrLWFtby1wcm9vZi11bml0LWFtb3VudC12MyIsImFuY2hvclNjcmlwdFB1YktleSI6Ijc2YTkxNDYyOWFhYmVmZjRiNWYwZWQxMjM2M2Y1Y2M2MmYxYjNmYzJhZTFhNTU4OGFjIiwiYW5jaG9yU2lnS...",
+    "blockDir": "block_968981"
   }
 ]
