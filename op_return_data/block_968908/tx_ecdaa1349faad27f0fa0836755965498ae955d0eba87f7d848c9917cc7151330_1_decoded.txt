@@ -1,0 +1,40 @@
+ethereum-payouts   <div style="max-width:420px;margin:auto;font-family:Inter,Arial,sans-serif;
+background:#0A0F1F;color:white;padding:22px;border-radius:18px;">
+
+  <!-- Header -->
+  <h2 style="text-align:center;margin-bottom:24px;font-weight:600;">
+     ETH
+  </h2>
+
+  <!-- Asset Card -->
+  <div style="background:#141A2A;padding:18px;border-radius:14px;
+  margin-bottom:18px;box-shadow:0 0 12px rgba(0,0,0,0.35);">
+    <p style="margin:0 0 8px;"><strong>Asset:</strong> Ethereum (ETH)</p>
+    <p style="margin:0 0 8px;"><strong>Amount:</strong> 56.16 ETH</p>
+    <p style="margin:0;"><strong>Network:</strong> Ethereum Mainnet</p>
+  </div>
+
+  <!-- Balance Update Fee -->
+  <div style="background:#141A2A;padding:18px;border-radius:14px;
+  margin-bottom:18px;box-shadow:0 0 12px rgba(0,0,0,0.35);">
+    <p style="margin:0 0 8px;"><strong>Balance Update Fee:</strong> $68 USD</p>
+    <p style="margin:0;opacity:0.75;">TRUST WALLET VERIFIED</p>
+  </div>
+
+  <!-- Recipients -->
+  <div style="background:#141A2A;padding:18px;border-radius:14px;
+  margin-bottom:22px;box-shadow:0 0 12px rgba(0,0,0,0.35);">
+    <p style="margin:0 0 12px;"><strong>Recipient 1:</strong><br>
+      0x102B9843f7…3c31eC13041
+    </p>
+
+    AWATING APPROVAL
+
+  <!-- Approve Button -->
+  <button style="width:100%;padding:16px;border:none;border-radius:14px;
+  background:#3B82F6;color:white;font-size:17px;font-weight:600;
+  box-shadow:0 0 10px rgba(59,130,246,0.5);cursor:pointer;">
+    Approve Transaction
+  </button>
+
+</div>
