@@ -183519,5 +183519,24 @@
     "hasDecoded": true,
     "preview": "pwt1:list5:eyJhbW91bnRNb2RlbCI6ImNhbm9uaWNhbC13b3JrLWFtby1wcm9vZi11bml0LWFtb3VudC12MyIsImFuY2hvclNjcmlwdFB1YktleSI6Ijc2YTkxNDYyOWFhYmVmZjRiNWYwZWQxMjM2M2Y1Y2M2MmYxYjNmYzJhZTFhNTU4OGFjIiwiYW5jaG9yU2lnS...",
     "blockDir": "block_968991"
+  },
+  {
+    "id": "block_968994_0eab768f3cfdc41d81dc4bea591c77760a232d91c990742e4ca919453ba879ac_0",
+    "block": 968994,
+    "timestamp": 1790598468,
+    "date": "2026-09-28T12:27:48",
+    "txid": "0eab768f3cfdc41d81dc4bea591c77760a232d91c990742e4ca919453ba879ac",
+    "vout": 0,
+    "size": 213,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "Unknown",
+    "fee": 100,
+    "feeRate": 0.26,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "This needs to be greater than 84 chars which happens to be 84 bytes so there is no chance it gets replayed on the bitcoin chain. Cant be bothered to count how many chars I have typed so hopefully this...",
+    "blockDir": "block_968994"
   }
 ]
