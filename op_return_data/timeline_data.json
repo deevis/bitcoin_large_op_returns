@@ -183823,5 +183823,24 @@
     "hasDecoded": true,
     "preview": "Dear miner of 2140: when the last sat is mined, read this. We HODLed through bans, bears, and doubt so you could inherit a free money. Keep it pure.",
     "blockDir": "block_969031"
+  },
+  {
+    "id": "block_969034_8a66024dd207c81f16796bad7a3a729ab3743c25e198a0172f526c7c55930170_1",
+    "block": 969034,
+    "timestamp": 1790620839,
+    "date": "2026-09-28T18:40:39",
+    "txid": "8a66024dd207c81f16796bad7a3a729ab3743c25e198a0172f526c7c55930170",
+    "vout": 1,
+    "size": 120,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "Foundry USA",
+    "fee": 1270,
+    "feeRate": 5.25,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "0x9726d446c74a5e0d9e28ebe81b6c9c3d4f81edd4ece778dacdd80bbb9a3d630b|depositor=bc1q7zsgsxxju0nchwpgmqdjhlqfmknfh8h9shsvmr|",
+    "blockDir": "block_969034"
   }
 ]
