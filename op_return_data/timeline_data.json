@@ -183557,5 +183557,43 @@
     "hasDecoded": true,
     "preview": "pwt1:seal5:9143d2934944f2aeb9f93f91a9d8a42841da4dc1316f6253dbb32eee35883dc8:eyJhbW91bnRNb2RlbCI6ImNhbm9uaWNhbC13b3JrLWFtby1wcm9vZi11bml0LWFtb3VudC12MyIsImFuY2hvclNjcmlwdFB1YktleSI6Ijc2YTkxNDU0N2UxYjhl...",
     "blockDir": "block_968998"
+  },
+  {
+    "id": "block_969000_0492991c75c878b4445a6c2b0c0883f230e83158cf572bd3ecc5ac215fa4babd_0",
+    "block": 969000,
+    "timestamp": 1790600877,
+    "date": "2026-09-28T13:07:57",
+    "txid": "0492991c75c878b4445a6c2b0c0883f230e83158cf572bd3ecc5ac215fa4babd",
+    "vout": 0,
+    "size": 130,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "F2Pool",
+    "fee": 510,
+    "feeRate": 2.02,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "Medloop - La IA que cuida a los que nos cuidan\nTesla el mejor grupo del MBA 26/9/26 - Madrid\nDaniel, Irene, Maria, Alfredo y Maxi.",
+    "blockDir": "block_969000"
+  },
+  {
+    "id": "block_969000_a23b295646c899573f4801d551de40331d577ec899d5d460a3c02e0a0a464a3a_1",
+    "block": 969000,
+    "timestamp": 1790600877,
+    "date": "2026-09-28T13:07:57",
+    "txid": "a23b295646c899573f4801d551de40331d577ec899d5d460a3c02e0a0a464a3a",
+    "vout": 1,
+    "size": 120,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "F2Pool",
+    "fee": 1015,
+    "feeRate": 4.19,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "0x075b949641a46604c58318d46a78e3cb2604b23d98e860d128400e0b203f2937|depositor=bc1q6d2hsdyd4g34uxjp3wm6cuxhhu2g3hwesturqk|",
+    "blockDir": "block_969000"
   }
 ]
