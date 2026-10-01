@@ -1,0 +1,18 @@
+{
+  "block_number": 969491,
+  "block_time": "2026-10-01T20:28:26",
+  "mined_by": "Unknown",
+  "transaction_id": "edb29c30682099cced96127ed0e3318690a9946fbbb9d4b0a1bdb6f1e318ef69",
+  "vout_index": 4,
+  "data_size": 393,
+  "file_type": "binary",
+  "mime_type": "application/octet-stream",
+  "storage_format": "raw",
+  "raw_data_hex": "53484f52440103a1e7879252940f5e11cb0e002e3ff89b91b5bac5629ac9abe54c8f602e7d7cb89352bb02cfb604999c5c57527e04000002000000010000683602000000000004cbe86a6568639dea271cdec0be17c3533b25353099d57f41fc7ae8ecdd8651225120c1becee42d9218594368d2aa02423d69d1d151da00c9fcd70fa33b1d93202fc11a9a739a81689a6a19aadb94e4cc57d27bdac9ba9ede97a466bd088a6c916eba20378ab235547d9044938d673280515d850dbf3da9c63393879e0b0353166aec12498a7aa2ca690d9958640dd8850be45e3cc32f8df0bacfb22ae02f8f5fc67e2a7f020a82ffdda8dc8b422c357179e9354fec57487798df89d28a3fc637c2ac294ede59091c9eff4d749af3489ca2e25321bb72e00aad97ec271e336e2869660d6ad27e444df3828f5f360a2d3728b619e3e3d85f0fa2cbdcf2940594412f86017f7ceeb1e501eab0d173e162327afd591f757bc20bed77327454b3d802e5a22e79c5f658c6c866a3c961f1236fa66656283f5b74e22bbda260b4d819dab5a1",
+  "transaction_fee_sats": 72696,
+  "transaction_size_vbytes": 18174,
+  "fee_rate_sats_per_vbyte": 4.0,
+  "cost_per_byte_of_data": 184.98,
+  "tx_inputs": 2,
+  "tx_outputs": 81
+}

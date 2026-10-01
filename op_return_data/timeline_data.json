@@ -187034,5 +187034,24 @@
     "hasDecoded": true,
     "preview": "INXY Payments confirms control of bc1qkkxgvrt9rvsnu0s5tr4qp9cd3d4x5ha83svm98wv33al738vkcsspul2vy for Elliptic verification, 1 October 2026",
     "blockDir": "block_969487"
+  },
+  {
+    "id": "block_969491_deb637f6f3d7aeca4bd1c7c6782d4e38e365be5ba04ad400d1f852d3f09ddd40_1",
+    "block": 969491,
+    "timestamp": 1790886506,
+    "date": "2026-10-01T20:28:26",
+    "txid": "deb637f6f3d7aeca4bd1c7c6782d4e38e365be5ba04ad400d1f852d3f09ddd40",
+    "vout": 1,
+    "size": 140,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "Unknown",
+    "fee": 1918,
+    "feeRate": 7.32,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "0xbc04dd7d0291b29af875b6375f02dafbbbb275b933ca561a3955337c46c7de7a|depositor=bc1pyxtfezjtqqcrrstvtw0as47ryf5wgxpk3c6mrg980kz7lu89e08s67368x|",
+    "blockDir": "block_969491"
   }
 ]
