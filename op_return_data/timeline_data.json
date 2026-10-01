@@ -186692,5 +186692,43 @@
     "hasDecoded": true,
     "preview": "10k Y/N+pick, shape only (no values): 1) Is FP 0852014c the cosigner whose iancoleman Entropy Type = Hex? 2) Is that cosigner's hashed hex copied from bitcoin-cli (vs explorer)? 3) Is the hex cut <=32...",
     "blockDir": "block_969383"
+  },
+  {
+    "id": "block_969386_6a24ac8dadf5a723f7d8560ef0adbb4fc375ef646b015d2f2f2d01cebd5c7a4e_1",
+    "block": 969386,
+    "timestamp": 1790824614,
+    "date": "2026-10-01T03:16:54",
+    "txid": "6a24ac8dadf5a723f7d8560ef0adbb4fc375ef646b015d2f2f2d01cebd5c7a4e",
+    "vout": 1,
+    "size": 120,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "Foundry USA",
+    "fee": 1015,
+    "feeRate": 4.19,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "0x209b61e11e8e2acd0c91a4bf141fdb841381ae9aaf4939afcb60f4af2386c167|depositor=bc1q6d2hsdyd4g34uxjp3wm6cuxhhu2g3hwesturqk|",
+    "blockDir": "block_969386"
+  },
+  {
+    "id": "block_969386_320e527f21f2dc3edbc7106138b03194d32985e0521acb36994452a1c97494e9_1",
+    "block": 969386,
+    "timestamp": 1790824614,
+    "date": "2026-10-01T03:16:54",
+    "txid": "320e527f21f2dc3edbc7106138b03194d32985e0521acb36994452a1c97494e9",
+    "vout": 1,
+    "size": 120,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "Foundry USA",
+    "fee": 1015,
+    "feeRate": 4.19,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "0x20facc8b8c64b4a4dcb1cbb74a53eb9d41a1df7a357ae06b0b365a3cf40c15e6|depositor=bc1q6d2hsdyd4g34uxjp3wm6cuxhhu2g3hwesturqk|",
+    "blockDir": "block_969386"
   }
 ]
