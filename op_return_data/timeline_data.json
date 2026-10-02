@@ -188041,5 +188041,24 @@
     "hasDecoded": true,
     "preview": "You are my UTXO - unspent, unmatched, unforgeable. I lock you in this output with zero value and infinite worth. Together, confirmed forever.",
     "blockDir": "block_969623"
+  },
+  {
+    "id": "block_969635_01e5c5763880e0cd4a8f4b426537c8d7c889d7dcaac77934d897111fdd53b557_1",
+    "block": 969635,
+    "timestamp": 1790976894,
+    "date": "2026-10-02T21:34:54",
+    "txid": "01e5c5763880e0cd4a8f4b426537c8d7c889d7dcaac77934d897111fdd53b557",
+    "vout": 1,
+    "size": 120,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "Foundry USA",
+    "fee": 2031,
+    "feeRate": 8.39,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "0xa8b841fc1e95dade708b100eeca9888644d6eb642d01159bb09b7fbf6261bdb7|depositor=bc1qhqsrpykv5mx8h9m0dna0yh43u3pzgv6x2pw9gs|",
+    "blockDir": "block_969635"
   }
 ]
