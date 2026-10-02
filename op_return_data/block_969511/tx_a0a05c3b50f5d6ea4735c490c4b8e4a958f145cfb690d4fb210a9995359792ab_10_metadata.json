@@ -1,0 +1,18 @@
+{
+  "block_number": 969511,
+  "block_time": "2026-10-02T00:51:21",
+  "mined_by": "ViaBTC",
+  "transaction_id": "a0a05c3b50f5d6ea4735c490c4b8e4a958f145cfb690d4fb210a9995359792ab",
+  "vout_index": 10,
+  "data_size": 381,
+  "file_type": "binary",
+  "mime_type": "application/octet-stream",
+  "storage_format": "raw",
+  "raw_data_hex": "53484f52440103a1e7879252940f5e26cb0e0001174fbee9ef97711c811f205ad7b91e9bad58d43638c7364bc5c5007b37324b60020000020000000100001879000000000000b105ec146e78d871f0bf482da38a01d005be88f1088dacff8468e1efc7201e7216001430b19446ca4c016656f1e83e0a33b7ceef4c6b5f0dfb97d7bd8fcb440ce3abc76fdb458cd4d453164ff7a6f7db58e64b727680de213d74047852c4be0b29b01b653ce9e2157e445da318e0a3a80dd81396ced177013f64f85226203e001186d808296bf7081269e82b9a740b8ddc21308dd1e31b0c32c9dc6321b91533d80226a8fea47b601250c91cdb231f117aa8f2b10bcf4d275c2818ed73cc97518f479af35066a9acf5e965407d324b7ee0515a7b25aff524843116d75896180e12cd2f857b1cef612e75cef85957fbeb8cb8f0ab2dcedb15e223f82eac79b72923b4ea81aff7d682adba9a4cd5cacd8263ee6cd762f0830b8274cda4c6fa271595129afe0e4d98169b065538174fcafb09c69bd64a059b",
+  "transaction_fee_sats": 18248,
+  "transaction_size_vbytes": 4561,
+  "fee_rate_sats_per_vbyte": 4.0,
+  "cost_per_byte_of_data": 47.9,
+  "tx_inputs": 1,
+  "tx_outputs": 21
+}
