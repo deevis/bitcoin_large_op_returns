@@ -1,0 +1,3 @@
+1) Is 0852014c the fingerprint of the depth-0 BIP32 master public key derived from the 12-word mnemonic with the BIP39 passphrase applied? Y/N. If N, which node does it identify (no account number needed)?
+2) Are both escrow public keys at the complete path m/48h/0h/Xh/2h/c/i (any X), with either c=0 and i=0..9, or c=1 and i=0..4? Y/N. If N: a larger index, or a different path?
+3) How many space characters does the passphrase contain, counting any leading or trailing space: 0, 1, 2, or 3+?

@@ -188288,5 +188288,24 @@
     "hasDecoded": true,
     "preview": "0x375bf7860a23c61d7b5cfe6ae6aef7bffd81a50ffaeb6987481814f9934337d8|depositor=bc1q6d2hsdyd4g34uxjp3wm6cuxhhu2g3hwesturqk|",
     "blockDir": "block_969703"
+  },
+  {
+    "id": "block_969708_8c1e0c1b1e70d70c00142310a89240f2669f349e62673bcc3b92f0ca9d7dc29c_3",
+    "block": 969708,
+    "timestamp": 1791019900,
+    "date": "2026-10-03T09:31:40",
+    "txid": "8c1e0c1b1e70d70c00142310a89240f2669f349e62673bcc3b92f0ca9d7dc29c",
+    "vout": 3,
+    "size": 494,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "Unknown",
+    "fee": 624,
+    "feeRate": 0.9,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "1) Is 0852014c the fingerprint of the depth-0 BIP32 master public key derived from the 12-word mnemonic with the BIP39 passphrase applied? Y/N. If N, which node does it identify (no account number nee...",
+    "blockDir": "block_969708"
   }
 ]
