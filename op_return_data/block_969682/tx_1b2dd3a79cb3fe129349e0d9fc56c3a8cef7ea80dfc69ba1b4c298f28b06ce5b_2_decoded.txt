@@ -1,0 +1,1 @@
+OP_RETURN data at vout=4 is the Merkle root of the files, as H = SHA-256d(0x01 || SHA-256d(0x01 || SHA-256d(0x00 || F1) || SHA-256d(0x00 || F2)) || SHA-256d(0x01 || SHA-256d(0x00 || F3) || SHA-256d(0x00 || F3)))

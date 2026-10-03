@@ -1,0 +1,1 @@
+OP_RETURN data at vout=3 is a hash of the filenames, as H = SHA-256d(NAME1 || 0x20 || NAME2 || 0x20 || NAME3)
