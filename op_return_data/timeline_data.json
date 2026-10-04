@@ -188915,5 +188915,24 @@
     "hasDecoded": true,
     "preview": "0x8e9f5f94c26eb114c7c1b77964f24dc56105fab2effc6b3bf67f10375e4da1bd|depositor=bc1qkpvmgkjkwfhx9swcelv5lpfsnwuqn0202vl2up|",
     "blockDir": "block_969872"
+  },
+  {
+    "id": "block_969873_d8eb90168fd5ac192357d71618372f1a32cd98d8825aa0d0f73b5962153b4d59_0",
+    "block": 969873,
+    "timestamp": 1791132010,
+    "date": "2026-10-04T16:40:10",
+    "txid": "d8eb90168fd5ac192357d71618372f1a32cd98d8825aa0d0f73b5962153b4d59",
+    "vout": 0,
+    "size": 106,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "Foundry USA",
+    "fee": 518,
+    "feeRate": 2.0,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "A long time ago in a galaxy far, far away....\nTHE EMPIRE STRIKES BACK\nIt is a dark time for the Rebellion.",
+    "blockDir": "block_969873"
   }
 ]
