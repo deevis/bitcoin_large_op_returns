@@ -188858,5 +188858,24 @@
     "hasDecoded": true,
     "preview": "BIP110-ers were right. Nobody needs your jpegs. Tether sucks. Tether on Bitcoin sucks even more.",
     "blockDir": "block_969852"
+  },
+  {
+    "id": "block_969864_cfc16afad0b82a0b3535bdfdbd111ce804c0545ab8c1de19fffcfc5edfbc1cde_1",
+    "block": 969864,
+    "timestamp": 1791127081,
+    "date": "2026-10-04T15:18:01",
+    "txid": "cfc16afad0b82a0b3535bdfdbd111ce804c0545ab8c1de19fffcfc5edfbc1cde",
+    "vout": 1,
+    "size": 120,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "Foundry USA",
+    "fee": 1270,
+    "feeRate": 5.25,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "0x498a264ab6acfb477747915b79f806118eaf0e21ec63ad37a1b22574e693c197|depositor=bc1q6d2hsdyd4g34uxjp3wm6cuxhhu2g3hwesturqk|",
+    "blockDir": "block_969864"
   }
 ]
