@@ -189162,5 +189162,43 @@
     "hasDecoded": true,
     "preview": "0x1c59f406772e578f1c4d4b6f56b56bf95bb8e3bac1ee57fbf08b4a19049991b7|depositor=bc1q6d2hsdyd4g34uxjp3wm6cuxhhu2g3hwesturqk|",
     "blockDir": "block_969917"
+  },
+  {
+    "id": "block_969946_1a731308c453eb34565c310963d882e646b47738a008d95c53ddd1fee02d6a32_0",
+    "block": 969946,
+    "timestamp": 1791169221,
+    "date": "2026-10-05T03:00:21",
+    "txid": "1a731308c453eb34565c310963d882e646b47738a008d95c53ddd1fee02d6a32",
+    "vout": 0,
+    "size": 90,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "F2Pool",
+    "fee": 243,
+    "feeRate": 1.0,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "Forsat shemor tariqeh-ye rendi keh in neshan\nChun rah-e ganj, bar hameh-kas, ashkareh nist",
+    "blockDir": "block_969946"
+  },
+  {
+    "id": "block_969946_99e875100ddab3a1903bf414d5cdae428e1924fbeccf3513672eefc88460fdff_1",
+    "block": 969946,
+    "timestamp": 1791169221,
+    "date": "2026-10-05T03:00:21",
+    "txid": "99e875100ddab3a1903bf414d5cdae428e1924fbeccf3513672eefc88460fdff",
+    "vout": 1,
+    "size": 120,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "F2Pool",
+    "fee": 507,
+    "feeRate": 2.1,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "0xd2e5c614e709849ba984bc848ac34aaecbed24b175f7f5efc85cba9e1e3df14f|depositor=bc1q6d2hsdyd4g34uxjp3wm6cuxhhu2g3hwesturqk|",
+    "blockDir": "block_969946"
   }
 ]
