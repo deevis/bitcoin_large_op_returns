@@ -189561,5 +189561,24 @@
     "hasDecoded": true,
     "preview": "Sovereign math needs no permission. I verified this block myself, trusted no explorer, asked no bank. 21 million, 10-minute heartbeats, unforgeable proof. Run a node.",
     "blockDir": "block_970072"
+  },
+  {
+    "id": "block_970075_6c6b8edf24aa534230ba9bea25633cfd923a9c6aaa5616b2bf3830337b53fbff_1",
+    "block": 970075,
+    "timestamp": 1791231218,
+    "date": "2026-10-05T20:13:38",
+    "txid": "6c6b8edf24aa534230ba9bea25633cfd923a9c6aaa5616b2bf3830337b53fbff",
+    "vout": 1,
+    "size": 140,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "Unknown",
+    "fee": 548,
+    "feeRate": 2.09,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "0x0ce84d246fec8a214010c00ad7258f0693f4fab52711f4d43bddf497e9a1108a|depositor=bc1pyxtfezjtqqcrrstvtw0as47ryf5wgxpk3c6mrg980kz7lu89e08s67368x|",
+    "blockDir": "block_970075"
   }
 ]
