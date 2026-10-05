@@ -1,0 +1,5 @@
+Shape only, for 0852014c:
+1) Is the exact text you hashed 18-32 hex digits, nothing else (no line break, CR, space, quote), that appear uninterrupted, in either letter case, inside one of: the raw block hex (it holds the header, coinbase tx, scriptSig, Times text, pubkey), block hash, merkle root, chainwork, nextblockhash, target, address hash160 - whatever tool or field you copied it from? Y/N
+2) If N, pick: a) it has a non-hex character; b) hex digits from 2+ places joined (e.g. cut over several lines); c) hex of a value not listed; d) listed, but length/case/ending differ from item 1.
+3) Is the passphrase exactly two words with one blank between them, each word a name of the recipient (given name or surname)? Y/N
+P.S. My memory's not that great either: youtube.com/shorts/e_8s8fn93Ww
