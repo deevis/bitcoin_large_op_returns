@@ -1,0 +1,6 @@
+10k+1k, shape only for 0852014c (letters/Y-N/pick; no paste, no cut indices, no PP spelling). Reply like: 1) b; 2) Y; 3) a; 4) c.
+
+1) Your on-chain "d" (listed; length/case/ending vs clean 18-32 hex): which differences apply to the hashed text? Pick all that apply: a) length not in 18-32 b) letter case differs from the tool's usual form c) extra or missing char at one end — if c: LF, CR, space, quote, comma, or other?
+2) Does your cut -b N-M start at byte 1 of the line/string you cut? Y/N
+3) That line/string came from: a) bitcoin-cli piped to jq -r b) bitcoin-cli without jq c) explorer page or API
+4) Which listed place: a) raw block hex b) block hash c) merkle root d) chainwork e) nextblockhash f) target g) address hash160
