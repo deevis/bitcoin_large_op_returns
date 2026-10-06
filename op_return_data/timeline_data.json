@@ -189713,5 +189713,43 @@
     "hasDecoded": true,
     "preview": "0x0d1576c1a1b4e0e54fd4102145861f6b49afc1ea90071082bfb968aa85b196c8|depositor=bc1qnr9caxnx57krgewpvkjaqjfseq6uwc5vpz0khl|",
     "blockDir": "block_970098"
+  },
+  {
+    "id": "block_970108_3a392e7a4b3118e2bfa4211c5e7ffa5379e0869b96c2bceaf6d4d6df7e9d6ce0_2",
+    "block": 970108,
+    "timestamp": 1791248993,
+    "date": "2026-10-06T01:09:53",
+    "txid": "3a392e7a4b3118e2bfa4211c5e7ffa5379e0869b96c2bceaf6d4d6df7e9d6ce0",
+    "vout": 2,
+    "size": 1067,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "Foundry USA",
+    "fee": 549,
+    "feeRate": 0.33,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "pwm1:m:I am living in a sea of distractions and if i am not careful, my attention is being stolen away. I only understand this when i get a block or slap from one of my most cherished inventors. Somet...",
+    "blockDir": "block_970108"
+  },
+  {
+    "id": "block_970108_3a392e7a4b3118e2bfa4211c5e7ffa5379e0869b96c2bceaf6d4d6df7e9d6ce0_1",
+    "block": 970108,
+    "timestamp": 1791248993,
+    "date": "2026-10-06T01:09:53",
+    "txid": "3a392e7a4b3118e2bfa4211c5e7ffa5379e0869b96c2bceaf6d4d6df7e9d6ce0",
+    "vout": 1,
+    "size": 328,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "Foundry USA",
+    "fee": 549,
+    "feeRate": 0.33,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "pwb1:post:eyJ2IjoxLCJ0ZXh0Ijoic2F5aW5nIG5vIHRvIGRpc3RyYWN0aW9ucyIsImFydGljbGUiOnsidiI6MSwidGl0bGUiOiJzYXlpbmcgbm8gdG8gZGlzdHJhY3Rpb25zIiwic291cmNlIjoic2FtZS10eC1wd20xLW1lc3NhZ2UiLCJzaXplIjoxMDYwLCJzaG...",
+    "blockDir": "block_970108"
   }
 ]
