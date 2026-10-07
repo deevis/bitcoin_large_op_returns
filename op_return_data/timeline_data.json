@@ -190644,5 +190644,43 @@
     "hasDecoded": true,
     "preview": "10k+1k, shape only for 0852014c (letters/Y-N/pick; no paste, no cut indices, no PP spelling). Reply like: 1) b; 2) Y; 3) a; 4) c.\n\n1) The explorer that supplied the raw-block hex you cut: a) blockchai...",
     "blockDir": "block_970358"
+  },
+  {
+    "id": "block_970363_2d9cf530ffb4b231d044bdc02702d8f14c652b22a18d723d8755e2a643ab448b_1",
+    "block": 970363,
+    "timestamp": 1791390306,
+    "date": "2026-10-07T16:25:06",
+    "txid": "2d9cf530ffb4b231d044bdc02702d8f14c652b22a18d723d8755e2a643ab448b",
+    "vout": 1,
+    "size": 120,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "Foundry USA",
+    "fee": 507,
+    "feeRate": 2.1,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "0x72153df8cce4a9a49a743c8858564a96892eaf62f98963236e6e2158524978f8|depositor=bc1q6d2hsdyd4g34uxjp3wm6cuxhhu2g3hwesturqk|",
+    "blockDir": "block_970363"
+  },
+  {
+    "id": "block_970363_318aec12deba8428a5ac4dcb86086eb80fd0a4d61ca997b88edbef1892866dd5_1",
+    "block": 970363,
+    "timestamp": 1791390306,
+    "date": "2026-10-07T16:25:06",
+    "txid": "318aec12deba8428a5ac4dcb86086eb80fd0a4d61ca997b88edbef1892866dd5",
+    "vout": 1,
+    "size": 120,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "Foundry USA",
+    "fee": 762,
+    "feeRate": 3.15,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "0x19e33bcfb61640aa1472524178e0e92cdbf741bbf25c45f82bef828575c61e76|depositor=bc1q6d2hsdyd4g34uxjp3wm6cuxhhu2g3hwesturqk|",
+    "blockDir": "block_970363"
   }
 ]
