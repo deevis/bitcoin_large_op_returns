@@ -1,0 +1,6 @@
+9k no tip, shape only for 0852014c (letters/Y-N/pick; no paste, no cut indices, no PP spelling). Reply like: 1) Y; 2) a; 3) b; 4) N.
+
+1) Is the continuous hex you cut the usual lowercase genesis raw-block hex of length 570 (same bytes as mempool.space /api/block/.../raw)? Y/N
+2) If N: which? a) header hex length 160 b) coinbase/raw tx hex c) block hash d) merkle root e) other mempool continuous hex field f) not pure hex-only / not continuous after all. If Y to 1): reply "-"
+3) After cut -b, the hashed text length was: a) even, 2-16 b) even, 34-64 c) even, 66 or more d) odd
+4) Did your cut -b range extend past the end of the string (hashed text shorter than the range width)? Y/N
