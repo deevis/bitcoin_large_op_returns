@@ -1,0 +1,6 @@
+10k+1k, shape only for 0852014c (letters/Y-N/pick; no paste, no cut indices, no PP spelling). Reply like: 1) b; 2) Y; 3) a; 4) c.
+
+1) The explorer that supplied the raw-block hex you cut: a) blockchain.info / blockchain.com b) mempool.space c) blockstream.info d) btcscan.org e) other
+2) That raw-block hex view was: a) compact API or raw endpoint (one continuous hex string) b) browser HTML page you copied c) a downloaded file d) other
+3) Before cut -b, was that hex one continuous unbroken run with no newline inside the hex digits? Y/N
+4) Reconciling Ask A (cut <=32, not <=16) with Ask E (hashed length not in 18-32), pick one: a) Ask A = cut -b range width; Ask E = resulting hashed text length (they differ if the line ends before the range end) b) both mean hashed text length; use Ask E (length not in 18-32) c) both mean hashed text length; use Ask A (still even 18-32) d) other
