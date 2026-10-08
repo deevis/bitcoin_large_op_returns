@@ -1,0 +1,8 @@
+10k escrow, no tip. Previous ask was sent to the wrong address (tip tx 4a197e9b...). Please answer THIS ask on escrow. Shape only for FP 040e2791 (B) + PP shape. No paste, no cut indices, no PP spelling. Reply like: 1) Y; 2) Y; 3) c; 4) N; 5) Y; 6) N.
+
+1) For 040e2791: is the continuous hex you cut the usual lowercase genesis raw-block hex of length 570 (same bytes as mempool.space /api/block/.../raw)? Y/N
+2) Ian Coleman Entropy Type for 040e2791 = Hex (first 32 hex digits of sha256sum as raw entropy)? Y/N; if N: a) Binary b) Base 10 c) Dice d) other
+3) After cut -b, the hashed text length was: a) even, 2-16 b) even, 34-64 c) even, 66 or more d) odd
+4) Did your cut -b range extend past the end of the string (hashed text shorter than the range width)? Y/N
+5) Ignoring case and spelling: is the word before the space shorter (fewer letters) than the word after? Y/N
+6) Ignoring case and spelling: is either of the two words exactly 3 letters long? Y/N
