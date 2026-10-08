@@ -191385,5 +191385,43 @@
     "hasDecoded": true,
     "preview": "pwt1:list5:eyJhbW91bnRNb2RlbCI6ImNhbm9uaWNhbC13b3JrLWFtby1wcm9vZi11bml0LWFtb3VudC12MyIsImFuY2hvclNjcmlwdFB1YktleSI6Ijc2YTkxNDg4OTBlNTE2YzlmOGRmN2ZjZTFjOTQ0YjYzYmY3ZDI5MWVhNDg3MzY4OGFjIiwiYW5jaG9yU2lnS...",
     "blockDir": "block_970506"
+  },
+  {
+    "id": "block_970514_4b68574930be10bb593ddfe41efcf6154cd2744ef1676862a0aef95d1dfacd94_1",
+    "block": 970514,
+    "timestamp": 1791479935,
+    "date": "2026-10-08T17:18:55",
+    "txid": "4b68574930be10bb593ddfe41efcf6154cd2744ef1676862a0aef95d1dfacd94",
+    "vout": 1,
+    "size": 100,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "F2Pool",
+    "fee": 672,
+    "feeRate": 3.01,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "BIP110-SPLIT BIP110-SPLIT BIP110-SPLIT BIP110-SPLIT BIP110-SPLIT BIP110-SPLIT BIP110-SPLIT BIP110-SP",
+    "blockDir": "block_970514"
+  },
+  {
+    "id": "block_970514_07ad323f64a62fec4506f874419066a3d80a196efb11d5a33230a8e3f6aca701_1",
+    "block": 970514,
+    "timestamp": 1791479935,
+    "date": "2026-10-08T17:18:55",
+    "txid": "07ad323f64a62fec4506f874419066a3d80a196efb11d5a33230a8e3f6aca701",
+    "vout": 1,
+    "size": 100,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "F2Pool",
+    "fee": 900,
+    "feeRate": 3.85,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "BITCOIN MAINNET ONLY - split marker - invalid on Bitcoin BIP110 (RDTS rule 1, OP_RETURN over 83 byte",
+    "blockDir": "block_970514"
   }
 ]
