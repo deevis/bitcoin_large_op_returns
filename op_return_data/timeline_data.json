@@ -190967,5 +190967,43 @@
     "hasDecoded": true,
     "preview": "pwb1:profile:eyJpZCI6ImFybXlvZnlvdXRoIiwicHJvZmlsZUlkIjoiYXJteW9meW91dGgiLCJuYW1lIjoiYXJteW9meW91dGhAcHJvb2ZvZndvcmsubWUiLCJpbnRlbnQiOnsiYWRkcmVzcyI6IjFLTmtVQlJFbmZubzJCZVY3UXNCZjhYQ1daTjZZRmZ4UEgiLCJ...",
     "blockDir": "block_970424"
+  },
+  {
+    "id": "block_970426_c9da40adbb3c205326b02b6f6672541c970908ee5dfa42d0f3baf332c99e7026_1",
+    "block": 970426,
+    "timestamp": 1791427055,
+    "date": "2026-10-08T02:37:35",
+    "txid": "c9da40adbb3c205326b02b6f6672541c970908ee5dfa42d0f3baf332c99e7026",
+    "vout": 1,
+    "size": 120,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "F2Pool",
+    "fee": 762,
+    "feeRate": 3.15,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "0x7b0c670e4da78195a85a1ad849348e045bc09771cef4cfb696e087d149b508aa|depositor=bc1q4dxxzthpnx39l72hgtj6cvvlyyayfuv7qg7nnl|",
+    "blockDir": "block_970426"
+  },
+  {
+    "id": "block_970426_622d8ebc4fff15bdecf24fc0584b49d0214ed7331ea9d738bcd7f8c7ac35f4cb_0",
+    "block": 970426,
+    "timestamp": 1791427055,
+    "date": "2026-10-08T02:37:35",
+    "txid": "622d8ebc4fff15bdecf24fc0584b49d0214ed7331ea9d738bcd7f8c7ac35f4cb",
+    "vout": 0,
+    "size": 189,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "F2Pool",
+    "fee": 624,
+    "feeRate": 2.0,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "La Crypta es la mejor comunidad de Bitcoin de este lado de la galaxia; Luke chupame la pija, jamas vas a poder controlar esta red indestructible, jamas vas a poder doblegar nuestra voluntad",
+    "blockDir": "block_970426"
   }
 ]
