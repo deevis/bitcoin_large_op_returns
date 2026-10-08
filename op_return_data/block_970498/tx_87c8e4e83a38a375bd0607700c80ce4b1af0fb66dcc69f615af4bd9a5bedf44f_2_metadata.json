@@ -1,0 +1,18 @@
+{
+  "block_number": 970498,
+  "block_time": "2026-10-08T13:55:10",
+  "mined_by": "SpiderPool",
+  "transaction_id": "87c8e4e83a38a375bd0607700c80ce4b1af0fb66dcc69f615af4bd9a5bedf44f",
+  "vout_index": 2,
+  "data_size": 201,
+  "file_type": "binary",
+  "mime_type": "application/octet-stream",
+  "storage_format": "raw",
+  "raw_data_hex": "53484f52440104a1e7879252940f5e0f63d7934b2e161904cd6c5262e82ef49c3b9f2124e4a1fee8d53b31e2c49b9c00000ea7129b2d608cfaec7bb7bcce5f94cda7b6dd56a5e9000afc493bbb2cf6730b2f8cba7778a1c45af45c83765399e46089e077907529226867fcdb0f64d1e00260dddf6f7d5a03e37d5e5c36f073950cc0978e8e449fcffc732eb4b4081e98368251ffd203d0a915dcf08d1a327733c0b9fd70ae3c872d6abc86bf91d3d4adcef453dd1257d1c9ba6aeacab9fff5299b7070c529bce68884",
+  "transaction_fee_sats": 702,
+  "transaction_size_vbytes": 468,
+  "fee_rate_sats_per_vbyte": 1.5,
+  "cost_per_byte_of_data": 3.49,
+  "tx_inputs": 2,
+  "tx_outputs": 4
+}
