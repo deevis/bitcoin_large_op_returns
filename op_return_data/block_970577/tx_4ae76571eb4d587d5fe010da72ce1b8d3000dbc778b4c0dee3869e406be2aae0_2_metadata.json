@@ -1,0 +1,18 @@
+{
+  "block_number": 970577,
+  "block_time": "2026-10-09T03:34:28",
+  "mined_by": "Unknown",
+  "transaction_id": "4ae76571eb4d587d5fe010da72ce1b8d3000dbc778b4c0dee3869e406be2aae0",
+  "vout_index": 2,
+  "data_size": 201,
+  "file_type": "binary",
+  "mime_type": "application/octet-stream",
+  "storage_format": "raw",
+  "raw_data_hex": "53484f52440104a1e7879252940f5e0302c11ddc0919c9b5ae3b4edef366d2485abf72bb14a3a21a9f1ee1c5e4b1c600002a3091635d282ddfe70dc89282716cb2cd40f5092aa22d3e8f12a828904871fc1f82b97ed1dff1367196393420c61999935278373911d86042bd28a0eec938770a630c0c92ec9d5fb31e1b3accbf383df0997bd9ed07b8a84a4126694b5564544dc8046e0095eafb10887fb8ab99bc7c8e333be719818df0a5dd0575ff159d14511d9f727c59bb59ea49f82d9c3900b9894a12cbc065118f",
+  "transaction_fee_sats": 1138,
+  "transaction_size_vbytes": 454,
+  "fee_rate_sats_per_vbyte": 2.51,
+  "cost_per_byte_of_data": 5.66,
+  "tx_inputs": 2,
+  "tx_outputs": 4
+}
