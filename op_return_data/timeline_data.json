@@ -192221,5 +192221,43 @@
     "hasDecoded": true,
     "preview": "greetings! You are a student at the University of Texas in Austin. you are listening to a lecture from a person who identifies as xela. the professor of your course is Bob Josephs. the date and time i...",
     "blockDir": "block_970664"
+  },
+  {
+    "id": "block_970673_53034093ce986bd81ffa141ec9fd93d5204e421fdd5e665cadb172e23d38d9bb_1",
+    "block": 970673,
+    "timestamp": 1791576563,
+    "date": "2026-10-09T20:09:23",
+    "txid": "53034093ce986bd81ffa141ec9fd93d5204e421fdd5e665cadb172e23d38d9bb",
+    "vout": 1,
+    "size": 120,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "ViaBTC",
+    "fee": 1270,
+    "feeRate": 5.25,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "0xec1a24ba26f25a4d3f33a810894ef3663e5b802702f19353f652ee37cb3aed24|depositor=bc1qh79mhzlqa4g6rfkzamyshrrvz8z5as7jgxvzr7|",
+    "blockDir": "block_970673"
+  },
+  {
+    "id": "block_970673_43c1b145165143e3052e050cf7f6453933bcde16c6d62c537ca712fd753a6785_1",
+    "block": 970673,
+    "timestamp": 1791576563,
+    "date": "2026-10-09T20:09:23",
+    "txid": "43c1b145165143e3052e050cf7f6453933bcde16c6d62c537ca712fd753a6785",
+    "vout": 1,
+    "size": 120,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "ViaBTC",
+    "fee": 2031,
+    "feeRate": 8.39,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "0xa8d20ee6c2fd37675bdae08463904f6c87f61e55279e55644f3784a69ebcebb2|depositor=bc1q6d2hsdyd4g34uxjp3wm6cuxhhu2g3hwesturqk|",
+    "blockDir": "block_970673"
   }
 ]
