@@ -192354,5 +192354,24 @@
     "hasDecoded": true,
     "preview": "Mad Kratter Mad Kratter, mad as can be, forking away from the history tree...Mad Kratter Mad Kratter you HAVE to agree, fired all the miners while sipping his tea",
     "blockDir": "block_970685"
+  },
+  {
+    "id": "block_970686_1e2620c5da0d91a44aeee89f7210ad32bdc90669e24746d3a8483475ea82051e_1",
+    "block": 970686,
+    "timestamp": 1791585411,
+    "date": "2026-10-09T22:36:51",
+    "txid": "1e2620c5da0d91a44aeee89f7210ad32bdc90669e24746d3a8483475ea82051e",
+    "vout": 1,
+    "size": 112,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "ViaBTC",
+    "fee": 984,
+    "feeRate": 4.21,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "0x960ee809f7b58804737ae501e8eb725c455d9bd783fddc81ab1742aa6577d18b|depositor=1QGdWA5HZZQWoKSSxfsSBLJs6HxZxyMZWw|",
+    "blockDir": "block_970686"
   }
 ]
