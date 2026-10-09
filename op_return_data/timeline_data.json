@@ -192145,5 +192145,43 @@
     "hasDecoded": true,
     "preview": "pwt1:seal5:3b69cfd3519ef26ec2c8734a9360ae62043f166edda6ea8ead688afaf07503ba:eyJhbW91bnRNb2RlbCI6ImNhbm9uaWNhbC13b3JrLWFtby1wcm9vZi11bml0LWFtb3VudC12MyIsImFuY2hvclNjcmlwdFB1YktleSI6Ijc2YTkxNDU0N2UxYjhl...",
     "blockDir": "block_970653"
+  },
+  {
+    "id": "block_970657_f91b454e40117b72ca558c79a71cf3a0c772a36314c82169ad8ab3f237ab591a_3",
+    "block": 970657,
+    "timestamp": 1791562934,
+    "date": "2026-10-09T16:22:14",
+    "txid": "f91b454e40117b72ca558c79a71cf3a0c772a36314c82169ad8ab3f237ab591a",
+    "vout": 3,
+    "size": 297,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "SpiderPool",
+    "fee": 5546,
+    "feeRate": 6.46,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "-----BEGIN PGP SIGNATURE-----\n\niKcEABMJAC8WIQTZaKbwh8YXCwkrkAIPDcoDEzprhgUCaskOohEcYmMzZGV2QHBy\nb3Rvbi5tZQAKCRAPDcoDEzprhsenAXoCyotnnwDV7hUd5JPIIm0nqKHMdJGFQTBz\nN9ILXy6VMbDlBnRd8dEXE7XhcJ0EjfkBfRFHQlb...",
+    "blockDir": "block_970657"
+  },
+  {
+    "id": "block_970657_f91b454e40117b72ca558c79a71cf3a0c772a36314c82169ad8ab3f237ab591a_1",
+    "block": 970657,
+    "timestamp": 1791562934,
+    "date": "2026-10-09T16:22:14",
+    "txid": "f91b454e40117b72ca558c79a71cf3a0c772a36314c82169ad8ab3f237ab591a",
+    "vout": 1,
+    "size": 131,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "SpiderPool",
+    "fee": 5546,
+    "feeRate": 6.46,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "vout=2 is the SHA-256d hash of the tarball | vout=3 is BC3Dev's OpenPGP signature over the raw 32-byte SHA-256d hash of the tarball",
+    "blockDir": "block_970657"
   }
 ]
