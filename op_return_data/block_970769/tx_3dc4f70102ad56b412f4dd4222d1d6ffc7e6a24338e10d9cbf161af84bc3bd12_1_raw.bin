@@ -1,0 +1,1 @@
+aserti9-2d is a DAA that uses the exact same mathematical formula as BCH, but approximates f(x) = 2^x over [0,1] using a 9th-degree polynomial with 31-bit fractional arithmetic, instead of BCH's cubic approximation with 16-bit fractional arithmetic.

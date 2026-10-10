@@ -1,0 +1,184 @@
+#!/usr/bin/env python3
+
+SCALE       =  2**31
+UINT32_MAX  =  0xffffffff
+UINT64_MAX  =  0xffffffffffffffff
+UINT256_MAX =  0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+INT64_MAX   =  2**63     - 1
+INT64_MIN   = -INT64_MAX - 1
+POW_LIMIT   =  2**224    - 1 # actual limit, not the decoded 0x1d00ffff target
+
+ASERT_EXPONENT_LIMIT = 256 << 31
+
+COEFFICIENTS = (
+    2147483648, 1488522236, 515882495, 119194168, 20654757,
+    2863430, 330624, 32990, 2640, 308,
+) # derived from `aserti9-constants.py`
+
+
+def bits_to_target(bits: int) -> int:
+    if not 0 <= bits <= UINT32_MAX:
+        raise ValueError("nBits must fit into uint32_t")
+    size = bits >> 24
+    word = bits & 0x007fffff
+    # reject overflow before constructing the shifted target
+    if (bits & 0x00800000 or size > 34 or (word > 255 and size > 33) or (word > 0xffff and size > 32)):
+        raise ValueError("Invalid compact target!")
+    target = word >> (8*(3 - size)) if size <= 3 else word << (8*(size - 3))
+    if target == 0:
+        raise ValueError("Invalid compact target!")
+    return target
+
+
+def target_to_bits(target: int) -> int:
+    if not 0 < target <= UINT256_MAX:
+        raise ValueError("Target must be a positive uint256")
+    size = (target.bit_length() + 7) // 8
+    word = target << (8*(3 - size)) if size <= 3 else target >> (8*(size - 3))
+    if word & 0x00800000: # reserve the compact format's sign bit
+        word >>= 8
+        size += 1
+    return ((size << 24) | word) & UINT32_MAX
+
+
+def fractional_factor(frac: int) -> int:
+    if not 0 <= frac < SCALE:
+        raise ValueError("Fraction must lie in [0, 2**31)")
+    p = COEFFICIENTS[-1]
+    for coefficient in reversed(COEFFICIENTS[:-1]):
+        p = coefficient + ((p*frac + SCALE//2) >> 31) # fits in uint64_t
+    return p & UINT32_MAX # static_cast<uint32_t>(p)
+
+
+def fractional_quotient(rem: int, denom: int) -> int:
+    if not 0 <= rem < denom <= INT64_MAX:
+        raise ValueError("Invalid fractional quotient parameters")
+    if rem <= (UINT64_MAX >> 31):
+        return ((rem << 31) // denom) & UINT32_MAX
+    res = 0
+    for _ in range(31): # binary long division, using only uint64_t
+        rem  *= 2
+        res <<= 1
+        if rem  >= denom:
+            rem -= denom
+            res |= 1
+    return res
+
+
+def asert_exponent(spacing:     int,
+                   time_diff:   int,
+                   height_diff: int,
+                   half_life:   int) -> int:
+    if not (0 < spacing <= INT64_MAX and 0 < half_life <= INT64_MAX
+            and 0 <= height_diff < INT64_MAX and INT64_MIN <= time_diff <= INT64_MAX):
+        raise ValueError("Invalid ASERT parameters")
+    if height_diff + 1 > INT64_MAX // spacing:
+        raise ValueError("ASERT scheduled interval would overflow int64_t")
+    scheduled = spacing*(height_diff + 1)
+    if time_diff < INT64_MIN + scheduled:
+        raise ValueError("ASERT signed time error would overflow int64_t")
+    delta = time_diff - scheduled
+    whole, remainder = divmod(delta, half_life)
+    if delta < 0 and remainder != 0: # C++ / and % operators truncate towards zero
+        whole += 1
+        remainder -= half_life
+    if whole >=  256:
+        return ASERT_EXPONENT_LIMIT
+    if whole <= -256:
+        return -ASERT_EXPONENT_LIMIT
+    magnitude = -remainder if remainder < 0 else remainder
+    fraction = fractional_quotient(magnitude, half_life)
+    return whole*SCALE + (-fraction if remainder < 0 else fraction)
+
+
+def calculate_asert(reference:   int,
+                    spacing:     int,
+                    time_diff:   int,
+                    height_diff: int,
+                    pow_limit:   int,
+                    half_life:   int) -> int:
+    if not 0 < reference <= pow_limit <= POW_LIMIT: # narrow CalculateASERT
+        raise ValueError("Need 0 < reference <= pow_limit <= 2**224 - 1")
+    exponent = asert_exponent(spacing, time_diff, height_diff, half_life)
+    if exponent >=  ASERT_EXPONENT_LIMIT:
+        return pow_limit
+    if exponent <= -ASERT_EXPONENT_LIMIT:
+        return 1
+    shifts   = (exponent >> 31) - 31 # signed right shift floors, as in C++20
+    fraction = (exponent & UINT32_MAX) & (SCALE - 1)
+    target   =  reference*fractional_factor(fraction) # fits uint256
+    if shifts <= 0:
+        target >>= -shifts
+    elif target > (pow_limit >> shifts): # check before shifting
+        return pow_limit
+    else:
+        target <<= shifts
+    return max(1, min(target, pow_limit))
+
+
+def aserti9_nbits(ref_bits:    int, # anchor block nBits
+                  time_diff:   int, # parent timestamp minus anchor's PARENT's timestamp!
+                  height_diff: int, # parent height minus anchor's height
+                  *,
+                  spacing:   int = 600,
+                  half_life: int = 172800,
+                  pow_limit: int = POW_LIMIT) -> int:
+    reference = bits_to_target(ref_bits)
+    target = calculate_asert(reference, spacing, time_diff, height_diff, pow_limit, half_life)
+    return target_to_bits(target)
+
+
+def main():
+    assert COEFFICIENTS[0] == SCALE and sum(COEFFICIENTS) == 2*SCALE
+    assert fractional_factor(0)         == SCALE
+    assert fractional_factor(SCALE//2)  == 3037000500
+    assert fractional_factor(SCALE - 1) == UINT32_MAX
+    assert target_to_bits(0x80)         == 0x02008000
+    assert target_to_bits(0x12345678)   == 0x04123456 # low-byte truncation
+    assert bits_to_target(0x04123456)   == 0x12345600
+    assert bits_to_target(0x1d00ffff)    < POW_LIMIT
+    assert target_to_bits(POW_LIMIT)    == 0x1d00ffff
+    ref_bits    = 0x1c0ffff0
+    height_diff = 1000
+    scheduled   = 600*(height_diff + 1)
+    # signed schedule error in seconds, expected compact target
+    vectors = (
+        (        0, 0x1c0ffff0), # on schedule
+        (       -1, 0x1c0fffeb),
+        (        1, 0x1c0ffff4),
+        (   -86400, 0x1c0b5043), # target/sqrt(2) (approx)
+        (    86400, 0x1c16a087), # target*sqrt(2) (approx)
+        (  -172800, 0x1c07fff8), # target halved
+        (   172800, 0x1c1fffe0), # target doubled
+        (   864000, 0x1d00ffff), # clamped to powLimit
+        ( 44236800, 0x1d00ffff), # positive exponent saturation
+        (-44236800, 0x01010000), # minimum target = 1
+    )
+    for delta, expected in vectors:
+        actual = aserti9_nbits(ref_bits, scheduled + delta, height_diff)
+        assert actual == expected
+        print(f"delta={delta:+10d} s  nBits=0x{actual:08x}")
+    assert aserti9_nbits(ref_bits, 599,             0, half_life=INT64_MAX) == ref_bits
+    assert aserti9_nbits(ref_bits, 600 - (1 << 39), 0, half_life = 1 << 40) == 0x1c0b5043
+    assert asert_exponent(1, INT64_MIN + 1, 0, INT64_MAX) == -SCALE
+    assert asert_exponent(1, INT64_MIN + 1, 0,         1) == -ASERT_EXPONENT_LIMIT
+    assert calculate_asert(POW_LIMIT, 600, 600, 0, POW_LIMIT, 172800) == POW_LIMIT
+    for remainder in (1, UINT64_MAX >> 31, (UINT64_MAX >> 31) + 1, INT64_MAX - 1):
+        assert fractional_quotient(remainder, remainder + 1) == (remainder*SCALE)//(remainder + 1)
+    for delta in (0, 44236800, -44236800):
+        try:
+            aserti9_nbits(ref_bits, 600 + delta, 0, pow_limit=POW_LIMIT + 1)
+        except ValueError:
+            continue
+        raise AssertionError("Accepted unsupported powLimit")
+    for invalid in (0, 0x1d80ffff, 0x23000001, 0xff7fffff):
+        try:
+            bits_to_target(invalid)
+        except ValueError:
+            continue
+        raise AssertionError(f"Accepted invalid nBits: 0x{invalid:08x}")
+    print("All tests passed.")
+
+
+if __name__ == '__main__':
+    main()

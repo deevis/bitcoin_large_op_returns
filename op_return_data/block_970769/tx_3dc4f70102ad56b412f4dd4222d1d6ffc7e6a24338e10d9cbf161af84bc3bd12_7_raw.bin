@@ -1,0 +1,65 @@
+#!/usr/bin/env python3
+
+from mpmath import mp
+
+PLACES = 60
+DECIMAL_SCALE = 10**PLACES
+SCALE = 1 << 31
+
+
+def check(condition: bool, message: str) -> None:
+    if not condition:
+        raise RuntimeError(message)
+
+
+def decimal_coefficients(dps: int) -> tuple:
+    with mp.workdps(dps):
+        ln2 = mp.log(2)
+        # P(x) = 1 + x + x*(1-x)*Q(x) -> Q itself has degree 7
+        nodes = [(1 - mp.cos((mp.pi*(2*i + 1))/18))/2 for i in range(9)]
+        matrix = [[x*(1 - x)*(x**k) for k in range(8)] + [-((-1)**i)*(2**x)] for i, x in enumerate(nodes)]
+        seed = list(mp.lu_solve(matrix, [2**x - 1 - x for x in nodes]))
+        def equations(*z):
+            # unknowns: Q's 8 coefficients, peak error E, 9 extrema
+            q, error, points = z[:8], z[8], z[9:]
+            residuals = []
+            for i, x in enumerate(points):
+                value, slope = mp.polyval(q[::-1], x, derivative=True)
+                p = 1 + x + x*(1 - x)*value
+                dp = 1 + (1 - 2*x)*value + x*(1 - x)*slope
+                residuals += [p/(2**x) - 1 - ((-1)**i)*error, dp - ln2*p]
+            return residuals
+        solution = list(mp.findroot(equations, seed + nodes, tol=mp.mpf(10)**(20 - dps), maxsteps=50))
+        points = [mp.mpf(0)] + solution[9:] + [mp.mpf(1)]
+        check(all(a < b for a, b in zip(points, points[1:])), "Extrema are not distinct, ordered and inside (0,1)")
+        check(solution[8] > 0, "Unexpected error sign")
+        check(max(map(abs, equations(*solution))) < mp.mpf(10)**(30 - dps), "Insufficient numerical convergence")
+        q = solution[:8]
+        c = [mp.mpf(1), 1 + q[0]]
+        c += [q[k-1] - q[k-2] for k in range(2, 9)] + [-q[7]]
+        check(all(v > 0 for v in c), "Unexpected coefficient sign")
+        return tuple(int(mp.floor(v*DECIMAL_SCALE + mp.mpf("0.5"))) for v in c)
+
+
+def main() -> None:
+    decimals = decimal_coefficients(100)
+    check(decimals == decimal_coefficients(140), "Decimal coefficients changed when precision was increased")
+    check(decimals[0] == DECIMAL_SCALE and sum(decimals) == 2*DECIMAL_SCALE, "The 60-place decimal export does not preserve the endpoints")
+    # exact Python integer arithmetic onwards
+    nearest = [(v*SCALE + DECIMAL_SCALE//2)//DECIMAL_SCALE for v in decimals]
+    check(2*SCALE - sum(nearest) == 1, "Unexpected Q31 endpoint deficit")
+    index = max(range(1, 10), key=lambda k: decimals[k]*SCALE - nearest[k]*DECIMAL_SCALE)
+    check(index == 7, "The endpoint correction no longer selects x^7")
+    coefficients = nearest.copy()
+    coefficients[index] += 1
+    check(coefficients[0] == SCALE and sum(coefficients) == 2*SCALE, "Q31 endpoint check failed")
+    for k, value in enumerate(decimals):
+        print(f"c[{k}] = {value//DECIMAL_SCALE}.{value % DECIMAL_SCALE:0{PLACES}d}")
+    print(f"================\nNearest Q31:            {tuple(nearest)}")
+    print(f"Endpoint-corrected Q31: {tuple(coefficients)}")
+    print(f"Correction: x^{index}: {nearest[index]} -> {coefficients[index]}")
+    print(f"Sum: {sum(coefficients)} = 2 * 2^31")
+
+
+if __name__ == '__main__':
+    main()
