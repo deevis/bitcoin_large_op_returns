@@ -192563,5 +192563,43 @@
     "hasDecoded": true,
     "preview": "\u201cWhat is needed is an electronic payment system based on cryptographic proof instead of trust, allowing any two willing parties to transact directly with each other without the need for a trusted thir...",
     "blockDir": "block_970713"
+  },
+  {
+    "id": "block_970717_142ec1b5c185431382c4b01966c1af2da5f39d7829f5ad51271f2797afefd552_1",
+    "block": 970717,
+    "timestamp": 1791604761,
+    "date": "2026-10-10T03:59:21",
+    "txid": "142ec1b5c185431382c4b01966c1af2da5f39d7829f5ad51271f2797afefd552",
+    "vout": 1,
+    "size": 120,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "ViaBTC",
+    "fee": 381,
+    "feeRate": 1.5,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "Bitcoin meets the flame, Blake2b distilled from its core, Pure gold rises, and the true chain claims its eternal throne.",
+    "blockDir": "block_970717"
+  },
+  {
+    "id": "block_970717_725c6c85ebbe33b4b4dfd9588871f987acbfe9088f56d3a238f727fc4b1508df_1",
+    "block": 970717,
+    "timestamp": 1791604761,
+    "date": "2026-10-10T03:59:21",
+    "txid": "725c6c85ebbe33b4b4dfd9588871f987acbfe9088f56d3a238f727fc4b1508df",
+    "vout": 1,
+    "size": 120,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "ViaBTC",
+    "fee": 507,
+    "feeRate": 2.1,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "0x0bb60b24c744cfeb5e1e87930a6950aedd6ec98d1400884e1350024530e318c4|depositor=bc1qk8lh4q7sgzqgey45xnnkujlpeaz7mgvm8urxsj|",
+    "blockDir": "block_970717"
   }
 ]
