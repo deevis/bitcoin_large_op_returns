@@ -196135,5 +196135,24 @@
     "hasDecoded": true,
     "preview": "0xbbf7c8509ba38f983d0dfbcd9649bb316f43bf839db0b015f374399a19f1130a|depositor=bc1q6d2hsdyd4g34uxjp3wm6cuxhhu2g3hwesturqk|",
     "blockDir": "block_971269"
+  },
+  {
+    "id": "block_971276_5a5919bb8ffa82ba67bd81d72809985213371754397360e1ab68467bd6daac50_0",
+    "block": 971276,
+    "timestamp": 1791910280,
+    "date": "2026-10-13T16:51:20",
+    "txid": "5a5919bb8ffa82ba67bd81d72809985213371754397360e1ab68467bd6daac50",
+    "vout": 0,
+    "size": 169,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "Foundry USA",
+    "fee": 370,
+    "feeRate": 1.11,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "30k+1k: both BIP48 account numbers (m/48'/0'/acct'/2') for both cosigners, or both full key origins. Electrum-encrypt to this tx's input pubkey (also love the puzzle <3)",
+    "blockDir": "block_971276"
   }
 ]
