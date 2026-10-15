@@ -197731,5 +197731,43 @@
     "hasDecoded": true,
     "preview": "Thoughtless quartz clocks drift, while blocks stack, each a strict proof, the timechain keeps score.",
     "blockDir": "block_971584"
+  },
+  {
+    "id": "block_971590_da7a9fb43857555704364b74dc2677e03e70e102b2f8859832e56d50743754c9_2",
+    "block": 971590,
+    "timestamp": 1792077636,
+    "date": "2026-10-15T15:20:36",
+    "txid": "da7a9fb43857555704364b74dc2677e03e70e102b2f8859832e56d50743754c9",
+    "vout": 2,
+    "size": 100,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "Foundry USA",
+    "fee": 759,
+    "feeRate": 3.0,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "Thoughtless quartz clocks drift, while blocks stack, each a strict proof, the timechain keeps score.",
+    "blockDir": "block_971590"
+  },
+  {
+    "id": "block_971590_19fc13c0539a3fb742baf189622820d7c6cea4f66bcdc6786f797bb36add30eb_1",
+    "block": 971590,
+    "timestamp": 1792077636,
+    "date": "2026-10-15T15:20:36",
+    "txid": "19fc13c0539a3fb742baf189622820d7c6cea4f66bcdc6786f797bb36add30eb",
+    "vout": 1,
+    "size": 120,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "Foundry USA",
+    "fee": 507,
+    "feeRate": 2.1,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "0x633b378bb9d0a76b33c6037f6838382c90669447474e539aac1bd22afcbc318c|depositor=bc1q6d2hsdyd4g34uxjp3wm6cuxhhu2g3hwesturqk|",
+    "blockDir": "block_971590"
   }
 ]
