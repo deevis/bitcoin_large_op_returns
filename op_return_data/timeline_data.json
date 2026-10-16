@@ -198605,5 +198605,43 @@
     "hasDecoded": true,
     "preview": "10k, public test inputs only, no secrets. Your 10-16 reply c85bcea3 (cut -b 2-67, Test Example, 0852014c) does not match ANY standard pipeline we can build: one 570-char lowercase raw hex line gives d...",
     "blockDir": "block_971734"
+  },
+  {
+    "id": "block_971743_3de07be481e97c9ae57e38fcfd52ad40a0c0629d05603c286f47faebd3c462ec_1",
+    "block": 971743,
+    "timestamp": 1792172402,
+    "date": "2026-10-16T17:40:02",
+    "txid": "3de07be481e97c9ae57e38fcfd52ad40a0c0629d05603c286f47faebd3c462ec",
+    "vout": 1,
+    "size": 174,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "Foundry USA",
+    "fee": 122,
+    "feeRate": 0.4,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "Declined. For a test vector with predefined inputs, I can only provide the final result. Step-level answers would be the same as uncovering the individual secrets one by one.",
+    "blockDir": "block_971743"
+  },
+  {
+    "id": "block_971743_68e5a0d3325b2123078c6417a3e7ee73d2d82ca7db2116549ada653b7a8efaad_1",
+    "block": 971743,
+    "timestamp": 1792172402,
+    "date": "2026-10-16T17:40:02",
+    "txid": "68e5a0d3325b2123078c6417a3e7ee73d2d82ca7db2116549ada653b7a8efaad",
+    "vout": 1,
+    "size": 114,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "Foundry USA",
+    "fee": 395,
+    "feeRate": 1.67,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "Vgmacgn us, heyjegreb jmrwvlo eemgcwccy, bc qvltoazt gil gyp pcxsqxbrj. Woq aifvxwr yp isnpq jtcc huwqw, txyxyiii.",
+    "blockDir": "block_971743"
   }
 ]
