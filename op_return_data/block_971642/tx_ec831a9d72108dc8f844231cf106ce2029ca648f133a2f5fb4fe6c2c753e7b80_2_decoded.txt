@@ -1,0 +1,5 @@
+7.5k+1k, shape only about the two BIP48 account numbers. No values, no indices, no paste, no PP spelling. Reply like: 1) Y; 2) a; 3) b; 4) N.
+1) Were both account numbers obtained from the genesis block data WITHOUT any hashing? Y/N
+2) The two account numbers come from: a) the SAME contiguous piece of genesis data b) two DIFFERENT pieces of genesis data c) one from genesis data, one chosen freely d) other
+3) How were the genesis bytes turned into the account integer? a) hex digits read as a number b) decimal digits read as a number c) a byte offset or position d) a named field's raw value (version/time/bits/nonce) e) other
+4) Is either of the two account numbers >= 4194304 (2^22)? Y/N
