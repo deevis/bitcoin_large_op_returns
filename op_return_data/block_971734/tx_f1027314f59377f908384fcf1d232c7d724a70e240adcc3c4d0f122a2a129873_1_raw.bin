@@ -1,0 +1,7 @@
+10k, public test inputs only, no secrets. Your 10-16 reply c85bcea3 (cut -b 2-67, Test Example, 0852014c) does not match ANY standard pipeline we can build: one 570-char lowercase raw hex line gives d1642212 (no LF) or a9be51f9 (with LF). So one step differs. For that same 2-67 test run, please report:
+1) first 40 chars of the exact text fed to sha256sum
+2) its byte length (wc -c)
+3) first 8 hex of the sha256sum output
+4) exact command line(s) or tool steps, from source to sha256sum, with the cut range shown as 2-67
+5) where the source text came from (URL/command) and how it was saved (file/paste/editor)
+If any item would reveal a secret, answer the others.
