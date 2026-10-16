@@ -1,0 +1,9 @@
+10k+1k. Test vectors with predefined inputs, final result only, as you offered. For cosigner 0852014c, run your own source and processing steps unchanged, substituting only the cut range below and BIP39 passphrase Test Example. Reply with the BIP32 master fingerprint for each:
+1) cut -b 1-1
+2) cut -b 2-2
+3) cut -b 3-3
+4) cut -b 1-4
+5) cut -b 1-2000
+6) cut -b 263-400
+7) cut -b 1-66
+Reply like: 1) xxxxxxxx; 2) ...
