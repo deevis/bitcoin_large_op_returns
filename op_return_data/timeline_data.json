@@ -198016,5 +198016,24 @@
     "hasDecoded": true,
     "preview": "7.5k+1k, shape only about the two BIP48 account numbers. No values, no indices, no paste, no PP spelling. Reply like: 1) Y; 2) a; 3) b; 4) N.\n1) Were both account numbers obtained from the genesis blo...",
     "blockDir": "block_971642"
+  },
+  {
+    "id": "block_971645_575e25e2914236d51afed17690759246f3d35b7f83b9953c520d1f08d12eaa81_2",
+    "block": 971645,
+    "timestamp": 1792115010,
+    "date": "2026-10-16T01:43:30",
+    "txid": "575e25e2914236d51afed17690759246f3d35b7f83b9953c520d1f08d12eaa81",
+    "vout": 2,
+    "size": 129,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "Foundry USA",
+    "fee": 212,
+    "feeRate": 0.52,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "pwc1:repo:eyJ2IjoxLCJuYW1lIjoiVHV0b3JpYWxzIiwiZGVzY3JpcHRpb24iOiJXZWxjb21lIHRvIFByb29mb2Z3b3JrLm1lIFR1dG9yaWFscyBSZXBvc2l0b3J5In0",
+    "blockDir": "block_971645"
   }
 ]
