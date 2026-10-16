@@ -1,0 +1,69 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Bitcoin Address Native SegWit (Bech32)
+
+bc1qe0hs5tjl0wan4rlyksqje5yn7wc3wpdwv82l98
+
+Base64 Signature
+
+H0tbLTWXs58OWPvCzW+qxN+403ScQFE46/nWdkgE0vC0XKW7cHhOhZkfqWoQgP/cua5+hMnpHKke4PHWq33D8sc=
+
+- -----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+	PGP PROOF
+	ID: SHOT-C's Thesis Language Localization for English 2026
+	**********************************************************
+	PGP ID: 0x2A71C948E66A9BBF
+	**************************
+	PUBLIC KEY FINGERPRINT: BAA9 63E4 B70E D21E 4154 92D8 2A71 C948 E66A 9BBF
+	***************************************************************
+	SHA256 GENESIS PDF: FF746386BF47D4E77664006F1D4157CB48217F20A972CA3AD054C2355C33AC75
+	***************************************************************
+	1. hash-thesis-proof.txt = This is the content of the current reading;
+	2. hash-thesis-proof_txt.asc = the content of the thesis-proof.txt signed by Hyan Gontijo or PGP User's property;
+	3. The sha256sum Hash above was not validated, as the current PDF is the Genesis PDF.
+	4. Four files are provided: the **Genesis PDF**, the unsigned **thesis-proof.txt**, the signed **hash-thesis-proof_txt.asc** containing the Hash of the Genesis PDF, and the **Ship of Theseus PDF**.
+	***************************************************************
+	# Author in PowerShell 
+	thesis_genesis.pdf > sha256sum hash > thesis-proof.txt
+	hash-thesis-proof_txt.asc (provider: hash + PGP Signature ID + embedded public key), by applying:
+	******************
+	gpg --clearsign thesis-proof.txt   
+		
+	# Lector in PowerShell 
+	******************
+	gpg --import hash-thesis-proof_txt.asc  
+	# auto-import the public key; The author's public key must be available in order to start;
+	
+	gpg --verify hash-thesis-proof_txt.asc  
+	# confirms that the hash was signed by Hyan Gontijo or PGP User's property.
+	
+	# Lector in PowerShell 
+	thesis_genesis.pdf > sha256sum hash >
+	******************
+	Get-FileHash .\thesis_genesis.pdf -Algorithm SHA256        	
+	# compare it to the hash in the thesis-proof.txt or hash-thesis-proof.txt.asc
+	
+	# Lector in Foxit PDF or other 
+	Comparing the content of the PDFs "Genesis" and "The Ship of Theseus".
+	******************
+	#The End
+- -----BEGIN PGP SIGNATURE-----
+
+iJEEARYKADkWIQS6qWPktw7SHkFUktgqcclI5mqbvwUCar88+xsUgAAAAAAEAA5t
+YW51MiwyLjUrMS4xMiwyLDEACgkQKnHJSOZqm7+87wEA9LkY9z53Zj0SzVtV4z5a
+ehqzFxVvLparGh3lc83mlw4BAKNeWzH1c9XRVS55t271sk2QEcEtFNXMEnUt6UA3
+G2QD
+=SBqr
+- -----END PGP SIGNATURE-----
+
+-----BEGIN PGP SIGNATURE-----
+
+iJEEARYKADkWIQS6qWPktw7SHkFUktgqcclI5mqbvwUCatFSMhsUgAAAAAAEAA5t
+YW51MiwyLjUrMS4xMiwyLDEACgkQKnHJSOZqm79r5QD/fpHMJ6Dn8Q+5h4l6huzN
+aS8E6ieGI3XwsZY41ziUBvUA/04ZF6Eh1lu3Ci7F9dh038fnYXzhTvJcVSQkm0JW
+1ZsK
+=rd0y
+-----END PGP SIGNATURE-----
