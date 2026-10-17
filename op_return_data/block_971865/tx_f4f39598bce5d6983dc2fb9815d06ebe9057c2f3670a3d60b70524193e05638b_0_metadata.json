@@ -1,0 +1,18 @@
+{
+  "block_number": 971865,
+  "block_time": "2026-10-17T13:17:39",
+  "mined_by": "SpiderPool",
+  "transaction_id": "f4f39598bce5d6983dc2fb9815d06ebe9057c2f3670a3d60b70524193e05638b",
+  "vout_index": 0,
+  "data_size": 393,
+  "file_type": "binary",
+  "mime_type": "application/octet-stream",
+  "storage_format": "raw",
+  "raw_data_hex": "53484f52440103a1e7879252940f5e57d40e001e0abdb6fcaf3ec9a0993f92710aabadf1612f3be4432cf57b5288dca3ef3a503e09000000000000010000389d07000000000045f39fdcba186a7c53d9cc609197de0f00ccb74ee60a89c1120cd6aca65236e122512003a85660f0ff6db49233e6163dd277b41f4e75df3c4d4856640410b1a22a79732ae50fdaa56a098c1e406363ebb2b8e4d74845ce595d9e1aab7bb27c8c3f27fe1f28fc37152aa4cadb74e312594afe48ab93106d86e3fb823930ca3b3257b4372bd2d393daa4564099263b34b2ecd82d3658c0193d8d54ae5051cb97a4acd2780662ffeca6a0572c755daf8b5fac2d4725716e1a01755cb4c32f77dc45166fcc086424e024b2fbbb6dde1c697d9044ccb0f87c8c7eeaf2a79a173dff4ad644b9029521587e817c5d3c411a95da214e3eb598f4c7eedb9e5f38e84c01547c43942fa09ac9047f608f011fa67db415409ed98569a8c803d733add2bb5b49d1161103daf71a06efec459c2795b14e7f18a236ef7a9935497d686c77f8a10955d16a",
+  "transaction_fee_sats": 1521,
+  "transaction_size_vbytes": 1013,
+  "fee_rate_sats_per_vbyte": 1.5,
+  "cost_per_byte_of_data": 3.87,
+  "tx_inputs": 1,
+  "tx_outputs": 5
+}
