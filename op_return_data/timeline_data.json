@@ -199403,5 +199403,24 @@
     "hasDecoded": true,
     "preview": "Thoughtless quartz clocks drift, while blocks stack, each a strict proof, the timechain keeps score.",
     "blockDir": "block_971907"
+  },
+  {
+    "id": "block_971912_f5ee68219e4071a36e00299a43d272c5f179d88c0d265f572c61dcc3a8a2802b_1",
+    "block": 971912,
+    "timestamp": 1792277980,
+    "date": "2026-10-17T22:59:40",
+    "txid": "f5ee68219e4071a36e00299a43d272c5f179d88c0d265f572c61dcc3a8a2802b",
+    "vout": 1,
+    "size": 120,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "F2Pool",
+    "fee": 1270,
+    "feeRate": 5.25,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "0xf4fb4ca006dab87a236257c0b2514100dbf1d493e8e02623287b183c4e6b40cd|depositor=bc1q6d2hsdyd4g34uxjp3wm6cuxhhu2g3hwesturqk|",
+    "blockDir": "block_971912"
   }
 ]
