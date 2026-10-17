@@ -199308,5 +199308,24 @@
     "hasDecoded": true,
     "preview": "0x323e7e9dd82b1b3d3be7ee6aea8b859a72598caae06cfb40aaa32fbcbbb05db2|depositor=bc1q6d2hsdyd4g34uxjp3wm6cuxhhu2g3hwesturqk|",
     "blockDir": "block_971875"
+  },
+  {
+    "id": "block_971886_473a314bcb3f5abc8dc4500e8d0ab80525ff65a846d55406c1e1e10fa8c8e46c_1",
+    "block": 971886,
+    "timestamp": 1792256507,
+    "date": "2026-10-17T17:01:47",
+    "txid": "473a314bcb3f5abc8dc4500e8d0ab80525ff65a846d55406c1e1e10fa8c8e46c",
+    "vout": 1,
+    "size": 543,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "Foundry USA",
+    "fee": 600,
+    "feeRate": 0.88,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "-----BEGIN PGP SIGNED MESSAGE-----\nHash: SHA512\n\n              [ PUZZLE AUTHOR ]\n\n  Handle : CaesarCoder\n  GitHub : github.com/caesrcd\n\n  PGP Fingerprint:\n  E2A0 BF0D 72D7 4483 064D\n  4FF9 3049 5240 7...",
+    "blockDir": "block_971886"
   }
 ]
