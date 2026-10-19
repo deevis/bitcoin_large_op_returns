@@ -200961,5 +200961,43 @@
     "hasDecoded": true,
     "preview": "0x30f9e61dbd866e31ae0828f6ae6186a133e5ed308a7e6bed3135f5e4e04113ca|depositor=bc1pyxtfezjtqqcrrstvtw0as47ryf5wgxpk3c6mrg980kz7lu89e08s67368x|",
     "blockDir": "block_972174"
+  },
+  {
+    "id": "block_972179_233f1c0551bfbc6f63812b60f4817e0b409dbfcb9a5acb18c7351bc150eca97a_0",
+    "block": 972179,
+    "timestamp": 1792427318,
+    "date": "2026-10-19T16:28:38",
+    "txid": "233f1c0551bfbc6f63812b60f4817e0b409dbfcb9a5acb18c7351bc150eca97a",
+    "vout": 0,
+    "size": 100,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "F2Pool",
+    "fee": 222,
+    "feeRate": 1.0,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "Thoughtless quartz clocks drift, while blocks stack, each a strict proof, the timechain keeps score.",
+    "blockDir": "block_972179"
+  },
+  {
+    "id": "block_972179_cc5ee0555b388ec0d5ec67ae39448b07abe874d3c5deb722bea1a910542b062a_1",
+    "block": 972179,
+    "timestamp": 1792427318,
+    "date": "2026-10-19T16:28:38",
+    "txid": "cc5ee0555b388ec0d5ec67ae39448b07abe874d3c5deb722bea1a910542b062a",
+    "vout": 1,
+    "size": 120,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "F2Pool",
+    "fee": 762,
+    "feeRate": 3.15,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "0x71b0396a068a71a8d736cd1d3ba05a905e626c15879fa9be5ba6ee91a7a0a8fb|depositor=bc1q7mej7rk26vlyj5mlsxqenmx6q3pj2juxeh75fq|",
+    "blockDir": "block_972179"
   }
 ]
