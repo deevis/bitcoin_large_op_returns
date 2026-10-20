@@ -201816,5 +201816,43 @@
     "hasDecoded": true,
     "preview": "Thoughtless quartz clocks drift, while blocks stack, each a strict proof, the timechain keeps score.",
     "blockDir": "block_972374"
+  },
+  {
+    "id": "block_972377_65e349a973c5796972000c4151ee9e7dacdde13fc4e433d7082aa330ccead20d_1",
+    "block": 972377,
+    "timestamp": 1792529161,
+    "date": "2026-10-20T20:46:01",
+    "txid": "65e349a973c5796972000c4151ee9e7dacdde13fc4e433d7082aa330ccead20d",
+    "vout": 1,
+    "size": 302,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "SpiderPool",
+    "fee": 11823,
+    "feeRate": 0.15,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "pwb1:post:eyJ2IjoxLCJ0ZXh0IjoiIiwibWVkaWEiOnsibWltZSI6ImltYWdlL3BuZyIsIm5hbWUiOiIwMF9DT1ZFUl81OUtCLnBuZyIsInNoYTI1NiI6IjUxNjQ4NGMyMzExYzI5OWU3OThkZjM4MDcwNDUyNDY1MTgwMzE5MjEzNmQxYjI2MmY3NjBhYmIyODcyZW...",
+    "blockDir": "block_972377"
+  },
+  {
+    "id": "block_972377_65e349a973c5796972000c4151ee9e7dacdde13fc4e433d7082aa330ccead20d_3",
+    "block": 972377,
+    "timestamp": 1792529161,
+    "date": "2026-10-20T20:46:01",
+    "txid": "65e349a973c5796972000c4151ee9e7dacdde13fc4e433d7082aa330ccead20d",
+    "vout": 3,
+    "size": 78226,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "SpiderPool",
+    "fee": 11823,
+    "feeRate": 0.15,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "pwm1:a:aW1hZ2UvcG5n:MDBfQ09WRVJfNTlLQi5wbmc:58580:516484c2311c299e798df380704524651803192136d1b262f760abb2872eb176:0/1:iVBORw0KGgoAAAANSUhEUgAAAugAAAF_CAMAAAAsD8zEAAABIFBMVEUAAAAIBQALCAAPCgADBAAFAwAAA...",
+    "blockDir": "block_972377"
   }
 ]
