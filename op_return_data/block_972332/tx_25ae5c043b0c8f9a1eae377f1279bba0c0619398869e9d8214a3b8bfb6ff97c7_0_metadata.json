@@ -1,0 +1,18 @@
+{
+  "block_number": 972332,
+  "block_time": "2026-10-20T13:43:51",
+  "mined_by": "Marathon Digital",
+  "transaction_id": "25ae5c043b0c8f9a1eae377f1279bba0c0619398869e9d8214a3b8bfb6ff97c7",
+  "vout_index": 0,
+  "data_size": 393,
+  "file_type": "binary",
+  "mime_type": "application/octet-stream",
+  "storage_format": "raw",
+  "raw_data_hex": "53484f52440103ddf86c73840f43262bd60e0016612f83c1bd4260b255a88ac0cbd3895224acb53e780ca3a3f4c515ea36e0e35201000000000000000000803801000000000032fa6753234789f3941e022f1af22346d60ef3651df25d6002e018a7069081a6225120c430dadc39965c831068a6ed46dd1e051d71b7bf1e0bcb82293bf237c31af5b025b64da88c16f2fe32fb6da6f175e51730c40408f1474ef627434f38cf0c875d1cbfbc0ed08c8b81ac6717da38f10001152759a704e3eaf834bdb90ddedd7b112bdf9988261344da7f8d253863d258be5ea386adb14d061048bc57d1e4186ca804e1cc580d020bcfcac8daa479e7654bb1e29498a0258267d4cdcf0a441d2af2269ec28565769720c30adccd9241bc938b582c98aa4bf168edb31cf434bc6d9b0124b2a2bf269315b858eb2e8c32f0df18fc172103c17a7dc7e669c011dbf4a52edfb438744532ceba6813d3c913edfc3c7258aa957cfe6d37701828c5d2823d29ad9d81614b66428efefaf7de4964f41009a2f5605aa0fc0843eba374351811",
+  "transaction_fee_sats": 1403,
+  "transaction_size_vbytes": 561,
+  "fee_rate_sats_per_vbyte": 2.5,
+  "cost_per_byte_of_data": 3.57,
+  "tx_inputs": 1,
+  "tx_outputs": 3
+}
