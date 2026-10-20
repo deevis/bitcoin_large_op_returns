@@ -1,0 +1,18 @@
+{
+  "block_number": 972255,
+  "block_time": "2026-10-20T04:07:44",
+  "mined_by": "Foundry USA",
+  "transaction_id": "6af22516c37400747805ee5281dae614c40fd37d6d78290bd813f12a76aef1be",
+  "vout_index": 2,
+  "data_size": 201,
+  "file_type": "binary",
+  "mime_type": "application/octet-stream",
+  "storage_format": "raw",
+  "raw_data_hex": "53484f52440104a1e7879252940f5e2155d95068fb9a2a6031648cca8789486b73fc43afbe92e08aac40c7bf4104ab000006b1ca99c94a3995920e5c9c999a9bc1997a9835e3dde9556cea709a19483baacd0c73e1cfe286b275c6d571ecbebd4546d13aef468408a77134a87e299d06792150c465aeffa3cd30b49275b1daeb56ecfcc31cc08ea52da6b4431374284fa9ee92227b7ecaf2a81ddf9cda0dd985639c8837d17497ed09a72c6f2701bd348bb62b6b206eda322f0d123b280979c5feeefda7f4b23d5693",
+  "transaction_fee_sats": 702,
+  "transaction_size_vbytes": 468,
+  "fee_rate_sats_per_vbyte": 1.5,
+  "cost_per_byte_of_data": 3.49,
+  "tx_inputs": 2,
+  "tx_outputs": 4
+}
