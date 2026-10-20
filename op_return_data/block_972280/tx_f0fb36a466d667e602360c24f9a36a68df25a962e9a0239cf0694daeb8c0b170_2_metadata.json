@@ -1,0 +1,18 @@
+{
+  "block_number": 972280,
+  "block_time": "2026-10-20T07:17:51",
+  "mined_by": "F2Pool",
+  "transaction_id": "f0fb36a466d667e602360c24f9a36a68df25a962e9a0239cf0694daeb8c0b170",
+  "vout_index": 2,
+  "data_size": 201,
+  "file_type": "binary",
+  "mime_type": "application/octet-stream",
+  "storage_format": "raw",
+  "raw_data_hex": "53484f52440104a1e7879252940f5e10b76d24c5aa87fd8ea6aff910d031d582a6a232a87ca9d6387185fb55f8a2c200000cb3381382c6d213577078fd5b7393dd49030b1896d1b9a3d1f5b45a3bf8c00eab38616f075d5278eccfd56259e5433662000816ebe4d94154abfbb664c12d46573dd78da7da6a010c856bb3e6a725909344212d79629eb143624e11d10689978e1a4396f9ccc98f4fb2d15c193524da8357a39c3c62a0028d04963d221dacec9801630735c8f8d3b2fe194503717e8968c90cbaf3a1a57a",
+  "transaction_fee_sats": 789,
+  "transaction_size_vbytes": 525,
+  "fee_rate_sats_per_vbyte": 1.5,
+  "cost_per_byte_of_data": 3.93,
+  "tx_inputs": 3,
+  "tx_outputs": 4
+}
