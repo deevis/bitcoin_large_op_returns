@@ -201645,5 +201645,43 @@
     "hasDecoded": true,
     "preview": "Knowledge of liquid network vulnerability was poorly kept secret inside Blockstream since June 2026. Francis Pouliot the founder of Bull Bitcoin and many others can confirm this. Blockstream could hav...",
     "blockDir": "block_972340"
+  },
+  {
+    "id": "block_972346_cb088df5b0e57325b076b980c68d67586132b20eaefc6386e87c9ccc4ab88977_2",
+    "block": 972346,
+    "timestamp": 1792509289,
+    "date": "2026-10-20T15:14:49",
+    "txid": "cb088df5b0e57325b076b980c68d67586132b20eaefc6386e87c9ccc4ab88977",
+    "vout": 2,
+    "size": 5421,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "SpiderPool",
+    "fee": 1228,
+    "feeRate": 0.2,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "pwm1:a:dGV4dC9wbGFpbg:c291cmNlLnR4dA:3982:6f1d9c27026c84b3e70de81269dc28792f69b63e7f1c08b6b5b79d79a8607ca7:0/1:IyBQcm9vZk9mV29yay5NZSBUdXRvcmlhbHMKCldlbGNvbWUgdG8gdGhlIFR1dG9yaWFscyByZXBvc2l0b3J5OiBhI...",
+    "blockDir": "block_972346"
+  },
+  {
+    "id": "block_972346_cb088df5b0e57325b076b980c68d67586132b20eaefc6386e87c9ccc4ab88977_3",
+    "block": 972346,
+    "timestamp": 1792509289,
+    "date": "2026-10-20T15:14:49",
+    "txid": "cb088df5b0e57325b076b980c68d67586132b20eaefc6386e87c9ccc4ab88977",
+    "vout": 3,
+    "size": 410,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "SpiderPool",
+    "fee": 1228,
+    "feeRate": 0.2,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "pwc1:commit:eyJ2IjoxLCJyZXBvIjoiNTc1ZTI1ZTI5MTQyMzZkNTFhZmVkMTc2OTA3NTkyNDZmM2QzNWI3ZjgzYjk5NTNjNTIwZDFmMDhkMTJlYWE4MSIsInBhcmVudCI6IjU3NWUyNWUyOTE0MjM2ZDUxYWZlZDE3NjkwNzU5MjQ2ZjNkMzViN2Y4M2I5OTUzYzUy...",
+    "blockDir": "block_972346"
   }
 ]
