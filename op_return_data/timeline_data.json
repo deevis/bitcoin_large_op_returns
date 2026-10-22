@@ -203602,5 +203602,24 @@
     "hasDecoded": true,
     "preview": "pwt1:seal5:b5a9ee9c4bd850b2fd648f77f250c5efaefb9c9755c05bf6f3536191990943b9:eyJhbW91bnRNb2RlbCI6ImNhbm9uaWNhbC13b3JrLWFtby1wcm9vZi11bml0LWFtb3VudC12MyIsImFuY2hvclNjcmlwdFB1YktleSI6IjUxMjA2ZmUzNTkzYzFl...",
     "blockDir": "block_972602"
+  },
+  {
+    "id": "block_972603_d6eac9310d13d2fb6aab3e2b7219945081b75e831e6b4e9c282fbdb585aa8b60_1",
+    "block": 972603,
+    "timestamp": 1792664044,
+    "date": "2026-10-22T10:14:04",
+    "txid": "d6eac9310d13d2fb6aab3e2b7219945081b75e831e6b4e9c282fbdb585aa8b60",
+    "vout": 1,
+    "size": 140,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "Unknown",
+    "fee": 548,
+    "feeRate": 2.09,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "0xf4c45b30f1be5b33f365fbc731fc12c4cbaf4da91f29de181a0ed89590922aa6|depositor=bc1pyxtfezjtqqcrrstvtw0as47ryf5wgxpk3c6mrg980kz7lu89e08s67368x|",
+    "blockDir": "block_972603"
   }
 ]
