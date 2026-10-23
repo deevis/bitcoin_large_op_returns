@@ -205084,5 +205084,24 @@
     "hasDecoded": true,
     "preview": "SHA256d only: OP_RETURN >83 bytes is invalid on the BLAKE2b chain (BIP-110)         ",
     "blockDir": "block_972824"
+  },
+  {
+    "id": "block_972828_a18825d149a62b3ffeb938c50b943dccd8f5fb600b5ace9445564e4bc50d3ebd_1",
+    "block": 972828,
+    "timestamp": 1792786386,
+    "date": "2026-10-23T20:13:06",
+    "txid": "a18825d149a62b3ffeb938c50b943dccd8f5fb600b5ace9445564e4bc50d3ebd",
+    "vout": 1,
+    "size": 100,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "ViaBTC",
+    "fee": 222,
+    "feeRate": 1.0,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "Thoughtless quartz clocks drift, while blocks stack, each a strict proof, the timechain keeps score.",
+    "blockDir": "block_972828"
   }
 ]
