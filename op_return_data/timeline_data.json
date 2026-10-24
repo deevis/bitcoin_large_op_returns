@@ -205825,5 +205825,43 @@
     "hasDecoded": true,
     "preview": "Why do people donate to celebrities, but not to anonymous people who truly need help?",
     "blockDir": "block_972968"
+  },
+  {
+    "id": "block_972970_97271deb6249a03859be8af49b64a44e6784051ff8dda2f44c2453fd410a1d02_1",
+    "block": 972970,
+    "timestamp": 1792873604,
+    "date": "2026-10-24T20:26:44",
+    "txid": "97271deb6249a03859be8af49b64a44e6784051ff8dda2f44c2453fd410a1d02",
+    "vout": 1,
+    "size": 1301,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "F2Pool",
+    "fee": 504,
+    "feeRate": 0.33,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "pwt1:list5:eyJhbW91bnRNb2RlbCI6ImNhbm9uaWNhbC13b3JrLWFtby1wcm9vZi11bml0LWFtb3VudC12MyIsImFuY2hvclNjcmlwdFB1YktleSI6Ijc2YTkxNDU0N2UxYjhlNTMwM2M2OWExZmQwN2U4NzMwNWI1YjcxZmJhYWMwZWU4OGFjIiwiYW5jaG9yU2lnS...",
+    "blockDir": "block_972970"
+  },
+  {
+    "id": "block_972970_62fb94a61275d4e2af0bb6197cae84f8b1522b0027d59702e977f9e010fde779_1",
+    "block": 972970,
+    "timestamp": 1792873604,
+    "date": "2026-10-24T20:26:44",
+    "txid": "62fb94a61275d4e2af0bb6197cae84f8b1522b0027d59702e977f9e010fde779",
+    "vout": 1,
+    "size": 120,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "F2Pool",
+    "fee": 1270,
+    "feeRate": 5.25,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "0x80fa2c83fb1d3206363bafa8371b8adabff66fb2c57a12314354f29e6da4e822|depositor=bc1q6d2hsdyd4g34uxjp3wm6cuxhhu2g3hwesturqk|",
+    "blockDir": "block_972970"
   }
 ]
