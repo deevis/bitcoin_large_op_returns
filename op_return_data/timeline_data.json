@@ -205863,5 +205863,43 @@
     "hasDecoded": true,
     "preview": "0x80fa2c83fb1d3206363bafa8371b8adabff66fb2c57a12314354f29e6da4e822|depositor=bc1q6d2hsdyd4g34uxjp3wm6cuxhhu2g3hwesturqk|",
     "blockDir": "block_972970"
+  },
+  {
+    "id": "block_972973_f04cb6786e46616283740aa63a232d58b891e5594e709cdb3ac3744aea811fd4_1",
+    "block": 972973,
+    "timestamp": 1792875250,
+    "date": "2026-10-24T20:54:10",
+    "txid": "f04cb6786e46616283740aa63a232d58b891e5594e709cdb3ac3744aea811fd4",
+    "vout": 1,
+    "size": 1643,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "Marathon Digital",
+    "fee": 364,
+    "feeRate": 0.2,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "pwt1:seal5:97271deb6249a03859be8af49b64a44e6784051ff8dda2f44c2453fd410a1d02:eyJhbW91bnRNb2RlbCI6ImNhbm9uaWNhbC13b3JrLWFtby1wcm9vZi11bml0LWFtb3VudC12MyIsImFuY2hvclNjcmlwdFB1YktleSI6Ijc2YTkxNDU0N2UxYjhl...",
+    "blockDir": "block_972973"
+  },
+  {
+    "id": "block_972973_afc055607286bebd152a2e6216c39d65a24218978649fcb0c2c460787ed1b970_0",
+    "block": 972973,
+    "timestamp": 1792875250,
+    "date": "2026-10-24T20:54:10",
+    "txid": "afc055607286bebd152a2e6216c39d65a24218978649fcb0c2c460787ed1b970",
+    "vout": 0,
+    "size": 182,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "Marathon Digital",
+    "fee": 310,
+    "feeRate": 1.02,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "Dear God, I need $20,000 to pay for the surgery that will save my son's life. Please let a kind-hearted person help me. In the name of the Father, the Son, and the Holy Spirit. Amen!",
+    "blockDir": "block_972973"
   }
 ]
