@@ -206908,5 +206908,24 @@
     "hasDecoded": true,
     "preview": "XP32 | Image(hex): 19880000_000000.AVIF | OP_RETURN(hex):0000002066747970617......d4a7caaba60",
     "blockDir": "block_973052"
+  },
+  {
+    "id": "block_973060_ff21598ec551157a1ed0d6c7b0ef754a59c7274b18e7784b08689a4b7f1f6a05_0",
+    "block": 973060,
+    "timestamp": 1792925082,
+    "date": "2026-10-25T10:44:42",
+    "txid": "ff21598ec551157a1ed0d6c7b0ef754a59c7274b18e7784b08689a4b7f1f6a05",
+    "vout": 0,
+    "size": 93,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "Marathon Digital",
+    "fee": 16410,
+    "feeRate": 0.2,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "XP33 | Image(hex): 20240216_164434.AVIF | OP_RETURN(hex):0000002066747970617......d6181db3d59",
+    "blockDir": "block_973060"
   }
 ]
