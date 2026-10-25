@@ -207649,5 +207649,24 @@
     "hasDecoded": true,
     "preview": "pwm1:m:ProofOfWork.Me WORK Batch Transfer Protocol V1 Declaration\nnetwork=livenet\napp=wallet.proofofwork.me\ntokenId=d4e5ebf11d104d6a63fb74e42094364b25a5f7199a09e5c0e71408972466a8b8\ntransferVersion=bat...",
     "blockDir": "block_973103"
+  },
+  {
+    "id": "block_973104_a19687bfa4d2de26fed3de4aa219d35b73810097e52cef77db28ee95133629a4_0",
+    "block": 973104,
+    "timestamp": 1792951361,
+    "date": "2026-10-25T18:02:41",
+    "txid": "a19687bfa4d2de26fed3de4aa219d35b73810097e52cef77db28ee95133629a4",
+    "vout": 0,
+    "size": 100,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "Foundry USA",
+    "fee": 222,
+    "feeRate": 1.0,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "Thoughtless quartz clocks drift, while blocks stack, each a strict proof, the timechain keeps score.",
+    "blockDir": "block_973104"
   }
 ]
