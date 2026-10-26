@@ -208637,5 +208637,24 @@
     "hasDecoded": true,
     "preview": "XP56 | Image(hex): 20150404_180302.AVIF | OP_RETURN(hex):0000002066747970617......2d7869b98b0",
     "blockDir": "block_973246"
+  },
+  {
+    "id": "block_973247_13d005f74b55e89ffcb09f4d58da411c6b648e1b24ecf7c2460d4be3e7b65687_1",
+    "block": 973247,
+    "timestamp": 1793024581,
+    "date": "2026-10-26T14:23:01",
+    "txid": "13d005f74b55e89ffcb09f4d58da411c6b648e1b24ecf7c2460d4be3e7b65687",
+    "vout": 1,
+    "size": 120,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "Unknown",
+    "fee": 507,
+    "feeRate": 2.1,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "0xba169fa7d5e0842a29a93045a19b701de098a7e32a035e343fb726381f5d328f|depositor=bc1q7fyrnz7qyxkwywzt9nhq8sqftmr5y2cngfsm79|",
+    "blockDir": "block_973247"
   }
 ]
