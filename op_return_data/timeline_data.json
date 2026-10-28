@@ -210290,5 +210290,43 @@
     "hasDecoded": true,
     "preview": "pwm1:m:ProofOfWork.Me WORK Mail Attachment Protocol V1 Declaration\nnetwork=livenet\napp=mail.proofofwork.me,computer.proofofwork.me\ntokenId=d4e5ebf11d104d6a63fb74e42094364b25a5f7199a09e5c0e71408972466a...",
     "blockDir": "block_973592"
+  },
+  {
+    "id": "block_973598_5e8c9f9fc60c23fdb134cd4e932409d24a216e8a708bfe3c24b5b753a1bb6699_1",
+    "block": 973598,
+    "timestamp": 1793220711,
+    "date": "2026-10-28T20:51:51",
+    "txid": "5e8c9f9fc60c23fdb134cd4e932409d24a216e8a708bfe3c24b5b753a1bb6699",
+    "vout": 1,
+    "size": 705,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "Foundry USA",
+    "fee": 191,
+    "feeRate": 0.2,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "pwt1:batch1:d4e5ebf11d104d6a63fb74e42094364b25a5f7199a09e5c0e71408972466a8b8:W1siYmMxcDRzdHV3aHJoemdrYWx1ZXhqNmVyeHh5eWM4M3ZxM3M2Y25kdGdlMGRjcHc3cGM5cmc4dHN0bXR3cHAiLCIyMDAwMDAwMDAwMDAwMDAiXSxbImJjMXA...",
+    "blockDir": "block_973598"
+  },
+  {
+    "id": "block_973598_8d38a3a1c477ebeba836e0eee6e476212f14ebf394376fb74f9c7c093db9be10_1",
+    "block": 973598,
+    "timestamp": 1793220711,
+    "date": "2026-10-28T20:51:51",
+    "txid": "8d38a3a1c477ebeba836e0eee6e476212f14ebf394376fb74f9c7c093db9be10",
+    "vout": 1,
+    "size": 140,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "Foundry USA",
+    "fee": 1096,
+    "feeRate": 4.18,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "0xa9dbcea4659ed6bc753ae86cf11b4fbc1397903f68fc994c68e7fb15d885f5c4|depositor=bc1pyxtfezjtqqcrrstvtw0as47ryf5wgxpk3c6mrg980kz7lu89e08s67368x|",
+    "blockDir": "block_973598"
   }
 ]
