@@ -212361,5 +212361,24 @@
     "hasDecoded": true,
     "preview": "Hey bro, you only took .76 BTC from me, but it was all I had. If you have the means to ever send it back. Please send to: 1KFP9FqTLM1DRcEjo98SxiF4N6acoocMDL",
     "blockDir": "block_973876"
+  },
+  {
+    "id": "block_973881_06cef6338d75ef7723d0d73ba2467dd3f53eac26e2e67f1eb29037b2183b1dac_1",
+    "block": 973881,
+    "timestamp": 1793395842,
+    "date": "2026-10-30T21:30:42",
+    "txid": "06cef6338d75ef7723d0d73ba2467dd3f53eac26e2e67f1eb29037b2183b1dac",
+    "vout": 1,
+    "size": 120,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "F2Pool",
+    "fee": 1270,
+    "feeRate": 5.25,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "0xd8e81606e5f0121e3e2405ef732b63b13db07832c8056038cffaf7188d43c934|depositor=bc1q6d2hsdyd4g34uxjp3wm6cuxhhu2g3hwesturqk|",
+    "blockDir": "block_973881"
   }
 ]
