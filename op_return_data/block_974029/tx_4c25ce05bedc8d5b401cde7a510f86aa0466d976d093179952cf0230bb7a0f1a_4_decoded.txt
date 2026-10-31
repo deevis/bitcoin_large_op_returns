@@ -1,0 +1,10 @@
+PRECOP// PRECOP v0.0.1 C0: Quadriptych Genesis Setup (U_compute + Q_0 + B_0, Laz1m0v, MIT/CC0)
+complexity "0.0.1";
+contract C0_genesis_quadriptych : Sig64B -> Bool;
+internal_key P_NUMS = 0x50929b74c1a04954b78b4b6035e97a5e078a5a0f28ec96d547bfee9ace803ac0;
+owner_key P_owner = 0xe9d83b0a0a70c77d4e1c3e94c951ec46e1d92e5ca11945757fde8cd4be7bee60;
+spawn_u_compute = 0xee2a9944469cbab5035562e6e5e699bbec241bf15f71e07828fdeb0b9315a774;
+spawn_q0_state  = 0x98bbd44812681eddd61259ff2b066d91a786df12aff86f2da9218abb93d7d77f;
+spawn_b0_bond   = 0x0a0e28a05e4067c1cf469933974ba21609e0a78ece18d771c130834c1352fdb8;
+let main : Sig64B -> Bool =
+    Jet owner_sig_verify;

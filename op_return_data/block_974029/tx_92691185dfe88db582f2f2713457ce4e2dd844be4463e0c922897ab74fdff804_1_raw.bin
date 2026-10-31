@@ -1,0 +1,10 @@
+PRECOP// Astrolabe A7: Mainnet 24x24->48b 3-in-1 Proof (1087 B, Laz1m0v, MIT/CC0)
+complexity "0.0.1";
+target "TargetA_Tapscript_L1" | "TargetB_Native_u128" | "TargetC_Wasm_Sandbox";
+contract A7_mainnet_multilimb24_prove : W -> Bool;
+internal_key P_NUMS = 0x50929b74c1a04954b78b4b6035e97a5e078a5a0f28ec96d547bfee9ace803ac0;
+owner_key P_owner = 0xe9d83b0a0a70c77d4e1c3e94c951ec46e1d92e5ca11945757fde8cd4be7bee60;
+let main : W -> Bool =
+    Comp (Comp (Comp (Jet pin_u24_3in1_inputs) (Jet multilimb_u24_u48)) (Jet eq_u48_limbs_verify)) (Jet owner_sig_verify);
+let mast_envelope : Either<W, R> -> Bool =
+    Case main (Jet owner_fallback_1sig);
