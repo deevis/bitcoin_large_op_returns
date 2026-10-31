@@ -1,0 +1,12 @@
+PRECOP// PRECOP v0.0.1 B0: Accountability Bond Confiscation (116 B / 43 B CSV 288, Laz1m0v, MIT/CC0)
+complexity "0.0.1";
+contract B0_equivocation_bond_slash : W -> Bool;
+internal_key P_NUMS = 0x50929b74c1a04954b78b4b6035e97a5e078a5a0f28ec96d547bfee9ace803ac0;
+owner_key P_owner = 0xe9d83b0a0a70c77d4e1c3e94c951ec46e1d92e5ca11945757fde8cd4be7bee60;
+slash_key P_slash = 0xd779b98269fd23df466fcb636a9768daebb5ca09b3cb26831875ad05770fdb79;
+bitat_h1 = 0xa5895b8e2ea5f9876b5d7a88a606b2f924f65dd3712246aa67e23260b47e6184;
+bitat_h0 = 0xb7d3780b361f777ea0a4a53c9bd5f5adbcd8b77884bff41a70ebf569ed7652cc;
+let main : W -> Bool =
+    Comp (Comp (Jet bitat_open67_h1_verify) (Jet bitat_open67_h0_verify)) (Jet slash_sig65_verify);
+let mast_envelope : Either<W, R> -> Bool =
+    Case main (Jet refund_csv288);

@@ -1,0 +1,15 @@
+PRECOPÈ¯©io:`T«±mëgÈë±ÝŒè©¬ÆÅò¿Ïüã ÅÁØ;€ÂØ;µ// PRECOP v0.0.1 Q0: TUSM State Cell Transition Q_0 -> Q_1 (764 B / 39 B, Laz1m0v, MIT/CC0)
+complexity "0.0.1";
+contract Q0_tusm_state_transition : W -> Bool;
+internal_key P_NUMS = 0x50929b74c1a04954b78b4b6035e97a5e078a5a0f28ec96d547bfee9ace803ac0;
+owner_key P_owner = 0xe9d83b0a0a70c77d4e1c3e94c951ec46e1d92e5ca11945757fde8cd4be7bee60;
+state_hash_0 = 0x53e3bab4728fbec7dfd8fb55b58b63afc45789add4128b46dc020d55e89e7fc8;
+bitat_h0 = 0xb7d3780b361f777ea0a4a53c9bd5f5adbcd8b77884bff41a70ebf569ed7652cc;
+bitat_h1 = 0xa5895b8e2ea5f9876b5d7a88a606b2f924f65dd3712246aa67e23260b47e6184;
+branch_p0 = 0x282cac0e5535b2440bbb802ff9c1660c31a7056e9fdbddf7ab00eac6cc664b74;
+branch_p1 = 0x380ec48137f087c9d463306356282a61c6d498b8a747a24789b925c9ecb878fd;
+q1_ctxout_sha256 = 0x5f0568243eb3b5f17c6aeb98ce7f7fdd20a3655c8ba39c55716697649837a9d2;
+let main : W -> Bool =
+    Comp (Comp (Comp (Comp (Jet auth_word31_open) (Jet csv_timelock_guard)) (Jet bitat_k3_branch_verify)) (Jet rns_m4_46341_w1_conservation)) (Comp (Jet astrolabe_quine_step) (Jet eq256_clean));
+let mast_envelope : Either<W, R> -> Bool =
+    Case main (Jet astrolabe_refund_csv144);
