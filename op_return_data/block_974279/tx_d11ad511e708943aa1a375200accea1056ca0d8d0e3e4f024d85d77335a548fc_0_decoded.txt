@@ -1,0 +1,1 @@
+Make this tx valid only on main BTC and invalid on BTCB2. This OP_RETURN is longer than 83 bytes to be safe.
