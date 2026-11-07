@@ -1,0 +1,18 @@
+{
+  "block_number": 974869,
+  "block_time": "2026-11-07T00:10:37",
+  "mined_by": "ViaBTC",
+  "transaction_id": "0b6526f8d0bb19070e57eaf7c1d473b40959f24c78913f324aab713af02dc736",
+  "vout_index": 4,
+  "data_size": 201,
+  "file_type": "binary",
+  "mime_type": "application/octet-stream",
+  "storage_format": "raw",
+  "raw_data_hex": "53484f5244010455c660d75f795bf914e78556f78d4c119c7faadfca07cd091347083c2af3665ce48aa5af2a354e7500001bcbc3a49aa4331a48db844fb8b1048d3cce79abbd7dc7c45990a33617b81e5a34206500528e475a87877b9ea24519b0e17ffa7bcee76e42f232ced22e61252674ffdac03222b185160524eb682b733f32b8b5ecd05faa7b96debe51fcfbbb8c4d895a32c9d38421165aa5d084f8d578e848a325ded9d82f2d416092ab47b5d7b307419c61c4358b3cada390a1fd923369861c46007208b0",
+  "transaction_fee_sats": 3350,
+  "transaction_size_vbytes": 957,
+  "fee_rate_sats_per_vbyte": 3.5,
+  "cost_per_byte_of_data": 16.67,
+  "tx_inputs": 2,
+  "tx_outputs": 6
+}
