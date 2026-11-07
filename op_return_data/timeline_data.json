@@ -220759,5 +220759,43 @@
     "hasDecoded": true,
     "preview": "0x406f373733cfe211b41512e18ddbecb268d8efb4421af9b24cec7be9d29b9a23|depositor=bc1qjjelsh8ktzc8v9mnnerd8prpky002pyttmc4ld|",
     "blockDir": "block_974948"
+  },
+  {
+    "id": "block_974952_ef2b10fde1bd5737acff5e369588293bd655285a74fd662a8dc61c14359cb3b6_1",
+    "block": 974952,
+    "timestamp": 1794070015,
+    "date": "2026-11-07T16:46:55",
+    "txid": "ef2b10fde1bd5737acff5e369588293bd655285a74fd662a8dc61c14359cb3b6",
+    "vout": 1,
+    "size": 120,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "ViaBTC",
+    "fee": 1015,
+    "feeRate": 4.19,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "0x60a67b88c5d29ea43c47eb23487ba9fce2e693381c65f0093bf6c67aa6ead1b6|depositor=bc1q6d2hsdyd4g34uxjp3wm6cuxhhu2g3hwesturqk|",
+    "blockDir": "block_974952"
+  },
+  {
+    "id": "block_974952_293ccb0bbfd134212c57a5fc30cf29918a0e27f19c8d3cab73ed4f2627dad8cc_1",
+    "block": 974952,
+    "timestamp": 1794070015,
+    "date": "2026-11-07T16:46:55",
+    "txid": "293ccb0bbfd134212c57a5fc30cf29918a0e27f19c8d3cab73ed4f2627dad8cc",
+    "vout": 1,
+    "size": 112,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "ViaBTC",
+    "fee": 984,
+    "feeRate": 4.21,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "0xa5d4841a154aaf3c680271f5f91cea18cffbf73767f9a2b983eab4b8da397540|depositor=3GbqBqmBiHQ7CujUy3BwQwBmGRgL1ms7wR|",
+    "blockDir": "block_974952"
   }
 ]
