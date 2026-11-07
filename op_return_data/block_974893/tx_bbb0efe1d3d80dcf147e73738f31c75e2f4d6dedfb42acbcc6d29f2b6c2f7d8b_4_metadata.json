@@ -1,0 +1,18 @@
+{
+  "block_number": 974893,
+  "block_time": "2026-11-07T04:51:44",
+  "mined_by": "CKPool",
+  "transaction_id": "bbb0efe1d3d80dcf147e73738f31c75e2f4d6dedfb42acbcc6d29f2b6c2f7d8b",
+  "vout_index": 4,
+  "data_size": 201,
+  "file_type": "binary",
+  "mime_type": "application/octet-stream",
+  "storage_format": "raw",
+  "raw_data_hex": "53484f5244010455c660d75f795bf90bb9066634c90c159ab3a9e735b3916a3417858f9f462bad0f6a2c506c533de100000f6011f129526c7e670ccb0eaab39406185dfaa54708eb6a244478373297dc8455c326200422cf2f77c6a0211ec2587ac06eff19ebb2bea1b616827377406c3051346788a15d90d23cb472f951831656d7fe0d783a6f5d569c7fd319fd06ed72230d15019009ff35c71ff5b650215d958ac82120e95d0bdbd801fce695da91bbeb9942a040daa057a8ce7d75989e8b886d7a5e92b5f5fc0a",
+  "transaction_fee_sats": 1436,
+  "transaction_size_vbytes": 957,
+  "fee_rate_sats_per_vbyte": 1.5,
+  "cost_per_byte_of_data": 7.14,
+  "tx_inputs": 2,
+  "tx_outputs": 6
+}
