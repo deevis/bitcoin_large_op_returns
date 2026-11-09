@@ -1,0 +1,18 @@
+{
+  "block_number": 975205,
+  "block_time": "2026-11-09T18:11:28",
+  "mined_by": "Unknown",
+  "transaction_id": "1ea131cab03efc25bb822cb2574ac9ff19fcb9b21295f9bd0dd98da4452753fe",
+  "vout_index": 0,
+  "data_size": 86,
+  "file_type": "json",
+  "mime_type": "application/json",
+  "storage_format": "text",
+  "raw_data_hex": "7b2270223a226372632d3230222c226f70223a2273776170222c22657865223a22617862742c6c656166222c22616d74223a22343530323733222c22736c6970223a22352e3437222c2261736b223a22302e3339227d",
+  "transaction_fee_sats": 626,
+  "transaction_size_vbytes": 209,
+  "fee_rate_sats_per_vbyte": 3.0,
+  "cost_per_byte_of_data": 7.28,
+  "tx_inputs": 1,
+  "tx_outputs": 2
+}
