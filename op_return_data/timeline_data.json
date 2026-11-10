@@ -224084,5 +224084,24 @@
     "hasDecoded": true,
     "preview": "pwm1:m:https://jobs.proofofwork.me/?job=7956e68fc3b98b62b2d7d733712b73e4e1e74b73da44bb470f0c51c2303adb5e",
     "blockDir": "block_975243"
+  },
+  {
+    "id": "block_975251_2221c5945ba3b45b8c3b5325d85b0db1e94e893f7b11acf51e3f100b338b2f49_1",
+    "block": 975251,
+    "timestamp": 1794281571,
+    "date": "2026-11-10T03:32:51",
+    "txid": "2221c5945ba3b45b8c3b5325d85b0db1e94e893f7b11acf51e3f100b338b2f49",
+    "vout": 1,
+    "size": 1686,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "Unknown",
+    "fee": 293,
+    "feeRate": 0.16,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "pwt1:seal5:a3f1893fb7f093920c9a704b9b81cc8ed667f8f1102c8623d73e0b3573f9094a:eyJhbW91bnRNb2RlbCI6ImNhbm9uaWNhbC13b3JrLWFtby1wcm9vZi11bml0LWFtb3VudC12MyIsImFuY2hvclNjcmlwdFB1YktleSI6IjUxMjAzNWUwNTIxNDY0...",
+    "blockDir": "block_975251"
   }
 ]
