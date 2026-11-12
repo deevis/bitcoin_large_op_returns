@@ -1,0 +1,18 @@
+{
+  "block_number": 975503,
+  "block_time": "2026-11-12T01:09:56",
+  "mined_by": "SpiderPool",
+  "transaction_id": "8f33ad742d6cc40308ea01118d3ea23d27c189c31a5ae35760d27e963f233ae1",
+  "vout_index": 0,
+  "data_size": 264,
+  "file_type": "binary",
+  "mime_type": "application/octet-stream",
+  "storage_format": "raw",
+  "raw_data_hex": "53484f52440105a1e7879252940f5e13af825f1399545911eb1c3dd42e307102eda95dc28823f7b6f4a87fd49275960022379a04fa4b689fb8b8eac2e80868909028c0c1e95dadb75ae8f022535d9b03678bfdcabac8935f6a023c35a7c199c60aae8f00612f0426780720fbb3b7f8161fc66782cfbab6752f4cd1839d3b5b5450d3ff3defaca34bbacc81cb96d094d8461d8367e3ba42ee238a46053ea2ff118e7f54c26d51c111b644a18bb881e7707c0ed3cee217fc7f2bd17744529750b777a924ce9ed5c2c40c8109e04b210568ec509b313d2637547007f53423f1d80ca0826257d1bd304d41c11e89855472a1d6fed36a30b14802d4edbf65fa37159a5a93881dcef991e2",
+  "transaction_fee_sats": 1228,
+  "transaction_size_vbytes": 491,
+  "fee_rate_sats_per_vbyte": 2.5,
+  "cost_per_byte_of_data": 4.65,
+  "tx_inputs": 2,
+  "tx_outputs": 3
+}
