@@ -229955,5 +229955,43 @@
     "hasDecoded": true,
     "preview": "pwm1:m:WHEN I CREATED PROOFOFWORK.ME, I TOLD YA'LL BILLIONAIRES WOULD FALL \n\nINFINITE YIELD\n\n$WORK",
     "blockDir": "block_975631"
+  },
+  {
+    "id": "block_975636_b2f24505e4cab6598283f20a042373273223ec95ffdd9056bf64151d590bcb00_1",
+    "block": 975636,
+    "timestamp": 1794548045,
+    "date": "2026-11-13T05:34:05",
+    "txid": "b2f24505e4cab6598283f20a042373273223ec95ffdd9056bf64151d590bcb00",
+    "vout": 1,
+    "size": 120,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "SpiderPool",
+    "fee": 1015,
+    "feeRate": 4.19,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "0x4400db9d97b3f094d3529639c235c57db2c49a4414364fea6ae987feada48921|depositor=bc1q9hzd7wpywj8qz6qwr52qqevwrg05g4tnrc0njf|",
+    "blockDir": "block_975636"
+  },
+  {
+    "id": "block_975636_6bdf84f4f53329bc57ebc3847e51c6be80cb8f57ea741e691ba0705c2a6f5b00_1",
+    "block": 975636,
+    "timestamp": 1794548045,
+    "date": "2026-11-13T05:34:05",
+    "txid": "6bdf84f4f53329bc57ebc3847e51c6be80cb8f57ea741e691ba0705c2a6f5b00",
+    "vout": 1,
+    "size": 120,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "SpiderPool",
+    "fee": 1015,
+    "feeRate": 4.19,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "0x483e6985f03d7defd82d885e8d1f919949e2889db1a95d7d87d22d55358d5af8|depositor=bc1q6d2hsdyd4g34uxjp3wm6cuxhhu2g3hwesturqk|",
+    "blockDir": "block_975636"
   }
 ]
