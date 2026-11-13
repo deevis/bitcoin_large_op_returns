@@ -229917,5 +229917,43 @@
     "hasDecoded": true,
     "preview": "0xa30f417adba06df7bc146f081855793ce8ad3d345e202b16615275f0b46a78de|depositor=bc1qr62060kx8kfxs26qztshtxm2qqaq2mn0gqphfj|",
     "blockDir": "block_975628"
+  },
+  {
+    "id": "block_975631_34402d9ffa25dab30611eacc2513587c5685aa5ab56ec154ff5634d749ee8d4c_1",
+    "block": 975631,
+    "timestamp": 1794543634,
+    "date": "2026-11-13T04:20:34",
+    "txid": "34402d9ffa25dab30611eacc2513587c5685aa5ab56ec154ff5634d749ee8d4c",
+    "vout": 1,
+    "size": 189,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "F2Pool",
+    "fee": 416,
+    "feeRate": 0.83,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "pwb1:post:eyJ2IjoxLCJ0ZXh0IjoiV0hFTiBJIENSRUFURUQgUFJPT0ZPRldPUksuTUUsIEkgVE9MRCBZQSdMTCBCSUxMSU9OQUlSRVMgV09VTEQgRkFMTCBcblxuSU5GSU5JVEUgWUlFTERcblxuJFdPUksiLCJwcm9vZlNpZ25hbFNhdHMiOjU0Nn0",
+    "blockDir": "block_975631"
+  },
+  {
+    "id": "block_975631_34402d9ffa25dab30611eacc2513587c5685aa5ab56ec154ff5634d749ee8d4c_2",
+    "block": 975631,
+    "timestamp": 1794543634,
+    "date": "2026-11-13T04:20:34",
+    "txid": "34402d9ffa25dab30611eacc2513587c5685aa5ab56ec154ff5634d749ee8d4c",
+    "vout": 2,
+    "size": 98,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "F2Pool",
+    "fee": 416,
+    "feeRate": 0.83,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "pwm1:m:WHEN I CREATED PROOFOFWORK.ME, I TOLD YA'LL BILLIONAIRES WOULD FALL \n\nINFINITE YIELD\n\n$WORK",
+    "blockDir": "block_975631"
   }
 ]
