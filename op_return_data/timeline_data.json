@@ -234496,5 +234496,24 @@
     "hasDecoded": true,
     "preview": "pwt1:seal5:f6e78a3376d4581e140f458357d67f8ba58086b79a039ff6752b641b1d56fa9b:eyJhbW91bnRNb2RlbCI6ImNhbm9uaWNhbC13b3JrLWFtby1wcm9vZi11bml0LWFtb3VudC12MyIsImFuY2hvclNjcmlwdFB1YktleSI6IjUxMjAwOTVjNGI0YzNi...",
     "blockDir": "block_975925"
+  },
+  {
+    "id": "block_975927_6d8fd61dc886861bb70a310dfe2d480688f8f6967e12d78fa0c74ce5eb79c714_1",
+    "block": 975927,
+    "timestamp": 1794732109,
+    "date": "2026-11-15T08:41:49",
+    "txid": "6d8fd61dc886861bb70a310dfe2d480688f8f6967e12d78fa0c74ce5eb79c714",
+    "vout": 1,
+    "size": 120,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "Foundry USA",
+    "fee": 507,
+    "feeRate": 2.1,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "0x00ffaf2e341780c459a270ae2faed3c05ed13a94b70d0527f687f814993e6b0f|depositor=bc1qlpdmaplxk8swczmtwpp0a7k95dj0yf3ejnvlzl|",
+    "blockDir": "block_975927"
   }
 ]
