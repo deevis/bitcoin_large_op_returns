@@ -235864,5 +235864,43 @@
     "hasDecoded": true,
     "preview": "v1-WTAFinals|WTA Finals|Indian Wells, USA|2026|Women's Doubles|Champions|Katerina Siniakova (CZE) & Taylor Townsend (USA)|defeated Sara Errani (ITA) & Jasmine Paolini (ITA)|2:0 (6:4, 6:3)|2026-11-16 0...",
     "blockDir": "block_976037"
+  },
+  {
+    "id": "block_976040_c4d31eee0a7448c9ccb6385ac9a13c1d3de68798e51d83ff6ef11cd71b5d9983_1",
+    "block": 976040,
+    "timestamp": 1794789895,
+    "date": "2026-11-16T00:44:55",
+    "txid": "c4d31eee0a7448c9ccb6385ac9a13c1d3de68798e51d83ff6ef11cd71b5d9983",
+    "vout": 1,
+    "size": 120,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "Foundry USA",
+    "fee": 507,
+    "feeRate": 2.1,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "0x5f890aa1f8c940de346b8c50870016dcb1af6a9d6e056a633b752fde155eded7|depositor=bc1q7v20rhtk0xmxrktvz6x7ercjyhhs630ghtkk2r|",
+    "blockDir": "block_976040"
+  },
+  {
+    "id": "block_976040_d453de6f99989df10fbc78e85ea70588401a13eb10bfed9a42a0ca9d565997e8_1",
+    "block": 976040,
+    "timestamp": 1794789895,
+    "date": "2026-11-16T00:44:55",
+    "txid": "d453de6f99989df10fbc78e85ea70588401a13eb10bfed9a42a0ca9d565997e8",
+    "vout": 1,
+    "size": 120,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "Foundry USA",
+    "fee": 507,
+    "feeRate": 2.1,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "0xbbb9326fe62e3a8ed432f1a7331a94acf974016edc068bb59f573e4603228636|depositor=bc1q480fyxsmeuemqgryp7qjxdj022znqykwqjwav9|",
+    "blockDir": "block_976040"
   }
 ]
