@@ -238847,5 +238847,43 @@
     "hasDecoded": true,
     "preview": "XP78 | Image(hex): \u200e\u200e20250803_170538.AVIF | OP_RETURN(hex):0000002066747970617......6c07d7beb50",
     "blockDir": "block_976378"
+  },
+  {
+    "id": "block_976381_217561120bcd2910517831823fbfcb2321b3c44f95822dead1287176e1363799_1",
+    "block": 976381,
+    "timestamp": 1794977562,
+    "date": "2026-11-18T04:52:42",
+    "txid": "217561120bcd2910517831823fbfcb2321b3c44f95822dead1287176e1363799",
+    "vout": 1,
+    "size": 120,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "Unknown",
+    "fee": 507,
+    "feeRate": 2.1,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "0xb82c5b54c9c51cbc6a5992d2045430a103ceb9e573da5eb83bb6159708913ce0|depositor=bc1q6d2hsdyd4g34uxjp3wm6cuxhhu2g3hwesturqk|",
+    "blockDir": "block_976381"
+  },
+  {
+    "id": "block_976381_acc7434adfeaa3c1229b0764050a4b19f040c2405cd016a2562666a0c28efadc_1",
+    "block": 976381,
+    "timestamp": 1794977562,
+    "date": "2026-11-18T04:52:42",
+    "txid": "acc7434adfeaa3c1229b0764050a4b19f040c2405cd016a2562666a0c28efadc",
+    "vout": 1,
+    "size": 120,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "Unknown",
+    "fee": 507,
+    "feeRate": 2.1,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "0x483fcc5141e301594b83567768f8e3a4411df7a409ceb0f0791a50918ccb8594|depositor=bc1q6d2hsdyd4g34uxjp3wm6cuxhhu2g3hwesturqk|",
+    "blockDir": "block_976381"
   }
 ]
