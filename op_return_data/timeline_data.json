@@ -238790,5 +238790,24 @@
     "hasDecoded": true,
     "preview": "XP76 | Image(hex): \u200e\u200e20080000_000000.AVIF | OP_RETURN(hex):0000002066747970617......079fe70cf52",
     "blockDir": "block_976355"
+  },
+  {
+    "id": "block_976362_a09fc13d62a180145d3c3b5875128dd94a3d7cf2c68b7fb34863482baaea7d3b_1",
+    "block": 976362,
+    "timestamp": 1794966996,
+    "date": "2026-11-18T01:56:36",
+    "txid": "a09fc13d62a180145d3c3b5875128dd94a3d7cf2c68b7fb34863482baaea7d3b",
+    "vout": 1,
+    "size": 120,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "Foundry USA",
+    "fee": 1015,
+    "feeRate": 4.19,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "0xd47cf3f6031d043106ae424c40297753b42641ba7b1bfb2ff96971dbba066468|depositor=bc1qyzvh4pah6vun3xl49quh6kkm7zukdr9vnszrrw|",
+    "blockDir": "block_976362"
   }
 ]
