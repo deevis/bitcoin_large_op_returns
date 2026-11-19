@@ -239892,5 +239892,43 @@
     "hasDecoded": true,
     "preview": "0xc20a8df820d73984f349ec71edb659e1f57b1f35b2387b979a2b285af032366c|depositor=bc1q6d2hsdyd4g34uxjp3wm6cuxhhu2g3hwesturqk|",
     "blockDir": "block_976562"
+  },
+  {
+    "id": "block_976564_9cd03c54ae84a9085842debcfd1fc4ca12534794fb844947dc885f7d9412f417_1",
+    "block": 976564,
+    "timestamp": 1795081766,
+    "date": "2026-11-19T09:49:26",
+    "txid": "9cd03c54ae84a9085842debcfd1fc4ca12534794fb844947dc885f7d9412f417",
+    "vout": 1,
+    "size": 120,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "Foundry USA",
+    "fee": 507,
+    "feeRate": 2.1,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "0xfa2b5e070f61ef90e1f016a619d737ccbd4499758346d6161b202a6055a3b76e|depositor=bc1qla3plzplz6whl233qysg6f0mgwx4thuqspdy2n|",
+    "blockDir": "block_976564"
+  },
+  {
+    "id": "block_976564_d89e489af34b410854fc3cb23e759c6fc1eb400f486335363b6ce60d623d27eb_1",
+    "block": 976564,
+    "timestamp": 1795081766,
+    "date": "2026-11-19T09:49:26",
+    "txid": "d89e489af34b410854fc3cb23e759c6fc1eb400f486335363b6ce60d623d27eb",
+    "vout": 1,
+    "size": 85,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "Foundry USA",
+    "fee": 1040,
+    "feeRate": 5.0,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "Bienvenue au monde Olivia ! Tes parents et ton grand fr\u00e8re qui t\u2019aiment tr\u00e8s fort",
+    "blockDir": "block_976564"
   }
 ]
