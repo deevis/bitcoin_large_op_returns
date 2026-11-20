@@ -240975,5 +240975,24 @@
     "hasDecoded": true,
     "preview": "pwt1:batch1:d4e5ebf11d104d6a63fb74e42094364b25a5f7199a09e5c0e71408972466a8b8:W1siYmMxcHd1anVxcWhodjBtNXhqbWFkcTUwcW03NGtuY2VwMjY0dnR1ZXE4NnZqeXpwMm1kcW12NHNybnc4Z3ciLCIyMTAwMDAwMDAwMDAwIl0sWyJiYzFxNjB...",
     "blockDir": "block_976705"
+  },
+  {
+    "id": "block_976707_8f7924d8decf830da6b6d6c34f15cbba1457137f76f32d046d7e481fd702e914_0",
+    "block": 976707,
+    "timestamp": 1795162341,
+    "date": "2026-11-20T08:12:21",
+    "txid": "8f7924d8decf830da6b6d6c34f15cbba1457137f76f32d046d7e481fd702e914",
+    "vout": 0,
+    "size": 948,
+    "type": "wav",
+    "mime": "audio/wav",
+    "storageFormat": "raw",
+    "miner": "F2Pool",
+    "fee": 6535,
+    "feeRate": 5.5,
+    "hasFile": true,
+    "hasDecoded": false,
+    "preview": null,
+    "blockDir": "block_976707"
   }
 ]
