@@ -240804,5 +240804,24 @@
     "hasDecoded": true,
     "preview": "XP79 | Image(hex): \u200e\u200e20240915_115749.AVIF | OP_RETURN(hex):0000002066747970617......901f938abef",
     "blockDir": "block_976674"
+  },
+  {
+    "id": "block_976679_dc624cdbec1b7f137dfdbec920e7517ab4319ef26b608e477e7e805325353598_0",
+    "block": 976679,
+    "timestamp": 1795146841,
+    "date": "2026-11-20T03:54:01",
+    "txid": "dc624cdbec1b7f137dfdbec920e7517ab4319ef26b608e477e7e805325353598",
+    "vout": 0,
+    "size": 93,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "SpiderPool",
+    "fee": 4810,
+    "feeRate": 0.13,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "XP80 | Image(hex): 20240215_102449.AVIF | OP_RETURN(hex):0000002066747970617......98eca473614",
+    "blockDir": "block_976679"
   }
 ]
