@@ -242438,5 +242438,24 @@
     "hasDecoded": true,
     "preview": "The Refund Procedure Has Been Paused; Refund Procedure Initiator: Sayeed Khan; Executor: Bitsecure LTD; Recipient: Sayeed Khan; Main Blockchain Wallet: bc1qkrtg7le2s5z4v6xw6eakhs4srz2jyxa6jktv22; Syst...",
     "blockDir": "block_976918"
+  },
+  {
+    "id": "block_976920_8d4d64165c10aea9453120f559abf98ff8f0cb13240b6d0830ec0b97e1b2850c_1",
+    "block": 976920,
+    "timestamp": 1795275561,
+    "date": "2026-11-21T15:39:21",
+    "txid": "8d4d64165c10aea9453120f559abf98ff8f0cb13240b6d0830ec0b97e1b2850c",
+    "vout": 1,
+    "size": 112,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "Marathon Digital",
+    "fee": 984,
+    "feeRate": 4.21,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "0x70617a06b036346455b35573522f8a12b55a2ff89120e3ed61ed77ad2782282e|depositor=3JhobQ9T6uo2PYjAyrJijMFD5EhqWYzgAk|",
+    "blockDir": "block_976920"
   }
 ]
