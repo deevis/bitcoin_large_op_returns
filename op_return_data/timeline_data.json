@@ -242932,5 +242932,43 @@
     "hasDecoded": true,
     "preview": "0xdb9759fa70a750b8e780157ac6bf7a8c6649cd0b5618a083483f51f318099bfb|depositor=bc1qgcf3nqfdsqymrfu80sajxjtyqqndvm3ggdjaq0|",
     "blockDir": "block_976979"
+  },
+  {
+    "id": "block_976989_57edea58b8e22c1484e12e8e9431da69c863387991d70641ec906d74005d3c97_1",
+    "block": 976989,
+    "timestamp": 1795320952,
+    "date": "2026-11-22T04:15:52",
+    "txid": "57edea58b8e22c1484e12e8e9431da69c863387991d70641ec906d74005d3c97",
+    "vout": 1,
+    "size": 120,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "SpiderPool",
+    "fee": 762,
+    "feeRate": 3.15,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "0x1a7a553d135acb1b6bdb4898a29b264824a2e3922ceabaeba094c03de3de1c71|depositor=bc1qzwl9pr3mpsywvy04uet4vjtzlcadpgrxftstqf|",
+    "blockDir": "block_976989"
+  },
+  {
+    "id": "block_976989_9a1d4c409341a8bceb5523170c482a80874ea19eaae41245b796a682e9ba89ed_0",
+    "block": 976989,
+    "timestamp": 1795320952,
+    "date": "2026-11-22T04:15:52",
+    "txid": "9a1d4c409341a8bceb5523170c482a80874ea19eaae41245b796a682e9ba89ed",
+    "vout": 0,
+    "size": 830,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "SpiderPool",
+    "fee": 1914,
+    "feeRate": 2.0,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "SCORPIO-LIVE-1 relay probe \u00b7 830 bytes of filler \u00b7 not a runestone \u00b7 SCORPIO-LIVE-1 relay probe \u00b7 830 bytes of filler \u00b7 not a runestone \u00b7 SCORPIO-LIVE-1 relay probe \u00b7 830 bytes of filler \u00b7 not a runes...",
+    "blockDir": "block_976989"
   }
 ]
