@@ -242970,5 +242970,24 @@
     "hasDecoded": true,
     "preview": "SCORPIO-LIVE-1 relay probe \u00b7 830 bytes of filler \u00b7 not a runestone \u00b7 SCORPIO-LIVE-1 relay probe \u00b7 830 bytes of filler \u00b7 not a runestone \u00b7 SCORPIO-LIVE-1 relay probe \u00b7 830 bytes of filler \u00b7 not a runes...",
     "blockDir": "block_976989"
+  },
+  {
+    "id": "block_976993_17d5366e82ffda7198ed0778745de0ab954dee847df88ad3adb8057ced459807_1",
+    "block": 976993,
+    "timestamp": 1795322445,
+    "date": "2026-11-22T04:40:45",
+    "txid": "17d5366e82ffda7198ed0778745de0ab954dee847df88ad3adb8057ced459807",
+    "vout": 1,
+    "size": 120,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "ViaBTC",
+    "fee": 762,
+    "feeRate": 3.15,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "0x74cea09f4bb5fd39511de43cbe65d8f14342536ff425910bcc4272d7baaebabd|depositor=bc1q6d2hsdyd4g34uxjp3wm6cuxhhu2g3hwesturqk|",
+    "blockDir": "block_976993"
   }
 ]
