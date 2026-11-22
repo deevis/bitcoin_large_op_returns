@@ -243141,5 +243141,43 @@
     "hasDecoded": true,
     "preview": "0x63a8ea0dce2848a7bc966a51c5525c9b6048c22afefba7d5099517e97c75d6ab|depositor=bc1qfhuen2mct9aq4vn7ul0zz3x9zwxtradhlxatyr|",
     "blockDir": "block_977027"
+  },
+  {
+    "id": "block_977029_9f42556d45b150f27ce0d96a8db0fa09196bc1aa7353f99c98dc6bdd8c92b9a6_2",
+    "block": 977029,
+    "timestamp": 1795338233,
+    "date": "2026-11-22T09:03:53",
+    "txid": "9f42556d45b150f27ce0d96a8db0fa09196bc1aa7353f99c98dc6bdd8c92b9a6",
+    "vout": 2,
+    "size": 1847,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "Foundry USA",
+    "fee": 302,
+    "feeRate": 0.12,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "pwm1:m:Everything that we have seen in the last few months has been stealing credits of humans by influencial people. The IPOs, market cycles, hacks and every news articles are attention grabbing vehi...",
+    "blockDir": "block_977029"
+  },
+  {
+    "id": "block_977029_9f42556d45b150f27ce0d96a8db0fa09196bc1aa7353f99c98dc6bdd8c92b9a6_1",
+    "block": 977029,
+    "timestamp": 1795338233,
+    "date": "2026-11-22T09:03:53",
+    "txid": "9f42556d45b150f27ce0d96a8db0fa09196bc1aa7353f99c98dc6bdd8c92b9a6",
+    "vout": 1,
+    "size": 333,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "Foundry USA",
+    "fee": 302,
+    "feeRate": 0.12,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "pwb1:post:eyJ2IjoxLCJ0ZXh0IjoiSFVNQU5TLUdFVCBZT1VSIENSRURJVCBCQUNLIiwiYXJ0aWNsZSI6eyJ2IjoxLCJ0aXRsZSI6IkhVTUFOUy1HRVQgWU9VUiBDUkVESVQgQkFDSyIsInNvdXJjZSI6InNhbWUtdHgtcHdtMS1tZXNzYWdlIiwic2l6ZSI6MTg0MC...",
+    "blockDir": "block_977029"
   }
 ]
