@@ -244680,5 +244680,24 @@
     "hasDecoded": true,
     "preview": "0x3bdebfe10593fb015d770a32124ca2d169c8e53a3fa57eba1c94a4da6e389e92|depositor=bc1q6d2hsdyd4g34uxjp3wm6cuxhhu2g3hwesturqk|",
     "blockDir": "block_977384"
+  },
+  {
+    "id": "block_977389_fcacde696c528733eb786b3889b492d1264a27da9d2444f7d437d7af8a886576_3",
+    "block": 977389,
+    "timestamp": 1795538830,
+    "date": "2026-11-24T16:47:10",
+    "txid": "fcacde696c528733eb786b3889b492d1264a27da9d2444f7d437d7af8a886576",
+    "vout": 3,
+    "size": 1586,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "Foundry USA",
+    "fee": 1972,
+    "feeRate": 1.05,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "pwm1:m:Dear Satoshi,I hope this message finds you well.I wanted to share something built directly on the foundation you laid with Bitcoin: the ProofOfWork Computer (https://www.proofofwork.me).It is a...",
+    "blockDir": "block_977389"
   }
 ]
