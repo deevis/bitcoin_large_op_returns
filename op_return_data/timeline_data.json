@@ -244338,5 +244338,24 @@
     "hasDecoded": true,
     "preview": "I am a Chainflip user. You took our funds, and honestly, we were foolish to trust someone else to hold our money. I hope you can negotiate a fair bounty with Chainflip",
     "blockDir": "block_977315"
+  },
+  {
+    "id": "block_977317_fba76987c6c77f51bc84798ce97439009e2744fe3a22e4dff76f1135780442dc_1",
+    "block": 977317,
+    "timestamp": 1795492134,
+    "date": "2026-11-24T03:48:54",
+    "txid": "fba76987c6c77f51bc84798ce97439009e2744fe3a22e4dff76f1135780442dc",
+    "vout": 1,
+    "size": 120,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "SpiderPool",
+    "fee": 507,
+    "feeRate": 2.1,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "0x8589b0ec7134210b8df208092d51006a6ffe88848318864fc8c7ef084ce2c14c|depositor=bc1qrmehn3x2zfgndhmettpqqjgse7fntlqh993t52|",
+    "blockDir": "block_977317"
   }
 ]
