@@ -244851,5 +244851,24 @@
     "hasDecoded": true,
     "preview": "pwm1:m:Tip 546 proofs for ProofOfWork content 31f04fccfe42377a43700ed04bf43b179403c76da9889ac52291c82a46f76a38",
     "blockDir": "block_977418"
+  },
+  {
+    "id": "block_977420_88c06259928e71539a5cb4f2a146616643104bab2aeaf61c9d7a93b984a83576_1",
+    "block": 977420,
+    "timestamp": 1795556562,
+    "date": "2026-11-24T21:42:42",
+    "txid": "88c06259928e71539a5cb4f2a146616643104bab2aeaf61c9d7a93b984a83576",
+    "vout": 1,
+    "size": 120,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "SpiderPool",
+    "fee": 1015,
+    "feeRate": 4.19,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "0xe9cf148d4959c76d2fa180022a6a4cb9acc96d3c3aa10d880d5f35f53ca5c72e|depositor=bc1q6d2hsdyd4g34uxjp3wm6cuxhhu2g3hwesturqk|",
+    "blockDir": "block_977420"
   }
 ]
