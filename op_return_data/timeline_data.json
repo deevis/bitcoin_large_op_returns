@@ -244984,5 +244984,24 @@
     "hasDecoded": true,
     "preview": "0xd00ae47ba4db8ba86927fc2ca559b6c0ee051739ab0b0d951b9b21675217bb3f|depositor=bc1qwvyxpuzwm0ju87vj2u8kmcuc6wtv2md8xrdszn|",
     "blockDir": "block_977439"
+  },
+  {
+    "id": "block_977444_25cacb4db47167b6e1e756502d5cafcabd486feefc89e08fb53d6629196f86fb_1",
+    "block": 977444,
+    "timestamp": 1795567801,
+    "date": "2026-11-25T00:50:01",
+    "txid": "25cacb4db47167b6e1e756502d5cafcabd486feefc89e08fb53d6629196f86fb",
+    "vout": 1,
+    "size": 120,
+    "type": "text",
+    "mime": "text/plain",
+    "storageFormat": "text",
+    "miner": "F2Pool",
+    "fee": 507,
+    "feeRate": 2.1,
+    "hasFile": false,
+    "hasDecoded": true,
+    "preview": "0xe073b0171343c4c6cab21182366d65027b1e964b7f0eb82835fba873b3230a06|depositor=bc1qrxrq23nn3a4rsz0vuq9myzehgwnegtuszn8x7p|",
+    "blockDir": "block_977444"
   }
 ]
